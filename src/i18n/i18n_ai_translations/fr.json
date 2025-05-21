@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Home (French)",
+    "services": "Services (French)",
+    "explore": "Explore (French)",
+    "contact": "Contact (French)"
+  },
+  "home": {
+    "welcome": "Welcome to TropiNord (French)",
+    "mission": "Our Mission (French)",
+    "intro": "TropiNord sources and distributes organic oils, eco soaps, and natural wellness products — supporting small producers and delivering ethical, sustainable goods across Sweden and Europe. (French)",
+    "ctaExplore": "Explore Our Products (French)",
+    "ctaContact": "Contact Us (French)",
+    "missionText": "We believe in transparency, ethical sourcing, and supporting community-led growth. From African black soap to eco-imports and youth wellness programs, we blend global heritage with Nordic quality and values. (French)"
+  },
+  "explore": {
+    "title": "Explore Our Products (French)",
+    "searchPlaceholder": "Search products... (French)"
+  },
+  "products": {
+    "organic-oils": {
+      "name": "Organic Oils (French)",
+      "description": "Cold-pressed oils like coconut, almond, neem, etc. (French)"
+    },
+    "natural-soaps": {
+      "name": "Natural Soaps (French)",
+      "description": "African black soap, shea bars, fruit-based soaps. (French)"
+    },
+    "agro-imports": {
+      "name": "Agro Imports (French)",
+      "description": "Banana leaves, bones, charcoal, and small farm tools. (French)"
+    }
+  },
+  "contact": {
+    "title": "Contact Us (French)",
+    "name": "Name (French)",
+    "email": "Email (French)",
+    "subject": "Subject (French)",
+    "category": "Service Category (French)",
+    "message": "Message (French)",
+    "send": "Send Message (French)",
+    "success": "Message sent successfully! (French)",
+    "error": "Something went wrong. Please try again. (French)",
+    "options": {
+      "oils": "Organic Oils (French)",
+      "soaps": "Natural Soaps (French)",
+      "agro": "Agro Imports (French)",
+      "other": "Other (French)"
+    }
+  },
+  "footer": {
+    "contactUs": "Contact Us (French)",
+    "followUs": "Follow Us (French)",
+    "quickLinks": "Quick Links (French)",
+    "subscribe": "Stay Updated (French)",
+    "newsletterText": "Subscribe to our newsletter for the latest updates (French)",
+    "support": "Support Us (French)",
+    "suggestions": "Product Suggestions (French)",
+    "testimonials": "Testimonials (French)",
+    "privacy": "Privacy Policy (French)",
+    "terms": "Terms of Service (French)",
+    "shipping": "Shipping Policy (French)",
+    "returns": "Returns Policy (French)",
+    "copyright": "TropiNord. All rights reserved. (French)"
+  }
+}

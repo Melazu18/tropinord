@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Home (Chinese)",
+    "services": "Services (Chinese)",
+    "explore": "Explore (Chinese)",
+    "contact": "Contact (Chinese)"
+  },
+  "home": {
+    "welcome": "Welcome to TropiNord (Chinese)",
+    "mission": "Our Mission (Chinese)",
+    "intro": "TropiNord sources and distributes organic oils, eco soaps, and natural wellness products — supporting small producers and delivering ethical, sustainable goods across Sweden and Europe. (Chinese)",
+    "ctaExplore": "Explore Our Products (Chinese)",
+    "ctaContact": "Contact Us (Chinese)",
+    "missionText": "We believe in transparency, ethical sourcing, and supporting community-led growth. From African black soap to eco-imports and youth wellness programs, we blend global heritage with Nordic quality and values. (Chinese)"
+  },
+  "explore": {
+    "title": "Explore Our Products (Chinese)",
+    "searchPlaceholder": "Search products... (Chinese)"
+  },
+  "products": {
+    "organic-oils": {
+      "name": "Organic Oils (Chinese)",
+      "description": "Cold-pressed oils like coconut, almond, neem, etc. (Chinese)"
+    },
+    "natural-soaps": {
+      "name": "Natural Soaps (Chinese)",
+      "description": "African black soap, shea bars, fruit-based soaps. (Chinese)"
+    },
+    "agro-imports": {
+      "name": "Agro Imports (Chinese)",
+      "description": "Banana leaves, bones, charcoal, and small farm tools. (Chinese)"
+    }
+  },
+  "contact": {
+    "title": "Contact Us (Chinese)",
+    "name": "Name (Chinese)",
+    "email": "Email (Chinese)",
+    "subject": "Subject (Chinese)",
+    "category": "Service Category (Chinese)",
+    "message": "Message (Chinese)",
+    "send": "Send Message (Chinese)",
+    "success": "Message sent successfully! (Chinese)",
+    "error": "Something went wrong. Please try again. (Chinese)",
+    "options": {
+      "oils": "Organic Oils (Chinese)",
+      "soaps": "Natural Soaps (Chinese)",
+      "agro": "Agro Imports (Chinese)",
+      "other": "Other (Chinese)"
+    }
+  },
+  "footer": {
+    "contactUs": "Contact Us (Chinese)",
+    "followUs": "Follow Us (Chinese)",
+    "quickLinks": "Quick Links (Chinese)",
+    "subscribe": "Stay Updated (Chinese)",
+    "newsletterText": "Subscribe to our newsletter for the latest updates (Chinese)",
+    "support": "Support Us (Chinese)",
+    "suggestions": "Product Suggestions (Chinese)",
+    "testimonials": "Testimonials (Chinese)",
+    "privacy": "Privacy Policy (Chinese)",
+    "terms": "Terms of Service (Chinese)",
+    "shipping": "Shipping Policy (Chinese)",
+    "returns": "Returns Policy (Chinese)",
+    "copyright": "TropiNord. All rights reserved. (Chinese)"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Home (Arabic)",
+    "services": "Services (Arabic)",
+    "explore": "Explore (Arabic)",
+    "contact": "Contact (Arabic)"
+  },
+  "home": {
+    "welcome": "Welcome to TropiNord (Arabic)",
+    "mission": "Our Mission (Arabic)",
+    "intro": "TropiNord sources and distributes organic oils, eco soaps, and natural wellness products — supporting small producers and delivering ethical, sustainable goods across Sweden and Europe. (Arabic)",
+    "ctaExplore": "Explore Our Products (Arabic)",
+    "ctaContact": "Contact Us (Arabic)",
+    "missionText": "We believe in transparency, ethical sourcing, and supporting community-led growth. From African black soap to eco-imports and youth wellness programs, we blend global heritage with Nordic quality and values. (Arabic)"
+  },
+  "explore": {
+    "title": "Explore Our Products (Arabic)",
+    "searchPlaceholder": "Search products... (Arabic)"
+  },
+  "products": {
+    "organic-oils": {
+      "name": "Organic Oils (Arabic)",
+      "description": "Cold-pressed oils like coconut, almond, neem, etc. (Arabic)"
+    },
+    "natural-soaps": {
+      "name": "Natural Soaps (Arabic)",
+      "description": "African black soap, shea bars, fruit-based soaps. (Arabic)"
+    },
+    "agro-imports": {
+      "name": "Agro Imports (Arabic)",
+      "description": "Banana leaves, bones, charcoal, and small farm tools. (Arabic)"
+    }
+  },
+  "contact": {
+    "title": "Contact Us (Arabic)",
+    "name": "Name (Arabic)",
+    "email": "Email (Arabic)",
+    "subject": "Subject (Arabic)",
+    "category": "Service Category (Arabic)",
+    "message": "Message (Arabic)",
+    "send": "Send Message (Arabic)",
+    "success": "Message sent successfully! (Arabic)",
+    "error": "Something went wrong. Please try again. (Arabic)",
+    "options": {
+      "oils": "Organic Oils (Arabic)",
+      "soaps": "Natural Soaps (Arabic)",
+      "agro": "Agro Imports (Arabic)",
+      "other": "Other (Arabic)"
+    }
+  },
+  "footer": {
+    "contactUs": "Contact Us (Arabic)",
+    "followUs": "Follow Us (Arabic)",
+    "quickLinks": "Quick Links (Arabic)",
+    "subscribe": "Stay Updated (Arabic)",
+    "newsletterText": "Subscribe to our newsletter for the latest updates (Arabic)",
+    "support": "Support Us (Arabic)",
+    "suggestions": "Product Suggestions (Arabic)",
+    "testimonials": "Testimonials (Arabic)",
+    "privacy": "Privacy Policy (Arabic)",
+    "terms": "Terms of Service (Arabic)",
+    "shipping": "Shipping Policy (Arabic)",
+    "returns": "Returns Policy (Arabic)",
+    "copyright": "TropiNord. All rights reserved. (Arabic)"
+  }
+}
