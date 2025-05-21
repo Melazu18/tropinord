@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Home (Portuguese)",
+    "services": "Services (Portuguese)",
+    "explore": "Explore (Portuguese)",
+    "contact": "Contact (Portuguese)"
+  },
+  "home": {
+    "welcome": "Welcome to TropiNord (Portuguese)",
+    "mission": "Our Mission (Portuguese)",
+    "intro": "TropiNord sources and distributes organic oils, eco soaps, and natural wellness products — supporting small producers and delivering ethical, sustainable goods across Sweden and Europe. (Portuguese)",
+    "ctaExplore": "Explore Our Products (Portuguese)",
+    "ctaContact": "Contact Us (Portuguese)",
+    "missionText": "We believe in transparency, ethical sourcing, and supporting community-led growth. From African black soap to eco-imports and youth wellness programs, we blend global heritage with Nordic quality and values. (Portuguese)"
+  },
+  "explore": {
+    "title": "Explore Our Products (Portuguese)",
+    "searchPlaceholder": "Search products... (Portuguese)"
+  },
+  "products": {
+    "organic-oils": {
+      "name": "Organic Oils (Portuguese)",
+      "description": "Cold-pressed oils like coconut, almond, neem, etc. (Portuguese)"
+    },
+    "natural-soaps": {
+      "name": "Natural Soaps (Portuguese)",
+      "description": "African black soap, shea bars, fruit-based soaps. (Portuguese)"
+    },
+    "agro-imports": {
+      "name": "Agro Imports (Portuguese)",
+      "description": "Banana leaves, bones, charcoal, and small farm tools. (Portuguese)"
+    }
+  },
+  "contact": {
+    "title": "Contact Us (Portuguese)",
+    "name": "Name (Portuguese)",
+    "email": "Email (Portuguese)",
+    "subject": "Subject (Portuguese)",
+    "category": "Service Category (Portuguese)",
+    "message": "Message (Portuguese)",
+    "send": "Send Message (Portuguese)",
+    "success": "Message sent successfully! (Portuguese)",
+    "error": "Something went wrong. Please try again. (Portuguese)",
+    "options": {
+      "oils": "Organic Oils (Portuguese)",
+      "soaps": "Natural Soaps (Portuguese)",
+      "agro": "Agro Imports (Portuguese)",
+      "other": "Other (Portuguese)"
+    }
+  },
+  "footer": {
+    "contactUs": "Contact Us (Portuguese)",
+    "followUs": "Follow Us (Portuguese)",
+    "quickLinks": "Quick Links (Portuguese)",
+    "subscribe": "Stay Updated (Portuguese)",
+    "newsletterText": "Subscribe to our newsletter for the latest updates (Portuguese)",
+    "support": "Support Us (Portuguese)",
+    "suggestions": "Product Suggestions (Portuguese)",
+    "testimonials": "Testimonials (Portuguese)",
+    "privacy": "Privacy Policy (Portuguese)",
+    "terms": "Terms of Service (Portuguese)",
+    "shipping": "Shipping Policy (Portuguese)",
+    "returns": "Returns Policy (Portuguese)",
+    "copyright": "TropiNord. All rights reserved. (Portuguese)"
+  }
+}

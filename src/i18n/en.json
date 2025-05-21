@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "explore": "Explore",
+    "contact": "Contact"
+    
+  },
+  "home": {
+    "welcome": "Welcome to TropiNord",
+    "mission": "Our Mission",
+    "intro": "TropiNord sources and distributes organic oils, eco soaps, and natural wellness products — supporting small producers and delivering ethical, sustainable goods across Sweden and Europe.",
+    "ctaExplore": "Explore Our Products",
+    "ctaContact": "Contact Us",
+    "missionText": "We believe in transparency, ethical sourcing, and supporting community-led growth. From African black soap to eco-imports and youth wellness programs, we blend global heritage with Nordic quality and values."
+  },
+  "explore": {
+    "title": "Explore Our Products",
+    "searchPlaceholder": "Search products..."
+    
+  },
+  "products": {
+    "organic-oils": {
+      "name": "Organic Oils",
+      "description": "Cold-pressed oils like coconut, almond, neem, etc."
+    },
+    "natural-soaps": {
+      "name": "Natural Soaps",
+      "description": "African black soap, shea bars, fruit-based soaps."
+    },
+    "agro-imports": {
+      "name": "Agro Imports",
+      "description": "Banana leaves, bones, charcoal, and small farm tools."
+    },
+    "notFound": "Product not found",
+    "shopNow": "Shop Now"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "category": "Service Category",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong. Please try again.",
+    "options": {
+      "oils": "Organic Oils",
+      "soaps": "Natural Soaps",
+      "agro": "Agro Imports",
+      "other": "Other"
+    }
+  },
+  "footer": {
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "quickLinks": "Quick Links",
+    "subscribe": "Stay Updated",
+    "newsletterText": "Subscribe to our newsletter for the latest updates",
+    "support": "Support Us",
+    "suggestions": "Product Suggestions",
+    "testimonials": "Testimonials",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "shipping": "Shipping Policy",
+    "returns": "Returns Policy",
+    "copyright": "TropiNord. All rights reserved."
+  }
+}
