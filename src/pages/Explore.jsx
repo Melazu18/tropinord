@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import products from "../data/products";
+import { motion } from "framer-motion";
 
-export default function Explore() {
+function Explore() {
   const [search, setSearch] = useState("");
   const navigate = useNavigate();
   const { t } = useTranslation();
@@ -16,9 +17,14 @@ export default function Explore() {
 
   return (
     <div className="min-h-screen bg-gray-100 px-6 py-10">
-      <h2 className="text-2xl font-bold mb-6 text-center text-green-800">
+      <motion.h2
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="text-2xl font-bold mb-6 text-center text-green-800"
+      >
         {t("explore.title")}
-      </h2>
+      </motion.h2>
 
       <div className="max-w-xl mx-auto mb-8">
         <input
@@ -32,9 +38,10 @@ export default function Explore() {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filtered.map((product) => (
-          <div
+          <motion.div
             key={product.slug}
             className="bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition cursor-pointer"
+            whileHover={{ scale: 1.03 }}
             onClick={() => navigate(`/products/${product.slug}`)}
           >
             <img
@@ -50,9 +57,11 @@ export default function Explore() {
                 {t(`products.${product.slug}.description`)}
               </p>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
   );
 }
+
+export default Explore;

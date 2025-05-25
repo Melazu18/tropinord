@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Header from "./components/ui/Header";
@@ -12,8 +12,12 @@ import Contact from "./pages/Contact";
 import Explore from "./pages/Explore";
 import ProductDetail from "./pages/ProductDetail";
 import About from "./pages/About";
+import OrderForm from "./pages/OrderForm";
 
 function App() {
+  const [cartItems, setCartItems] = useState([]);
+  const [orderInfo, setOrderInfo] = useState({ email: "", total: 0 });
+
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
@@ -24,7 +28,16 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/explore" element={<Explore />} />
-            <Route path="/products/:slug" element={<ProductDetail />} />
+            <Route path="/order" element={<OrderForm />} />
+            <Route
+              path="/products/:slug"
+              element={
+                <ProductDetail
+                  cartItems={cartItems}
+                  setCartItems={setCartItems}
+                />
+              }
+            />
             <Route path="/about" element={<About />} />
           </Routes>
         </main>

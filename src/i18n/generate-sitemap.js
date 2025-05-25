@@ -1,0 +1,22 @@
+const fs = require("fs");
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.tropinord.com/</loc>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.tropinord.com/services</loc>
+  </url>
+  <url>
+    <loc>https://www.tropinord.com/explore</loc>
+  </url>
+  <url>
+    <loc>https://www.tropinord.com/contact</loc>
+  </url>
+  <url>
+    <loc>https://www.tropinord.com/about</loc>
+  </url>
+</urlset>`;
+
+fs.writeFileSync("./public/sitemap.xml", sitemap);

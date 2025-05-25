@@ -8,30 +8,38 @@ export default function Home() {
 
   return (
     <div className="space-y-20">
-      {/* Hero Section */}
-      <section className="text-center py-16 bg-green-50 rounded-2xl shadow-lg">
-        <h1 className="text-5xl font-bold text-green-800 mb-6">
-          {t("home.welcome")}
-        </h1>
-        <p className="text-xl text-gray-700 max-w-3xl mx-auto mb-8">
-          {t("home.intro")}
-        </p>
-        <div className="flex justify-center gap-4">
-          <Link to="/explore">
-            <Button className="px-6 py-3 text-lg bg-green-600 hover:bg-green-700 text-white rounded-xl shadow">
-              {t("home.ctaExplore")}
-            </Button>
-          </Link>
-          <Link to="/contact">
-            <Button className="px-6 py-3 text-lg bg-white border border-green-600 text-green-700 hover:bg-green-50 rounded-xl shadow">
-              {t("home.ctaContact")}
-            </Button>
-          </Link>
+      {/* Hero Section with Parallax Background, Overlay, and Animations */}
+      <section
+        className="relative text-center py-32 bg-fixed bg-center bg-cover rounded-2xl shadow-lg overflow-hidden"
+        style={{ backgroundImage: "url('/images/leaves01.jpg')" }}
+      >
+        {/* Overlay for contrast */}
+        <div className="absolute inset-0 bg-black/40 backdrop-blur-sm z-0" />
+
+        <div className="relative z-10 px-6 animate-fade-in-up">
+          <h1 className="text-5xl font-bold text-white drop-shadow-md mb-6 leading-tight animate-slide-in-down">
+            {t("home.welcome")}
+          </h1>
+          <p className="text-xl text-gray-100 max-w-3xl mx-auto mb-8 drop-shadow-sm leading-relaxed animate-fade-in">
+            {t("home.intro")}
+          </p>
+          <div className="flex justify-center gap-4">
+            <Link to="/explore">
+              <Button className="px-6 py-3 text-lg bg-green-600 hover:bg-green-700 text-white rounded-xl shadow">
+                {t("home.ctaExplore")}
+              </Button>
+            </Link>
+            <Link to="/contact">
+              <Button className="px-6 py-3 text-lg bg-white border border-green-600 text-green-700 hover:bg-green-50 rounded-xl shadow">
+                {t("home.ctaContact")}
+              </Button>
+            </Link>
+          </div>
         </div>
       </section>
 
-      {/* Mission Statement */}
-      <section className="max-w-4xl mx-auto text-center space-y-4">
+      {/* Mission Statement with fade-in */}
+      <section className="max-w-4xl mx-auto text-center space-y-4 animate-fade-in-up">
         <h2 className="text-3xl font-semibold text-green-800">
           {t("home.mission")}
         </h2>

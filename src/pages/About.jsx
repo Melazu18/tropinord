@@ -93,11 +93,11 @@ export default function About() {
               <li>Coconut oil</li>
               <li>Almond oil</li>
               <li>Shea butter</li>
-              <li>Black soap</li>
+              <li>Organic soap</li>
               <li>Neem, hibiscus, turmeric, and more</li>
             </ul>
             <p>
-              Our focus is on ethical sourcing, fair pricing, and transparency —
+              Our focus is on ethical sourcing, fair pricing, and transparency, 
               because how something is made matters just as much as the product
               itself.
             </p>

@@ -7,13 +7,39 @@ import {
   FaChevronUp,
   FaArrowUp,
 } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
   const [openDropdown, setOpenDropdown] = useState(null);
   const [showScrollTop, setShowScrollTop] = useState(false);
+  const [email, setEmail] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+  const [modalImage, setModalImage] = useState(null);
+  const [modalCaption, setModalCaption] = useState("");
 
   const toggleDropdown = (item) => {
     setOpenDropdown(openDropdown === item ? null : item);
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 100);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const handleSubscribe = () => {
+    if (email.includes("@") && email.includes(".")) {
+      setSubmitted(true);
+      setEmail("");
+      setTimeout(() => setSubmitted(false), 3000);
+    }
   };
 
   const dropdownItems = {
@@ -24,42 +50,31 @@ const Footer = () => {
         text: "Instagram",
         href: "https://instagram.com",
       },
-      {
-        icon: <FaYoutube />,
-        text: "YouTube Channel",
-        href: "https://youtube.com",
-      },
+      { icon: <FaYoutube />, text: "YouTube", href: "https://youtube.com" },
     ],
   };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setShowScrollTop(window.scrollY > 200);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+  const instagramCaptions = [
+    "Harvest Day in Ghana",
+    "Shea Butter in the Making",
+    "Packing with Love",
+    "Nordic Wellness Showcase",
+    "Eco Soap Behind the Scenes",
+    "Community Farmers Market",
+  ];
 
   return (
     <footer className="relative bg-[#146b39] text-gold-300 pt-12 pb-8 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
           {/* Follow Us */}
           <div>
             <h3
               onClick={() => toggleDropdown("follow")}
-              className="flex items-center justify-start gap-2 text-lg font-semibold mb-4 cursor-pointer text-gold-400 hover:text-gold-200 transition"
+              className="flex items-center gap-2 text-lg font-semibold mb-4 cursor-pointer text-gold-400 hover:text-gold-200 transition"
             >
-              <span>Follow Us</span>
-              {openDropdown === "follow" ? (
-                <FaChevronUp className="text-gold-400" />
-              ) : (
-                <FaChevronDown className="text-gold-400" />
-              )}
+              <span>{t("footer.followUs")}</span>
+              {openDropdown === "follow" ? <FaChevronUp /> : <FaChevronDown />}
             </h3>
             {openDropdown === "follow" && (
               <ul className="space-y-2">
@@ -85,20 +100,20 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-gold-400">
-              Quick Links
+              {t("footer.quickLinks")}
             </h3>
             <ul className="space-y-2">
               <li className="hover:text-gold-200 transition">
-                <a href="/support">Support Us</a>
+                <a href="/support">{t("footer.support")}</a>
               </li>
               <li className="hover:text-gold-200 transition">
-                <a href="/suggestions">Product Suggestions</a>
+                <a href="/suggestions">{t("footer.suggestions")}</a>
               </li>
               <li className="hover:text-gold-200 transition">
-                <a href="/testimonials">Testimonials</a>
+                <a href="/testimonials">{t("footer.testimonials")}</a>
               </li>
               <li className="hover:text-gold-200 transition">
-                <a href="/privacy">Privacy Policy</a>
+                <a href="/privacy">{t("footer.privacy")}</a>
               </li>
             </ul>
           </div>
@@ -106,38 +121,103 @@ const Footer = () => {
           {/* Newsletter */}
           <div className="lg:col-span-2">
             <h3 className="text-lg font-semibold mb-4 text-gold-400">
-              Stay Updated
+              {t("footer.newsletter")}
             </h3>
-            <p className="mb-4">
-              Subscribe to our newsletter for the latest updates
-            </p>
-            <div className="flex max-w-md">
+            <p className="mb-4">{t("footer.newsletterDesc")}</p>
+            <div className="flex flex-col sm:flex-row max-w-md">
               <input
                 type="email"
-                placeholder="Your email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder={t("footer.emailPlaceholder")}
                 className="px-4 py-2 w-full rounded-l text-gray-800 focus:outline-none"
+                aria-label="Email address"
               />
-              <button className="bg-gold-500 hover:bg-gold-600 text-green-800 font-medium px-4 py-2 rounded-r transition">
-                Subscribe
+              <button
+                onClick={handleSubscribe}
+                className="bg-gold-500 hover:bg-gold-600 text-green-800 font-medium px-4 py-2 rounded-r mt-2 sm:mt-0 transition"
+              >
+                {t("footer.subscribe")}
               </button>
             </div>
+            {submitted && (
+              <p className="text-green-100 mt-2">{t("footer.thankYou")}</p>
+            )}
           </div>
         </div>
 
+        {/* Instagram Preview (local images) */}
+        <div className="mb-10">
+          <h3 className="text-lg font-semibold mb-4 text-gold-400">
+            {t("footer.instagramGallery")}
+          </h3>
+          <div className="grid grid-cols-3 gap-2">
+            {[1, 2, 3, 4, 5, 6].map((i) => (
+              <div
+                key={i}
+                className="relative cursor-pointer"
+                onClick={() => {
+                  setModalImage(`/images/instagram${i}.jpg`);
+                  setModalCaption(instagramCaptions[i - 1]);
+                }}
+              >
+                <img
+                  src={`/images/instagram${i}.jpg`}
+                  alt={`Instagram preview ${i}`}
+                  loading="lazy"
+                  className="rounded shadow-md object-cover w-full h-24 sm:h-32 lg:h-36 hover:opacity-80 transition"
+                />
+                <p className="text-xs text-center mt-1">
+                  #{t("footer.instagramTag")}
+                  {i}
+                </p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-4 text-center">
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-sm font-medium text-gold-200 hover:text-white transition"
+            >
+              {t("footer.viewOnInstagram")}
+            </a>
+          </div>
+        </div>
+
+        {/* Modal Lightbox */}
+        {modalImage && (
+          <div
+            className="fixed inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center z-50 p-4"
+            onClick={() => setModalImage(null)}
+          >
+            <img
+              src={modalImage}
+              alt="Instagram full view"
+              className="max-w-full max-h-[80vh] rounded-lg shadow-lg"
+            />
+            <p className="text-gold-200 text-sm mt-4 text-center">
+              {modalCaption}
+            </p>
+          </div>
+        )}
+
         {/* Bottom Bar */}
-        <div className="border-t border-gold-700 pt-6 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-gold-700 pt-6 flex flex-col md:flex-row justify-between items-center text-sm">
           <p className="text-gold-300 mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} TropiNord. All rights reserved.
+            &copy; {new Date().getFullYear()} TropiNord.{" "}
+            {t("footer.rightsReserved")}
           </p>
-          <div className="flex gap-6">
+          <div className="flex flex-wrap gap-4 justify-center">
             <a href="#" className="hover:text-gold-200 transition">
-              Terms of Service
+              {t("footer.terms")}
             </a>
             <a href="#" className="hover:text-gold-200 transition">
-              Shipping Policy
+              {t("footer.shipping")}
             </a>
             <a href="#" className="hover:text-gold-200 transition">
-              Returns Policy
+              {t("footer.returns")}
             </a>
           </div>
         </div>
@@ -146,7 +226,7 @@ const Footer = () => {
         {showScrollTop && (
           <button
             onClick={scrollToTop}
-            className="fixed bottom-8 right-8 bg-white text-green-700 p-3 rounded-full shadow-xl border border-green-700 hover:bg-green-100 transition-transform transform hover:scale-110 z-50"
+            className="fixed bottom-16 right-18 bg-white text-green-700 p-3 rounded-full shadow-xl border border-green-700 hover:bg-green-100 transition-transform transform hover:scale-110 z-50"
             aria-label="Scroll to top"
           >
             <FaArrowUp className="animate-bounce" />
