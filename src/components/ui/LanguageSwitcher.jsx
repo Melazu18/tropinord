@@ -7,6 +7,8 @@ export default function LanguageSwitcher() {
   const [showDropdown, setShowDropdown] = useState(false);
   const dropdownRef = useRef();
 
+  const currentLang = i18n?.language || localStorage.getItem("lng") || "en";
+
   const availableLanguages = [
     { code: "en", label: "English", flag: "🇬🇧" },
     { code: "sv", label: "Svenska", flag: "🇸🇪" },
@@ -47,7 +49,7 @@ export default function LanguageSwitcher() {
         className="flex items-center gap-1 text-gray-700 hover:text-green-700"
       >
         <FaGlobe />
-        <span>{i18n.language.toUpperCase()}</span>
+        <span>{currentLang.toUpperCase()}</span>
       </button>
 
       {showDropdown && (
@@ -57,9 +59,7 @@ export default function LanguageSwitcher() {
               key={lang.code}
               onClick={() => changeLanguage(lang.code)}
               className={`flex items-center w-full px-4 py-2 text-left hover:bg-green-50 ${
-                i18n.language === lang.code
-                  ? "font-semibold text-green-700"
-                  : ""
+                currentLang === lang.code ? "font-semibold text-green-700" : ""
               }`}
             >
               <span className="mr-2">{lang.flag}</span>

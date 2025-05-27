@@ -30,7 +30,7 @@ export default function Header() {
   }, []);
 
   const navLinkClasses = (path) =>
-    `relative flex items-center gap-2 px-4 py-2 rounded-md transition-all duration-300 font-semibold text-sm group
+    `relative flex items-center gap-2 px-4 py-2 rounded-md transition-all duration-300 font-medium text-sm group
      ${
        location.pathname === path
          ? "bg-green-600 text-white"
@@ -47,7 +47,7 @@ export default function Header() {
           : "bg-white dark:bg-gray-900"
       } border-b border-gray-100 dark:border-gray-800`}
     >
-      <div className="max-w-screen-2xl mx-auto flex flex-wrap items-center justify-between px-4 md:px-6 py-3">
+      <div className="max-w-screen-2xl mx-auto flex flex-wrap items-center justify-between px-4 md:px-6 py-4">
         {/* Logo with tagline */}
         <Link
           to="/"
@@ -91,7 +91,6 @@ export default function Header() {
           >
             <FaHome className="text-xs" />
             {t("nav.home")}
-            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
           </Link>
           <Link
             to="/services"
@@ -100,7 +99,6 @@ export default function Header() {
           >
             <FaConciergeBell className="text-xs" />
             {t("nav.services")}
-            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
           </Link>
           <Link
             to="/explore"
@@ -109,7 +107,6 @@ export default function Header() {
           >
             <FaCompass className="text-xs" />
             {t("nav.explore")}
-            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
           </Link>
           <Link
             to="/contact"
@@ -118,7 +115,6 @@ export default function Header() {
           >
             <FaEnvelope className="text-xs" />
             {t("nav.contact")}
-            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
           </Link>
           <Link
             to="/about"
@@ -127,14 +123,11 @@ export default function Header() {
           >
             <FaInfoCircle className="text-xs" />
             About
-            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
           </Link>
-          import {Link} from "react-router-dom"; // make sure this is imported
-          // Inside your return block, replace the current Place Order button
-          with:
           <Link
             to="/order"
             className="bg-green-600 hover:bg-green-700 text-white font-semibold px-4 py-2 rounded-md shadow transition duration-200"
+            onClick={() => setMenuOpen(false)}
           >
             🌍 Place Order
           </Link>
