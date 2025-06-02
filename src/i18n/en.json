@@ -3,8 +3,8 @@
     "home": "Home",
     "services": "Services",
     "explore": "Explore",
-    "contact": "Contact"
-    
+    "contact": "Contact",
+    "about": "About"
   },
   "home": {
     "welcome": "Welcome to TropiNord",
@@ -17,7 +17,6 @@
   "explore": {
     "title": "Explore Our Products",
     "searchPlaceholder": "Search products..."
-    
   },
   "products": {
     "organic-oils": {
@@ -37,6 +36,7 @@
   },
   "contact": {
     "title": "Contact Us",
+    "description": "We’d love to hear from you! Please fill out the form below.",
     "name": "Name",
     "email": "Email",
     "subject": "Subject",
@@ -53,18 +53,16 @@
     }
   },
   "footer": {
-    "contactUs": "Contact Us",
-    "followUs": "Follow Us",
     "quickLinks": "Quick Links",
-    "subscribe": "Stay Updated",
-    "newsletterText": "Subscribe to our newsletter for the latest updates",
-    "support": "Support Us",
-    "suggestions": "Product Suggestions",
-    "testimonials": "Testimonials",
+    "explore": "Explore Products",
+    "contact": "Contact Us",
+    "shipping": "Shipping & Returns",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "shipping": "Shipping Policy",
-    "returns": "Returns Policy",
-    "copyright": "TropiNord. All rights reserved."
+    "followUs": "Follow Us",
+    "newsletter": "Newsletter",
+    "subscribe": "Subscribe",
+    "emailPlaceholder": "Enter your email",
+    "rightsReserved": "All rights reserved."
   }
 }

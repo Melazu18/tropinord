@@ -1,66 +1,76 @@
 {
   "nav": {
-    "home": "Home",
-    "services": "Services",
-    "explore": "Explore",
-    "contact": "Contact"
+    "home": "Hem",
+    "services": "Tjänster",
+    "explore": "Utforska",
+    "contact": "Kontakt",
+    "about": "Om"
   },
   "home": {
-    "welcome": "Welcome to TropiNord",
-    "mission": "Our Mission",
-    "intro": "TropiNord sources and distributes organic oils, eco soaps, and natural wellness products — supporting small producers and delivering ethical, sustainable goods across Sweden and Europe.",
-    "ctaExplore": "Explore Our Products",
-    "ctaContact": "Contact Us",
-    "missionText": "We believe in transparency, ethical sourcing, and supporting community-led growth. From African black soap to eco-imports and youth wellness programs, we blend global heritage with Nordic quality and values."
+    "welcome": "Välkommen till TropiNord",
+    "mission": "Vårt Uppdrag",
+    "intro": "TropiNord levererar ekologiska oljor, naturliga tvålar och välmåendeprodukter — och stödjer små producenter över Sverige och Europa.",
+    "ctaExplore": "Utforska Våra Produkter",
+    "ctaContact": "Kontakta Oss",
+    "missionText": "Vi tror på transparens, etisk upphandling och samhällsdriven tillväxt. Från afrikansk svarttvål till ungdomsprogram — vi förenar global arv med nordiska värden."
   },
   "explore": {
-    "title": "Explore Our Products",
-    "searchPlaceholder": "Search products..."
+    "title": "Utforska Våra Produkter",
+    "searchPlaceholder": "Sök produkter..."
   },
   "products": {
     "organic-oils": {
-      "name": "Organic Oils",
-      "description": "Cold-pressed oils like coconut, almond, neem, etc."
+      "name": "Ekologiska Oljor",
+      "description": "Kallpressade oljor som kokos, mandel, neem, etc."
     },
     "natural-soaps": {
-      "name": "Natural Soaps",
-      "description": "African black soap, shea bars, fruit-based soaps."
+      "name": "Naturliga Tvålar",
+      "description": "Afrikansk svarttvål, shea-bars, frukttvålar."
     },
     "agro-imports": {
-      "name": "Agro Imports",
-      "description": "Banana leaves, bones, charcoal, and small farm tools."
-    }
+      "name": "Agroimporter",
+      "description": "Banana leaves, ben, kol, små jordbruksverktyg."
+    },
+    "notFound": "Produkten kunde inte hittas",
+    "shopNow": "Handla Nu"
   },
   "contact": {
-    "title": "Contact Us",
-    "name": "Name",
-    "email": "Email",
-    "subject": "Subject",
-    "category": "Service Category",
-    "message": "Message",
-    "send": "Send Message",
-    "success": "Message sent successfully!",
-    "error": "Something went wrong. Please try again.",
+    "title": "Kontakta Oss",
+    "name": "Namn",
+    "email": "E-post",
+    "subject": "Ämne",
+    "category": "Tjänstekategori",
+    "message": "Meddelande",
+    "send": "Skicka Meddelande",
+    "success": "Meddelandet skickades!",
+    "error": "Något gick fel. Försök igen.",
     "options": {
-      "oils": "Organic Oils",
-      "soaps": "Natural Soaps",
-      "agro": "Agro Imports",
-      "other": "Other"
+      "oils": "Ekologiska Oljor",
+      "soaps": "Naturliga Tvålar",
+      "agro": "Agroimporter",
+      "other": "Annat"
     }
   },
   "footer": {
-    "contactUs": "Contact Us",
-    "followUs": "Follow Us",
-    "quickLinks": "Quick Links",
-    "subscribe": "Stay Updated",
-    "newsletterText": "Subscribe to our newsletter for the latest updates",
-    "support": "Support Us",
-    "suggestions": "Product Suggestions",
-    "testimonials": "Testimonials",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "shipping": "Shipping Policy",
-    "returns": "Returns Policy",
-    "copyright": "TropiNord. All rights reserved."
+    "contactUs": "Kontakta Oss",
+    "followUs": "Följ Oss",
+    "quickLinks": "Snabblänkar",
+    "subscribe": "Håll Dig Uppdaterad",
+    "newsletterText": "Prenumerera på vårt nyhetsbrev",
+    "support": "Stöd Oss",
+    "suggestions": "Produktförslag",
+    "testimonials": "Omdömen",
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "shipping": "Fraktpolicy",
+    "returns": "Returpolicy",
+    "copyright": "TropiNord. Alla rättigheter förbehållna.",
+    "rightsReserved": "Alla rättigheter förbehållna.",
+    "thankYou": "Tack för din prenumeration!",
+    "emailPlaceholder": "Ange din e-postadress",
+    "newsletter": "Nyhetsbrev",
+    "newsletterDesc": "Prenumerera för att få erbjudanden",
+    "instagramTag": "Insta",
+    "viewOnInstagram": "Visa på Instagram"
   }
 }

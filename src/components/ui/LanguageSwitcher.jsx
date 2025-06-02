@@ -7,8 +7,6 @@ export default function LanguageSwitcher() {
   const [showDropdown, setShowDropdown] = useState(false);
   const dropdownRef = useRef();
 
-  const currentLang = i18n?.language || localStorage.getItem("lng") || "en";
-
   const availableLanguages = [
     { code: "en", label: "English", flag: "🇬🇧" },
     { code: "sv", label: "Svenska", flag: "🇸🇪" },
@@ -21,6 +19,9 @@ export default function LanguageSwitcher() {
     { code: "de", label: "Deutsch", flag: "🇩🇪" },
     { code: "hi", label: "हिन्दी", flag: "🇮🇳" },
   ];
+
+  const currentLang =
+    i18n && i18n.language ? i18n.language : localStorage.getItem("lng") || "en";
 
   const toggleDropdown = () => setShowDropdown((prev) => !prev);
 

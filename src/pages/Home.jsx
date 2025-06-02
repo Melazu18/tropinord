@@ -8,22 +8,20 @@ export default function Home() {
 
   return (
     <div className="space-y-20">
-      {/* Hero Section with Parallax Background, Overlay, and Animations */}
+      {/* Hero Section */}
       <section
-        className="relative text-center py-32 bg-fixed bg-center bg-cover rounded-2xl shadow-lg overflow-hidden"
-        style={{ backgroundImage: "url('/images/leaves01.jpg')" }}
+        className="relative w-full text-center bg-no-repeat bg-center bg-contain bg-white py-32 lg:py-40 overflow-hidden"
+        style={{ backgroundImage: "url('/images/tropinordHome.png')" }}
       >
-        {/* Overlay for contrast */}
-        <div className="absolute inset-0 bg-black/40 backdrop-blur-sm z-0" />
-
-        <div className="relative z-10 px-6 animate-fade-in-up">
-          <h1 className="text-5xl font-bold text-white drop-shadow-md mb-6 leading-tight animate-slide-in-down">
+        {/* Centered Text Container with Backdrop */}
+        <div className="relative z-10 max-w-4xl mx-auto px-6 py-10 bg-black/40 backdrop-blur-sm rounded-xl shadow-md">
+          <h1 className="text-5xl font-bold text-white drop-shadow-lg mb-6 leading-tight">
             {t("home.welcome")}
           </h1>
-          <p className="text-xl text-gray-100 max-w-3xl mx-auto mb-8 drop-shadow-sm leading-relaxed animate-fade-in">
+          <p className="text-xl text-gray-100 mb-8 drop-shadow-md leading-relaxed">
             {t("home.intro")}
           </p>
-          <div className="flex justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-4">
             <Link to="/explore">
               <Button className="px-6 py-3 text-lg bg-green-600 hover:bg-green-700 text-white rounded-xl shadow">
                 {t("home.ctaExplore")}
@@ -38,12 +36,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Mission Statement with fade-in */}
-      <section className="max-w-4xl mx-auto text-center space-y-4 animate-fade-in-up">
-        <h2 className="text-3xl font-semibold text-green-800">
+      {/* Mission Section */}
+      <section className="max-w-4xl mx-auto text-center space-y-4 px-6 py-16 bg-white dark:bg-[#111827] transition-colors duration-300">
+        <h2 className="text-3xl font-semibold text-green-800 dark:text-green-400">
           {t("home.mission")}
         </h2>
-        <p className="text-lg text-gray-700">{t("home.missionText")}</p>
+        <p className="text-lg text-gray-700 dark:text-gray-200">
+          {t("home.missionText")}
+        </p>
       </section>
     </div>
   );

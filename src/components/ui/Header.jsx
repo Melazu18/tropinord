@@ -58,12 +58,13 @@ export default function Header() {
             alt="TropiNord Logo"
             className="h-12 sm:h-14 md:h-16 w-auto object-contain drop-shadow-sm"
           />
+
           <span
-            className={`text-xs md:text-sm mt-1 font-light transition-all duration-500 ease-in-out transform ${
+            className={`text-xs md:text-sm mt-1 font-bold tracking-tight transition-all duration-500 ease-in-out transform ${
               showTagline
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 -translate-y-2"
-            } text-gray-600 dark:text-gray-300`}
+            } text-amber-500 dark:text-amber-400 text-shadow-sm`}
           >
             Tropical Traditions, Nordic Standards.
           </span>

@@ -1,67 +1,65 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import products from "../data/products";
-import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
-function Explore() {
-  const [search, setSearch] = useState("");
-  const navigate = useNavigate();
+export default function Explore() {
   const { t } = useTranslation();
+  const [searchTerm, setSearchTerm] = useState("");
 
-  const filtered = products.filter((product) =>
-    t(`products.${product.slug}.name`)
-      .toLowerCase()
-      .includes(search.toLowerCase())
+  const filteredProducts = products.filter((product) =>
+    product.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
-    <div className="min-h-screen bg-gray-100 px-6 py-10">
-      <motion.h2
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="text-2xl font-bold mb-6 text-center text-green-800"
-      >
-        {t("explore.title")}
-      </motion.h2>
-
-      <div className="max-w-xl mx-auto mb-8">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12 animate-fade-in-up">
+      <header className="text-center">
+        <h1 className="text-4xl font-extrabold text-green-800 drop-shadow mb-4">
+          {t("explore.title")}
+        </h1>
         <input
           type="text"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
           placeholder={t("explore.searchPlaceholder")}
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          className="w-full border border-gray-300 rounded-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
+          className="mt-2 px-5 py-3 rounded-lg w-full sm:w-1/2 border border-gray-300 shadow focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
         />
-      </div>
+      </header>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filtered.map((product) => (
-          <motion.div
-            key={product.slug}
-            className="bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition cursor-pointer"
-            whileHover={{ scale: 1.03 }}
-            onClick={() => navigate(`/products/${product.slug}`)}
-          >
-            <img
-              src={product.image}
-              alt={t(`products.${product.slug}.name`)}
-              className="w-full h-40 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="font-bold text-lg">
-                {t(`products.${product.slug}.name`)}
-              </h3>
-              <p className="text-sm text-gray-600">
-                {t(`products.${product.slug}.description`)}
-              </p>
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {filteredProducts.length > 0 ? (
+          filteredProducts.map((product) => (
+            <div
+              key={product.slug}
+              className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl shadow hover:shadow-lg transition-all p-6 flex flex-col justify-between"
+            >
+              <div>
+                <h3 className="text-xl font-semibold text-green-700 dark:text-green-300">
+                  {t(`products.${product.slug}.name`)}
+                </h3>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
+                  {t(`products.${product.slug}.description`)}
+                </p>
+                <ul className="mt-4 space-y-1 text-gray-700 dark:text-gray-300 text-sm">
+                  {product.features?.map((feature, index) => (
+                    <li key={index}>• {feature}</li>
+                  ))}
+                </ul>
+              </div>
+              <Link
+                to={`/products/${product.slug}`}
+                className="mt-6 inline-block bg-green-600 hover:bg-green-700 text-white font-medium text-sm px-4 py-2 rounded-md text-center"
+              >
+                {t("products.shopNow")}
+              </Link>
             </div>
-          </motion.div>
-        ))}
-      </div>
+          ))
+        ) : (
+          <p className="col-span-full text-center text-gray-500">
+            {t("products.notFound")}
+          </p>
+        )}
+      </section>
     </div>
   );
 }
-
-export default Explore;

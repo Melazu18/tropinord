@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next";
 
 export default function About() {
   return (
@@ -28,7 +29,7 @@ export default function About() {
       </Helmet>
 
       <video
-        poster="/images/naturetropi01.jpg"
+        poster="/images/tropinordAboutUs.png"
         autoPlay
         loop
         muted

@@ -1,66 +1,75 @@
 {
   "nav": {
-    "home": "Home",
+    "home": "Accueil",
     "services": "Services",
-    "explore": "Explore",
+    "explore": "Explorer",
     "contact": "Contact"
   },
   "home": {
-    "welcome": "Welcome to TropiNord",
-    "mission": "Our Mission",
-    "intro": "TropiNord sources and distributes organic oils, eco soaps, and natural wellness products — supporting small producers and delivering ethical, sustainable goods across Sweden and Europe.",
-    "ctaExplore": "Explore Our Products",
-    "ctaContact": "Contact Us",
-    "missionText": "We believe in transparency, ethical sourcing, and supporting community-led growth. From African black soap to eco-imports and youth wellness programs, we blend global heritage with Nordic quality and values."
+    "welcome": "Bienvenue chez TropiNord",
+    "mission": "Notre Mission",
+    "intro": "TropiNord fournit des huiles biologiques, savons naturels et produits de bien-être — tout en soutenant les petits producteurs à travers l'Europe.",
+    "ctaExplore": "Découvrir Nos Produits",
+    "ctaContact": "Contactez-nous",
+    "missionText": "Nous croyons en la transparence, les pratiques éthiques et la croissance communautaire. Nous mélangeons l’héritage mondial avec la qualité nordique."
   },
   "explore": {
-    "title": "Explore Our Products",
-    "searchPlaceholder": "Search products..."
+    "title": "Découvrez Nos Produits",
+    "searchPlaceholder": "Rechercher des produits..."
   },
   "products": {
     "organic-oils": {
-      "name": "Organic Oils",
-      "description": "Cold-pressed oils like coconut, almond, neem, etc."
+      "name": "Huiles Biologiques",
+      "description": "Huiles pressées à froid: coco, amande, neem, etc."
     },
     "natural-soaps": {
-      "name": "Natural Soaps",
-      "description": "African black soap, shea bars, fruit-based soaps."
+      "name": "Savons Naturels",
+      "description": "Savon noir africain, barres de karité, savons aux fruits."
     },
     "agro-imports": {
-      "name": "Agro Imports",
-      "description": "Banana leaves, bones, charcoal, and small farm tools."
-    }
+      "name": "Importations Agricoles",
+      "description": "Feuilles de bananier, os, charbon, outils agricoles."
+    },
+    "notFound": "Produit introuvable",
+    "shopNow": "Acheter"
   },
   "contact": {
-    "title": "Contact Us",
-    "name": "Name",
-    "email": "Email",
-    "subject": "Subject",
-    "category": "Service Category",
+    "title": "Nous Contacter",
+    "name": "Nom",
+    "email": "E-mail",
+    "subject": "Sujet",
+    "category": "Catégorie",
     "message": "Message",
-    "send": "Send Message",
-    "success": "Message sent successfully!",
-    "error": "Something went wrong. Please try again.",
+    "send": "Envoyer le Message",
+    "success": "Message envoyé avec succès !",
+    "error": "Une erreur s'est produite. Veuillez réessayer.",
     "options": {
-      "oils": "Organic Oils",
-      "soaps": "Natural Soaps",
-      "agro": "Agro Imports",
-      "other": "Other"
+      "oils": "Huiles Biologiques",
+      "soaps": "Savons Naturels",
+      "agro": "Importations Agricoles",
+      "other": "Autre"
     }
   },
   "footer": {
-    "contactUs": "Contact Us",
-    "followUs": "Follow Us",
-    "quickLinks": "Quick Links",
-    "subscribe": "Stay Updated",
-    "newsletterText": "Subscribe to our newsletter for the latest updates",
-    "support": "Support Us",
-    "suggestions": "Product Suggestions",
-    "testimonials": "Testimonials",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "shipping": "Shipping Policy",
-    "returns": "Returns Policy",
-    "copyright": "TropiNord. All rights reserved."
+    "contactUs": "Nous Contacter",
+    "followUs": "Suivez-nous",
+    "quickLinks": "Liens Rapides",
+    "subscribe": "Restez Informé",
+    "newsletterText": "Abonnez-vous à notre newsletter",
+    "support": "Nous Soutenir",
+    "suggestions": "Suggestions",
+    "testimonials": "Témoignages",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d’Utilisation",
+    "shipping": "Politique d'Expédition",
+    "returns": "Politique de Retour",
+    "copyright": "TropiNord. Tous droits réservés.",
+    "rightsReserved": "Tous droits réservés.",
+    "thankYou": "Merci pour votre inscription !",
+    "emailPlaceholder": "Entrez votre e-mail",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Recevez nos mises à jour et offres",
+    "instagramTag": "Insta",
+    "viewOnInstagram": "Voir sur Instagram"
   }
 }
