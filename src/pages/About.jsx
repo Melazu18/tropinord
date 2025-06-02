@@ -29,7 +29,7 @@ export default function About() {
       </Helmet>
 
       <video
-        poster="/images/tropinordAboutUs.png"
+        poster="/images/tropinordAbout.png"
         autoPlay
         loop
         muted

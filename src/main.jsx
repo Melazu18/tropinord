@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import "./i18n/i18n.js"; // Make sure this path is correct
+import "./i18n"; // or './i18n/index.js' — both are valid
 import "./index.css"; // This must exist to activate Tailwind
 
 // Error Boundary Component
