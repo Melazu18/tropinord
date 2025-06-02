@@ -12,7 +12,10 @@
     "intro": "TropiNord levererar ekologiska oljor, naturliga tvålar och välmåendeprodukter — och stödjer små producenter över Sverige och Europa.",
     "ctaExplore": "Utforska Våra Produkter",
     "ctaContact": "Kontakta Oss",
-    "missionText": "Vi tror på transparens, etisk upphandling och samhällsdriven tillväxt. Från afrikansk svarttvål till ungdomsprogram — vi förenar global arv med nordiska värden."
+    "missionText": "Vi tror på transparens, etisk upphandling och samhällsdriven tillväxt. Från afrikansk svarttvål till ungdomsprogram — vi förenar global arv med nordiska värden.",
+    "tagline1": "Naturliga Produkter med Globala Rötter",
+    "tagline2": "Etisk, hållbar hälsa – från tropikerna till norr.",
+    "tagline3": "Tropiska Traditioner, Nordiska Standarder."
   },
   "explore": {
     "title": "Utforska Våra Produkter",
@@ -36,6 +39,7 @@
   },
   "contact": {
     "title": "Kontakta Oss",
+    "description": "Vi vill gärna höra från dig! Fyll i formuläret nedan.",
     "name": "Namn",
     "email": "E-post",
     "subject": "Ämne",
@@ -72,5 +76,10 @@
     "newsletterDesc": "Prenumerera för att få erbjudanden",
     "instagramTag": "Insta",
     "viewOnInstagram": "Visa på Instagram"
+  },
+  "common": {
+    "aboutTropinord": "Om TropiNord",
+    "placeOrder": "Lägg Beställning",
+    "somethingWentWrong": "Något gick fel"
   }
 }

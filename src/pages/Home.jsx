@@ -26,21 +26,18 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link to="/explore">
-              <Button className="px-8 py-4 text-lg bg-yellow-600 hover:bg-yellow-700 text-white rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105">
+              <Button className="px-8 py-3 text-lg font-medium bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white rounded-lg transition-colors duration-300">
                 Explore Our Products
               </Button>
             </Link>
             <Link to="/contact">
-              <Button className="px-8 py-4 text-lg bg-white border-2 border-yellow-600 text-yellow-700 hover:bg-yellow-50 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105">
+              <Button className="px-8 py-3 text-lg font-medium bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white rounded-lg transition-colors duration-300">
                 Contact Us
               </Button>
             </Link>
           </div>
         </div>
       </section>
-
-      {/* Rest of your sections remain the same */}
-      {/* ... */}
     </div>
   );
 }

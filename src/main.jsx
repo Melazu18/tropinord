@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import "./i18n"; // or './i18n/index.js' — both are valid
-import "./index.css"; // This must exist to activate Tailwind
+import "./i18n"; // Loads i18n config
+import i18n from "./i18n"; // ⬅️ Needed for RTL direction
+import "./index.css";
 
 // Error Boundary Component
 class ErrorBoundary extends React.Component {
@@ -27,16 +28,22 @@ class ErrorBoundary extends React.Component {
   }
 }
 
-// Web Vitals Reporting (optional)
-function sendToAnalysis(metric) {
-  console.log(metric);
+// Set text direction based on language
+function DirectionWrapper({ children }) {
+  useEffect(() => {
+    document.documentElement.dir = i18n.dir(i18n.language || "en");
+  }, []);
+
+  return children;
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <ErrorBoundary>
-      <App />
+      <DirectionWrapper>
+        <App />
+      </DirectionWrapper>
     </ErrorBoundary>
   </React.StrictMode>
 );
