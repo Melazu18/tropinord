@@ -20,8 +20,9 @@ export default function LanguageSwitcher() {
     { code: "hi", label: "हिन्दी", flag: "🇮🇳" },
   ];
 
-  const currentLang =
-    i18n && i18n.language ? i18n.language : localStorage.getItem("lng") || "en";
+  // Get current language safely
+  const rawLang = i18n.language || localStorage.getItem("lng") || "en";
+  const currentLang = rawLang.length === 2 ? rawLang : "en";
 
   const toggleDropdown = () => setShowDropdown((prev) => !prev);
 
@@ -43,6 +44,10 @@ export default function LanguageSwitcher() {
     };
   }, []);
 
+  useEffect(() => {
+    console.log("🌐 Current language:", currentLang);
+  }, [currentLang]);
+
   return (
     <div className="relative text-sm" ref={dropdownRef}>
       <button
@@ -50,7 +55,7 @@ export default function LanguageSwitcher() {
         className="flex items-center gap-1 text-gray-700 hover:text-green-700"
       >
         <FaGlobe />
-        <span>{currentLang.toUpperCase()}</span>
+        <span>{currentLang?.toUpperCase?.() || "EN"}</span>
       </button>
 
       {showDropdown && (

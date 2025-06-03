@@ -1,8 +1,12 @@
 import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import "./i18n"; // Loads i18n config
-import i18n from "./i18n"; // ⬅️ Needed for RTL direction
+
+// ✅ Load i18n FIRST — side-effect only
+import "./i18n";
+
+import i18n from "i18next"; // Use i18next directly for dir()
+
 import "./index.css";
 
 // Error Boundary Component
