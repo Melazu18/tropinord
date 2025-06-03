@@ -3,20 +3,37 @@ import jsPDF from "jspdf";
 import "jspdf-autotable";
 
 const productImages = [
-  { label: "Lavender Oil", image: "/images/cosmeticoils01.jpg" },
-  { label: "Lemon Oil", image: "/images/cosmeticoils02.jpg" },
-  { label: "Mint Essential Oil", image: "/images/cosmeticoils03.jpg" },
-  { label: "Avocado Oil", image: "/images/avocadooil.jpg" },
+  { label: "Lavender Oil", image: "/images/cosmeticsoils01.jpg" },
+{ label: "Lemon Oil", image: "/images/cosmeticsoils02.jpg" },
+{ label: "Mint Essential Oil", image: "/images/cosmeticsoils03.jpg" },
+{ label: "Avocado Oil", image: "/images/avocadooil.jpg" },
+
   {
     label: "Frankincense & Myrrh Essential Oil",
     image: "/images/myrrhoil01.jpg",
   },
-  { label: "Native African Pear Oil", image: "/images/cosmeticoils04.jpg" },
+  { label: "Native African Pear Oil", image: "/images/cosmeticsoils04.jpg" },
   { label: "Neem Oil", image: "/images/neemoil.jpg" },
   {
     label: "Eucalyptus Citriodora Essential Oil",
-    image: "/images/eucalyptusoil.jpg",
+    image: "/images/eucaliptusoil.jpg",
   },
+  // New soaps
+  { label: "Herbal Liquid Soap", image: "/images/liquidsoap01.jpg" },
+  { label: "Moisturizing Liquid Cleanser", image: "/images/liquidsoap02.jpg" },
+  { label: "Raw African Black Soap", image: "/images/blacksoap02.jpg" },
+  { label: "Floral Infused Soap Bar", image: "/images/flowersoap01.jpg" },
+
+  { label: "Argan Oil", image: "/images/arganoil01.jpg" },
+{ label: "Castor Oil", image: "/images/castoroil.jpg" },
+{ label: "Coconut Oil", image: "/images/coconutoil01.jpg" },
+{ label: "Grape Oil", image: "/images/grapeoil.jpg" },
+{ label: "Kanel Soap", image: "/images/kanelsoap.jpg" },
+{ label: "Moringa Oil", image: "/images/moringaoil.jpg" },
+{ label: "Shea Butter", image: "/images/sheabutter01.jpg" },
+{ label: "Tumeric Oil", image: "/images/tumericoil.jpg" },
+{ label: "Tumeric Oil", image: "/images/sheaoil.jpg" },
+
 ];
 
 const countries = [

@@ -4,8 +4,8 @@ const products = [
     name: "Organic Oils",
     slug: "organic-oils",
     description: "Cold-pressed oils like coconut, almond, neem, etc.",
-    image: "/images/organicoil03.jpg", // sample image used for explore page only
-    link: "https://yourstore.com/organic-oils", // ✅ Replace with actual link
+    image: "/images/organicoil03.jpg",
+    link: "https://yourstore.com/organic-oils",
     gallery: [
       {
         src: "/images/cosmeticsoils01.jpg",
@@ -55,8 +55,34 @@ const products = [
     slug: "natural-soaps",
     description: "African black soap, shea bars, fruit-based soaps.",
     image: "/images/organicsoap0001.jpg",
-    link: "https://yourstore.com/natural-soaps", // ✅ Replace with actual link
-    gallery: ["/images/organicsoap0001.jpg"],
+    link: "https://yourstore.com/natural-soaps",
+    gallery: [
+      "/images/organicsoap0001.jpg",
+      {
+        src: "/images/liquidsoap01.jpg",
+        name: "Herbal Liquid Soap",
+        description:
+          "Gentle, plant-based liquid soap enriched with essential oils for a clean, natural wash.",
+      },
+      {
+        src: "/images/liquidsoap02.jpg",
+        name: "Moisturizing Liquid Cleanser",
+        description:
+          "Hydrating liquid soap with shea and aloe, ideal for dry and sensitive skin.",
+      },
+      {
+        src: "/images/blacksoap02.jpg",
+        name: "Raw African Black Soap",
+        description:
+          "Traditional raw African black soap made from plantain skins and cocoa pods, known for deep cleansing and natural healing.",
+      },
+      {
+        src: "/images/flowersoap01.jpg",
+        name: "Floral Infused Soap Bar",
+        description:
+          "Handcrafted soap with floral extracts and essential oils, offering a luxurious and aromatic bathing experience.",
+      },
+    ],
   },
   {
     id: 3,
@@ -64,7 +90,7 @@ const products = [
     slug: "agro-imports",
     description: "Banana leaves, bone charcoal, and small farm tools.",
     image: "/images/bananaleaves01.jpg",
-    link: "https://yourstore.com/agro-imports", // ✅ Replace with actual link
+    link: "https://yourstore.com/agro-imports",
     gallery: ["/images/bananaleaves01.jpg"],
   },
 ];
