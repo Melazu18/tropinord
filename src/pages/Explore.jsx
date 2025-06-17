@@ -22,7 +22,7 @@ export default function Explore() {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder={t("explore.searchPlaceholder")}
-          className="mt-2 px-5 py-3 rounded-lg w-full sm:w-1/2 border border-gray-300 shadow focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
+          className="mt-2 px-5 py-3 rounded-lg w-full sm:w-1/2 border border-gray-300 shadow focus:outline-none focus:ring-2 focus:ring-green-500 text-sm text-gray-900 dark:text-gray-900 bg-white dark:bg-gray-100"
         />
       </header>
 
@@ -55,7 +55,7 @@ export default function Explore() {
             </div>
           ))
         ) : (
-          <p className="col-span-full text-center text-gray-500">
+          <p className="col-span-full text-center text-black-500">
             {t("products.notFound")}
           </p>
         )}

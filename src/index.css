@@ -2,32 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: sans-serif;
+/* ✅ Normalize font scaling across devices */
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth; /* Smooth scrolling for anchor links */
 }
 
-/* Product Styling */
+/* ✅ Mulish font - consistent with preloading */
+@font-face {
+  font-family: "Mulish";
+  src: url("https://code.tidio.co/widget-v4/fonts/mulish_SGhgqk3wotYKNnBQ.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ✅ Base typography and readability */
+body {
+  font-family: "Mulish", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff; /* Ensures consistent bg */
+  color: #1a1a1a; /* Default text color */
+}
+
+/* ✅ Product Section Styling */
 .product-section {
   background-color: #f8f5f0;
+  color: #1a1a1a;
+  padding: 2rem 1rem;
 }
 
+/* ✅ Product Card UI */
 .product-card {
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 12px;
   padding: 1.5rem;
   width: 300px;
+  max-width: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   border: 1px solid #e0e0e0;
   text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* ✅ Product Card Headings */
 .product-card h3 {
   color: #2a5a3c;
+  font-size: 1.25rem;
   margin-bottom: 0.5rem;
 }
 
+/* ✅ Product Card Details List */
 .product-card ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
   margin: 1rem 0;
 }
@@ -37,10 +71,13 @@ body {
   color: #5a7247;
   display: flex;
   align-items: center;
+  font-size: 0.95rem;
 }
 
 .product-card li::before {
   content: "•";
   color: #d4a762;
+  font-size: 1.2rem;
   margin-right: 0.5rem;
+  line-height: 1;
 }

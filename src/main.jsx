@@ -1,52 +1,54 @@
 import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
+import { unstable_HistoryRouter as HistoryRouter } from "react-router-dom";
+import { createBrowserHistory } from "history";
 import App from "./App.jsx";
-
-// ✅ Load i18n FIRST — side-effect only
 import "./i18n";
-
-import i18n from "i18next"; // Use i18next directly for dir()
-
+import i18n from "i18next";
 import "./index.css";
 
-// Error Boundary Component
+// History for HistoryRouter
+const history = createBrowserHistory();
+
+// Error boundary
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
     this.state = { hasError: false };
   }
-
-  static getDerivedStateFromError(error) {
+  static getDerivedStateFromError() {
     return { hasError: true };
   }
-
-  componentDidCatch(error, errorInfo) {
-    console.error("Uncaught error:", error, errorInfo);
+  componentDidCatch(error, info) {
+    console.error("Uncaught error:", error, info);
   }
-
   render() {
-    if (this.state.hasError) {
-      return <h1>Something went wrong.</h1>;
-    }
-    return this.props.children;
+    return this.state.hasError ? <h1>Something went wrong.</h1> : this.props.children;
   }
 }
 
-// Set text direction based on language
+// Language direction wrapper
 function DirectionWrapper({ children }) {
   useEffect(() => {
     document.documentElement.dir = i18n.dir(i18n.language || "en");
   }, []);
-
   return children;
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+// Render
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ErrorBoundary>
       <DirectionWrapper>
-        <App />
+        <HistoryRouter
+          history={history}
+          future={{
+            v7_startTransition: true,
+            v7_relativeSplatPath: true,
+          }}
+        >
+          <App />
+        </HistoryRouter>
       </DirectionWrapper>
     </ErrorBoundary>
   </React.StrictMode>

@@ -5,11 +5,18 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [
     react({
-      // 👇 Enable the automatic JSX transform
       jsxRuntime: "automatic",
     }),
   ],
   server: {
     open: true,
+    proxy: {
+      // Proxy API requests to your backend server
+      "/api": {
+        target: "http://localhost:3001", // adjust if your backend runs on another port
+        changeOrigin: true,
+        secure: false,
+      },
+    },
   },
 });

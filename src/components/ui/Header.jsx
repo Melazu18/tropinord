@@ -7,7 +7,7 @@ import {
   FaHome,
   FaConciergeBell,
   FaCompass,
-  FaEnvelope,
+  FaQuestionCircle,
   FaInfoCircle,
   FaBars,
   FaTimes,
@@ -30,12 +30,12 @@ export default function Header() {
   }, []);
 
   const navLinkClasses = (path) =>
-    `relative flex items-center gap-2 px-4 py-2 rounded-md transition-all duration-300 font-medium text-sm group
-     ${
-       location.pathname === path
-         ? "bg-green-600 text-white"
-         : "text-gray-700 dark:text-gray-200 hover:bg-green-100 dark:hover:bg-green-800 hover:text-green-800 dark:hover:text-white"
-     }`;
+    `relative flex items-center gap-2 px-4 py-2 rounded-md transition-all duration-300 font-bold text-sm group
+   ${
+     location.pathname === path
+       ? "bg-green-600 text-white"
+       : "text-gray-700 dark:text-amber-400 hover:bg-green-100 dark:hover:bg-green-800 hover:text-green-800 dark:hover:text-amber-300"
+   }`;
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
@@ -58,15 +58,14 @@ export default function Header() {
             alt="TropiNord Logo"
             className="h-12 sm:h-14 md:h-16 w-auto object-contain drop-shadow-sm"
           />
-
           <span
             className={`text-xs md:text-sm mt-1 font-bold tracking-tight transition-all duration-500 ease-in-out transform ${
               showTagline
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 -translate-y-2"
-            } text-amber-500 dark:text-amber-400 text-shadow-sm`}
+            } text-amber-600 dark:text-amber-300 font-bold text-shadow-sm`}
           >
-            Tropical Traditions, Nordic Standards.
+            Tropical Traditions, Nordic Standards
           </span>
         </Link>
 
@@ -110,12 +109,12 @@ export default function Header() {
             {t("nav.explore")}
           </Link>
           <Link
-            to="/contact"
-            className={navLinkClasses("/contact")}
+            to="/faq"
+            className={navLinkClasses("/faq")}
             onClick={() => setMenuOpen(false)}
           >
-            <FaEnvelope className="text-xs" />
-            {t("nav.contact")}
+            <FaQuestionCircle className="text-xs" />
+            FAQ
           </Link>
           <Link
             to="/about"
@@ -125,9 +124,30 @@ export default function Header() {
             <FaInfoCircle className="text-xs" />
             About
           </Link>
+
+          {/* Must Try anchor scroll */}
+          <Link
+            to="/#must-try"
+            className={navLinkClasses("/#must-try")}
+            onClick={(e) => {
+              e.preventDefault();
+              setMenuOpen(false);
+              const section = document.querySelector("#must-try");
+              if (section) {
+                window.scrollTo({
+                  top: section.offsetTop - 80, // Offset for fixed header
+                  behavior: "smooth",
+                });
+              }
+            }}
+          >
+            <FaCompass className="text-xs" />
+            Must Try
+          </Link>
+
           <Link
             to="/order"
-            className="bg-green-600 hover:bg-green-700 text-white font-semibold px-4 py-2 rounded-md shadow transition duration-200"
+            className="bg-green-600 hover:bg-green-700 text-white font-bold px-4 py-2 rounded-md shadow transition duration-200"
             onClick={() => setMenuOpen(false)}
           >
             🌍 Place Order

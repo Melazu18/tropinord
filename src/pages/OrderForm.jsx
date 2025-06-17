@@ -1,65 +1,89 @@
-import React, { useState } from "react";
-import jsPDF from "jspdf";
-import "jspdf-autotable";
-
-const productImages = [
-  { label: "Lavender Oil", image: "/images/cosmeticsoils01.jpg" },
-{ label: "Lemon Oil", image: "/images/cosmeticsoils02.jpg" },
-{ label: "Mint Essential Oil", image: "/images/cosmeticsoils03.jpg" },
-{ label: "Avocado Oil", image: "/images/avocadooil.jpg" },
-
-  {
-    label: "Frankincense & Myrrh Essential Oil",
-    image: "/images/myrrhoil01.jpg",
-  },
-  { label: "Native African Pear Oil", image: "/images/cosmeticsoils04.jpg" },
-  { label: "Neem Oil", image: "/images/neemoil.jpg" },
-  {
-    label: "Eucalyptus Citriodora Essential Oil",
-    image: "/images/eucaliptusoil.jpg",
-  },
-  // New soaps
-  { label: "Herbal Liquid Soap", image: "/images/liquidsoap01.jpg" },
-  { label: "Moisturizing Liquid Cleanser", image: "/images/liquidsoap02.jpg" },
-  { label: "Raw African Black Soap", image: "/images/blacksoap02.jpg" },
-  { label: "Floral Infused Soap Bar", image: "/images/flowersoap01.jpg" },
-
-  { label: "Argan Oil", image: "/images/arganoil01.jpg" },
-{ label: "Castor Oil", image: "/images/castoroil.jpg" },
-{ label: "Coconut Oil", image: "/images/coconutoil01.jpg" },
-{ label: "Grape Oil", image: "/images/grapeoil.jpg" },
-{ label: "Kanel Soap", image: "/images/kanelsoap.jpg" },
-{ label: "Moringa Oil", image: "/images/moringaoil.jpg" },
-{ label: "Shea Butter", image: "/images/sheabutter01.jpg" },
-{ label: "Tumeric Oil", image: "/images/tumericoil.jpg" },
-{ label: "Tumeric Oil", image: "/images/sheaoil.jpg" },
-
-];
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import productImages from "../data/productImages";
 
 const countries = [
   "Sweden",
-  "Denmark",
-  "Norway",
-  "Finland",
-  "Iceland",
-  "Germany",
-  "France",
-  "Italy",
-  "Spain",
-  "Netherlands",
-  "Belgium",
-  "Austria",
-  "Poland",
-  "Portugal",
-  "Greece",
-  "Ireland",
-  "Switzerland",
-  "Czech Republic",
-  "Hungary",
-  "Estonia",
+  ...[
+    "Austria",
+    "Belgium",
+    "Czech Republic",
+    "Denmark",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Greece",
+    "Hungary",
+    "Iceland",
+    "Ireland",
+    "Italy",
+    "Netherlands",
+    "Norway",
+    "Poland",
+    "Portugal",
+    "Spain",
+    "Switzerland",
+  ].sort(),
 ];
 
-export default function OrderForm() {
+const translations = {
+  en: {
+    title: "Place Your Order",
+    fullName: "Full Name",
+    email: "Email",
+    phone: "Phone Number",
+    street: "Street Address",
+    postal: "Postal Code",
+    city: "City",
+    selectCountry: "Select Country",
+    currencyLabel: "Currency:",
+    categoryLabel: "Filter by Category:",
+    orderSummary: "📋 Order Summary",
+    proceedButton: "Proceed to Payment",
+  },
+  sv: {
+    title: "Lägg din beställning",
+    fullName: "Fullständigt namn",
+    email: "E-post",
+    phone: "Telefonnummer",
+    street: "Gatuadress",
+    postal: "Postnummer",
+    city: "Stad",
+    selectCountry: "Välj land",
+    currencyLabel: "Valuta:",
+    categoryLabel: "Filtrera efter kategori:",
+    orderSummary: "📋 Orderöversikt",
+    proceedButton: "Fortsätt till betalning",
+  },
+};
+
+const swedishLabels = {
+  "Lavender Oil": "Lavendelolja",
+  "Lemon Oil": "Citronolja",
+  "Mint Essential Oil": "Myntha eterisk olja",
+  "Avocado Oil": "Avokadoolja",
+  "Frankincense & Myrrh Essential Oil": "Rökelse & Myrra eterisk olja",
+  "Native African Pear Oil": "Inhemsk afrikansk päronolja",
+  "Neem Oil": "Neemolja",
+  "Eucalyptus Citriodora Essential Oil": "Eukalyptus Citriodora eterisk olja",
+  "Argan Oil": "Arganolja",
+  "Castor Oil": "Ricinolja",
+  "Coconut Oil": "Kokosolja",
+  "Grape Oil": "Druvolja",
+  "Moringa Oil": "Moringaolja",
+  "Tumeric Oil": "Gurkmejaolja",
+  "Shea Oil": "Sheasmörolja",
+  "Herbal Liquid Soap": "Växtbaserad flytande tvål",
+  "Moisturizing Liquid Cleanser": "Fuktgivande rengöring",
+  "Raw African Black Soap": "Rå afrikansk svart tvål",
+  "Floral Infused Soap Bar": "Blominfuserad tvålbar",
+  "Kanel Soap": "Kaneltvål",
+  "Shea Butter": "Sheasmör",
+};
+
+export default function OrderForm({ defaultCategory = "all" }) {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -68,11 +92,23 @@ export default function OrderForm() {
     postal: "",
     city: "",
     country: "",
+    language: "en",
     products: [],
-    notes: "",
   });
+  const [quantities, setQuantities] = useState({});
+  const [filter, setFilter] = useState("all");
+  const [currency, setCurrency] = useState("EUR");
 
-  const [errors, setErrors] = useState({});
+  const t = translations[formData.language];
+
+  const conversionRates = {
+    EUR: 1,
+    SEK: 11,
+  };
+
+  useEffect(() => {
+    setCurrency(formData.language === "sv" ? "SEK" : "EUR");
+  }, [formData.language]);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -86,206 +122,224 @@ export default function OrderForm() {
     }
   };
 
-  const validate = () => {
-    const newErrors = {};
-    [
-      "name",
-      "email",
-      "phone",
-      "street",
-      "postal",
-      "city",
-      "country",
-      "notes",
-    ].forEach((field) => {
-      if (!formData[field]) newErrors[field] = `${field} is required.`;
-    });
-    if (formData.products.length === 0)
-      newErrors.products = "Select at least one product.";
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
+  const handleQuantityChange = (label, value) => {
+    setQuantities((prev) => ({ ...prev, [label]: value }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!validate()) return;
+  const getProductPrice = (label) => {
+    for (let group in productImages) {
+      const found = productImages[group].find((p) => p.label === label);
+      if (found) return found.price || 0;
+    }
+    return 0;
+  };
 
-    const formURL =
-      "https://docs.google.com/forms/d/e/1FAIpQLSePSc0eb42eMrU-KGKZiPbTtXGKmItQU6ds2Mw4KuuS-cFbdA/formResponse";
+  const getTranslatedLabel = (label) => {
+    return formData.language === "sv" ? swedishLabels[label] || label : label;
+  };
 
-    const form = new FormData();
-    form.append("entry.1745646469", formData.name);
-    form.append("entry.1753855891", formData.email);
-    form.append("entry.361469899", formData.phone);
-    form.append("entry.80064995", formData.street);
-    form.append("entry.817185816", formData.postal);
-    form.append("entry.163553468", formData.city);
-    form.append("entry.656108758", formData.country);
-    formData.products.forEach((p) => form.append("entry.174925592", p));
-    form.append("entry.1578636434", formData.notes);
+  const calculateTotal = () => {
+    const euroTotal = formData.products.reduce((total, p) => {
+      const qty = parseInt(quantities[p] || 1);
+      const price = getProductPrice(p);
+      return total + qty * price;
+    }, 0);
+    return (euroTotal * conversionRates[currency]).toFixed(2);
+  };
 
-    fetch(formURL, {
-      method: "POST",
-      mode: "no-cors",
-      body: form,
-    }).then(() => {
-      generatePDF();
-      alert(
-        "✅ Your order was submitted! You'll receive a confirmation email shortly."
+  const proceedToPayment = async () => {
+    if (!formData.email || !/\S+@\S+\.\S+/.test(formData.email)) {
+      alert("Please enter a valid email address.");
+      return;
+    }
+
+    const items = formData.products.map((p) => ({
+      id: p,
+      quantity: parseInt(quantities[p] || 1),
+    }));
+
+    try {
+      const response = await fetch(
+        "http://localhost:3001/api/create-checkout-session",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ ...formData, items, currency }),
+        }
       );
-      sendToEmailAndWhatsApp();
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        street: "",
-        postal: "",
-        city: "",
-        country: "",
-        products: [],
-        notes: "",
-      });
-    });
+
+      const data = await response.json();
+      if (data.url) {
+        window.location.href = data.url;
+      } else {
+        console.error("⚠️ No URL returned:", data);
+      }
+    } catch (err) {
+      console.error("❌ Invalid JSON response or request failed:", err);
+    }
   };
 
-  const generatePDF = () => {
-    const doc = new jsPDF();
-    doc.setFontSize(18);
-    doc.text("TropiNord Order Summary", 20, 20);
-    doc.setFontSize(12);
-    doc.text(`Name: ${formData.name}`, 20, 40);
-    doc.text(`Email: ${formData.email}`, 20, 48);
-    doc.text(`Phone: ${formData.phone}`, 20, 56);
-    doc.text(
-      `Address: ${formData.street}, ${formData.postal}, ${formData.city}, ${formData.country}`,
-      20,
-      64
-    );
-    doc.text("Products:", 20, 74);
-    formData.products.forEach((product, idx) => {
-      doc.text(`- ${product}`, 26, 82 + idx * 8);
-    });
-    doc.text(`Notes: ${formData.notes}`, 20, 90 + formData.products.length * 8);
-    doc.save("TropiNord-Order-Summary.pdf");
-  };
-
-  const sendToEmailAndWhatsApp = () => {
-    // Integration Note: This triggers backend Apps Script via Google Sheet formSubmit trigger
-    console.log("🔔 Email and WhatsApp alerts will be sent via Apps Script.");
-  };
+  const productGroups = Object.entries(productImages).filter(
+    ([key]) => filter === "all" || key === filter
+  );
 
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-white shadow rounded">
-      <h2 className="text-2xl font-bold mb-6 text-green-700">
-        Place Your Order
-      </h2>
-      <form onSubmit={handleSubmit} className="space-y-4">
-        {["name", "email", "phone", "street", "postal", "city"].map((field) => (
-          <div key={field}>
-            <label className="block font-semibold capitalize">
-              {field
-                .replace("postal", "Postal Code")
-                .replace("street", "Street Address")}{" "}
-              *
-            </label>
-            <input
-              name={field}
-              type={field === "email" ? "email" : "text"}
-              value={formData[field]}
-              onChange={handleChange}
-              className="w-full border p-2 rounded"
-            />
-            {errors[field] && (
-              <p className="text-red-600 text-sm">{errors[field]}</p>
-            )}
-          </div>
-        ))}
+    <div className="max-w-5xl mx-auto p-6 bg-white dark:bg-gray-900 text-black dark:text-black shadow rounded">
+      <h2 className="text-2xl font-bold mb-6 text-green-700">{t.title}</h2>
 
-        <div>
-          <label className="block font-semibold">Country *</label>
-          <select
-            name="country"
-            value={formData.country}
-            onChange={handleChange}
-            className="w-full border p-2 rounded"
-          >
-            <option value="">Select a country</option>
-            {countries.map((c) => (
-              <option key={c} value={c}>
-                {c}
-              </option>
-            ))}
-          </select>
-          {errors.country && (
-            <p className="text-red-600 text-sm">{errors.country}</p>
-          )}
-        </div>
-
-        <div>
-          <label className="block font-semibold">Select Products *</label>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {productImages.map(({ label, image }) => (
-              <label
-                key={label}
-                className="relative border rounded-md shadow-sm p-2 flex flex-col items-center hover:shadow-lg"
-              >
-                <img
-                  src={image}
-                  alt={label}
-                  className="w-full h-32 object-cover rounded mb-2"
-                />
-                <span className="text-center text-sm font-medium mb-1">
-                  {label}
-                </span>
-                <input
-                  type="checkbox"
-                  value={label}
-                  checked={formData.products.includes(label)}
-                  onChange={handleChange}
-                  className="absolute top-2 right-2"
-                />
-              </label>
-            ))}
-          </div>
-          {errors.products && (
-            <p className="text-red-600 text-sm mt-1">{errors.products}</p>
-          )}
-        </div>
-
-        <div>
-          <label className="block font-semibold">Quantity / Notes *</label>
-          <textarea
-            name="notes"
-            value={formData.notes}
-            onChange={handleChange}
-            className="w-full border p-2 rounded"
-            rows="3"
-          />
-          {errors.notes && (
-            <p className="text-red-600 text-sm">{errors.notes}</p>
-          )}
-        </div>
-
-        <button
-          type="submit"
-          className="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700"
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+        <input
+          name="name"
+          placeholder={t.fullName}
+          value={formData.name}
+          onChange={handleChange}
+          className="border p-2 rounded"
+          required
+        />
+        <input
+          name="email"
+          type="email"
+          placeholder={t.email}
+          value={formData.email}
+          onChange={handleChange}
+          className="border p-2 rounded"
+          required
+        />
+        <input
+          name="phone"
+          placeholder={t.phone}
+          value={formData.phone}
+          onChange={handleChange}
+          className="border p-2 rounded"
+        />
+        <input
+          name="street"
+          placeholder={t.street}
+          value={formData.street}
+          onChange={handleChange}
+          className="border p-2 rounded"
+        />
+        <input
+          name="postal"
+          placeholder={t.postal}
+          value={formData.postal}
+          onChange={handleChange}
+          className="border p-2 rounded"
+        />
+        <input
+          name="city"
+          placeholder={t.city}
+          value={formData.city}
+          onChange={handleChange}
+          className="border p-2 rounded"
+        />
+        <select
+          name="country"
+          value={formData.country}
+          onChange={handleChange}
+          className="border p-2 rounded"
         >
-          Submit Order
-        </button>
-      </form>
-
-      <div className="mt-6">
-        <a
-          href="#"
-          onClick={(e) => {
-            e.preventDefault();
-            generatePDF();
-          }}
-          className="text-blue-600 underline"
+          <option value="">{t.selectCountry}</option>
+          {countries.map((c) => (
+            <option key={c} value={c}>
+              {c}
+            </option>
+          ))}
+        </select>
+        <select
+          name="language"
+          value={formData.language}
+          onChange={handleChange}
+          className="border p-2 rounded"
         >
-          📄 Download Order Summary PDF
-        </a>
+          <option value="en">English</option>
+          <option value="sv">Svenska</option>
+        </select>
       </div>
+
+      <div className="mb-4 w-fit">
+        <label className="block font-semibold mb-2 text-amber-500">
+          {t.categoryLabel}
+        </label>
+        <select
+          className="border rounded p-2 pr-8 text-sm w-40"
+          value={filter}
+          onChange={(e) => setFilter(e.target.value)}
+        >
+          <option value="all">All</option>
+          {Object.keys(productImages).map((group) => (
+            <option key={group} value={group}>
+              {group.replace(/-/g, " ")}
+            </option>
+          ))}
+        </select>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+        {productGroups.flatMap(([group, items]) =>
+          items.map(({ label, image, price }) => (
+            <div
+              key={label}
+              className="border p-3 rounded-md shadow-sm flex flex-col items-center"
+            >
+              <img
+                src={image}
+                alt={label}
+                className="w-full h-32 object-cover mb-2 rounded"
+              />
+              <div className="text-center font-semibold mb-1 text-black dark:text-amber-500">
+                {getTranslatedLabel(label)}
+              </div>
+
+              <div className="text-sm mb-2">
+                {currency === "EUR" ? "€" : "kr"}
+                {(price * conversionRates[currency]).toFixed(2)}
+              </div>
+              <input
+                type="checkbox"
+                value={label}
+                checked={formData.products.includes(label)}
+                onChange={handleChange}
+              />
+              <input
+                type="number"
+                min="1"
+                value={quantities[label] || 1}
+                onChange={(e) => handleQuantityChange(label, e.target.value)}
+                className="mt-2 w-16 text-center border rounded"
+              />
+            </div>
+          ))
+        )}
+      </div>
+
+      {formData.products.length > 0 && (
+        <div className="border-t pt-4 mt-4">
+          <h3 className="text-lg font-bold mb-2 dark:text-white">{t.orderSummary}</h3>
+          <ul className="text-sm space-y-1">
+            {formData.products.map((p) => (
+              <li key={p} className="dark:text-yellow-500">
+                {getTranslatedLabel(p)} × {quantities[p] || 1} ={' '}
+                {currency === "EUR" ? "€" : "kr"}
+                {(
+                  getProductPrice(p) *
+                  (quantities[p] || 1) *
+                  conversionRates[currency]
+                ).toFixed(2)}
+              </li>
+            ))}
+          </ul>
+          <div className="mt-2 font-bold text-right text-green-700 dark:text-green-400">
+            Total: {currency === "EUR" ? "€" : "kr"}
+            {calculateTotal()}
+          </div>
+          <button
+            onClick={proceedToPayment}
+            className="mt-4 w-full bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700"
+          >
+            {t.proceedButton}
+          </button>
+        </div>
+      )}
     </div>
   );
 }

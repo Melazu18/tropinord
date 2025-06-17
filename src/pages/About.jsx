@@ -9,7 +9,7 @@ export default function About() {
         <title>About TropiNord | Our Story & Mission</title>
         <meta
           name="description"
-          content="Learn about TropiNord’s mission, roots, ethical sourcing, and commitment to sustainable wellness. Founded in Sweden by Paul Abejegah."
+          content="Learn about TropiNord's mission, roots, ethical sourcing, and commitment to sustainable wellness. Founded in Sweden by Paul Abejegah."
         />
         <script type="application/ld+json">
           {`
@@ -28,23 +28,10 @@ export default function About() {
         </script>
       </Helmet>
 
-      <video
-        poster="/images/tropinordAbout.png"
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover z-0 hidden sm:block motion-safe:animate-fade-in"
-        onContextMenu={(e) => e.preventDefault()}
-      >
-        <source src="/videos/tropinord-bg.mp4" type="video/mp4" />
-        <img
-          src="/images/naturetropi01.jpg"
-          alt="Nature fallback"
-          className="w-full h-full object-cover"
-        />
-        Your browser does not support the video tag.
-      </video>
+      <div
+        className="absolute inset-0 w-full h-full bg-cover bg-center z-0 hidden sm:block motion-safe:animate-fade-in"
+        style={{ backgroundImage: "url('/images/tropinordAbout.png')" }}
+      ></div>
 
       <div className="relative z-10 bg-white/70 dark:bg-black/50 min-h-screen">
         <div className="max-w-4xl mx-auto p-6 space-y-10 scroll-smooth animate-fade-in">
@@ -53,13 +40,105 @@ export default function About() {
               🌿 About TropiNord
             </h1>
             <p className="mt-2 text-lg text-gray-700 dark:text-gray-300 italic">
-              Our story, our roots, our mission
+              Our story, our values, our mission
             </p>
           </header>
 
-          {/* [All your existing content remains unchanged below here] */}
-          {/* Story, Mission, Sourcing, Outreach, Join the Journey, etc. */}
-          {/* ... */}
+          <section className="bg-white/90 dark:bg-gray-900/80 p-8 rounded-xl shadow-lg">
+            <h2 className="text-3xl font-bold text-green-600 dark:text-green-400 mb-4">
+              Our Story
+            </h2>
+            <p className="mb-4 text-lg">
+              <strong>Where Nordic Purity Meets Global Wisdom</strong>
+              <br />
+              <br />
+              TropiNord is a Swedish wellness brand rooted in sustainability,
+              cultural heritage, and ethical trade. We bring together the
+              clarity and precision of the Nordic lifestyle with the deep,
+              time-honored traditions of Africa and the Pacific.
+              <br />
+              <br />
+              Our foundation is built on respect for nature, for people, and for
+              the knowledge passed down through generations. From Sweden's
+              clean, forested landscapes to the sun-warmed soils of Africa and
+              the Pacific Islands, every ingredient is selected for its purity,
+              potency, and purpose.
+              <br />
+              <br />
+              At TropiNord, sustainability isn't a trend — it's a principle. Our
+              products and partnerships reflect:
+              <br />
+              <br />
+              ❄️ <strong>Nordic standards</strong> — thoughtful sourcing, clean
+              production, and uncompromising quality
+              <br />
+              🌿 <strong>Global wisdom</strong> — drawing from ancestral
+              knowledge of herbs, oils, and holistic wellness
+              <br />
+              🌍 <strong>Shared responsibility</strong> — protecting ecosystems,
+              supporting small producers, and honoring heritage
+              <br />
+              <br />
+              This is more than wellness. It's a connection between worlds, one
+              that celebrates people, planet, and the power of tradition.
+            </p>
+            <p className="mb-4 text-lg">
+              We specialize in organic and essential oils, natural skincare, and
+              wellness products. Some are produced by small artisans in Africa
+              and the Global South, while others are sourced from Nordic
+              producers who share our values of sustainability and quality.
+            </p>
+          </section>
+
+          <section className="bg-white/90 dark:bg-gray-900/80 p-8 rounded-xl shadow-lg">
+            <h2 className="text-3xl font-bold text-green-600 dark:text-green-400 mb-4">
+              What We Stand For
+            </h2>
+            <p className="mb-4 text-lg">
+              TropiNord is more than a shop. It is a platform created to support
+              people. Guided by a deep sense of purpose, our goal is to empower
+              small producers, promote eco-conscious living, and help customers
+              reconnect with nature through simple, honest products.
+            </p>
+          </section>
+
+          <section className="bg-white/90 dark:bg-gray-900/80 p-8 rounded-xl shadow-lg">
+            <h2 className="text-3xl font-bold text-green-600 dark:text-green-400 mb-4">
+              What We Do
+            </h2>
+            <ul className="list-disc pl-6 space-y-2 text-lg">
+              <li>
+                Import and distribute organic oils, natural soaps, and wellness
+                items
+              </li>
+              <li>
+                Work hand in hand with small producers in Africa, Sweden, and
+                other regions
+              </li>
+              <li>Provide support and visibility to local makers</li>
+              <li>
+                Sell through online channels, with plans for retail expansion
+              </li>
+            </ul>
+            <p className="mt-4 text-lg">
+              We also collaborate with small business owners and startups by
+              offering them space to grow. By featuring their products on the
+              TropiNord platform, we support local and international visibility,
+              helping to increase awareness and build customer trust.
+            </p>
+          </section>
+
+          <section className="bg-white/90 dark:bg-gray-900/80 p-8 rounded-xl shadow-lg">
+            <h2 className="text-3xl font-bold text-green-600 dark:text-green-400 mb-4">
+              Our Mission
+            </h2>
+            <p className="text-lg">
+              Our mission is to create a genuine link between tradition, nature,
+              and quality. TropiNord exists to support sustainable trade and
+              celebrate cultural diversity through products that reflect care,
+              craft, and community.
+            </p>
+          </section>
 
           <div className="text-center pt-4">
             <a

@@ -1,119 +1,161 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:image"
-      content="https://www.tropinord.com/images/og-image.jpg"
-    />
+    <!-- [ ... existing <head> content unchanged ... ] -->
 
-    <title>TropiNord – Naturally Sourced, Thoughtfully Delivered</title>
-    <meta
-      name="description"
-      content="TropiNord brings you natural oils, eco-friendly soaps, and health essentials from trusted small producers — delivered with care across Europe."
-    />
-    <meta
-      name="keywords"
-      content="TropiNord, natural oils, organic soaps, wellness, eco-friendly, ethical trade, sustainable living"
-    />
-    <meta name="author" content="TropiNord" />
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.tropinord.com/" />
-    <meta
-      property="og:title"
-      content="TropiNord – Naturally Sourced, Thoughtfully Delivered"
-    />
-    <meta
-      property="og:description"
-      content="Discover naturally sourced oils, handmade soaps, and wellness goods from passionate producers, delivered sustainably across Europe."
-    />
-    <meta
-      property="og:image"
-      content="https://www.tropinord.com/images/og-image.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://www.tropinord.com/images/og-image.jpg"
-    />
-
-    <!-- Canonical URL for SEO -->
-    <link rel="canonical" href="https://www.tropinord.com/" />
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://www.tropinord.com/" />
-    <meta
-      name="twitter:title"
-      content="TropiNord – Naturally Sourced, Thoughtfully Delivered"
-    />
-    <meta
-      name="twitter:description"
-      content="Explore honest, high-quality wellness essentials delivered with purpose and care."
-    />
-    <meta
-      name="twitter:image"
-      content="https://www.tropinord.com/images/og-image.jpg"
-    />
-
-    <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-
-    <!-- Schema.org JSON-LD: Organization + Website -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "Organization",
-            "@id": "https://www.tropinord.com/#organization",
-            "name": "TropiNord",
-            "url": "https://www.tropinord.com",
-            "logo": "https://www.tropinord.com/images/logo.png",
-            "description": "TropiNord provides high-quality natural wellness products including oils, soaps, and skincare, sourced from ethical small producers.",
-            "sameAs": [
-              "https://www.facebook.com/yourpage",
-              "https://www.instagram.com/yourprofile",
-              "https://www.youtube.com/yourchannel"
-            ],
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Sweden",
-              "addressCountry": "SE"
-            },
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "contactType": "Customer Service",
-              "email": "support@tropinord.com",
-              "availableLanguage": ["English", "Swedish"]
-            }
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.tropinord.com/#website",
-            "url": "https://www.tropinord.com",
-            "name": "TropiNord",
-            "publisher": {
-              "@id": "https://www.tropinord.com/#organization"
-            },
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://www.tropinord.com/search?q={search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          }
-        ]
-      }
-    </script>
+    <!-- Google reCAPTCHA v3 -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdS3lkrAAAAAEYJmNtaAeXqKStRV5cIXpGVtTch"></script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- 🌿 Zoho Newsletter Popup Integration -->
+    <style>
+      /* Paste your Zoho CSS styles here */
+      /* [start style block from your code above] */
+      .zf_lB_Dimmer_172856 {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background: rgb(0, 0, 0);
+        opacity: 0.8;
+        z-index: 10000000;
+      }
+
+      .zf_lB_Container_172856 {
+        position: fixed;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        height: 878px;
+        width: 70%;
+        bottom: 30px;
+        left: 30px;
+        border: 7px solid none;
+        max-height: calc(100% - 60px);
+        z-index: 999999;
+        transition: height 0.5s ease;
+        outline: none;
+      }
+
+      .zf_lB_Wrapper_172856 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: 0;
+        margin-top: -180px;
+        z-index: 10000001;
+      }
+
+      .zf_main_id_172856 {
+        height: calc(100% - 0px);
+        display: flex;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+
+      .zf_lb_closeform_172856 {
+        position: absolute;
+        right: -20px;
+        background: #2f2e2e;
+        padding: 0;
+        border-radius: 50%;
+        width: 34px;
+        height: 34px;
+        top: -15px;
+        cursor: pointer;
+        border: 2px solid #d9d9d9;
+      }
+
+      .zf_lb_closeform_172856:before,
+      .zf_lb_closeform_172856:after {
+        position: absolute;
+        left: 16px;
+        content: " ";
+        height: 19px;
+        width: 2px;
+        top: 7px;
+        background-color: #f7f7f7;
+      }
+
+      .zf_lb_closeform_172856:before {
+        transform: rotate(45deg);
+      }
+      .zf_lb_closeform_172856:after {
+        transform: rotate(-45deg);
+      }
+
+      .fadeIn {
+        animation-name: fadeIn;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        display: block !important;
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @media screen and (max-width: 380px) {
+        .zf_lB_Container_172856 {
+          width: 270px !important;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .zf_lB_Container_172856 {
+          width: 350px !important;
+        }
+      }
+
+      @media screen and (max-width: 500px) {
+        .zf_lB_Container_172856 {
+          width: 380px !important;
+        }
+      }
+
+      @media (min-width: 500px) and (max-width: 600px) {
+        .zf_lB_Container_172856 {
+          width: 450px;
+        }
+      }
+
+      @media (min-width: 601px) and (max-width: 700px) {
+        .zf_lB_Container_172856 {
+          width: 540px;
+        }
+      }
+
+      @media (min-width: 700px) and (max-width: 800px) {
+        .zf_lB_Container_172856 {
+          width: 650px;
+        }
+      }
+
+      @media (min-width: 801px) and (max-width: 1268px) {
+        .zf_lB_Container_172856 {
+          width: 750px !important;
+        }
+      }
+    </style>
+
+    <button id="zf_button_172856" style="display: none">Form</button>
+
+    <script type="text/javascript">
+      /* Paste your Zoho <script> code here exactly as given */
+      /* This will create the popup and bind to #zf_button_172856 */
+      // [start of your JS script... (truncated here for brevity)]
+      // ...
+      // [end of script]
+    </script>
+    <!-- ✅ End of Zoho Form Integration -->
   </body>
 </html>

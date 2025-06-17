@@ -4,19 +4,55 @@
     "services": "Services",
     "explore": "Explore",
     "contact": "Contact",
-    "about": "About"
+    "about": "About",
+    "mustTry": "Must Try"
   },
   "common": {
     "aboutUs": "About Us",
-    "placeOrder": "Place Order"
+    "placeOrder": "Place Order",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "aboutTropinord": "About TropiNord",
+    "somethingWentWrong": "something Went Wrong"
   },
+
   "home": {
-    "welcome": "Welcome to TropiNord",
-    "mission": "Our Mission",
-    "intro": "TropiNord sources and distributes organic oils, eco soaps, and natural wellness products — supporting small producers and delivering ethical, sustainable goods across Sweden and Europe.",
+    "tagline1": "Natural Products with Global Roots",
+    "tagline2": "Ethical, sustainable wellness, from the Tropics to the North.",
     "ctaExplore": "Explore Our Products",
     "ctaContact": "Contact Us",
-    "missionText": "We believe in transparency, ethical sourcing, and supporting community-led growth. From African black soap to eco-imports and youth wellness programs, we blend global heritage with Nordic quality and values."
+    "missionText": "We believe in transparency, ethical sourcing, and supporting community-led growth. From African black soap to eco-imports and youth wellness programs, we blend global heritage with Nordic quality and values.",
+    "mustTry": {
+      "title": "Celebrating Afro-European Beauty",
+      "afroElegantHair": "Afro Elegant Hair",
+      "afroElegantHairDesc": "Define your curls with moisture-rich hydration for shine and shape.",
+      "afroCurlyHair": "Afro Curly Hair in Style",
+      "afroCurlyHairDesc": "Our styling blend enhances natural curls with lightweight hold.",
+      "afroRuggedHair": "Afro Rugged Hair",
+      "afroRuggedHairDesc": "Thick, textured hair gets extra strength with our herbal infusion.",
+      "thickAfroHair": "Thick Afro Hair",
+      "thickAfroHairDesc": "Revive coils with a botanical boost made for density and resilience.",
+      "melaninGlow": "Melanin-Rich Glow",
+      "melaninGlowDesc": "Brighten and balance skin with our vitamin-rich elixir.",
+      "mixedSkin": "Mixed Skin Beauty",
+      "mixedSkinDesc": "Our moisturizer respects both texture and tone.",
+      "hairGrowthOil": "Hair Growth Oil",
+      "hairGrowthOilDesc": "Stimulate roots and awaken follicles with our essential blend.",
+      "coconutGrowth": "Coconut Growth",
+      "coconutGrowthDesc": "Tame dryness and encourage healthy growth with tropical nourishment.",
+      "coconutStrength": "Coconut Strength",
+      "coconutStrengthDesc": "Add bounce and resilience with every drop.",
+      "avocadoEssence": "Avocado Oil Essence",
+      "avocadoEssenceDesc": "Deeply condition your strands with cold-pressed avocado goodness.",
+      "deepMoisture": "Deep Moisture",
+      "deepMoistureDesc": "Seal in hydration for lasting softness and shine.",
+      "afroEuroCream": "Afro-Euro Cream",
+      "afroEuroCreamDesc": "Combines rich African butters and Nordic purity for versatile hair styling.",
+      "origin": "The Origin",
+      "originDesc": "Celebrate your roots with natural nourishment from the earth."
+    },
+    "stayInLoop": "Stay in the Loop",
+    "subscribePrompt": "Subscribe to get early access to new Afro-European hair & skincare releases."
   },
   "explore": {
     "title": "Explore Our Products",
@@ -40,7 +76,7 @@
   },
   "contact": {
     "title": "Contact Us",
-    "description": "We’d love to hear from you! Please fill out the form below.",
+    "description": "We'd love to hear from you! Please fill out the form below.",
     "name": "Name",
     "email": "Email",
     "subject": "Subject",
@@ -56,28 +92,40 @@
       "other": "Other"
     }
   },
-  "footer": {
-    "quickLinks": "Quick Links",
-    "explore": "Explore Products",
-    "contact": "Contact Us",
-    "shipping": "Shipping & Returns",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "followUs": "Follow Us",
-    "newsletter": "Newsletter",
-    "subscribe": "Subscribe",
-    "emailPlaceholder": "Enter your email",
-    "rightsReserved": "All rights reserved."
-  },
+ "footer": {
+  "contactUs": "Contact Us",
+  "followUs": "Follow Us",
+  "quickLinks": "Quick Links",
+  "subscribe": "Stay Updated",
+  "newsletterText": "Subscribe to our newsletter",
+  "support": "Support Us",
+  "suggestions": "Product Suggestions",
+  "testimonials": "Testimonials",
+  "privacy": "Privacy Policy",
+  "terms": "Terms of Service",
+  "shipping": "Shipping Policy",
+  "returns": "Return Policy",
+  "copyright": "TropiNord. All rights reserved.",
+  "rightsReserved": "All rights reserved.",
+  "thankYou": "Thank you for subscribing!",
+  "emailPlaceholder": "Enter your email address",
+  "newsletter": "Newsletter",
+  "newsletterDesc": "Subscribe to receive offers",
+  "instagramTag": "Insta",
+  "viewOnInstagram": "View on Instagram",
+  "successMessage": "Subscribed successfully!",
+  "errorMessage": "Please enter a valid email."
+},
+
   "services": {
     "title": "Our Services",
     "collabHeading": "Interested in collaborating with us?",
-    "collabText": "Reach out and let’s bring your project to life.",
+    "collabText": "Reach out and let's bring your project to life.",
     "cta": "Contact Us",
     "organicOils": {
       "title": "Organic Oils",
       "desc": "Cold-pressed coconut, neem, baobab, and almond oils.",
-      "detail": "Our organic oils—such as baobab, coconut, neem, and almond—are ethically cold-pressed from trusted cooperatives in Africa, Asia, and the Caribbean. Each batch is unrefined and rich in nutrients, perfect for wellness, skincare, or culinary use. We prioritize purity, fair trade, and full traceability."
+      "detail": "Our organic oils such as baobab, coconut, neem, and almond, are ethically cold-pressed from trusted cooperatives in Africa, Asia, and the Caribbean. Each batch is unrefined and rich in nutrients, perfect for wellness, skincare, or culinary use. We prioritize purity, fair trade, and full traceability."
     },
     "naturalSoaps": {
       "title": "Natural Soaps",
@@ -103,6 +151,41 @@
       "title": "Community Outreach",
       "desc": "Empowering youth through sustainability.",
       "detail": "Our outreach focuses on youth empowerment, food education, and green entrepreneurship. Through mentorship, workshops, and sports-led programs, we help bridge rural talent and urban markets—from grassroots in West Africa to integration hubs in Scandinavia."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "whatIsTropinord": {
+      "q": "What is TropiNord?",
+      "a": "TropiNord is a brand that blends tropical traditions with Nordic quality, offering organic products like oils, natural skincare, and more. We will also be expanding into plant-based milk in the near future."
+    },
+    "productsOffered": {
+      "q": "What kind of products do you offer?",
+      "a": "We offer organic oils, traditional African soaps, agro-imports, and eco-packaging. All our products are ethically sourced and support small producers."
+    },
+    "organicSourcing": {
+      "q": "Are your products really organic?",
+      "a": "Yes, we focus on cold-pressed, unrefined, and organically grown ingredients. We work with cooperatives that follow organic and sustainable farming practices."
+    },
+    "plantMilk": {
+      "q": "Do you offer plant-based milk?",
+      "a": "Not yet, but we're developing a line of tropical plant-based milk alternatives sourced from Africa, coming soon!"
+    },
+    "shipsFrom": {
+      "q": "Where do you ship from?",
+      "a": "We ship from our logistics base in Sweden and serve customers across the EU."
+    },
+    "shippingPolicy": {
+      "q": "What's your shipping policy?",
+      "a": "Orders are processed in 1–3 business days. Within Sweden: delivery in 2–5 days. International: 7–21 days. Fees and tracking info are provided at checkout. International customers are responsible for duties and taxes."
+    },
+    "returnPolicy": {
+      "q": "What's your return policy?",
+      "a": "You can return items within 14 days of delivery if unused and in original packaging. Personal care or perishable goods can't be returned unless faulty. Contact support@tropinord.com to initiate a return."
+    },
+    "contactSupport": {
+      "q": "How can I contact customer support?",
+      "a": "You can reach us via our contact form or email info@tropinord.com. We aim to respond within 24–48 hours."
     }
   }
 }
