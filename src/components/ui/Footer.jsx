@@ -103,12 +103,12 @@ const Footer = ({ darkMode, toggleDarkMode }) => {
             <li className="flex items-center gap-2">
               <FaWhatsapp />
               <a
-                href="https://wa.me/46764330523"
+                href="https://wa.me/46700711713"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gold-100"
               >
-                +46 76 433 05 23
+                +46 70 071 17 13
               </a>
             </li>
           </ul>

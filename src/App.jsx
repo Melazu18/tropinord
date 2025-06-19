@@ -25,6 +25,8 @@ import Shipping from "./pages/Shipping";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Faq from "./pages/Faq";
+import ProductList from "./pages/ProductList"; // adjust the path if needed
+import ProductListByCategory from "./pages/ProductListByCategory";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -71,6 +73,11 @@ function App() {
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/faq" element={<Faq />} />
+            <Route path="/products" element={<ProductList />} />
+            <Route
+              path="/products/:category"
+              element={<ProductListByCategory />}
+            />
             <Route
               path="/products/:slug"
               element={

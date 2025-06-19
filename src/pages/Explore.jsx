@@ -3,6 +3,12 @@ import { useTranslation } from "react-i18next";
 import products from "../data/products";
 import { Link } from "react-router-dom";
 
+const productImages = {
+  "natural-soaps": "/images/flowersoap01.jpg",
+  "organic-oils": "/images/cosmeticsoils01.jpg",
+  "agro-imports": "/images/bananaleaves01.jpg",
+};
+
 export default function Explore() {
   const { t } = useTranslation();
   const [searchTerm, setSearchTerm] = useState("");
@@ -34,6 +40,13 @@ export default function Explore() {
               className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl shadow hover:shadow-lg transition-all p-6 flex flex-col justify-between"
             >
               <div>
+                {productImages[product.slug] && (
+                  <img
+                    src={productImages[product.slug]}
+                    alt={product.name}
+                    className="w-full h-40 object-cover rounded-lg mb-4"
+                  />
+                )}
                 <h3 className="text-xl font-semibold text-green-700 dark:text-green-300">
                   {t(`products.${product.slug}.name`)}
                 </h3>
@@ -50,7 +63,7 @@ export default function Explore() {
                 to={`/products/${product.slug}`}
                 className="mt-6 inline-block bg-green-600 hover:bg-green-700 text-white font-medium text-sm px-4 py-2 rounded-md text-center"
               >
-                {t("products.shopNow")}
+                View
               </Link>
             </div>
           ))

@@ -88,6 +88,12 @@ export default function About() {
               and the Global South, while others are sourced from Nordic
               producers who share our values of sustainability and quality.
             </p>
+
+            <blockquote className="mt-6 p-4 border-l-4 border-green-600 bg-green-50 dark:bg-green-900/30 text-green-800 dark:text-green-100 italic rounded-md shadow-sm">
+              “As part of our mission, TropiNord is proud to develop a line of
+              products specifically for Afro-European customers, combining
+              African botanical wisdom with Nordic purity.”
+            </blockquote>
           </section>
 
           <section className="bg-white/90 dark:bg-gray-900/80 p-8 rounded-xl shadow-lg">
