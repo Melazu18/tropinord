@@ -1,0 +1,27 @@
+{
+  "title": "🌿 Organic Oils Collection",
+  "intro": "Explore our collection of natural oils for cooking, rituals, and wellness. Responsibly sourced, rich in nutrients.",
+  "buttons": {
+    "addToCart": "Add to Cart"
+  },
+  "fields": {
+    "origin": "Origin",
+    "scent": "Scent",
+    "skinType": "Skin Type",
+    "ingredients": "Ingredients"
+  },
+  "byId": {
+    "neem-oil": {
+      "name": "Neem Oil",
+      "description": "Cold-pressed and natural, often used in traditional remedies and skin care."
+    },
+    "avocado-oil": {
+      "name": "Avocado Oil",
+      "description": "Rich in nutrients and moisturizing properties, ideal for hair and skin."
+    },
+    "coconut-oil": {
+      "name": "Coconut Oil",
+      "description": "Multi-purpose organic oil for cooking, hair, or skin nourishment."
+    }
+  }
+}

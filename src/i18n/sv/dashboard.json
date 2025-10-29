@@ -1,0 +1,17 @@
+{
+  "title": "Instrumentpanel för hantverkare",
+  "myProducts": "Mina produkter",
+  "noProductsYet": "Inga produkter ännu.",
+  "auction": "Auktion",
+  "fixed": "Fast pris",
+  "pendingShort": "Din ansökan väntar på godkännande.",
+  "approvalNeeded": "Du måste bli godkänd innan du kan ladda upp produkter.",
+  "noOrdersForEmail": "Du har inga tidigare beställningar kopplade till {{email}}.",
+  "orders": {
+    "title": "📦 Beställningshistorik",
+    "loading": "🔄 Hämtar dina beställningar...",
+    "orderId": "Order-ID",
+    "date": "Datum",
+    "leaveReview": "Lämna en recension"
+  }
+}

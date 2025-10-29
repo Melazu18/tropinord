@@ -1,0 +1,97 @@
+{
+  "title": "Våra örtteer",
+  "subtitle": "Noggrant utvalda örtteer, kompletterade med grönt, svart och vitt te.",
+  "showMore": "Visa fler teer",
+  "filterByCategory": "Filtrera efter kategori:",
+  "modal": {
+    "historyHeading": "Historia",
+    "benefitsHeading": "Hälsofördelar",
+    "ingredientsHeading": "Ingredienser"
+  },
+  "categories": {
+    "all": "Alla",
+    "herbal": "Örtte",
+    "green": "Grönt te",
+    "black": "Svart te",
+    "white": "Vitt te"
+  },
+  "tea-hibiscus": {
+    "name": "Hibiskuste",
+    "description": "Känd för sin livfulla färg och syrliga smak, har hibiskuste konsumerats i Afrika och Asien i århundraden. Rik på antioxidanter och kan bidra till att sänka blodtrycket.",
+    "history": "Hibiskuste har gamla rötter i Egypten, där det användes för att kyla kroppen i ökenvärmen. Det är också centralt i västafrikanska gästfrihetsritualer och karibiska traditioner.",
+    "benefits": [
+      "Stödjer hjärthälsa",
+      "Sänker blodtrycket",
+      "Rik på C-vitamin och antioxidanter"
+    ],
+    "ingredients": "Ekologiska hibiskusblommor, ekologiska nypon, naturlig apelsinsmak"
+  },
+  "tea-mountain-herbs": {
+    "name": "Skogsörtte",
+    "description": "En kraftfull örtblandning från nordiska och alpina växter med jordig smak och naturlig energi.",
+    "history": "Baserat på skandinavisk örtmedicin och traditionella brygder från bergsregioner.",
+    "benefits": [
+      "Ger naturlig energi",
+      "Stödjer immunförsvaret",
+      "Främjar fokus och klarhet"
+    ],
+    "ingredients": "Vildplockade brännässelblad, björklöv, enbär, timjan"
+  },
+  "tea-brennessel": {
+    "name": "Brännässla",
+    "description": "Traditionellt örtte som stöder njur- och ledhälsa.",
+    "ingredients": "100% ekologiska brännässelblad (Urtica dioica)"
+  },
+  "tea-pfefferminz": {
+    "name": "Pepparmynta",
+    "description": "Uppfriskande myntate som stödjer matsmältning och avslappning.",
+    "ingredients": "Rena pepparmyntablad (Mentha × piperita)"
+  },
+  "tea-kamille": {
+    "name": "Kamomill",
+    "description": "Lugnt och blommigt te som främjar sömn och ro.",
+    "ingredients": "Ekologiska kamomillblommor (Matricaria chamomilla)"
+  },
+  "tea-lemongrass": {
+    "name": "Citrongräs",
+    "description": "Friskt och fräscht te som stödjer matsmältning och immunitet.",
+    "ingredients": "Rena citrongräsblad (Cymbopogon citratus)"
+  },
+  "tea-frauenmantel": {
+    "name": "Daggkåpa",
+    "description": "Traditionellt använt för att stödja kvinnors hormonbalans.",
+    "ingredients": "Daggkåpeblad (Alchemilla vulgaris)"
+  },
+  "tea-melisse": {
+    "name": "Citronmeliss",
+    "description": "Lugnar och minskar stress och ångest.",
+    "ingredients": "Ekologiska citronmelissblad (Melissa officinalis)"
+  },
+
+  "addedToCart": "{{name}} lades till i varukorgen!",
+  "filters": {
+    "category": "Kategori",
+    "caffeine": {
+      "label": "Koffein",
+      "any": "Alla",
+      "free": "Utan koffein",
+      "caffeinated": "Med koffein"
+    },
+    "profile": {
+      "label": "Smakprofil",
+      "any": "Alla"
+    }
+  },
+  "profiles": {
+    "minty": "Mintig",
+    "fruity": "Fruktig",
+    "floral": "Blommig",
+    "earthy": "Jordig",
+    "neutral": "Neutral"
+  },
+  "badges": {
+    "organic": "Ekologisk",
+    "caffeineFree": "Utan koffein",
+    "antioxidants": "Rik på antioxidanter"
+  }
+}

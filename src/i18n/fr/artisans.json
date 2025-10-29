@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "La touche des artisans",
+    "subtitle": "Des mains expertes subliment la beauté naturelle de vos cheveux et de vos ongles.",
+    "alt": "La touche des artisans — Cheveux & Ongles"
+  },
+  "booking": {
+    "heading": "Réservez votre expérience artisanale",
+    "lead": "Choisissez une date et une heure. Confirmation par WhatsApp ou e-mail.",
+    "note": "Les créneaux populaires sont limités. De nouveaux créneaux s’ouvrent chaque jour.",
+    "success": "Merci ! Nous confirmerons votre rendez-vous sous peu.",
+    "error": "Désolé, une erreur est survenue."
+  },
+  "cta": {
+    "primary": "Réserver votre expérience artisanale",
+    "secondaryPrefix": "Ou,",
+    "secondaryLink": "contactez-nous pour une consultation personnalisée"
+  },
+  "contact": {
+    "heading": "Des questions ?",
+    "copy": "Nous vous aidons à choisir le style et à estimer la durée.",
+    "call": "Appeler",
+    "phone": "Téléphone"
+  },
+  "services": {
+    "hair": "Tresses",
+    "nails": "Ongles"
+  },
+  "styles": {
+    "knotless": "Tresses knotless",
+    "box": "Tresses box",
+    "cornrows": "Cornrows / Feed-ins",
+    "classicMani": "Manucure classique",
+    "french": "Manucure française",
+    "chrome": "Ongles chromés"
+  },
+  "sizes": {
+    "small": "Petit",
+    "medium": "Moyen",
+    "large": "Grand",
+    "basic": "Basique",
+    "design": "Design",
+    "standard": "Standard",
+    "gel": "Gel"
+  },
+  "lengths": {
+    "shoulder": "Épaule",
+    "midback": "Milieu du dos",
+    "waist": "Taille"
+  },
+  "gallery": {
+    "heading": "Galerie Cheveux & Ongles",
+    "pearlOmbre": "Ombre perlé",
+    "classicFrench": "French classique",
+    "roseQuartz": "Brillance quartz rose",
+    "emeraldTips": "Pointes émeraude",
+    "blushAlmond": "Amande rosée",
+    "chromeShine": "Éclat chrome",
+    "knotlessMedium": "Knotless (Moyen)",
+    "cornrowsFeedIn": "Cornrows & Feed-ins",
+    "boxSmall": "Box (Petit)"
+  },
+  "modal": {
+    "step1Title": "Choisissez votre style",
+    "step2Title": "Confirmez les détails",
+    "service": "Service",
+    "style": "Style",
+    "sizeOrType": "Taille / Type",
+    "length": "Longueur",
+    "selectedService": "Service",
+    "selectedStyle": "Style",
+    "selectedVariant": "Variante",
+    "selectedLength": "Longueur",
+    "estimate": "Prix estimé",
+    "continue": "Continuer",
+    "step2Lead": "Entrez vos coordonnées pour confirmer la réservation.",
+    "yourName": "Votre nom",
+    "phone": "Téléphone / WhatsApp",
+    "emailOptional": "E-mail (facultatif)",
+    "messageOptional": "Message (facultatif)",
+    "back": "Retour",
+    "confirmReserve": "Confirmer & Réserver",
+    "submitting": "Réservation..."
+  },
+  "currency": "{{value, number}} SEK"
+}

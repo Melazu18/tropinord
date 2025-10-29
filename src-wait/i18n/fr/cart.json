@@ -1,0 +1,20 @@
+{
+  "yourCart": "Votre Panier",
+  "cartPreview": "Aperçu du Panier",
+  "qty": "Qté:",
+  "price": "Prix",
+  "continueShopping": "← Continuer vos achats",
+  "goToCart": "Aller au Panier",
+  "emptyCart": "Votre panier est vide.",
+  "clearCart": "Vider le Panier",
+  "keepBrowsing": "🛍️ Continuer à Explorer",
+  "proceedCheckout": "➡️ Passer à la Caisse",
+  "confirmClear": "Êtes-vous sûr de vouloir vider le panier ?",
+  "cancel": "Annuler",
+  "confirm": "Oui, Vider",
+  "toast": {
+    "updated": "Quantité mise à jour",
+    "removed": "Article supprimé",
+    "cleared": "Panier vidé !"
+  }
+}

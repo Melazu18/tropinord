@@ -1,0 +1,23 @@
+{
+  "shopByCategory": "Comprar por categoría",
+  "allProducts": "Ver todo",
+  "naturalSoaps": "Suaves, artesanales",
+  "oils": "Bienestar prensado en frío",
+  "tea": "Infusiones y mezclas premium",
+  "agro": "Productos agro",
+  "offers": "Ofertas de la semana",
+  "badge": { "sale": "-20%" },
+
+  "nordicHarvest": {
+    "title": "Cosecha nórdica",
+    "subtitle": "Cosechas, panes y regalos de la naturaleza"
+  },
+  "design": {
+    "title": "Diseño",
+    "subtitle": "Artesanía, pinturas, tejido y textil"
+  },
+  "africanFoods": {
+    "title": "Alimentos e ingredientes africanos",
+    "subtitle": "Básicos y sabores del continente"
+  }
+}

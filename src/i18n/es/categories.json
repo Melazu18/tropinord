@@ -1,0 +1,17 @@
+{
+  "heading": "Comprar por categoría",
+  "items": {
+    "all": { "title": "Todos los Productos", "subtitle": "Ver todo" },
+    "soaps": {
+      "title": "Jabones Naturales",
+      "subtitle": "Suaves y artesanales"
+    },
+    "oils": { "title": "Aceites", "subtitle": "Bienestar prensado en frío" },
+    "tea": { "title": "Té", "subtitle": "Mezclas herbales y premium" },
+    "agro": {
+      "title": "Productos Agrícolas",
+      "subtitle": "Productos agroalimentarios"
+    },
+    "offers": { "title": "Ofertas", "subtitle": "Ofertas de esta semana" }
+  }
+}

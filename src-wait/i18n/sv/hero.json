@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "title": "Naturprodukter med Globala Rötter",
+    "subtitle": "Etiskt, hållbart välbefinnande från tropikerna till Norden",
+    "midHeading": "Firar afro-europeisk skönhet",
+    "midSubtext": "Varje bild länkar till noggrant utvalda produkter",
+    "searchPlaceholder": "Sök efter titel, kategori eller fördel...",
+    "allCategories": "Alla kategorier",
+    "stayInLoop": "Håll dig uppdaterad",
+    "subscribeText": "Prenumerera för tidig tillgång till nya afro-europeiska hår- och hudvårdsprodukter.",
+    "emailPlaceholder": "Ange din e-post",
+    "helpHeading": "Behöver du hjälp eller vill du samarbeta?",
+    "helpSubtext": "För bästa upplevelse, kontakta oss direkt via",
+    "orEmail": "eller skicka ett mejl till"
+  },
+  "tags": {
+    "hydrating": "Återfuktande",
+    "growth": "Tillväxt",
+    "glow": "Lyster",
+    "curl": "Lockar",
+    "skin": "Hud",
+    "botanical": "Botanisk"
+  },
+  "blackSoap": {
+    "heading": "Utforska våra bästsäljande naturliga hudvårdsprodukter",
+    "description": "African Black Soap är en kundfavorit – känd för sin antibakteriella effekt och skonsamma vård under kalla vintrar.",
+    "button": "Visa alla produkter med Black Soap",
+    "climateNote": "TropiNord stöder permanent koldioxidborttagning. 0,5 % av varje order går till klimatsatsningar."
+  },
+  "common": {
+    "aboutUs": "Om oss",
+    "placeOrder": "Lägg beställning",
+    "lightMode": "Ljust läge",
+    "darkMode": "Mörkt läge",
+    "aboutTropinord": "Om TropiNord",
+    "somethingWentWrong": "Något gick fel",
+    "sustainabilityThankYou": "Tack för att du väljer hållbarhet",
+    "welcome": "Välkommen",
+    "loading": "Laddar..."
+  }
+}

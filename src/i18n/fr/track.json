@@ -1,0 +1,16 @@
+{
+  "title": "Suivre votre commande",
+  "emailPlaceholder": "Entrez votre e-mail",
+  "trackButton": "Suivre la commande",
+  "loading": "Chargement...",
+  "errorEnterEmail": "Veuillez entrer votre e-mail",
+  "errorFetchOrder": "Échec de la récupération de la commande",
+  "orderDate": "Date de commande",
+  "status": "Statut",
+  "pending": "En attente",
+  "total": "Total",
+  "paymentMethod": "Méthode de paiement",
+  "receipt": "Reçu",
+  "download": "Télécharger",
+  "items": "Articles"
+}

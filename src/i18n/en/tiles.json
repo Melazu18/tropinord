@@ -1,0 +1,23 @@
+{
+  "shopByCategory": "Shop by category",
+  "allProducts": "Browse everything",
+  "naturalSoaps": "Gentle, handmade",
+  "oils": "Cold-pressed wellness",
+  "tea": "Herbal & premium blends",
+  "agro": "Agro commodities",
+  "offers": "Deals this week",
+  "badge": { "sale": "-20%" },
+
+  "nordicHarvest": {
+    "title": "Nordic Harvest",
+    "subtitle": "Harvest, breads & nature’s bounty"
+  },
+  "design": {
+    "title": "Design",
+    "subtitle": "Crafts, paintings, knitting & textile"
+  },
+  "africanFoods": {
+    "title": "African Foods & Ingredients",
+    "subtitle": "Staples & flavors from the continent"
+  }
+}

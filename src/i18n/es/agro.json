@@ -1,0 +1,62 @@
+{
+  "items": {
+    "banana-leaves": {
+      "title": "Hojas de Plátano",
+      "description": "Hojas verdes frescas para producción textil orgánica, envoltura o cocina - Solo al por mayor."
+    },
+    "charcoal-(bulk)": {
+      "title": "Carbón Vegetal (Al Por Mayor)",
+      "description": "Carbón vegetal de alta calidad para BBQ o uso industrial. Contactar para pedidos."
+    },
+    "dry-bones-(for-feed)": {
+      "title": "Huesos Secos (Para Alimento)",
+      "description": "Huesos limpios y secados al sol para alimento animal. Exportación disponible."
+    },
+    "palm-oil-(bulk)": {
+      "title": "Aceite de Palma (Al Por Mayor)",
+      "description": "Aceite rojo de palma al por mayor, ideal para cocina y producción cosmética."
+    },
+    "shea-butter-(bulk)": {
+      "title": "Manteca de Karité (Al Por Mayor)",
+      "description": "Manteca de karité sin refinar al por mayor para venta mayorista y uso cosmético."
+    },
+    "cassava-residue": {
+      "title": "Residuo de Yuca",
+      "description": "Subproducto de alta energía ideal para alimento animal y uso industrial."
+    },
+    "dried-cassava-peel": {
+      "title": "Cáscara de Yuca Seca",
+      "description": "Cáscara de yuca secada al sol, adecuada para alimento y soluciones de compostaje."
+    },
+    "noDescription": "No hay descripción detallada disponible.",
+    "notFound": "Producto no encontrado"
+  },
+  "fields": {
+    "botanicalName": "Nombre Botánico",
+    "family": "Familia",
+    "origin": "Origen",
+    "history": "Historia",
+    "usage": "Uso",
+    "benefits": "Beneficios",
+    "sideEffects": "Efectos Secundarios",
+    "productionDate": "Fecha de Producción",
+    "bestBefore": "Consumir Preferentemente Antes de"
+  },
+  "priceLabel": "Precio",
+  "contactForPricing": "Contactar para precio",
+  "buttons": {
+    "backToProducts": "Volver a Productos"
+  },
+  "inquiry": {
+    "title": "Consulta de Producto"
+  },
+  "form": {
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "message": "Mensaje",
+    "sending": "Enviando...",
+    "send": "Enviar Consulta",
+    "success": "¡Mensaje enviado con éxito!",
+    "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "logoAlt": "Galería Artesana",
+  "title": "Galería Artesana",
+  "subtitle": "Descubre creaciones de artesanos. Da me gusta, comenta y sigue su camino.",
+  "loading": "Cargando…",
+  "empty": "Aún no hay elementos.",
+  "by": "por",
+  "likes": "me gusta",
+  "comments": "comentarios",
+  "previewOnly": "Solo vista previa",
+  "view": "Ver",
+  "loadMore": "Cargar más",
+  "hero": {
+    "title": "Bienvenido a la Galería Artesana",
+    "tagline": "Donde la artesanía se encuentra con la conexión",
+    "p1": "En el corazón de cada creación hecha a mano hay una historia: una historia de habilidad, pasión y dedicación. La Galería Artesana es tu escenario para compartir esa historia con el mundo.",
+    "yourTalent": "Tu talento, nuestra plataforma",
+    "yourTalentList": [
+      "Muestra tus creaciones únicas a un público que las valora",
+      "Conecta con clientes que aprecian la calidad y la autenticidad",
+      "Amplía tu alcance: del reconocimiento local a la admiración global",
+      "Crece en una comunidad que celebra la excelencia artesanal"
+    ],
+    "howItWorks": "Cómo funciona",
+    "forArtisans": "Para artesanos:",
+    "forArtisansText": "Exhibe tu trabajo en una galería digital curada, recibe comentarios genuinos, llega a compradores de todo el mundo, vende directamente mediante nuestro mercado seguro y construye tu reputación con reseñas y valoraciones.",
+    "forBuyers": "Para amantes del arte y compradores:",
+    "forBuyersText": "Descubre tesoros únicos y hechos a mano, conecta directamente con creadores talentosos, encarga piezas personalizadas, apoya la artesanía auténtica y posee algo verdaderamente especial con una historia detrás.",
+    "whyJoin": "¿Por qué unirte a nuestra comunidad?",
+    "whyJoinList": [
+      "Celebra las tradiciones atemporales de la artesanía",
+      "Empodera a los creadores para convertir su pasión en un sustento sostenible",
+      "Conecta a los artesanos con audiencias que realmente valoran su trabajo",
+      "Preserva el patrimonio cultural mediante la tecnología moderna",
+      "Inspira a la próxima generación de artesanos"
+    ],
+    "closing": "Tanto si eres un artesano con experiencia como si recién empiezas a mostrar tu talento, la Galería Artesana te da la bienvenida. Es más que una plataforma: es tu compañera de crecimiento, tu altavoz en un mundo digital saturado y tu conexión con personas que valoran el toque humano en cada creación.",
+    "slogan": "La Galería Artesana: preservar la tradición, impulsar a los creadores, conectar mundos.",
+    "ctaExplore": "Explorar la galería",
+    "ctaBecome": "Hazte artesano"
+  }
+}

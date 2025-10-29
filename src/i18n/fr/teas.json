@@ -1,0 +1,97 @@
+{
+  "title": "Nos Tisanes",
+  "subtitle": "Des infusions soigneusement sélectionnées, complétées par des variétés de thé vert, noir et blanc.",
+  "showMore": "Voir plus de tisanes",
+  "filterByCategory": "Filtrer par catégorie :",
+  "modal": {
+    "historyHeading": "Histoire",
+    "benefitsHeading": "Bienfaits pour la santé",
+    "ingredientsHeading": "Ingrédients"
+  },
+  "categories": {
+    "all": "Tous",
+    "herbal": "Infusion",
+    "green": "Thé vert",
+    "black": "Thé noir",
+    "white": "Thé blanc"
+  },
+  "tea-hibiscus": {
+    "name": "Tisane d'Hibiscus",
+    "description": "Connu pour sa couleur vive et sa saveur acidulée, riche en antioxydants.",
+    "history": "Originaire d'Égypte et d'Afrique de l'Ouest, populaire dans les Caraïbes.",
+    "benefits": [
+      "Soutient la santé cardiaque",
+      "Réduit la pression artérielle",
+      "Riche en vitamine C et antioxydants"
+    ],
+    "ingredients": "Fleurs d'hibiscus biologique, églantier biologique, arôme naturel d'orange"
+  },
+  "tea-mountain-herbs": {
+    "name": "Tisane des Montagnes",
+    "description": "Mélange de plantes nordiques et alpines pour l'énergie et l'immunité.",
+    "history": "Inspiré des traditions herboristes scandinaves et des infusions alpines.",
+    "benefits": [
+      "Apporte de l'énergie naturelle",
+      "Soutient l'immunité",
+      "Favorise la clarté mentale"
+    ],
+    "ingredients": "Feuilles d'ortie sauvage, feuilles de bouleau, baies de genièvre, thym"
+  },
+  "tea-brennessel": {
+    "name": "Feuilles d'Ortie",
+    "description": "Soutient la santé des reins et des articulations.",
+    "ingredients": "100% feuilles d'ortie biologique (Urtica dioica)"
+  },
+  "tea-pfefferminz": {
+    "name": "Menthe Poivrée",
+    "description": "Infusion digestive et relaxante.",
+    "ingredients": "Feuilles de menthe poivrée pure (Mentha × piperita)"
+  },
+  "tea-kamille": {
+    "name": "Camomille",
+    "description": "Tisane apaisante pour le sommeil et le stress.",
+    "ingredients": "Fleurs de camomille biologique (Matricaria chamomilla)"
+  },
+  "tea-lemongrass": {
+    "name": "Citronnelle",
+    "description": "Fraîche et zestée, excellente pour la digestion.",
+    "ingredients": "Feuilles de citronnelle pure (Cymbopogon citratus)"
+  },
+  "tea-frauenmantel": {
+    "name": "Alchémille",
+    "description": "Traditionnellement utilisée pour l'équilibre hormonal.",
+    "ingredients": "Feuilles d'alchémille (Alchemilla vulgaris)"
+  },
+  "tea-melisse": {
+    "name": "Mélisse",
+    "description": "Infusion apaisante contre l'anxiété.",
+    "ingredients": "Feuilles de mélisse biologique (Melissa officinalis)"
+  },
+
+  "addedToCart": "{{name}} ajouté au panier !",
+  "filters": {
+    "category": "Catégorie",
+    "caffeine": {
+      "label": "Caféine",
+      "any": "Tous",
+      "free": "Sans caféine",
+      "caffeinated": "Avec caféine"
+    },
+    "profile": {
+      "label": "Arôme",
+      "any": "Tous"
+    }
+  },
+  "profiles": {
+    "minty": "Mentholé",
+    "fruity": "Fruité",
+    "floral": "Floral",
+    "earthy": "Terreux",
+    "neutral": "Neutre"
+  },
+  "badges": {
+    "organic": "Bio",
+    "caffeineFree": "Sans caféine",
+    "antioxidants": "Riche en antioxydants"
+  }
+}

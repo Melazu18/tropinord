@@ -1,0 +1,46 @@
+{
+  "blog": {
+    "metaTitle": "Blogg | Tropinord",
+    "metaDescription": "Tropinord Blog - Berättelser, tips och traditioner i organisk wellness och ECO -import.",
+    "heading": "Tropinord blogg",
+    "intro": "Berättelser, inspiration och kunskap från hjärtat av Tropinords tropiska och nordiska rötter.",
+    "posts": [
+      {
+        "title": "Hur afrikansk svart tvål tillverkas",
+        "description": "Upptäck den åldriga processen och kulturarvet bakom denna naturliga tvål."
+      },
+      {
+        "title": "Varför kallpressade oljor spelar roll",
+        "description": "En uppdelning av varför renhet och teknik formar kraften i naturliga oljor."
+      },
+      {
+        "title": "Hur Baobab -frukt närar din hud",
+        "description": "Utforska hudvårdsfördelarna med organiskt baobab fruktpulver."
+      },
+      {
+        "title": "De anmärkningsvärda fördelarna med palmkärnolja",
+        "description": "Palmkärnolja är mer än en matlagningsingrediens - det är ett näringsmässigt kraftverk."
+      },
+      {
+        "title": "Framtiden för ekologiskt jordbruk",
+        "description": "Upptäck hur organiskt jordbruk omformar världen med hållbara metoder."
+      }
+    ],
+    "categories": {
+      "skincare": "Hudvård",
+      "organic": "Ekologiskt liv",
+      "african": "Afrikanska traditioner",
+      "farming": "Hållbar jordbruk"
+    },
+    "relatedProducts": {
+      "africanBlackSoap": "Afrikansk svart tvål",
+      "palmKernelOil": "Palmkärnolja",
+      "baobabPowder": "Baobabpulver",
+      "coldPressedOils": "Kylpressade oljor"
+    },
+    "callToAction": {
+      "readMore": "Läs fler artiklar",
+      "shopRelated": "Butiksrelaterade produkter"
+    }
+  }
+}

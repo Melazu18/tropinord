@@ -1,0 +1,16 @@
+{
+  "title": "Spåra din beställning",
+  "emailPlaceholder": "Ange din e-postadress",
+  "trackButton": "Spåra beställning",
+  "loading": "Laddar...",
+  "errorEnterEmail": "Vänligen ange din e-postadress",
+  "errorFetchOrder": "Kunde inte hämta beställning",
+  "orderDate": "Beställningsdatum",
+  "status": "Status",
+  "pending": "Väntar",
+  "total": "Totalt",
+  "paymentMethod": "Betalningsmetod",
+  "receipt": "Kvitto",
+  "download": "Ladda ner",
+  "items": "Artiklar"
+}

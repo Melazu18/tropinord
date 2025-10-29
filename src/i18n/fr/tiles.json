@@ -1,0 +1,23 @@
+{
+  "shopByCategory": "Acheter par catégorie",
+  "allProducts": "Parcourir tout",
+  "naturalSoaps": "Doux, fait main",
+  "oils": "Bien-être pressé à froid",
+  "tea": "Infusions & thés premium",
+  "agro": "Produits agricoles",
+  "offers": "Offres de la semaine",
+  "badge": { "sale": "-20%" },
+
+  "nordicHarvest": {
+    "title": "Récolte nordique",
+    "subtitle": "Récoltes, pains et trésors de la nature"
+  },
+  "design": {
+    "title": "Design",
+    "subtitle": "Artisanat, peintures, tricot & textile"
+  },
+  "africanFoods": {
+    "title": "Aliments et ingrédients africains",
+    "subtitle": "Produits de base et saveurs du continent"
+  }
+}

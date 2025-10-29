@@ -1,0 +1,18 @@
+{
+  "title": "Special Offers",
+  "shopNow": "Shop Now",
+  "expired": "Offer Expired",
+  "offer1": {
+    "title": "Buy 2 Neem Oils, Get 1 Free",
+    "description": "Add 3 Neem Oils to your cart and only pay for 2!"
+  },
+  "offer2": {
+    "title": "Free Shipping Over €50",
+    "description": "Enjoy free shipping on all orders above €50."
+  },
+  "offer3": {
+    "title": "20% Off Shea Butter Products",
+    "description": "Use code SHEA20 at checkout to get your discount."
+  }
+}
+

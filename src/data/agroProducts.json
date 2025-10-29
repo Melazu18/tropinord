@@ -1,0 +1,42 @@
+{
+  "agro-products": {
+    "name": "Agro Products",
+    "items": [
+      {
+        "label": "Banana Leaves",
+        "image": "/images/bananaleaves01.jpg",
+        "description": "Fresh green banana leaves for organic textile production, wrapping or cooking – Bulk only.",
+        "slug": "banana-leaves",
+        "id": "banana-leaves-035b30"
+      },
+      {
+        "label": "Charcoal (Bulk)",
+        "image": "/images/charcoal.jpg",
+        "description": "High-quality charcoal for BBQ or industrial use. Contact to order.",
+        "slug": "charcoal-bulk",
+        "id": "charcoal-bulk-4ab139"
+      },
+      {
+        "label": "Dry Bones (for Feed)",
+        "image": "/images/drybones01.jpg",
+        "description": "Clean, sun-dried bones for animal feed. Export available.",
+        "slug": "dry-bones-feed",
+        "id": "dry-bones-feed-e2e94e"
+      },
+      {
+        "label": "Palm Oil (Bulk)",
+        "image": "/images/RedPalmOil01.png",
+        "description": "Bulk red palm oil, ideal for cooking and cosmetic production.",
+        "slug": "palm-oil-bulk",
+        "id": "palm-oil-bulk-789ghi"
+      },
+      {
+        "label": "Shea Butter (Bulk)",
+        "image": "/images/SheaButter04.png",
+        "description": "Bulk unrefined shea butter for wholesale and cosmetic use.",
+        "slug": "shea-butter-bulk",
+        "id": "shea-butter-bulk-101jkl"
+      }
+    ]
+  }
+}

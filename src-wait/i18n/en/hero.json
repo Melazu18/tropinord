@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "title": "Natural Products with Global Roots",
+    "subtitle": "Ethical, sustainable wellness from the tropics to the north",
+    "midHeading": "Celebrating Afro-European Beauty",
+    "midSubtext": "Each image is linked to carefully selected products",
+    "searchPlaceholder": "Search by title, category or benefit...",
+    "allCategories": "All categories",
+    "stayInLoop": "Stay updated",
+    "subscribeText": "Subscribe for early access to new Afro-European hair and skincare products.",
+    "emailPlaceholder": "Enter your email",
+    "helpHeading": "Need help or want to collaborate?",
+    "helpSubtext": "For the best experience, contact us directly via",
+    "orEmail": "or send an email to"
+  },
+  "tags": {
+    "hydrating": "Hydration",
+    "growth": "Growth",
+    "glow": "Glow",
+    "curl": "Curls",
+    "skin": "Skin",
+    "botanical": "Botanical"
+  },
+  "blackSoap": {
+    "heading": "Explore Our Bestselling Natural Skincare",
+    "description": "African Black Soap is a customer favorite — known for its antibacterial power and gentle care during cold winters.",
+    "button": "View All Black Soap Products",
+    "climateNote": "TropiNord supports permanent carbon removal. 0.5% of every order funds climate solutions."
+  },
+  "common": {
+    "aboutUs": "About Us",
+    "placeOrder": "Place Order",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "aboutTropinord": "About TropiNord",
+    "somethingWentWrong": "Something went wrong",
+    "sustainabilityThankYou": "Thank you for choosing sustainability",
+    "welcome": "Welcome",
+    "loading": "Loading..."
+  }
+}

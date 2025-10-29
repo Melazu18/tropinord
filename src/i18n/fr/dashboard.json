@@ -1,0 +1,17 @@
+{
+  "title": "Tableau de bord artisan",
+  "myProducts": "Mes produits",
+  "noProductsYet": "Aucun produit pour le moment.",
+  "auction": "Enchère",
+  "fixed": "Prix fixe",
+  "pendingShort": "Votre demande est en attente d'approbation.",
+  "approvalNeeded": "Vous devez être approuvé avant de publier des produits.",
+  "noOrdersForEmail": "Vous n'avez aucune commande liée à {{email}}.",
+  "orders": {
+    "title": "📦 Historique des commandes",
+    "loading": "🔄 Chargement de vos commandes…",
+    "orderId": "ID de commande",
+    "date": "Date",
+    "leaveReview": "Laisser un avis"
+  }
+}

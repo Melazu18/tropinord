@@ -1,0 +1,11 @@
+{
+  "heading": "Shop by category",
+  "items": {
+    "all": { "title": "All Products", "subtitle": "Browse everything" },
+    "soaps": { "title": "Natural Soaps", "subtitle": "Gentle, handmade" },
+    "oils": { "title": "Oils", "subtitle": "Cold-pressed wellness" },
+    "tea": { "title": "Tea", "subtitle": "Herbal & premium blends" },
+    "agro": { "title": "Agro Products", "subtitle": "Agro commodities" },
+    "offers": { "title": "Offers", "subtitle": "Deals this week" }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "🌿 Samling av Ekologiska Oljor",
+  "intro": "Utforska vårt utbud av naturliga oljor för matlagning, ritualer och välmående. Ansvarsfullt framtagna och rika på näring.",
+  "buttons": {
+    "addToCart": "Lägg i varukorg"
+  },
+  "fields": {
+    "origin": "Ursprung",
+    "scent": "Doft",
+    "skinType": "Hudtyp",
+    "ingredients": "Ingredienser"
+  },
+  "byId": {
+    "neem-oil": {
+      "name": "Neemolja",
+      "description": "Kallpressad och naturlig, ofta använd i traditionella kurer och hudvård."
+    },
+    "avocado-oil": {
+      "name": "Avokadoolja",
+      "description": "Näringsrik och återfuktande, idealisk för hår och hud."
+    },
+    "coconut-oil": {
+      "name": "Kokosolja",
+      "description": "Mångsidig ekologisk olja för matlagning, hårvård eller hudvård."
+    }
+  }
+}

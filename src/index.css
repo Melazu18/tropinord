@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ✅ Normalize font scaling across devices */
+/* ---------- Base: smooth & consistent ---------- */
 html {
   -webkit-text-size-adjust: 100%;
-  scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+  scroll-behavior: smooth;
 }
 
-/* ✅ Mulish font - consistent with preloading */
+/* Keep your Mulish font (unchanged) */
 @font-face {
   font-family: "Mulish";
   src: url("https://code.tidio.co/widget-v4/fonts/mulish_SGhgqk3wotYKNnBQ.woff2")
@@ -18,14 +18,89 @@ html {
   font-display: swap;
 }
 
-/* ✅ Base typography and readability */
+/* Improve readability by default, especially on mobile */
 body {
   font-family: "Mulish", sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background-color: #fff; /* Ensures consistent bg */
-  color: #1a1a1a; /* Default text color */
+  background-color: #fff;
+  color: #1a1a1a;
+  font-size: 15px; /* slightly larger base */
 }
+@media (max-width: 480px) {
+  body {
+    font-size: 16px;
+  } /* ensure comfortable reading on phones */
+}
+
+/* Make interactive elements comfortably tappable */
+:where(a, button, [role="button"], input[type="button"], input[type="submit"]) {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Inputs are easier to use on touch */
+input,
+select,
+textarea {
+  font: inherit;
+  line-height: 1.4;
+  min-height: 44px;
+}
+
+/* ---------- Optional helpers you can use in components ---------- */
+@layer components {
+  .container-page {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 rounded-lg bg-green-600 text-white hover:bg-green-700 min-h-[44px] min-w-[44px] font-semibold;
+  }
+  .input {
+    @apply w-full px-3 py-2 rounded-lg border bg-white text-gray-900 min-h-[44px];
+  }
+  .card {
+    @apply rounded-xl border shadow-sm p-4 bg-white;
+  }
+  .card-title {
+    @apply text-lg font-semibold;
+  }
+  .card-body {
+    @apply text-[15px];
+  }
+}
+
+/* ---------- Chat & reCAPTCHA layout (prevents overlap) ---------- */
+/* Put Tidio above the reCAPTCHA badge and footer */
+#tidio-chat,
+#tidio-chat iframe {
+  bottom: 110px !important; /* tweak 90–140px to taste */
+  right: 16px !important;
+  z-index: 9999 !important;
+}
+
+/* Keep the badge visible and below the chat */
+.grecaptcha-badge {
+  right: 16px !important;
+  bottom: 16px !important;
+  z-index: 9998 !important; /* just under Tidio */
+  transform: scale(0.9); /* optional: smaller on mobile */
+}
+
+@media (max-width: 640px) {
+  #tidio-chat,
+  #tidio-chat iframe {
+    bottom: 124px !important; /* a touch higher on small screens */
+    right: 12px !important;
+  }
+  .grecaptcha-badge {
+    right: 12px !important;
+    bottom: 12px !important;
+    transform: scale(0.85);
+  }
+}
+
+/* ---------- Your existing styles kept below ---------- */
 
 /* ✅ Product Section Styling */
 .product-section {
@@ -46,7 +121,6 @@ body {
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .product-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
@@ -65,7 +139,6 @@ body {
   padding: 0;
   margin: 1rem 0;
 }
-
 .product-card li {
   margin-bottom: 0.5rem;
   color: #5a7247;
@@ -73,11 +146,164 @@ body {
   align-items: center;
   font-size: 0.95rem;
 }
-
 .product-card li::before {
   content: "•";
   color: #d4a762;
   font-size: 1.2rem;
   margin-right: 0.5rem;
   line-height: 1;
+}
+
+@keyframes pingFast {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.3);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.animate-ping-fast {
+  animation: pingFast 0.4s ease-in-out;
+}
+
+@keyframes fade-in-out {
+  0%,
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  20%,
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in-out {
+  animation: fade-in-out 2.5s ease-in-out;
+}
+
+/* --- Floaters spacing & ordering --------------------------------------- */
+
+/* Put Tidio above the badge */
+#tidio-chat,
+#tidio-chat iframe {
+  position: fixed !important;
+  bottom: 128px !important; /* raise as needed */
+  right: 16px !important;
+  z-index: 9999 !important;
+}
+
+/* Keep the reCAPTCHA badge visible, but below the chat */
+.grecaptcha-badge {
+  position: fixed !important;
+  right: 16px !important;
+  bottom: 16px !important;
+  z-index: 9998 !important;
+  transform: scale(0.9); /* optional */
+}
+
+/* On phones: push the badge to the left to avoid the chat bubble */
+@media (max-width: 768px) {
+  .grecaptcha-badge {
+    right: auto !important;
+    left: 12px !important;
+    bottom: 12px !important;
+  }
+
+  #tidio-chat,
+  #tidio-chat iframe {
+    right: 12px !important;
+    bottom: 144px !important; /* a bit higher on phones */
+  }
+}
+
+/* Very small screens: raise the chat more */
+@media (max-width: 380px) {
+  #tidio-chat,
+  #tidio-chat iframe {
+    bottom: 168px !important;
+  }
+}
+
+/* Give pages with a sticky chat/badge some breathing room at the bottom */
+.site-has-floaters {
+  padding-bottom: 140px; /* prevents the chat from covering inputs/buttons */
+}
+
+/* ----------------------------------------------------------------------- */
+/* NEW: mobile behavior — keep WhatsApp, hide Tidio + reCAPTCHA + generics */
+/* ----------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  /* Hide Tidio (all variants/selectors) - This part is good */
+  #tidio-chat,
+  [id*="tidio"],
+  [class*="tidio"],
+  iframe[src*="tidio"] {
+    display: none !important;
+  }
+
+  /* Hide reCAPTCHA badge on phones - This part is good */
+  .grecaptcha-badge {
+    display: none !important;
+    pointer-events: none !important;
+  }
+
+  /* 🟢 SAFER REPLACEMENT: Hide specific known third-party widgets by their unique IDs or classes */
+  /* Target the common Tidio wrapper div */
+  body > div[id^="tidio-"],
+  /* Target a common Google recaptcha parent div (if it exists) */
+  body > div[style*="width: 256px; height: 60px;"],
+  /* Add other specific selectors for any other widgets you add in the future */
+  body > div[my-widget-specific-id] {
+    display: none !important;
+  }
+
+  /* ❌ REMOVE the old, overly broad rule that was hiding your menu */
+  /* body > div[style*="position: fixed"]... */
+}
+
+/* ----------------------------------------------------------------------- */
+/* NEW: while the mobile menu is open (Header adds .tn-menu-open)          */
+/* Keep WhatsApp visible; hide Tidio + reCAPTCHA                           */
+/* ----------------------------------------------------------------------- */
+html.tn-menu-open .grecaptcha-badge,
+body.tn-menu-open .grecaptcha-badge {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+html.tn-menu-open #tidio-chat,
+body.tn-menu-open #tidio-chat,
+html.tn-menu-open [id*="tidio"],
+body.tn-menu-open [id*="tidio"],
+html.tn-menu-open [class*="tidio"],
+body.tn-menu-open [class*="tidio"],
+html.tn-menu-open iframe[src*="tidio"],
+body.tn-menu-open iframe[src*="tidio"] {
+  display: none !important;
+}
+/* (Intentionally NOT hiding .wa-widget / .wa__btn_popup so WhatsApp remains) */
+
+/* Remove Tidio launcher label (keeps the round button) */
+#tidio-chat [data-testid*="launcher-label"],
+#tidio-chat [class*="launcher-label"],
+#tidio-chat [class*="launcherLabel"],
+#tidio-chat .tidio-chat-bubble,
+#tidio-chat [class*="BubbleLabel"],
+#tidio-chat [class*="Launcher__Label"],
+#tidio-chat [role="status"][aria-live] {
+  display: none !important;
+}
+
+/* Optional: nudge the button a touch, since the label is gone */
+#tidio-chat,
+#tidio-chat iframe {
+  right: 16px !important;
+  bottom: 16px !important;
 }

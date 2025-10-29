@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "El toque de los artesanos",
+    "subtitle": "Manos expertas que honran la belleza natural de tu cabello y uñas.",
+    "alt": "El toque de los artesanos — Cabello y Uñas"
+  },
+  "booking": {
+    "heading": "Reserva tu experiencia artesanal",
+    "lead": "Elige fecha y hora. Confirmaremos por WhatsApp o correo.",
+    "note": "Los horarios populares pueden ser limitados. Se abren nuevos a diario.",
+    "success": "¡Gracias! Confirmaremos tu cita en breve.",
+    "error": "Lo sentimos, algo salió mal."
+  },
+  "cta": {
+    "primary": "Reserva tu experiencia artesanal",
+    "secondaryPrefix": "O,",
+    "secondaryLink": "contáctanos para programar tu consulta personal"
+  },
+  "contact": {
+    "heading": "¿Preguntas?",
+    "copy": "Te ayudamos a elegir estilos y estimar la duración.",
+    "call": "Llamar",
+    "phone": "Teléfono"
+  },
+  "services": {
+    "hair": "Trenzas",
+    "nails": "Uñas"
+  },
+  "styles": {
+    "knotless": "Trenzas knotless",
+    "box": "Trenzas box",
+    "cornrows": "Cornrows / Feed-ins",
+    "classicMani": "Manicura clásica",
+    "french": "Francesa",
+    "chrome": "Cromadas"
+  },
+  "sizes": {
+    "small": "Pequeño",
+    "medium": "Mediano",
+    "large": "Grande",
+    "basic": "Básico",
+    "design": "Diseño",
+    "standard": "Estándar",
+    "gel": "Gel"
+  },
+  "lengths": {
+    "shoulder": "Hombro",
+    "midback": "Media espalda",
+    "waist": "Cintura"
+  },
+  "gallery": {
+    "heading": "Galería — Cabello y Uñas",
+    "pearlOmbre": "Ombre perla",
+    "classicFrench": "Francesa clásica",
+    "roseQuartz": "Brillo cuarzo rosa",
+    "emeraldTips": "Puntas esmeralda",
+    "blushAlmond": "Almendra rosada",
+    "chromeShine": "Brillo cromo",
+    "knotlessMedium": "Knotless (Mediano)",
+    "cornrowsFeedIn": "Cornrows & Feed-ins",
+    "boxSmall": "Box (Pequeño)"
+  },
+  "modal": {
+    "step1Title": "Elige tu estilo",
+    "step2Title": "Confirma los detalles",
+    "service": "Servicio",
+    "style": "Estilo",
+    "sizeOrType": "Talla / Tipo",
+    "length": "Largo",
+    "selectedService": "Servicio",
+    "selectedStyle": "Estilo",
+    "selectedVariant": "Variante",
+    "selectedLength": "Largo",
+    "estimate": "Precio estimado",
+    "continue": "Continuar",
+    "step2Lead": "Introduce tus datos para confirmar la reserva.",
+    "yourName": "Tu nombre",
+    "phone": "Teléfono / WhatsApp",
+    "emailOptional": "Correo (opcional)",
+    "messageOptional": "Mensaje (opcional)",
+    "back": "Atrás",
+    "confirmReserve": "Confirmar y reservar",
+    "submitting": "Reservando..."
+  },
+  "currency": "{{value, number}} SEK"
+}

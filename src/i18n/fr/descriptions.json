@@ -1,0 +1,82 @@
+{
+  "afroElegantHair": {
+    "title": "Cheveux Afro Élégants",
+    "description": "Définis tes boucles avec une hydratation riche pour éclat et tenue."
+  },
+  "velvetCurlHarmony": {
+    "title": "Harmonie Boucles Velours",
+    "description": "Texture veloutée et définition parfaite pour exprimer tes boucles avec confiance."
+  },
+  "afroRuggedHair": {
+    "title": "Cheveux Afro Solides",
+    "description": "Les cheveux épais sont renforcés par notre infusion aux herbes."
+  },
+  "thickAfroHair": {
+    "title": "Cheveux Afro Denses",
+    "description": "Revigore les boucles avec un coup de pouce botanique."
+  },
+  "midnightSunBouquet": {
+    "title": "Bouquet Soleil de Minuit (roll-on)",
+    "description": "Roll-on doux sans aluminium avec fleurs arctiques et sève de bouleau. Parfum léger et musqué."
+  },
+  "essentialOilRollOnBlend": {
+    "title": "Mélange Roll-On aux Huiles Essentielles",
+    "description": "Fraîcheur durable avec notre mélange d'huiles essentielles."
+  },
+  "herbalInnerGlowTea": {
+    "title": "Tisane Éclat Intérieur",
+    "description": "Mélange apaisant qui nourrit de l'intérieur."
+  },
+  "radiantSkinTone": {
+    "title": "Teint Rayonnant",
+    "description": "Élixir pour illuminer naturellement la peau."
+  },
+  "afroCurlyHairInStyle": {
+    "title": "Style Boucles Afro",
+    "description": "Formule légère pour des boucles naturelles."
+  },
+  "goldenCurlsDelight": {
+    "title": "Délice Boucles Dorées",
+    "description": "Boucles blondes sublimées par des extraits dorés."
+  },
+  "melaninRichGlow": {
+    "title": "Éclat Riche en Mélanine",
+    "description": "Élixir vitaminé pour illuminer et équilibrer le teint."
+  },
+  "mixedSkinBeauty": {
+    "title": "Beauté Peau Mixte",
+    "description": "Hydratant qui respecte texture et teint."
+  },
+  "coconutGrowth": {
+    "title": "Croissance au Coco",
+    "description": "Nutrition tropicale contre la sécheresse et pour favoriser la pousse."
+  },
+  "coconutStrength": {
+    "title": "Force du Coco",
+    "description": "Apporte souplesse et résistance à chaque mèche."
+  },
+  "avocadoOilEssence": {
+    "title": "Essence Huile d'Avocat",
+    "description": "Soin profond avec avocat pressé à froid."
+  },
+  "deepMoisture": {
+    "title": "Hydratation Profonde",
+    "description": "Garde l'hydratation pour une douceur durable."
+  },
+  "afroEuroCream": {
+    "title": "Crème Afro-Euro",
+    "description": "Mélange de beurres africains et fraîcheur nordique pour tous les styles."
+  },
+  "theOrigin": {
+    "title": "L'Origine",
+    "description": "Célèbre tes racines avec une nutrition naturelle."
+  },
+  "naturalPerfumeEssence": {
+    "title": "Essence de Parfum Naturel",
+    "description": "Luxe subtil avec une fragrance pure et chaleureuse."
+  },
+  "hairGrowthOil": {
+    "title": "Huile de Croissance Capillaire",
+    "description": "Stimule les racines et active les follicules."
+  }
+}

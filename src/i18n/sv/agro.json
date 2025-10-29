@@ -1,0 +1,62 @@
+{
+  "items": {
+    "banana-leaves": {
+      "title": "Bananblad",
+      "description": "Färska gröna bananblad för ekologisk textilproduktion, inpackning eller matlagning – Endast i bulk."
+    },
+    "charcoal-(bulk)": {
+      "title": "Träkol (Bulk)",
+      "description": "Högkvalitativ träkol för grillning eller industriellt bruk. Kontakta oss för beställning."
+    },
+    "dry-bones-(for-feed)": {
+      "title": "Torra ben (för foder)",
+      "description": "Rena, soltorkade ben för djurfoder. Export tillgänglig."
+    },
+    "palm-oil-(bulk)": {
+      "title": "Palmolja (Bulk)",
+      "description": "Bulk röd palmolja, idealisk för matlagning och kosmetikproduktion."
+    },
+    "shea-butter-(bulk)": {
+      "title": "Sheasmör (Bulk)",
+      "description": "Bulk oraffinerat sheasmör för grossist- och kosmetikbruk."
+    },
+    "cassava-residue": {
+      "title": "Kassava-rester",
+      "description": "Energirik biprodukt idealisk för djurfoder och industriellt bruk."
+    },
+    "dried-cassava-peel": {
+      "title": "Torkat kassavaskal",
+      "description": "Soltorkat kassavaskal lämpligt för foder och kompostering."
+    },
+    "noDescription": "Ingen detaljerad beskrivning tillgänglig.",
+    "notFound": "Produkten hittades inte"
+  },
+  "fields": {
+    "botanicalName": "Vetenskapligt namn",
+    "family": "Familj",
+    "origin": "Ursprung",
+    "history": "Historia",
+    "usage": "Användning",
+    "benefits": "Fördelar",
+    "sideEffects": "Biverkningar",
+    "productionDate": "Produktionsdatum",
+    "bestBefore": "Bäst före"
+  },
+  "priceLabel": "Pris",
+  "contactForPricing": "Kontakta oss för prisuppgifter",
+  "buttons": {
+    "backToProducts": "Tillbaka till produkter"
+  },
+  "inquiry": {
+    "title": "Produktförfrågan"
+  },
+  "form": {
+    "name": "Namn",
+    "email": "E-post",
+    "message": "Meddelande",
+    "sending": "Skickar...",
+    "send": "Skicka förfrågan",
+    "success": "Meddelandet skickades!",
+    "error": "Kunde inte skicka meddelandet. Försök igen."
+  }
+}

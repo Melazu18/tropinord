@@ -1,0 +1,30 @@
+{
+  "brand": "TropiNord",
+  "tagline": "Tropiskt Ursprung. Global Harmoni.",
+  "menu": {
+    "openAriaLabel": "Öppna menyn",
+    "closeAriaLabel": "Stäng menyn"
+  },
+  "nav": {
+    "home": "Hem",
+    "about": "Om oss",
+    "faq": "FAQ",
+    "origin": "Ursprunget",
+    "oil": "Oljor",
+    "tea": "Te",
+    "contact": "Kontakt",
+    "cart": "Kundvagn",
+    "login": "Konto",
+    "dashboard": "Översikt",
+    "orderHistory": "Orderhistorik",
+    "admin": "Admin"
+  },
+  "logo": {
+    "alt": "TropiNord-logotyp"
+  },
+  "drawerTitle": "Meny",
+  "preferences": "Inställningar",
+  "signedInAs": "Inloggad som",
+  "closeMenu": "Stäng meny",
+  "openMenu": "Öppna meny"
+}

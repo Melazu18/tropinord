@@ -1,0 +1,46 @@
+{
+  "blog": {
+    "metaTitle": "Blog | Tropinord",
+    "metaDescription": "Blog de Tropinord - Histoires, conseils et traditions en bien-être organique et importations écologiques.",
+    "heading": "Blog Tropinord",
+    "intro": "Histoires, inspiration et connaissances du cœur des racines tropicales et nordiques du Tropinord.",
+    "posts": [
+      {
+        "title": "Comment le savon noir africain est fabriqué",
+        "description": "Découvrez le processus séculaire et le patrimoine culturel derrière ce savon naturel."
+      },
+      {
+        "title": "Pourquoi les huiles pressées à froid comptent",
+        "description": "Une ventilation des raisons pour lesquelles la pureté et la technique façonnent la puissance des huiles naturelles."
+      },
+      {
+        "title": "Comment le fruit du baobab nourrit votre peau",
+        "description": "Explorez les avantages de soin de la poudre de fruits de baobab biologique."
+      },
+      {
+        "title": "Les avantages remarquables de l'huile de noyau de palme",
+        "description": "L'huile de noyau de palme est plus qu'un ingrédient de cuisson - c'est une puissance nutritionnelle."
+      },
+      {
+        "title": "L'avenir de l'agriculture biologique",
+        "description": "Découvrez comment l'agriculture biologique remodèle le monde avec des pratiques durables."
+      }
+    ],
+    "categories": {
+      "skincare": "Soins de la peau",
+      "organic": "Vie biologique",
+      "african": "Traditions africaines",
+      "farming": "Agriculture durable"
+    },
+    "relatedProducts": {
+      "africanBlackSoap": "Savon noir africain",
+      "palmKernelOil": "Huile du noyau de palmier",
+      "baobabPowder": "Poudre de baobab",
+      "coldPressedOils": "Huiles pressées à froid"
+    },
+    "callToAction": {
+      "readMore": "Lire plus d'articles",
+      "shopRelated": "Acheter des produits liés"
+    }
+  }
+}

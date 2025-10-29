@@ -1,0 +1,15 @@
+{
+  "tagline": "Tropiska traditioner, nordiska standarder",
+  "nav": {
+    "services": "Tjänster",
+    "about": "Om oss",
+    "products": "Produkter",
+    "offers": "Erbjudanden",
+    "faq": "FAQ",
+    "contact": "Kontakt"
+  },
+  "menu": {
+    "label": "Meny",
+    "lightMode": "Ljust läge"
+  }
+}

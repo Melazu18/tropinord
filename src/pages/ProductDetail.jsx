@@ -1,153 +1,143 @@
 import React, { useState } from "react";
-import { useParams, useNavigate, Link } from "react-router-dom";
-import products from "../data/products";
+import { useParams, useNavigate } from "react-router-dom";
+import { useCart } from "../contexts/CartContext";
+import productImages from "../data/productImages";
+import { toast } from "react-toastify";
 import { useTranslation } from "react-i18next";
+import AgroContactForm from "../components/AgroContactForm";
 
-export default function ProductDetail({ cartItems, setCartItems }) {
+export default function ProductDetail() {
   const { slug } = useParams();
   const navigate = useNavigate();
+  const { addToCart } = useCart();
   const { t } = useTranslation();
 
-  const product = products.find((p) => p.slug === slug);
-  const [selectedOptions, setSelectedOptions] = useState([]);
-  const [showCart, setShowCart] = useState(false);
+  const [quantity, setQuantity] = useState(1);
+  const [added, setAdded] = useState(false);
 
-  const toggleOption = (value) => {
-    setSelectedOptions((prev) =>
-      prev.includes(value)
-        ? prev.filter((opt) => opt !== value)
-        : [...prev, value]
-    );
-  };
+  let foundProduct = null;
+  let isAgro = false;
 
-  const addToCart = () => {
-    const selectedItems = product.options.filter((opt) =>
-      selectedOptions.includes(opt.value)
-    );
-    setCartItems([...cartItems, ...selectedItems]);
-    setShowCart(true);
-  };
+  // 🔍 Search across all product categories and detect if Agro
+  for (const cat in productImages) {
+    for (const sub in productImages[cat]) {
+      const product = productImages[cat][sub].find((p) => p.slug === slug);
+      if (product) {
+        foundProduct = product;
+        if (cat === "agro") isAgro = true;
+        break;
+      }
+    }
+    if (foundProduct) break;
+  }
 
-  if (!product) {
+  if (!foundProduct) {
     return (
-      <div className="p-6 text-center">
-        <h2 className="text-xl font-semibold text-red-500">
-          {t("products.notFound") || "Product not found."}
-        </h2>
-        <button
-          onClick={() => navigate("/explore")}
-          className="mt-4 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
-        >
-          {t("explore.title") || "Back to Explore"}
-        </button>
+      <div className="text-center text-red-600 mt-20">
+        {t("product.notFound", "Product not found")}
       </div>
     );
   }
 
+  const handleAddToCart = () => {
+    addToCart({ ...foundProduct, quantity: Number(quantity) });
+    toast.success(t("order.addedToCart", "Added to cart!"));
+    setAdded(true);
+    setTimeout(() => setAdded(false), 3000);
+  };
+
+  const titleKey = isAgro
+    ? `agro.items.${foundProduct.slug}.title`
+    : `${foundProduct.id}.label`;
+
+  const descKey = isAgro
+    ? `agro.items.${foundProduct.slug}.description`
+    : `${foundProduct.id}.description`;
+
+  const displayPrice = isAgro
+    ? t("product.contactForPricing", "Contact for pricing")
+    : `${foundProduct.price.toFixed(2)} SEK`;
+
   return (
-    <div className="max-w-4xl mx-auto p-6">
-      {/* Image Gallery */}
-      <div className="grid md:grid-cols-2 gap-4 mb-6">
-        {(product.gallery || []).map((item, index) => (
-          <div key={index} className="space-y-2">
-            <img
-              src={item.src || item}
-              alt={item.name || `${product.name} ${index + 1}`}
-              className="w-full h-64 object-cover rounded"
-            />
-            {item.name && (
-              <div className="text-sm font-medium text-gray-800">
-                {item.name}
+    <main className="pt-36">
+      <div className="max-w-3xl mx-auto py-12 px-4">
+        <div className="flex flex-col md:flex-row gap-8">
+          <img
+            src={foundProduct.image}
+            alt={foundProduct.label}
+            className="w-full md:w-1/2 rounded shadow"
+          />
+
+          <div className="flex-1">
+            <h1 className="text-3xl font-bold text-green-700 mb-2">
+              {t(titleKey, {
+                ns: "products",
+                defaultValue: foundProduct.label,
+              })}
+            </h1>
+
+            <p className="text-gray-600 dark:text-gray-300 mb-4">
+              {t(descKey, {
+                ns: "products",
+                defaultValue:
+                  foundProduct.description ||
+                  t(
+                    "product.noDescription",
+                    "No detailed description available."
+                  ),
+              })}
+            </p>
+
+            <p className="text-lg text-green-600 font-semibold mb-2">
+              {t("price", { ns: "product", defaultValue: "Price" })}:{" "}
+              {displayPrice}
+            </p>
+
+            {/* Only show quantity and add-to-cart for non-agro */}
+            {!isAgro ? (
+              <>
+                <div className="flex items-center gap-4 mt-4">
+                  <label htmlFor="qty" className="text-sm font-medium">
+                    {t("quantity", { ns: "order", defaultValue: "Quantity" })}
+                  </label>
+                  <input
+                    id="qty"
+                    type="number"
+                    min="1"
+                    value={quantity}
+                    onChange={(e) => setQuantity(e.target.value)}
+                    className="border rounded px-2 py-1 w-20 text-center bg-white text-black"
+                  />
+                </div>
+
+                <button
+                  onClick={handleAddToCart}
+                  className="mt-6 px-6 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition"
+                >
+                  {t("order.addToCart", "Add to Cart")}
+                </button>
+
+                {added && (
+                  <p className="mt-4 text-green-600">
+                    ✅ {t("order.addedToCart", "Added to Cart")}
+                  </p>
+                )}
+              </>
+            ) : (
+              <div className="mt-8">
+                <AgroContactForm product={foundProduct} />
               </div>
             )}
-            {item.description && (
-              <div className="text-sm text-gray-600">{item.description}</div>
-            )}
+
+            <button
+              onClick={() => navigate("/products")}
+              className="mt-6 w-full bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+            >
+              {t("buttons:backToProducts", "Back to Products")}
+            </button>
           </div>
-        ))}
+        </div>
       </div>
-
-      {/* Name & Description */}
-      <h2 className="text-3xl font-bold mb-4">{product.name}</h2>
-      <p className="text-lg text-gray-700 mb-6">{product.description}</p>
-
-      {/* Option Checkboxes */}
-      {product.options && (
-        <div className="mb-6">
-          <h3 className="text-xl font-semibold mb-2">Select your options:</h3>
-          <div className="space-y-2">
-            {product.options.map((option, index) => (
-              <label key={index} className="flex items-center gap-2">
-                <input
-                  type="checkbox"
-                  value={option.value}
-                  checked={selectedOptions.includes(option.value)}
-                  onChange={() => toggleOption(option.value)}
-                />
-                <span>{option.label}</span>
-              </label>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* Add to Cart Button */}
-      <button
-        onClick={addToCart}
-        className="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700 transition mr-4"
-      >
-        Add to Cart
-      </button>
-
-      {/* View Cart Modal */}
-      {showCart && cartItems.length > 0 && (
-        <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
-          <div className="bg-white p-6 rounded shadow-lg max-w-md w-full">
-            <h3 className="text-xl font-bold mb-4">Your Cart</h3>
-            <ul className="mb-4">
-              {cartItems.map((item, index) => (
-                <li key={index} className="border-b py-2 text-gray-700">
-                  {item.label}
-                </li>
-              ))}
-            </ul>
-            <div className="flex justify-end gap-3">
-              <button
-                onClick={() => setShowCart(false)}
-                className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300"
-              >
-                Close
-              </button>
-              <Link
-                to="/order"
-                className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
-              >
-                Place Order
-              </Link>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* External Link */}
-      {product.link && (
-        <a
-          href={product.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-gray-200 text-green-700 px-6 py-2 rounded hover:bg-gray-100 transition mt-4"
-        >
-          {t("products.shopNow") || "Shop Now"}
-        </a>
-      )}
-
-      {/* Contact Us Button */}
-      <button
-        onClick={() => navigate("/contact")}
-        className="mt-4 ml-4 bg-gray-100 text-green-700 px-6 py-2 rounded border border-green-600 hover:bg-green-50 transition"
-      >
-        {t("contact.title") || "Contact Us"}
-      </button>
-    </div>
+    </main>
   );
 }

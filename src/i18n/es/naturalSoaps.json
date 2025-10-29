@@ -1,0 +1,61 @@
+{
+  "title": "🌿 Colección de Jabones Naturales",
+  "subtitle": "Jabones suaves y nutritivos para manos y cuerpo.",
+  "intro": "Explora nuestras barras de jabón orgánicas y naturales — elaboradas con cuidado para limpiar con suavidad, exfoliar y nutrir tu piel todo el año.",
+  "quote": "“Compra de forma natural y ayuda al planeta — cada pedido de TropiNord contribuye a retirar CO₂ de la atmósfera.”",
+  "learnMore": "Leer más sobre el jabón negro africano →",
+
+  "buttons": {
+    "addToCart": "Agregar al carrito"
+  },
+
+  "filters": {
+    "category": {
+      "all": "Todos los jabones",
+      "bath": "Jabones de baño",
+      "hand": "Jabones de manos"
+    },
+    "type": {
+      "all": "Todos los tipos",
+      "bar": "Barra",
+      "liquid": "Líquido"
+    },
+    "origin": {
+      "all": "Todas las regiones",
+      "West Africa": "África Occidental",
+      "Nordic": "Nórdico",
+      "Western Europe": "Europa Occidental",
+      "Central Europe": "Europa Central"
+    },
+    "scent": {
+      "all": "Todas las fragancias",
+      "lavender": "Lavanda",
+      "eucalyptus": "Eucalipto",
+      "citrus": "Cítricos",
+      "unscented": "Sin perfume"
+    },
+    "skinType": {
+      "all": "Todos los tipos de piel",
+      "sensitive": "Sensible",
+      "dry": "Seca",
+      "normal": "Normal",
+      "oily": "Grasa"
+    }
+  },
+
+  "blackSoap": {
+    "name": "Jabón negro africano (100 g)",
+    "description": "Barra artesanal tradicional para rostro y cuerpo, ideal para la limpieza diaria y pieles sensibles.",
+    "ingredients": "Ceniza de plátano, ceniza de cacao, manteca de karité, aceite de coco, aceite de palmiste, agua."
+  },
+  "blackSoapOriginal": {
+    "name": "Jabón negro original (100 g)",
+    "description": "Receta clásica con gran poder de limpieza, apreciada por su efecto exfoliante.",
+    "ingredients": "Manteca de karité, ceniza de cacao, aceite de coco, aceite de palmiste, glicerina natural."
+  },
+  "blackSoapLiquid": {
+    "name": "Jabón negro africano líquido (250 ml)",
+    "description": "Perfecto para manos y cuidado corporal en invierno. Antibacteriano e hidratante.",
+    "ingredients": "Aceites saponificados (coco, karité, palmiste), filtrado de ceniza de cacao, agua."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Hantverkarnas Touch",
+    "subtitle": "Där expertis hedrar den naturliga skönheten i ditt hår och dina naglar.",
+    "alt": "Hantverkarnas Touch — Hår & Naglar"
+  },
+  "booking": {
+    "heading": "Boka din hantverkarupplevelse",
+    "lead": "Välj datum och tid. Vi bekräftar via WhatsApp eller e-post.",
+    "note": "Populära tider kan vara begränsade. Fler tider öppnas dagligen.",
+    "success": "Tack! Vi bekräftar din tid inom kort.",
+    "error": "Tyvärr, något gick fel."
+  },
+  "cta": {
+    "primary": "Boka din hantverkarupplevelse",
+    "secondaryPrefix": "Eller,",
+    "secondaryLink": "kontakta oss för en personlig konsultation"
+  },
+  "contact": {
+    "heading": "Frågor?",
+    "copy": "Vi hjälper gärna till att välja stil och uppskatta tidsåtgång.",
+    "call": "Ring",
+    "phone": "Telefon"
+  },
+  "services": {
+    "hair": "Hårflätning",
+    "nails": "Naglar"
+  },
+  "styles": {
+    "knotless": "Knotless-flätor",
+    "box": "Box-flätor",
+    "cornrows": "Cornrows / Feed-ins",
+    "classicMani": "Klassisk manikyr",
+    "french": "Franska naglar",
+    "chrome": "Kromnaglar"
+  },
+  "sizes": {
+    "small": "Liten",
+    "medium": "Medium",
+    "large": "Stor",
+    "basic": "Bas",
+    "design": "Design",
+    "standard": "Standard",
+    "gel": "Gellack"
+  },
+  "lengths": {
+    "shoulder": "Axellångt",
+    "midback": "Mitten av ryggen",
+    "waist": "Midjelångt"
+  },
+  "gallery": {
+    "heading": "Hår & Naglar — Galleri",
+    "pearlOmbre": "Pärl-ombré",
+    "classicFrench": "Klassisk fransk lyx",
+    "roseQuartz": "Rosenkvarts-glans",
+    "emeraldTips": "Smaragdspetsar",
+    "blushAlmond": "Blush almond",
+    "chromeShine": "Kromglans",
+    "knotlessMedium": "Knotless-flätor (Medium)",
+    "cornrowsFeedIn": "Cornrows & Feed-ins",
+    "boxSmall": "Box-flätor (Small)"
+  },
+  "modal": {
+    "step1Title": "Välj din stil",
+    "step2Title": "Bekräfta uppgifter",
+    "service": "Tjänst",
+    "style": "Stil",
+    "sizeOrType": "Storlek / Typ",
+    "length": "Längd",
+    "selectedService": "Tjänst",
+    "selectedStyle": "Stil",
+    "selectedVariant": "Variant",
+    "selectedLength": "Längd",
+    "estimate": "Uppskattat pris",
+    "continue": "Fortsätt",
+    "step2Lead": "Fyll i dina kontaktuppgifter så bekräftar vi din bokning.",
+    "yourName": "Ditt namn",
+    "phone": "Telefon / WhatsApp",
+    "emailOptional": "E-post (valfritt)",
+    "messageOptional": "Meddelande (valfritt)",
+    "back": "Tillbaka",
+    "confirmReserve": "Bekräfta & Boka",
+    "submitting": "Bokar..."
+  },
+  "currency": "{{value, number}} kr"
+}

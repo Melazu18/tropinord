@@ -1,0 +1,61 @@
+{
+  "title": "🌿 Natural Soaps Collection",
+  "subtitle": "Gentle, nourishing soaps for hands and body.",
+  "intro": "Browse our organic and natural soap bars — crafted with care for gentle cleansing, exfoliation, and nourishing your skin year-round.",
+  "quote": "“Shop naturally, give back globally — every TropiNord order helps remove CO₂ from the atmosphere.”",
+  "learnMore": "Read more about African Black Soap →",
+
+  "buttons": {
+    "addToCart": "Add to Cart"
+  },
+
+  "filters": {
+    "category": {
+      "all": "All Soaps",
+      "bath": "Bath Soaps",
+      "hand": "Hand Soaps"
+    },
+    "type": {
+      "all": "All Types",
+      "bar": "Bar",
+      "liquid": "Liquid"
+    },
+    "origin": {
+      "all": "All Regions",
+      "West Africa": "West Africa",
+      "Nordic": "Nordic",
+      "Western Europe": "Western Europe",
+      "Central Europe": "Central Europe"
+    },
+    "scent": {
+      "all": "All Scents",
+      "lavender": "Lavender",
+      "eucalyptus": "Eucalyptus",
+      "citrus": "Citrus",
+      "unscented": "Unscented"
+    },
+    "skinType": {
+      "all": "All Skin Types",
+      "sensitive": "Sensitive",
+      "dry": "Dry",
+      "normal": "Normal",
+      "oily": "Oily"
+    }
+  },
+
+  "blackSoap": {
+    "name": "African Black Soap (100g)",
+    "description": "Traditional handcrafted bar for face & body, ideal for daily cleansing and sensitive skin.",
+    "ingredients": "Plantain ash, cocoa pod ash, shea butter, coconut oil, palm kernel oil, water."
+  },
+  "blackSoapOriginal": {
+    "name": "Black Soap Original (100g)",
+    "description": "Classic recipe with intense cleansing power, loved for its exfoliating properties.",
+    "ingredients": "Shea butter, cocoa pod ash, coconut oil, palm kernel oil, natural glycerin."
+  },
+  "blackSoapLiquid": {
+    "name": "Liquid African Black Soap (250ml)",
+    "description": "Perfect for handwashing and body care during winter. Antibacterial and hydrating.",
+    "ingredients": "Saponified oils (coconut, shea, palm kernel), cocoa pod ash filtrate, water."
+  }
+}

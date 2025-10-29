@@ -1,0 +1,23 @@
+{
+  "title": "Collection de Savon Noir Africain",
+  "intro": "Découvrez notre gamme de savons noirs africains authentiques — fabriqués à la main avec des ingrédients naturels, idéaux pour nettoyer, exfolier et protéger la peau toute l'année.",
+  "tagline": "La nature se souvient — et nous aussi.",
+  "climateNote": "🌱 TropiNord soutient l'élimination permanente du carbone. 0,5% de chaque commande finance des solutions climatiques.",
+  "quote": "« Achetez naturel, donnez globalement — chaque commande TropiNord aide à éliminer le CO₂ de l'atmosphère. »",
+  "readMore": "En savoir plus sur le savon noir africain →",
+  "interestedInProduct": "Intéressé par l'essai de ce produit ?",
+  "products": {
+    "blackSoap": {
+      "name": "Savon Noir Africain (100g)",
+      "description": "Savon traditionnel artisanal pour le visage et le corps, idéal pour un nettoyage quotidien et les peaux sensibles."
+    },
+    "original": {
+      "name": "Savon Noir Original (100g)",
+      "description": "Recette classique avec un pouvoir nettoyant intense, apprécié pour ses propriétés exfoliantes."
+    },
+    "liquid": {
+      "name": "Savon Noir Africain Liquide (250ml)",
+      "description": "Parfait pour le lavage des mains et les soins corporels en hiver. Antibactérien et hydratant."
+    }
+  }
+}

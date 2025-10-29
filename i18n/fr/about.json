@@ -1,0 +1,27 @@
+{
+  "about": {
+    "metaTitle": "À propos de Tropinord | Notre histoire et notre mission",
+    "metaDescription": "Découvrez la mission de Tropinord, les racines, l'approvisionnement éthique et l'engagement envers le bien-être durable. Fondée en Suède par Paul Abejegah.",
+    "heading": "À propos de Tropinord",
+    "subheading": "Notre histoire, nos valeurs, notre mission",
+    "ourStoryTitle": "Notre histoire",
+    "ourStoryContent": "Tropinord est une marque de bien-être suédoise enracinée dans la durabilité, le patrimoine culturel et le commerce éthique. Nous réunissons la clarté et la précision du style de vie nordique avec les traditions profondes et séries de l'Afrique et du Pacifique.\n\nNotre fondation est construite sur le respect de la nature, pour les gens et pour les connaissances transmises pendant les générations. Des paysages propres et boisés de la Suède aux sols réchuisés par le soleil d'Afrique et des îles du Pacifique, chaque ingrédient est sélectionné pour sa pureté, sa puissance et son objectif.\n\nÀ Tropinord, la durabilité n'est pas une tendance, c'est un principe. Nos produits et partenariats reflètent:\n\n❄️ Les normes nordiques, l'approvisionnement réfléchi, la production propre et la qualité sans compromis\n🌿 Sagesse mondiale issue de la connaissance ancestrale des herbes, des huiles et du bien-être holistique\n🌍 Responsabilité partagée protégeant les écosystèmes, soutenant les petits producteurs et honorant le patrimoine\n\nC'est plus que le bien-être. C'est un lien entre les mondes, celui qui célèbre les gens, la planète et le pouvoir de la tradition.",
+    "missionQuote": "«Dans le cadre de notre mission, Tropinord est fier de développer une gamme de produits spécifiquement pour les clients afro-européens, combinant la sagesse botanique africaine avec la pureté nordique.»",
+    "valuesTitle": "Ce que nous défendons",
+    "valuesContent": "Tropinord est plus qu'un magasin. C'est une plate-forme créée pour soutenir les gens. Guidé par un profond sens de l'objectif, notre objectif est de responsabiliser les petits producteurs, de promouvoir la vie consciente de l'éco et d'aider les clients à renouer avec la nature à travers des produits simples et honnêtes.",
+    "whatWeDoTitle": "Ce que nous faisons",
+    "whatWeDoItem1": "Importer et distribuer des huiles organiques, des savons naturels et des articles de bien-être",
+    "whatWeDoItem2": "Travailler main dans la main avec de petits producteurs en Afrique, en Suède et dans d'autres régions",
+    "whatWeDoItem3": "Fournir un soutien et une visibilité aux fabricants locaux",
+    "whatWeDoItem4": "Vendre via les canaux en ligne, avec des plans d'expansion au détail",
+    "whatWeDoExtra": "Nous collaborons également avec les propriétaires de petites entreprises et les startups en leur offrant une place pour se développer. En présentant leurs produits sur la plate-forme Tropinord, nous soutenons la visibilité locale et internationale, contribuant à accroître la sensibilisation et à renforcer la confiance des clients.",
+    "ourMissionTitle": "Notre mission",
+    "ourMissionContent": "Notre mission est de créer un véritable lien entre la tradition, la nature et la qualité. Tropinord existe pour soutenir le commerce durable et célébrer la diversité culturelle à travers des produits qui reflètent les soins, l'artisanat et la communauté."
+  },
+  "climate": {
+    "alt": "Action climatique",
+    "heading": "Notre engagement climatique",
+    "supportText": "Tropinord soutient l'élimination permanente du carbone. 0,5% de chaque commande finance des solutions climatiques.",
+    "partnerText": "Nous nous associons aux principales organisations climatiques pour garantir que votre contribution a un impact réel."
+  }
+}

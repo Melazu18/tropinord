@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Allow: /
 
-Sitemap: https://www.tropinord.com/sitemap.xml
+Sitemap: https://www.tropinord.se/sitemap.xml

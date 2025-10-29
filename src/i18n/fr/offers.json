@@ -1,0 +1,17 @@
+{
+  "title": "Offres Spéciales",
+  "shopNow": "Acheter Maintenant",
+  "expired": "Offre Expirée",
+  "offer1": {
+    "title": "Achetez 2 Huiles de Neem, Obtenez-en 1 Gratuite",
+    "description": "Ajoutez 3 huiles de neem à votre panier et ne payez que pour 2 !"
+  },
+  "offer2": {
+    "title": "Livraison Gratuite au-dessus de 50 €",
+    "description": "Profitez de la livraison gratuite pour toutes les commandes de plus de 50 €."
+  },
+  "offer3": {
+    "title": "20% de Réduction sur les Produits au Beurre de Karité",
+    "description": "Utilisez le code SHEA20 à la caisse pour obtenir votre réduction."
+  }
+}

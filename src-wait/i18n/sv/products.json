@@ -1,0 +1,269 @@
+{
+  "categories": {
+    "cosmetics": "Kosmetiska Produkter",
+    "healingBotanicals": "Läkande Växter",
+    "agroTrade": "Agro-Handel & Råvaror"
+  },
+  "buttons": {
+    "contact": "Kontakta TropiNord"
+  },
+  "agro": {
+    "items": {
+      "banana-leaves": {
+        "title": "Bananblad (Jordens Ursprung)",
+        "description": "Färska gröna bananblad för organisk textilproduktion, förpackning eller matlagning - Endast partihandel."
+      },
+      "charcoal-(bulk)": {
+        "title": "Träkol (Parti)",
+        "description": "Högkvalitativt träkol för BBQ eller industriellt bruk. Kontakta för beställning."
+      },
+      "dry-bones-(for-feed)": {
+        "title": "Torkade Ben (Till Foder)",
+        "description": "Rena, soltorkade ben för djurfoder. Export tillgänglig."
+      },
+      "palm-oil-(bulk)": {
+        "title": "Palmolja (Parti)",
+        "description": "Bulk röd palmolja, idealisk för matlagning och kosmetisk produktion."
+      },
+      "shea-butter-(bulk)": {
+        "title": "Sheasmör (Parti)",
+        "description": "Oraffinerat sheasmör i bulk för partihandel och kosmetiskt bruk."
+      }
+    }
+  },
+  "products": {
+    "organic-oils": {
+      "name": "Organiska Oljor",
+      "items": [
+        {
+          "label": "Neemolja",
+          "image": "/images/neemoil.jpg",
+          "price": 10,
+          "slug": "neem-oil",
+          "id": "neem-oil-76981d"
+        },
+        {
+          "label": "Avokadoolja",
+          "image": "/images/avocadooil.jpg",
+          "price": 12,
+          "slug": "avocado-oil",
+          "id": "avocado-oil-a7c767"
+        },
+        {
+          "label": "Gurkmejolja",
+          "image": "/images/tumericoil.jpg",
+          "price": 12,
+          "slug": "tumeric-oil",
+          "id": "tumeric-oil-b09e17"
+        },
+        {
+          "label": "Lavendelolja",
+          "image": "/images/cosmeticsoils01.jpg",
+          "price": 10,
+          "slug": "lavender-oil",
+          "id": "lavender-oil-a6e64a"
+        },
+        {
+          "label": "Eucalyptus Citriodora Eterisk Olja",
+          "image": "/images/eucalyptusoil.jpg",
+          "price": 11,
+          "slug": "eucalyptus-citriodora-essential-oil",
+          "id": "eucalyptus-citriodora-essential-oil-02c924"
+        }
+      ]
+    },
+    "hair-care": {
+      "name": "Hårvård",
+      "items": [
+        {
+          "label": "Hårväxtskräm",
+          "image": "/images/products/placeholder-hair-growth.jpg",
+          "price": 14,
+          "slug": "growth-hair-cream",
+          "id": "growth-hair-cream-b27663"
+        },
+        {
+          "label": "Hårbottenbehandlingskräm",
+          "image": "/images/products/placeholder-scalp.jpg",
+          "price": 13,
+          "slug": "scalp-treatment-cream",
+          "id": "scalp-treatment-cream-39109f"
+        },
+        {
+          "label": "Lockkräm",
+          "image": "/images/products/placeholder-curls.jpg",
+          "price": 15,
+          "slug": "curls-hair-cream",
+          "id": "curls-hair-cream-9f7de4"
+        },
+        {
+          "label": "Afrokräm",
+          "image": "/images/products/placeholder-afro.jpg",
+          "price": 15,
+          "slug": "afro-hair-cream",
+          "id": "afro-hair-cream-5dc05e"
+        },
+        {
+          "label": "Dreadlockkräm",
+          "image": "/images/products/placeholder-dread.jpg",
+          "price": 16,
+          "slug": "dreadlock-hair-cream",
+          "id": "dreadlock-hair-cream-868670"
+        }
+      ]
+    },
+    "skin-care": {
+      "name": "Hudvård",
+      "items": [
+        {
+          "label": "Sheasmör",
+          "image": "/images/sheabutter01.jpg",
+          "price": 9,
+          "slug": "shea-butter",
+          "id": "shea-butter-b289b0"
+        },
+        {
+          "label": "Afrikansk Svart Tvål - Rå",
+          "image": "/images/blacksoap01.jpg",
+          "price": 9,
+          "slug": "african-black-soap-raw",
+          "id": "african-black-soap-raw-123abc",
+          "description": "Traditionell rå afrikansk svart tvål för djup hudrengöring."
+        },
+        {
+          "label": "Afrikansk Svart Tvål - Flytande",
+          "image": "/images/LiquidSoap01.png",
+          "price": 11,
+          "slug": "african-black-soap-liquid",
+          "id": "african-black-soap-liquid-456def",
+          "description": "Flytande form, idealisk för mild daglig tvätt och familjehygien."
+        },
+        {
+          "label": "Afrikansk Svart Tvål - Original",
+          "image": "/images/BlackSoapOriginal01.png",
+          "price": 10,
+          "slug": "african-black-soap-original",
+          "id": "african-black-soap-original-112233",
+          "description": "Autentisk afrikansk svart tvål med traditionell formulering och rik textur."
+        }
+      ]
+    },
+    "perfumes": {
+      "name": "Naturliga Parfymer",
+      "items": [
+        {
+          "label": "Nordisk Mynta Essens",
+          "image": "/images/mintPerfumes01.jpg",
+          "price": 25,
+          "description": "En fräsch, uppiggande blandning av arktisk pepparmynta och skogsdofter.",
+          "slug": "nordic-mint-essence",
+          "id": "nordic-mint-essence-437685"
+        },
+        {
+          "label": "Lavendel Aurora Mist",
+          "image": "/images/lavandaPerfume.jpg",
+          "price": 28,
+          "description": "Lavendelfält balanserade med blommig sötma och nordisk jordighet.",
+          "slug": "lavender-aurora-mist",
+          "id": "lavender-aurora-mist-c2fe24"
+        },
+        {
+          "label": "24H Rostfritt Roll-On (Oparfymerat)",
+          "image": "/images/roll-on02.jpg",
+          "price": 22,
+          "description": "Avancerad luktfri formel med 24-timmars skydd, fläckar inte tyger.",
+          "slug": "24h-stainless-roll-on-(unscented)",
+          "id": "24h-stainless-roll-on-(unscented)-a725ac"
+        }
+      ]
+    },
+    "teas": {
+      "name": "Te & Kaffe",
+      "items": [
+        {
+          "label": "Arktisk Gryning Örtblandning",
+          "image": "/images/tea001.jpg",
+          "price": 12,
+          "description": "Nordiska örter och citrusskal som ger energi till dina morgnar.",
+          "slug": "arctic-sunrise-herbal-blend",
+          "id": "arctic-sunrise-herbal-blend-257172"
+        },
+        {
+          "label": "Skogsbär Immunitet",
+          "image": "/images/tea01.jpg",
+          "price": 18,
+          "description": "Nordiska bär och hibiskus för vinterhälsa och motståndskraft.",
+          "slug": "forest-berry-immunity",
+          "id": "forest-berry-immunity-aedd73"
+        },
+        {
+          "label": "Ekologiskt Kaffe",
+          "image": "/images/organiccoffee.jpg",
+          "price": 14,
+          "description": "Mjuka och aromatiska ekologiska kaffebönor från tropiska högland.",
+          "slug": "organic-coffee",
+          "id": "organic-coffee-abc123"
+        }
+      ]
+    },
+    "spices": {
+      "name": "Organiska Kryddor",
+      "items": [
+        {
+          "label": "Organisk Ingefärspulver",
+          "image": "/images/products/placeholder-ginger.jpg",
+          "price": 7,
+          "slug": "organic-ginger-powder",
+          "id": "organic-ginger-powder-0b603f"
+        },
+        {
+          "label": "Gurkmejapulver",
+          "image": "/images/products/placeholder-turmeric.jpg",
+          "price": 6,
+          "slug": "turmeric-powder",
+          "id": "turmeric-powder-ced26f"
+        }
+      ]
+    },
+    "agro-products": {
+      "name": "Jordbruksprodukter",
+      "items": [
+        {
+          "label": "Bananblad",
+          "image": "/images/bananaleaves01.jpg",
+          "description": "Färska gröna bananblad för organisk textilproduktion, förpackning eller matlagning - Endast partihandel.",
+          "slug": "banana-leaves",
+          "id": "banana-leaves-035b30"
+        },
+        {
+          "label": "Träkol (Parti)",
+          "image": "/images/charcoal.jpg",
+          "description": "Högkvalitativt träkol för BBQ eller industriellt bruk. Kontakta för beställning.",
+          "slug": "charcoal-(bulk)",
+          "id": "charcoal-(bulk)-4ab139"
+        },
+        {
+          "label": "Torkade Ben (Till Foder)",
+          "image": "/images/drybones01.jpg",
+          "description": "Rena, soltorkade ben för djurfoder. Export tillgänglig.",
+          "slug": "dry-bones-(for-feed)",
+          "id": "dry-bones-(for-feed)-e2e94e"
+        },
+        {
+          "label": "Palmolja (Parti)",
+          "image": "/images/RedPalmOil01.png",
+          "slug": "palm-oil-(bulk)",
+          "id": "palm-oil-(bulk)-789ghi",
+          "description": "Bulk röd palmolja, idealisk för matlagning och kosmetisk produktion."
+        },
+        {
+          "label": "Sheasmör (Parti)",
+          "image": "/images/SheaButter04.png",
+          "slug": "shea-butter-(bulk)",
+          "id": "shea-butter-(bulk)-101jkl",
+          "description": "Oraffinerat sheasmör i bulk för partihandel och kosmetiskt bruk."
+        }
+      ]
+    }
+  }
+}

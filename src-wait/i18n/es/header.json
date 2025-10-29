@@ -1,0 +1,15 @@
+{
+  "tagline": "Tradiciones tropicales, estándares nórdicos",
+  "nav": {
+    "services": "Servicios",
+    "about": "Nosotros",
+    "products": "Productos",
+    "offers": "Ofertas",
+    "faq": "Preguntas frecuentes",
+    "contact": "Contacto"
+  },
+  "menu": {
+    "label": "Menú",
+    "lightMode": "Modo claro"
+  }
+}

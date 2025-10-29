@@ -1,0 +1,46 @@
+{
+  "blog": {
+    "metaTitle": "Blog | Tropinordio",
+    "metaDescription": "Blog de Tropinord: historias, consejos y tradiciones en bienestar orgánico e importaciones ecológicas.",
+    "heading": "Blog de Tropinord",
+    "intro": "Historias, inspiración y conocimiento del corazón de las raíces tropicales y nórdicas de Tropinord.",
+    "posts": [
+      {
+        "title": "Cómo se hace el jabón negro africano",
+        "description": "Descubra el antiguo proceso y el patrimonio cultural detrás de este jabón natural."
+      },
+      {
+        "title": "Por qué importan los aceites prensados en frío",
+        "description": "Un desglose de por qué la pureza y la técnica dan forma al poder de los aceites naturales."
+      },
+      {
+        "title": "Cómo la fruta baobab nutre tu piel",
+        "description": "Explore los beneficios para el cuidado de la piel del polvo orgánico de fruta baobab."
+      },
+      {
+        "title": "Los notables beneficios del aceite de núcleo de palma",
+        "description": "El aceite del grano de palma es más que un ingrediente de cocción: es una potencia nutricional."
+      },
+      {
+        "title": "El futuro de la agricultura orgánica",
+        "description": "Descubra cómo la agricultura orgánica está remodelando el mundo con prácticas sostenibles."
+      }
+    ],
+    "categories": {
+      "skincare": "Protección de la piel",
+      "organic": "Vida orgánica",
+      "african": "Tradiciones africanas",
+      "farming": "Agricultura sostenible"
+    },
+    "relatedProducts": {
+      "africanBlackSoap": "Jabón negro africano",
+      "palmKernelOil": "Aceite de núcleo de palma",
+      "baobabPowder": "Polvo de baobab",
+      "coldPressedOils": "Aceites prensados en frío"
+    },
+    "callToAction": {
+      "readMore": "Leer más artículos",
+      "shopRelated": "Productos relacionados con la tienda"
+    }
+  }
+}

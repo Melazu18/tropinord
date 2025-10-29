@@ -1,0 +1,107 @@
+{
+  "apply": {
+    "title": "Conviértete en Artesano TropiNord",
+    "subtitle": "Todos los usuarios aprobados aparecen con un nombre para mostrar anónimo bajo su foto de perfil.",
+    "description": "Únete a nuestra comunidad de artesanos locales y muestra tus productos hechos a mano al mundo.",
+    "successTitle": "¡Solicitud enviada con éxito! 🎉",
+    "successMessage": "Hemos recibido tu solicitud de artesano y está en revisión. Te notificaremos una vez que se haya procesado.",
+    "viewStatus": "Ver estado de la solicitud",
+    "error": "Error al enviar la solicitud",
+    "form": {
+      "typeLabel": "Estoy solicitando como *",
+      "type": {
+        "artisan": "Artesano",
+        "seller": "Vendedor / Comercializador"
+      },
+      "companyName": "Nombre de la empresa",
+      "website": "Sitio web",
+      "country": "País",
+      "description": "Descripción",
+      "productCategories": "Categorías de producto",
+      "selectedCategories": "Categorías seleccionadas",
+      "submit": "Enviar solicitud",
+      "submitting": "Enviando...",
+      "requiredField": "Este campo es obligatorio",
+      "minLength": "Debe tener al menos {{count}} caracteres",
+      "descriptionHint": "Mínimo 50 caracteres describiendo tu artesanía y productos",
+      "skillLevelLabel": "Nivel de habilidad *",
+      "skill": {
+        "beginner": "Principiante",
+        "intermediate": "Intermedio",
+        "professional": "Profesional"
+      },
+      "skillHint": "Un nivel superior puede desbloquear precios premium.",
+      "craftFrequencyLabel": "Frecuencia de elaboración *",
+      "freq": {
+        "weekly": "Semanal",
+        "biweekly": "Quincenal",
+        "monthly": "Mensual",
+        "two_months": "Bimestral",
+        "quarterly": "Trimestral",
+        "semi_annual": "Semestral",
+        "yearly": "Anual"
+      },
+      "anonNote": "Nota: Tu perfil público mostrará un nombre para mostrar anónimo después de la aprobación.",
+      "errors": {
+        "categoriesRequired": "Por favor, selecciona al menos una categoría de producto"
+      },
+      "placeholder": {
+        "companyName": "El nombre de tu negocio o marca",
+        "country": "Ingresa tu país",
+        "website": "https://tusitioweb.com",
+        "description": "Cuéntanos sobre tus productos, técnicas e inspiración...",
+        "searchCategories": "Buscar categorías..."
+      }
+    },
+    "guidelines": {
+      "title": "Pautas de solicitud",
+      "quality": "Los productos deben estar hechos a mano o ser caseros, con materiales de calidad",
+      "originality": "Los artículos deben ser creaciones originales o artesanías tradicionales",
+      "description": "Proporciona descripciones detalladas de tus técnicas y materiales",
+      "categories": "Selecciona todas las categorías de productos relevantes"
+    },
+    "categories": {
+      "pottery": "Alfarería",
+      "ceramics": "Cerámica",
+      "jewelry": "Joyería",
+      "textiles": "Textiles",
+      "woodwork": "Carpintería",
+      "metalwork": "Metalurgia",
+      "glass": "Vidrio",
+      "painting": "Pintura",
+      "sculpture": "Escultura",
+      "home-decor": "Decoración del hogar",
+      "clothing": "Ropa",
+      "accessories": "Accesorios",
+      "natural-products": "Productos naturales",
+      "food": "Alimentos",
+      "cosmetics": "Cosméticos",
+      "basketry": "Cestería",
+      "leatherwork": "Marroquinería",
+      "candles": "Velas",
+      "soaps": "Jabones",
+      "essential-oils": "Aceites esenciales",
+      "it-tech": "Programación y Codificación (TI y Tecnología)"
+    }
+  },
+  "status": {
+    "pending": "PENDIENTE",
+    "approved": "APROBADO",
+    "rejected": "RECHAZADO",
+    "noApplication": "No se encontró ninguna solicitud",
+    "notApplied": "Aún no has enviado una solicitud de artesano.",
+    "applyNow": "Solicitar ahora",
+    "businessName": "Nombre de la empresa",
+    "appliedOn": "Solicitado el",
+    "reviewedOn": "Revisado el",
+    "reviewNotes": "Notas de revisión",
+    "pendingNotice": "Tu solicitud está en revisión. Te notificaremos una vez que se procese.",
+    "rejectedNotice": "Tu solicitud no fue aprobada. Puedes volver a solicitarlo con información adicional.",
+    "reapply": "Volver a solicitar",
+    "approvedNotice": "🎉 ¡Felicidades! ¡Tu solicitud ha sido aprobada!",
+    "approvedMessage": "Ahora puedes empezar a listar tus productos en TropiNord.",
+    "goToDashboard": "Ir al Panel de Control",
+    "loading": "Cargando estado de la solicitud...",
+    "error": "Error al cargar el estado de la solicitud"
+  }
+}

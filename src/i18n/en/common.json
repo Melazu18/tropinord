@@ -1,0 +1,364 @@
+{
+  "loading": "Loading...",
+  "close": "Close",
+
+  "branding": {
+    "tagline": "Nature remembers — and so do we."
+  },
+
+  "explore": {
+    "title": "Explore Our Products",
+    "searchPlaceholder": "Search products..."
+  },
+  "categories": {
+    "all": "All Categories",
+    "cosmetics": "Cosmetic Products",
+    "healingBotanicals": "Healing Botanicals",
+    "food": "Healing Botanicals",
+    "agro": "Agro-Trade & Raw Materials",
+    "search": "Search"
+  },
+  "subcategories": {
+    "crownRituals": "Crown Rituals",
+    "glowRoots": "Glow Roots",
+    "essenceEchoes": "Essence Echoes",
+    "botanicBrews": "Botanic Brews",
+    "liquidGolds": "Liquid Golds",
+    "soulSeasonings": "Soul Seasonings",
+    "earthOrigins": "Earth Origins",
+    "palmOil": "Palm Oil (Bulk)",
+    "sheaButter": "Shea Butter (Bulk)",
+    "palmOilDesc": "Bulk red palm oil, ideal for cooking and cosmetic production.",
+    "sheaButterDesc": "Bulk unrefined shea butter for wholesale and cosmetic use."
+  },
+  "order": {
+    "title": "Select Your Products",
+    "currencyLabel": "Currency:",
+    "searchLabel": "Search",
+    "addToCart": "Add to Cart",
+    "contactToOrder": "Contact to Order",
+    "currencyWarning": "Note: Swish and Bankgiro only support SEK. Currency will be auto-set.",
+    "addedToCart": "Item added to cart!",
+    "proceedToCheckout": "Proceed to Checkout",
+    "categoryLabel": "Filter by Category:",
+    "searchPlaceholder": "Search by product name..."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "We'd love to hear from you! Please fill out the form below.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "category": "Service Category",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong. Please try again.",
+    "options": {
+      "olis": "Organic Oils",
+      "soaps": "Natural Soaps",
+      "agro": "Agro Imports",
+      "other": "Other"
+    }
+  },
+  "popup": {
+    "viewProducts": "View Products",
+    "continue": "Continue Browsing",
+    "comingSoon": "Coming Soon!",
+    "close": "Close"
+  },
+  "products": {
+    "organic-oils": {
+      "name": "Organic Oils",
+      "description": "Cold-pressed oils like coconut, almond, neem, etc."
+    },
+    "natural-soaps": {
+      "name": "Natural Soaps",
+      "description": "African black soap, shea bars, fruit-based soaps."
+    },
+    "agro-imports": {
+      "name": "Agro Imports",
+      "description": "Banana leaves, bones, charcoal, and small farm tools."
+    },
+    "bananaLeaves": {
+      "label": "Banana Leaves",
+      "description": "Fresh green banana leaves for wrapping or cooking – bulk only."
+    },
+    "charcoal": {
+      "label": "Charcoal (Bulk)",
+      "description": "High-quality charcoal for BBQ or industrial use. Contact to order."
+    },
+    "dryBones": {
+      "label": "Dry Bones (for Feed)",
+      "description": "Clean, sun-dried bones for animal feed. Export available."
+    },
+    "notFound": "Product not found",
+    "shopNow": "Shop Now"
+  },
+  "thankYou": {
+    "swishPrompt": "Please complete your Swish payment of {{amount}} to continue.",
+    "bankgiroPrompt": "Please transfer {{amount}} to the Bankgiro number below.",
+    "amountMissing": "Amount not available."
+  },
+  "services": {
+    "title": "Our Services",
+    "collabHeading": "Interested in collaborating with us?",
+    "collabText": "Reach out and let's bring your project to life.",
+    "cta": "Contact Us",
+    "organicOils": {
+      "title": "Organic Oils",
+      "desc": "Cold-pressed coconut, neem, baobab, and almond oils.",
+      "detail": "Our organic oils such as baobab, coconut, neem, and almond, are ethically cold-pressed from trusted cooperatives in Africa, Asia, and the Caribbean. Each batch is unrefined and rich in nutrients, perfect for wellness, skincare, or culinary use. We prioritize purity, fair trade, and full traceability."
+    },
+    "naturalSoaps": {
+      "title": "Natural Soaps",
+      "desc": "African black soap, shea soap, and herbal blends.",
+      "detail": "Our natural soaps include traditional African black soap, shea butter bars, and custom herbal blends infused with moringa, turmeric, and neem. Crafted using age-old methods and sustainably harvested ingredients, these soaps offer a gentle yet powerful cleansing experience while supporting local artisans."
+    },
+    "agroImports": {
+      "title": "Agro & Raw Material Imports",
+      "desc": "Farm produce, herbs, and eco-packaging from the tropics.",
+      "detail": "We import niche agro-based materials and eco-products such as banana leaves, cassava flour, dried herbs, and biodegradable packaging. Our sourcing network spans across Africa, Asia, and the Caribbean—supporting clean-label brands, restaurants, and sustainable retailers in the Nordics."
+    },
+    "logistics": {
+      "title": "Retail & Logistics Support",
+      "desc": "Nordic logistics for small brands.",
+      "detail": "Our logistics service is designed for micro-brands and solo entrepreneurs. We help with warehousing, labeling, Nordic-friendly packaging, and last-mile delivery within Sweden and the EU. Whether you're launching a herbal product or a new snack, our support gets you retail-ready."
+    },
+    "ecoSourcing": {
+      "title": "Eco-Sourcing Partnerships",
+      "desc": "Fair-trade sourcing with full traceability.",
+      "detail": "We believe in ethical, earth-friendly trade. Our eco-sourcing connects you to small-scale growers using regenerative farming and agroecology. We co-develop supply chains with producers in underrepresented regions, ensuring fair prices, sustainable yields, and storytelling that sells."
+    },
+    "community": {
+      "title": "Community Outreach",
+      "desc": "Empowering youth through sustainability.",
+      "detail": "Our outreach focuses on youth empowerment, food education, and green entrepreneurship. Through mentorship, workshops, and sports-led programs, we help bridge rural talent and urban markets—from grassroots in West Africa to integration hubs in Scandinavia."
+    }
+  },
+"faq": {
+  "title": "Frequently Asked Questions",
+  "whatisTropinord": {
+    "q": "What is TropiNord?",
+    "a": "TropiNord blends tropical traditions with Nordic quality. We now focus on a curated range: natural oils and teas sourced from tropical regions—especially Africa."
+  },
+  "productsOffered": {
+    "q": "What kind of products do you offer?",
+    "a": "We offer high-quality oils for skin, hair, and cooking, and teas (herbal, green, black, and specialty blends), all ethically sourced."
+  },
+  "organicSourcing": {
+    "q": "Are your products really organic or natural?",
+    "a": "We prioritize cold-pressed, unrefined oils and naturally grown botanicals. Many are sourced from cooperatives that follow organic practices."
+  },
+  "sourcingAfrica": {
+    "q": "Do you really source from Africa?",
+    "a": "Yes, many oils and teas are direct-trade or co-op sourced from West, East, and Southern Africa, ensuring fair compensation and traceability."
+  },
+  "oilUse": {
+    "q": "How do I use your oils? Are they edible?",
+    "a": "Some oils are for skincare/hair, while others are culinary. Product pages clearly state usage and benefits."
+  },
+  "allergens": {
+    "q": "Any allergen or sensitivity considerations?",
+    "a": "If you’re sensitive to nuts, seeds, or herbs, review the ingredients. Always patch test cosmetic oils before use."
+  },
+  "teaPrep": {
+    "q": "How should I brew your teas?",
+    "a": "Herbal: 95–100°C for 5–10 min; Green: ~80°C for 2–3 min; Black: 95°C for 3–5 min. Each tea has its own instructions."
+  },
+  "storage": {
+    "q": "How do I store oils and teas?",
+    "a": "Keep sealed, away from heat, light, and moisture. Oils last longer refrigerated; teas store best in a cool, dry cupboard."
+  },
+  "shipsFrom": {
+    "q": "Where do you ship from?",
+    "a": "We ship from Sweden and serve customers across the EU."
+  },
+  "shippingPolicy": {
+    "q": "What’s your shipping policy?",
+    "a": "Orders process in 1–3 days. Sweden: 2–5 days; EU: 5–10+ days. Tracking and fees at checkout. Duties/taxes may apply outside Sweden."
+  },
+  "returnPolicy": {
+    "q": "What’s your return policy?",
+    "a": "Unopened, unused products can be returned within 14 days. Opened personal-care or teas can’t be returned unless faulty."
+  },
+  "payments": {
+    "q": "Which payment methods do you accept?",
+    "a": "We accept cards via Stripe. In Sweden, you may also pay via Swish or Bankgiro."
+  },
+  "contactSupport": {
+    "q": "How can I contact support?",
+    "a": "Use our contact form or email info@tropinord.com. We respond within 24–48 hours."
+  },
+  "wholesale": {
+    "q": "Do you offer wholesale or bulk orders?",
+    "a": "Yes. Bulk oils and teas are available—contact sellers@tropinord.com."
+  }
+  },
+  "shipping": {
+    "title": "Shipping & Returns Policy",
+    "policyTitle": "Shipping Policy",
+    "intro": "We strive to process and ship all orders within 1-2 business days. Here's what you need to know about our shipping:",
+    "points": [
+      "Processing time: 1-2 business days",
+      "Shipping times vary by destination",
+      "Tracking information provided for all orders",
+      "International shipping available",
+      "Customs fees may apply for international orders"
+    ],
+    "servicesTitle": "Shipping Services",
+    "servicesIntro": "We partner with reliable logistics providers to ensure safe and timely deliveries:",
+    "serviceProviders": ["DHL Express", "PostNord", "UPS", "Bring"],
+    "returnsTitle": "Returns & Refunds",
+    "returnsIntro": "We want you to be fully satisfied with your purchase. Our return policy:",
+    "returnPoints": [
+      "Returns must be initiated within 14 days of delivery",
+      "Products must be unopened and in original packaging",
+      "Return shipping costs are the customer's responsibility unless the product is defective or incorrect",
+      "Refunds are issued within 5–7 business days after we receive the returned item",
+      "Contact us first to get a return authorization before sending anything back"
+    ],
+    "faqTitle": "Frequently Asked Questions",
+    "faqIntro": "Common questions about shipping and returns:",
+    "faqList": [
+      "How long does shipping take to my country?",
+      "Can I change my shipping address after ordering?",
+      "What if my package is lost or damaged?",
+      "How do I track my order?",
+      "Are there any shipping restrictions?"
+    ],
+    "contactTitle": "Need Help? Contact Us",
+    "emailLabel": "Email",
+    "supportEmail": "support@tropinord.com",
+    "phoneLabel": "Phone/WhatsApp",
+    "phoneNumber": "+46700711713",
+    "supportHours": "Customer support available Monday-Friday, 9AM-5PM CET",
+    "closing": "Thank you for shopping with TropiNord!"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated",
+    "collectionTitle": "1. Information We Collect",
+    "collectionIntro": "We collect information to provide better services to our customers. The types of information we gather include:",
+    "infoCollected": [
+      "Personal Information: Name, email address, phone number, shipping/billing address when you make a purchase or create an account",
+      "Payment Information: Credit/debit card details processed securely via third-party payment processors",
+      "Usage Data: Information about how you use our website, products, and services",
+      "Cookies and Tracking Data: We use cookies and similar tracking technologies"
+    ],
+    "usageTitle": "2. How We Use Your Information",
+    "infoUsage": [
+      "To provide and maintain our service",
+      "To process your transactions",
+      "To notify you about changes to our service",
+      "To provide customer support",
+      "To gather analysis to improve our service"
+    ],
+    "sharingTitle": "3. Data Sharing and Disclosure",
+    "sharingIntro": "We may share your personal information in the following situations:",
+    "dataSharing": [
+      "With service providers who assist in our operations",
+      "For business transfers like mergers or acquisitions",
+      "When required by law or valid legal requests"
+    ],
+    "securityTitle": "4. Data Security",
+    "securityContent": "We implement appropriate security measures to protect your personal data, though no method of transmission over the Internet is 100% secure.",
+    "rightsTitle": "5. Your Data Protection Rights",
+    "rightsIntro": "Depending on your location, you may have rights including:",
+    "userRights": [
+      "The right to access, update or delete your information",
+      "The right of rectification",
+      "The right to object to processing",
+      "The right to data portability"
+    ],
+    "cookiesTitle": "6. Cookies and Tracking Technologies",
+    "cookiesContent": "We use cookies to track activity on our website. You can instruct your browser to refuse all cookies.",
+    "childrenTitle": "7. Children's Privacy",
+    "childrenContent": "Our service does not address anyone under the age of 16. We do not knowingly collect personal information from children.",
+    "changesTitle": "8. Changes to This Privacy Policy",
+    "changesContent": "We may update our Privacy Policy periodically. We will notify you of any changes by posting the new policy on this page.",
+    "contactTitle": "9. Contact Us",
+    "contactContent": "If you have questions about this Privacy Policy, please contact us at support@tropinord.com."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "intro": "Welcome to TropiNord. By accessing or using our services, you agree to comply with and be bound by the following terms and conditions.",
+    "paymentMethodsTitle": "Accepted Payment Methods",
+    "contact": {
+      "emailLabel": "Email",
+      "phoneLabel": "Phone"
+    },
+    "sections": {
+      "usage": {
+        "title": "1. Use of Our Services",
+        "content": [
+          "You must be at least 16 years old to use our services",
+          "You agree to provide accurate and complete information when creating an account",
+          "You are responsible for maintaining the confidentiality of your account credentials"
+        ]
+      },
+      "orders": {
+        "title": "2. Orders and Payments",
+        "content": [
+          "All orders are subject to product availability",
+          "Prices are subject to change without notice",
+          "We reserve the right to refuse or cancel any order"
+        ],
+        "paymentMethods": [
+          "Credit/Debit Cards",
+          "PayPal",
+          "Bank Transfer",
+          "Other local payment methods"
+        ]
+      },
+      "shipping": {
+        "title": "3. Shipping and Delivery",
+        "content": [
+          "Shipping times may vary depending on your location",
+          "Risk of loss passes to you upon delivery",
+          "Customs and import duties may apply for international orders"
+        ]
+      },
+      "returns": {
+        "title": "4. Returns and Refunds",
+        "content": [
+          "Returns must be initiated within 14 days of delivery",
+          "Products must be in original condition and packaging",
+          "Refunds will be processed within 5-7 business days"
+        ]
+      },
+      "IntellectualProperty": {
+        "title": "5. Intellectual Property",
+        "content": "All content on our website, including text, graphics, logos, and images, is our property and protected by copyright laws."
+      },
+      "limitation": {
+        "title": "6. Limitation of Liability",
+        "content": "We shall not be liable for any indirect, incidental, or consequential damages arising from your use of our services."
+      },
+      "changes": {
+        "title": "7. Changes to Terms",
+        "content": "We may modify these terms at any time. Continued use of our services constitutes acceptance of the modified terms."
+      },
+      "contact": {
+        "title": "8. Contact Information",
+        "content": "For any questions about these Terms of Service, please contact us:",
+        "email": "support@tropinord.com",
+        "phone": "+46 70 0711713"
+      }
+    }
+  },
+
+  "checkout": {
+    "title": "Checkout",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "street": "Street Address",
+    "postal": "Postal Code",
+    "city": "City",
+    "selectCountry": "Select Country",
+    "currencyLabel": "Currency:",
+    "proceedButton": "Proceed to Payment",
+    "emptyCartWarning": "Your cart is empty. Please add items before proceeding."
+  }
+}

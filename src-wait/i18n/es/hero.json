@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "title": "Productos Naturales con Raíces Globales",
+    "subtitle": "Bienestar ético y sostenible desde los trópicos hasta el norte",
+    "midHeading": "Celebrando la Belleza Afro-Europea",
+    "midSubtext": "Cada imagen está vinculada a productos cuidadosamente seleccionados",
+    "searchPlaceholder": "Buscar por título, categoría o beneficio...",
+    "allCategories": "Todas las categorías",
+    "stayInLoop": "Mantente actualizado",
+    "subscribeText": "Suscríbete para acceso anticipado a nuevos productos afro-europeos de cuidado capilar y facial.",
+    "emailPlaceholder": "Ingresa tu correo electrónico",
+    "helpHeading": "¿Necesitas ayuda o quieres colaborar?",
+    "helpSubtext": "Para la mejor experiencia, contáctanos directamente vía",
+    "orEmail": "o envía un correo a"
+  },
+  "tags": {
+    "hydrating": "Hidratación",
+    "growth": "Crecimiento",
+    "glow": "Brillo",
+    "curl": "Rizos",
+    "skin": "Piel",
+    "botanical": "Botánico"
+  },
+  "common": {
+    "aboutUs": "Sobre Nosotros",
+    "placeOrder": "Hacer Pedido",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Oscuro",
+    "aboutTropinord": "Sobre TropiNord",
+    "somethingWentWrong": "Algo salió mal",
+    "sustainabilityThankYou": "Gracias por elegir la sostenibilidad",
+    "welcome": "Bienvenido/a",
+    "loading": "Cargando..."
+  }
+}

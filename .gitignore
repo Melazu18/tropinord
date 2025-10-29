@@ -31,3 +31,4 @@ public/videos/*.mp4
 
 # Archives
 *.zip
+.vercel

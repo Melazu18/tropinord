@@ -1,0 +1,103 @@
+{
+  "payment": {
+    "backToCheckout": "Back to Checkout",
+    "chooseMethod": "💳 Choose Payment Method",
+    "orderSummary": "Order Summary",
+    "shippingTo": "Shipping to:",
+    "total": "Total:",
+    "payCard": "Pay with Card",
+    "paySwish": "Pay with Swish",
+    "payBankgiro": "Pay with Bankgiro",
+    "processing": "Processing...",
+    "loadingPaymentDetails": "Loading payment details...",
+    "missingFields": "Missing required fields: {{fields}}",
+    "cartEmpty": "Your cart is empty. Please go back and add items.",
+    "cartError": "Failed to load your cart",
+    "paymentFailed": "Payment failed",
+    "sessionFailed": "Payment session could not be started",
+    "paymentError": "Payment processing failed",
+    "currencyLabel": "Currency:"
+  },
+
+  "thankYou": {
+    "loading": "Loading...",
+    "orderReceived": "⏳ Order Received!",
+    "paymentSuccessful": "✅ Payment Successful!",
+    "thankYou": "Thank you",
+    "forYourOrder": "for your order!",
+    "paymentReceived": "Your payment of {{amount}} SEK was received. Have a great day!",
+    "completePayment": "Please complete your payment so we can process your order.",
+    "downloadReceipt": "📄 Download Receipt",
+    "trackOrder": "🔍 Track My Order",
+    "backToHome": "Back to Home",
+    "customer": "Customer",
+    "copied": "copied!",
+    "text": "Text"
+  },
+
+  "order": {
+    "success": "✅ Payment successful!",
+    "thankYou": "Thank you",
+    "forOrder": "for your order!",
+    "paymentReceived": "Your payment has been received.",
+    "backToHome": "Back to homepage",
+    "manualReceived": "⏳ Order received!",
+    "manualInstructions": "Please follow the instructions below to complete your payment.",
+    "orderReceived": "Your order has been received.",
+    "thanks": "Thanks",
+    "downloadReceipt": "📄 Download receipt",
+    "trackOrder": "🔍 Track my order",
+    "loading": "Loading...",
+    "copied": "Copied!",
+    "text": "Text",
+    "customer": "Customer",
+    "title": "Order products",
+    "currencyLabel": "Currency",
+    "categoryLabel": "Category",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Search by product name...",
+    "addToCart": "Add to cart",
+    "contactToOrder": "Contact to order",
+    "proceedToCheckout": "Proceed to checkout"
+  },
+
+  "checkout": {
+    "title": "Checkout",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "street": "Street Address",
+    "postal": "Postal Code",
+    "city": "City",
+    "selectCountry": "Select Country",
+    "currencyLabel": "Currency:",
+    "proceedButton": "Proceed to Payment",
+    "emptyCartWarning": "Your cart is empty. Please add items before proceeding.",
+    "countries": [
+      "Sweden",
+      "Austria",
+      "Belgium",
+      "Czech Republic",
+      "Denmark",
+      "Estonia",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Hungary",
+      "Iceland",
+      "Ireland",
+      "Italy",
+      "Netherlands",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "Spain",
+      "Switzerland"
+    ]
+  },
+
+  "errors": {
+    "sessionFailed": "Failed to fetch session:"
+  }
+}

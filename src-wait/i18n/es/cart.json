@@ -1,0 +1,20 @@
+{
+  "yourCart": "Tu Carrito",
+  "cartPreview": "Vista Previa del Carrito",
+  "qty": "Cant:",
+  "price": "Precio",
+  "continueShopping": "← Seguir Comprando",
+  "goToCart": "Ir al Carrito",
+  "emptyCart": "Tu carrito está vacío.",
+  "clearCart": "Vaciar Carrito",
+  "keepBrowsing": "🛍️ Seguir Explorando",
+  "proceedCheckout": "➡️ Proceder al Pago",
+  "confirmClear": "¿Estás seguro de que deseas vaciar el carrito?",
+  "cancel": "Cancelar",
+  "confirm": "Sí, Vaciar",
+  "toast": {
+    "updated": "Cantidad actualizada",
+    "removed": "Artículo eliminado",
+    "cleared": "¡Carrito vaciado!"
+  }
+}

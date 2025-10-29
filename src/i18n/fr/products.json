@@ -1,0 +1,443 @@
+{
+  "pageHeading": "Découvrez nos produits",
+
+  "categories": {
+    "cosmetics": "Produits cosmétiques",
+    "healingBotanicals": "Plantes médicinales",
+    "agro": "Commerce agroalimentaire et matières premières"
+  },
+
+  "subcategories": {
+    "Hair": "Soin des cheveux",
+    "Skin": "Soin de la peau",
+    "Tea": "Tisanes",
+    "Items": "Articles"
+  },
+
+  "fieldLabels": {
+    "description": "Description",
+    "origin": "Origine",
+    "history": "Histoire",
+    "botanicalName": "Nom botanique",
+    "family": "Famille",
+    "benefits": "Bienfaits",
+    "usage": "Utilisation",
+    "sideEffects": "Effets secondaires",
+    "productionDate": "Date de production",
+    "bestBefore": "À consommer de préférence avant",
+    "price": "Prix"
+  },
+
+  "buttons": {
+    "contactWhatsApp": "Contacter via WhatsApp"
+  },
+
+  "product": {
+    "notFound": "Produit",
+    "contactAdmin": "admin@tropinord.com"
+  },
+
+  "order": {
+    "quantity": "Quantité",
+    "addToCart": "Ajouter au panier",
+    "addedToCart": "{{item}} (x{{qty}}) ajouté au panier !"
+  },
+
+  "agro": {
+    "items": {
+      "banana-leaves": {
+        "title": "Feuilles de Bananier (Origine Terre)",
+        "description": "Feuilles de bananier fraîches et vertes pour la production textile organique, l'emballage ou la cuisine – uniquement en vrac.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "charcoal-bulk": {
+        "title": "Charbon de Bois (vrac)",
+        "description": "Charbon de bois de haute qualité pour grillades ou usage industriel. Contactez-nous pour commander.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "dry-bones-for-feed": {
+        "title": "Os Séchés (pour alimentation animale)",
+        "description": "Os propres et séchés au soleil pour l'alimentation animale. Exportation possible.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "palm-oil-bulk": {
+        "title": "Huile de Palme (vrac)",
+        "description": "Huile de palme rouge en vrac, idéale pour la cuisine et la production cosmétique.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "shea-butter-bulk": {
+        "title": "Beurre de Karité (vrac)",
+        "description": "Beurre de karité non raffiné en vrac pour grossistes et usage cosmétique.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "cassava-residue": {
+        "title": "Résidu de Manioc",
+        "description": "Sous-produit riche en énergie, idéal pour l'alimentation animale et l'usage industriel.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "dried-cassava-peel": {
+        "title": "Peau de Manioc Séchée",
+        "description": "Peau de manioc séchée au soleil, adaptée à l'alimentation animale et aux solutions de compostage.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      }
+    }
+  },
+
+  "byId": {
+    "growth-hair-cream-b27663": {
+      "label": "Crème Capillaire Fortifiante",
+      "description": "Crème nourrissante à la biotine et aux huiles naturelles pour renforcer les follicules pileux et favoriser une croissance saine.",
+      "botanicalName": "N/A",
+      "family": "N/A",
+      "origin": "Nigéria",
+      "history": "Utilisée depuis des générations dans les routines capillaires ouest-africaines.",
+      "usage": "Appliquer directement sur le cuir chevelu et masser.",
+      "benefits": "Stimule la pousse des cheveux et réduit la casse.",
+      "sideEffects": "Aucun effet secondaire connu.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "scalp-treatment-cream-39109f": {
+      "label": "Crème Traitante pour Cuir Chevelu",
+      "description": "Apaisante et anti-pelliculaire à l'huile d'arbre à thé et à l'aloe vera pour un cuir chevelu équilibré.",
+      "botanicalName": "Melaleuca alternifolia",
+      "family": "Myrtaceae",
+      "origin": "Australie",
+      "history": "Utilisée historiquement pour traiter l'inflammation du cuir chevelu.",
+      "usage": "Appliquer deux fois par semaine sur cuir chevelu sec.",
+      "benefits": "Réduit les démangeaisons, améliore la santé du cuir chevelu.",
+      "sideEffects": "Possibilité de légère sensation de picotement.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "curls-hair-cream-9f7de4": {
+      "label": "Crème pour Boucles",
+      "description": "Définit et hydrate les boucles avec du beurre de karité et de l'huile de coco pour des boucles sans frisottis.",
+      "botanicalName": "Butyrospermum parkii, Cocos nucifera",
+      "family": "Sapotaceae, Arecaceae",
+      "origin": "Ghana & Philippines",
+      "history": "Utilisée traditionnellement pour adoucir et définir les boucles.",
+      "usage": "Appliquer sur cheveux mouillés et scruncher.",
+      "benefits": "Apporte brillance et volume, dompte les frisottis.",
+      "sideEffects": "Aucun effet secondaire signalé.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "afro-hair-cream-5dc05e": {
+      "label": "Crème pour Cheveux Afro",
+      "description": "Formule riche et non grasse pour hydrater et protéger les cheveux afro de la casse.",
+      "botanicalName": "N/A",
+      "family": "N/A",
+      "origin": "Nigéria",
+      "history": "Fait partie des rituels de beauté africains.",
+      "usage": "Masser sur cheveux humides ou secs.",
+      "benefits": "Prévient la sécheresse et les dommages.",
+      "sideEffects": "Aucun effet secondaire connu.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "dreadlock-hair-cream-868670": {
+      "label": "Crème pour Dreadlocks",
+      "description": "Crème légère pour hydrater et maintenir des dreadlocks soignées et saines.",
+      "botanicalName": "N/A",
+      "family": "N/A",
+      "origin": "Jamaïque",
+      "history": "Utilisée dans les rituels capillaires caribéens.",
+      "usage": "Appliquer au besoin pour entretenir les dreadlocks.",
+      "benefits": "Hydrate et conditionne les dreadlocks.",
+      "sideEffects": "Aucun effet secondaire signalé.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "shea-butter-b289b0": {
+      "label": "Beurre de Karité",
+      "description": "Beurre de karité 100% pur non raffiné pour hydrater et réparer la peau sèche.",
+      "botanicalName": "Butyrospermum parkii",
+      "family": "Sapotaceae",
+      "origin": "Afrique de l'Ouest",
+      "history": "Utilisé depuis des siècles comme protecteur et hydratant cutané.",
+      "usage": "Appliquer sur la peau selon les besoins.",
+      "benefits": "Hydrate et nourrit la peau sèche.",
+      "sideEffects": "Réactions allergiques rares.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "neem-oil-76981d": {
+      "label": "Huile de Neem",
+      "description": "Huile antibactérienne pour traiter l'acné, l'eczéma et les infections fongiques tout en apaisant l'inflammation.",
+      "botanicalName": "Azadirachta indica",
+      "family": "Meliaceae",
+      "origin": "Inde",
+      "history": "Utilisée en médecine ayurvédique pour les soins de la peau.",
+      "usage": "Appliquer diluée sur les zones concernées.",
+      "benefits": "Guérit les plaies et élimine les infections.",
+      "sideEffects": "Irritation cutanée possible si utilisée pure.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "african-black-soap-raw-123abc": {
+      "label": "Savon Noir Africain – Brut",
+      "description": "Savon noir africain traditionnel brut pour un nettoyage profond de la peau.",
+      "botanicalName": "Variable (Cendre de peau de banane plantain, cendre de cabosse de cacao, beurre de karité, huile de palme)",
+      "family": "Multiple (ingrédients végétaux naturels)",
+      "origin": "Afrique de l'Ouest",
+      "history": "Un secret de beauté ouest-africain vieux de plusieurs siècles.",
+      "usage": "Faire mousser avec de l'eau, appliquer sur la peau, rincer abondamment.",
+      "benefits": "Nettoie et exfolie en profondeur tout en nourrissant la peau.",
+      "sideEffects": "Peut assécher les peaux sensibles ; appliquer une crème hydratante après.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "african-black-soap-liquid-456def": {
+      "label": "Savon Noir Africain – Liquide",
+      "description": "Forme liquide, idéale pour un lavage quotidien doux et l'hygiène familiale.",
+      "botanicalName": "Variable (Cendre de peau de banane plantain, cendre de cabosse de cacao, beurre de karité, huile de palme)",
+      "family": "Multiple (ingrédients végétaux naturels)",
+      "origin": "Afrique de l'Ouest",
+      "history": "Version moderne et facile à utiliser du savon traditionnel.",
+      "usage": "Appliquer sur peau mouillée, masser doucement, rincer.",
+      "benefits": "Format liquide pratique pour un nettoyage quotidien.",
+      "sideEffects": "Peut assécher les peaux très sensibles ; appliquer une crème hydratante après.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "african-black-soap-original-112233": {
+      "label": "Savon Noir Africain – Original",
+      "description": "Savon noir africain authentique avec une formulation traditionnelle et une texture riche.",
+      "botanicalName": "Variable (Cendre de peau de banane plantain, cendre de cabosse de cacao, beurre de karité, huile de palme)",
+      "family": "Multiple (ingrédients végétaux naturels)",
+      "origin": "Afrique de l'Ouest",
+      "history": "Savon artisanal traditionnel transmis de génération en génération.",
+      "usage": "Faire mousser, nettoyer la peau, rincer à l'eau.",
+      "benefits": "Nettoie en profondeur tout en préservant les huiles naturelles de la peau.",
+      "sideEffects": "Peut être légèrement abrasif si utilisé directement sans mousse.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "tulsi-herbal-tea-001": {
+      "label": "Tisane de Tulsi",
+      "description": "Soutient la santé immunitaire et soulage le stress.",
+      "botanicalName": "Ocimum tenuiflorum",
+      "family": "Lamiaceae",
+      "origin": "Inde",
+      "history": "Utilisée en médecine ayurvédique comme la 'Reine des Herbes'.",
+      "usage": "Infuser dans l'eau chaude pendant 5 à 7 minutes.",
+      "benefits": "Adaptogène, anti-inflammatoire, détoxifiant.",
+      "sideEffects": "Déconseillé pendant la grossesse.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "sweet-apple-tea-002": {
+      "label": "Pomme Douce",
+      "description": "Un mélange fruité et réconfortant de pommes séchées et d'herbes sucrées pour apaiser les sens.",
+      "botanicalName": "Malus domestica (Pomme), Hibiscus sabdariffa",
+      "family": "Rosaceae, Malvaceae",
+      "origin": "Allemagne",
+      "history": "Populaire comme tisane pour enfants.",
+      "usage": "Infuser 1 c. à café dans 250 ml d'eau bouillante pendant 8 minutes.",
+      "benefits": "Apaise la digestion et favorise la relaxation.",
+      "sideEffects": "Aucun effet secondaire signalé.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "ginger-lemon-tea-003": {
+      "label": "Gingembre Citron",
+      "description": "Une infusion tonifiante au gingembre et à l'écorce de citron pour dynamiser et soutenir la digestion.",
+      "botanicalName": "Zingiber officinale, Citrus limon",
+      "family": "Zingiberaceae, Rutaceae",
+      "origin": "Mélangé en Allemagne",
+      "history": "Remède traditionnel européen contre le rhume et les nausées.",
+      "usage": "Infuser 1 c. à café dans 200 ml d'eau chaude pendant 5 à 7 minutes.",
+      "benefits": "Soulage les nausées et redonne de l'énergie.",
+      "sideEffects": "Peut irriter les estomacs sensibles.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "herbs-and-honey-tea-004": {
+      "label": "Herbes & Miel",
+      "description": "Un mélange doux d'herbes sucrées avec une saveur naturelle de miel – apaisant et aromatique.",
+      "botanicalName": "Diverses herbes incluant camomille et fenouil",
+      "family": "Asteraceae, Apiaceae",
+      "origin": "Europe",
+      "history": "Souvent consommé pour se détendre avant le sommeil.",
+      "usage": "Infuser dans l'eau bouillante pendant 8 minutes.",
+      "benefits": "Aide à calmer les nerfs et à stabiliser la digestion.",
+      "sideEffects": "À éviter pendant la grossesse (à cause du fenouil).",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "feel-fit-tea-005": {
+      "label": "Feel Fit",
+      "description": "Une tisane revitalisante à la citronnelle, au gingembre et à la menthe pour un équilibre quotidien.",
+      "botanicalName": "Cymbopogon citratus, Mentha piperita",
+      "family": "Poaceae, Lamiaceae",
+      "origin": "Mélangé en Allemagne",
+      "history": "Mélange moderne populaire pour le bien-être.",
+      "usage": "Infuser pendant 5 à 7 minutes.",
+      "benefits": "Soutient le métabolisme et l'immunité.",
+      "sideEffects": "Aucun effet secondaire signalé.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "evening-dream-tea-006": {
+      "label": "Evening Dream",
+      "description": "Tisane apaisante à la lavande et à la mélisse pour un sommeil réparateur.",
+      "botanicalName": "Melissa officinalis, Lavandula angustifolia",
+      "family": "Lamiaceae",
+      "origin": "Europe",
+      "history": "Traditionnellement utilisée pour réduire l'anxiété et favoriser la relaxation.",
+      "usage": "Boire 30 minutes avant le coucher.",
+      "benefits": "Calme le système nerveux et améliore la qualité du sommeil.",
+      "sideEffects": "Peut provoquer de la somnolence.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "fennel-anise-caraway-tea-007": {
+      "label": "Fenouil Anis Carvi",
+      "description": "Un mélange digestif allemand classique pour soulager les ballonnements et apaiser l'estomac.",
+      "botanicalName": "Foeniculum vulgare, Pimpinella anisum, Carum carvi",
+      "family": "Apiaceae",
+      "origin": "Allemagne",
+      "history": "Remède traditionnel populaire en Europe.",
+      "usage": "Infuser 1 c. à café dans 250 ml d'eau bouillante pendant 10 minutes.",
+      "benefits": "Soutient la digestion et soulage les gaz.",
+      "sideEffects": "À éviter en grandes quantités pendant la grossesse.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "harmony-herbal-blend-008": {
+      "label": "Harmony Mélange d'Herbes",
+      "description": "Mélange floral et épicé pour l'équilibre intérieur et le bien-être émotionnel.",
+      "botanicalName": "Inclut hibiscus, citronnelle, églantier",
+      "family": "Malvaceae, Poaceae, Rosaceae",
+      "origin": "Allemagne",
+      "history": "Conçu pour le bien-être émotionnel et l'harmonie corporelle.",
+      "usage": "Infuser 5 à 10 minutes selon l'intensité désirée.",
+      "benefits": "Dynamise tout en calmant l'esprit.",
+      "sideEffects": "Aucun effet secondaire signalé.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "good-evening-tea-009": {
+      "label": "Good Evening",
+      "description": "Tisane relaxante du soir aux herbes calmantes pour détendre le corps et l'esprit.",
+      "botanicalName": "Chamomilla recutita, Passiflora incarnata",
+      "family": "Asteraceae, Passifloraceae",
+      "origin": "Allemagne",
+      "history": "Recommandée pour un soutien doux du sommeil.",
+      "usage": "À consommer le soir avant de se coucher.",
+      "benefits": "Favorise un sommeil paisible et la relaxation.",
+      "sideEffects": "Peut provoquer de la somnolence.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "arctic-sunrise-herbal-blend-257172": {
+      "label": "Arctic Sunrise Mélange d'Herbes",
+      "description": "Herbes nordiques et écorces d'agrumes pour dynamiser vos matins.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "forest-berry-immunity-aedd73": {
+      "label": "Forest Berry Immunity",
+      "description": "Baies nordiques et hibiscus pour le bien-être hivernal.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "organic-coffee-abc123": {
+      "label": "Café Bio",
+      "description": "Café biologique doux et aromatique provenant des hautes terres tropicales.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    }
+  },
+
+  "upload": {
+    "approvalNeeded": "Vous devez être approuvé avant de publier des produits."
+  },
+
+  "nordic-harvest-corn-bread": {
+    "label": "Pain de Maïs Récolte Nordique",
+    "description": "Pain de maïs rustique inspiré des cuisines nordiques — mie généreuse, croûte dorée.",
+    "origin": "Région nordique",
+    "history": "Cuit en petits lots avec des céréales moulues à la pierre, clin d’œil à la boulangerie paysanne scandinave où la saison guidait le pain du jour.",
+    "usage": "Trancher et déguster frais; se réchauffe bien au four.",
+    "benefits": "Aliment réconfortant fait d’ingrédients simples.",
+    "sideEffects": "Peut contenir du gluten si mélangé avec de la farine de blé.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  },
+  "hand-knit-wool-scarf": {
+    "label": "Écharpe en Laine Tricotée à la Main",
+    "description": "Écharpe artisanale douillette, motifs nordiques classiques en laine douce.",
+    "origin": "Scandinavie",
+    "history": "Inspirée des traditions de tricot scandinaves transmises de génération en génération; motifs des côtes et des montagnes.",
+    "usage": "Aérer après usage; laver à la main à froid et sécher à plat.",
+    "benefits": "Chaud, respirant et durable grâce aux fibres naturelles.",
+    "sideEffects": "La laine peut irriter les peaux très sensibles.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "N/A"
+  },
+  "cassava-fufu": {
+    "label": "Foufou de Manioc",
+    "description": "Classique d’Afrique de l’Ouest à base de manioc — lisse, élastique, parfait avec les soupes egusi, légumes, ogbono/okra, etc.",
+    "origin": "Afrique de l’Ouest",
+    "history": "Féculent pilier des cuisines ouest-africaines. Traditionnellement pilé; la mouture moderne affine la texture.",
+    "usage": "Cuire selon l’emballage; servir chaud avec soupes et ragoûts.",
+    "benefits": "Base nourrissante et polyvalente pour des saveurs intenses.",
+    "sideEffects": "Riche en glucides; consommer dans le cadre d’un régime équilibré.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  },
+
+  "dagman-001": {
+    "label": "Pain aux graines de melon",
+    "description": "Pain rustique du quotidien — mie moelleuse, croûte ferme.",
+    "origin": "Région nordique",
+    "history": "Inspiré des rituels de récolte nordiques et de la boulangerie de ferme. Farines moulues sur pierre pour plus de caractère.",
+    "usage": "Trancher et déguster frais; excellent avec du beurre, des soupes ou grillé.",
+    "benefits": "Pain nourrissant à la texture satisfaisante.",
+    "sideEffects": "Contient du gluten; peut contenir des traces de fruits à coque.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  },
+  "dagman-002": {
+    "label": "Pain de maïs",
+    "description": "Pain généreux et plus moelleux qui accompagne à merveille soupes et ragoûts.",
+    "origin": "Région nordique",
+    "history": "Savoir-faire traditionnel et approche moderne pour la table de tous les jours. Hydratation équilibrée pour une mie tendre.",
+    "usage": "Réchauffer légèrement avant de servir.",
+    "benefits": "Saveur douce et texture réconfortante.",
+    "sideEffects": "Contient du gluten.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  },
+  "tropical-crunchy-001": {
+    "label": "Tropical Crunchy",
+    "description": "Croûte croquante et note ludique — délicieux avec des tartinades. Disponible avec ou sans fruits à coque.",
+    "origin": "Région nordique",
+    "history": "Un contrepoint lumineux aux pains nordiques traditionnels. Petits lots pour une fraîcheur maximale.",
+    "usage": "Idéal avec beurres de noix, confitures ou fromages frais.",
+    "benefits": "Texture croquante; profil aromatique enjoué.",
+    "sideEffects": "Contient du gluten; la variante avec fruits à coque peut en contenir.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  },
+  "fufu-egusi-001": {
+    "label": "Fufu & Égusi",
+    "description": "Classique ouest-africain — fufu doux et élastique servi avec une riche soupe à l’égusi.",
+    "origin": "Afrique de l’Ouest",
+    "history": "L’égusi utilise des graines de melon moulues pour une base savoureuse et légèrement noisettée; plat apprécié au Nigeria et dans la région.",
+    "usage": "Servir chaud; se déguste avec les doigts avec des portions de soupe.",
+    "benefits": "Fécule rassasiante accompagnée d’une soupe riche en protéines.",
+    "sideEffects": "Peut contenir des allergènes (graines de melon); à consommer dans le cadre d’une alimentation équilibrée.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  }
+}

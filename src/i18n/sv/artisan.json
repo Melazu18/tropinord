@@ -1,0 +1,112 @@
+{
+  "apply": {
+    "title": "Bli en TropiNord-hantverkare",
+    "subtitle": "Alla godkända användare visas med ett anonymt visningsnamn under profilbilden.",
+    "description": "Gå med i vårt nätverk av lokala hantverkare och visa upp dina handgjorda produkter.",
+    "successTitle": "Ansökan skickad! 🎉",
+    "successMessage": "Din ansökan har tagits emot och granskas. Vi meddelar dig när den är behandlad.",
+    "viewStatus": "Visa ansökningsstatus",
+    "error": "Kunde inte skicka ansökan",
+    "form": {
+      "typeLabel": "Jag ansöker som *",
+      "type": {
+        "artisan": "Hantverkare",
+        "seller": "Säljare / Marknadsförare"
+      },
+
+      "companyName": "Företagsnamn",
+      "website": "Webbplats",
+      "country": "Land",
+      "description": "Beskrivning",
+      "productCategories": "Produktkategorier",
+      "selectedCategories": "Valda kategorier",
+      "submit": "Skicka ansökan",
+      "submitting": "Skickar...",
+      "requiredField": "Detta fält är obligatoriskt",
+      "minLength": "Måste vara minst {{count}} tecken",
+      "descriptionHint": "Minst 50 tecken som beskriver ditt hantverk och dina produkter",
+
+      "skillLevelLabel": "Färdighetsnivå *",
+      "skill": {
+        "beginner": "Nybörjare",
+        "intermediate": "Mellan",
+        "professional": "Professionell"
+      },
+      "skillHint": "Högre nivå kan ge premiumprissättning.",
+
+      "craftFrequencyLabel": "Skapandefrekvens *",
+      "freq": {
+        "weekly": "Varje vecka",
+        "biweekly": "Varannan vecka",
+        "monthly": "Varje månad",
+        "two_months": "Varannan månad",
+        "quarterly": "Kvartalsvis",
+        "semi_annual": "Halvårsvis",
+        "yearly": "Årligen"
+      },
+
+      "anonNote": "Obs! Din offentliga profil visar ett anonymt visningsnamn efter godkännande.",
+
+      "errors": {
+        "categoriesRequired": "Välj minst en produktkategori"
+      },
+      "placeholder": {
+        "companyName": "Ditt företags- eller varumärkesnamn",
+        "country": "Skriv in ditt land",
+        "website": "https://dinwebbplats.se",
+        "description": "Berätta om dina produkter, tekniker och inspiration...",
+        "searchCategories": "Sök kategorier..."
+      }
+    },
+    "guidelines": {
+      "title": "Riktlinjer för ansökan",
+      "quality": "Produkter ska vara handgjorda eller hemmagjorda av kvalitetsmaterial",
+      "originality": "Varorna ska vara original eller traditionellt hantverk",
+      "description": "Ge detaljerade beskrivningar av tekniker och material",
+      "categories": "Välj alla relevanta produktkategorier"
+    },
+    "categories": {
+      "pottery": "Keramik",
+      "ceramics": "Keramik",
+      "jewelry": "Smycken",
+      "textiles": "Textil",
+      "woodwork": "Träarbete",
+      "metalwork": "Metallarbete",
+      "glass": "Glas",
+      "painting": "Målning",
+      "sculpture": "Skulptur",
+      "home-decor": "Hemdekoration",
+      "clothing": "Kläder",
+      "accessories": "Accessoarer",
+      "natural-products": "Naturliga produkter",
+      "food": "Mat",
+      "cosmetics": "Kosmetika",
+      "basketry": "Korgmakeri",
+      "leatherwork": "Läderhantverk",
+      "candles": "Ljus",
+      "soaps": "Tvålar",
+      "essential-oils": "Eteriska oljor",
+      "it-tech": "Programmering & Kodning (IT & Teknik)"
+    }
+  },
+  "status": {
+    "pending": "VÄNTAR",
+    "approved": "GODKÄND",
+    "rejected": "AVSLAGEN",
+    "noApplication": "Ingen ansökan hittades",
+    "notApplied": "Du har ännu inte skickat in en ansökan.",
+    "applyNow": "Ansök nu",
+    "businessName": "Företagsnamn",
+    "appliedOn": "Ansökt",
+    "reviewedOn": "Granskad",
+    "reviewNotes": "Granskningsanteckningar",
+    "pendingNotice": "Din ansökan granskas. Vi hör av oss när den är behandlad.",
+    "rejectedNotice": "Din ansökan godkändes inte. Du kan ansöka igen med mer information.",
+    "reapply": "Ansök igen",
+    "approvedNotice": "🎉 Grattis! Din ansökan har godkänts!",
+    "approvedMessage": "Du kan nu börja lista dina produkter på TropiNord.",
+    "goToDashboard": "Gå till instrumentpanelen",
+    "loading": "Laddar ansökningsstatus...",
+    "error": "Kunde inte hämta ansökningsstatus"
+  }
+}

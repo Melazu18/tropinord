@@ -1,33 +1,182 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <!-- [ ... existing <head> content unchanged ... ] -->
+    <!-- Keep anything you already have in <head>. Added only safe mobile/meta fixes. -->
 
-    <!-- Google reCAPTCHA v3 -->
-    <script src="https://www.google.com/recaptcha/api.js?render=6LdS3lkrAAAAAEYJmNtaAeXqKStRV5cIXpGVtTch"></script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#166534" />
+
+    <!-- 🔹 OG/Twitter defaults (kept). Used when a route doesn't override them. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="TropiNord" />
+    <meta property="og:title" content="TropiNord – Naturally Rooted Wellness" />
+    <meta
+      property="og:description"
+      content="Explore ethical, tropical products for beauty and balance, from the tropics to the Nordics."
+    />
+    <meta property="og:url" content="https://www.tropinord.com/" />
+    <meta
+      property="og:image"
+      content="https://www.tropinord.com/images/share/default-share.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@tropinord" />
+    <meta
+      name="twitter:title"
+      content="TropiNord – Naturally Rooted Wellness"
+    />
+    <meta
+      name="twitter:description"
+      content="Explore ethical, tropical products for beauty and balance."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.tropinord.com/images/share/default-share.jpg"
+    />
+
+    <!-- Optional: minimal title fallback (React may override with Helmet) -->
+    <title>TropiNord</title>
+
+    <!-- 🔹 Route-aware OG/Twitter override (runs before React).
+         This does NOT change any existing functionality. It only tweaks meta
+         for the three share pages so link unfurls look right on apps that
+         execute a bit of JS. -->
+    <script>
+      (function () {
+        // Absolute URLs for share images (1200x630 preferred)
+        const IMG = {
+          default: "https://www.tropinord.com/images/share/default-share.jpg",
+          nordicHarvest:
+            "https://www.tropinord.com/images/share/nordic-harvest.jpg",
+          design: "https://www.tropinord.com/images/share/design-showcase.jpg",
+          africanFoods:
+            "https://www.tropinord.com/images/share/african-foods.jpg",
+        };
+
+        // Map pathname → per-route meta
+        const metaByPath = {
+          "/nordic-harvest": {
+            locale: "en_US",
+            url: "https://www.tropinord.com/nordic-harvest",
+            title: "Nordic Harvest – Harvest, breads & nature’s bounty",
+            desc: "Rustic cornbread and a celebration of seasonal Nordic baking.",
+            img: IMG.nordicHarvest,
+          },
+          "/sv/nordisk-skord": {
+            locale: "sv_SE",
+            url: "https://www.tropinord.com/sv/nordisk-skord",
+            title: "NordSkörd – Skörd, bröd & naturens gåvor",
+            desc: "Rustikt majsbröd och en hyllning till nordiska skördar.",
+            img: IMG.nordicHarvest,
+          },
+
+          "/design": {
+            locale: "en_US",
+            url: "https://www.tropinord.com/design",
+            title: "Design – Crafts, Paintings, Knitting & Textile",
+            desc: "Artisan-made pieces inspired by Nordic motifs and natural fibers.",
+            img: IMG.design,
+          },
+          "/sv/design": {
+            locale: "sv_SE",
+            url: "https://www.tropinord.com/sv/design",
+            title: "Design – Hantverk, målningar, stickning & textil",
+            desc: "Hantverksprodukter med nordiska mönster och naturmaterial.",
+            img: IMG.design,
+          },
+
+          "/african-foods": {
+            locale: "en_US",
+            url: "https://www.tropinord.com/african-foods",
+            title: "African Foods & Ingredients – Staples & flavors",
+            desc: "Trusted staples like cassava fufu and pantry essentials.",
+            img: IMG.africanFoods,
+          },
+          "/sv/afrikanska-livsmedel": {
+            locale: "sv_SE",
+            url: "https://www.tropinord.com/sv/afrikanska-livsmedel",
+            title: "Afrikanska livsmedel & ingredienser – Råvaror & smaker",
+            desc: "Basvaror som cassava fufu och andra skafferifavoriter.",
+            img: IMG.africanFoods,
+          },
+        };
+
+        const route = metaByPath[location.pathname];
+        if (!route) return;
+
+        // Utility to set or create a meta tag
+        function setMeta(propertyOrName, content, isName = false) {
+          if (!content) return;
+          const selector = isName
+            ? `meta[name="${propertyOrName}"]`
+            : `meta[property="${propertyOrName}"]`;
+          let el = document.querySelector(selector);
+          if (!el) {
+            el = document.createElement("meta");
+            if (isName) el.setAttribute("name", propertyOrName);
+            else el.setAttribute("property", propertyOrName);
+            document.head.appendChild(el);
+          }
+          el.setAttribute("content", content);
+        }
+
+        // Apply Open Graph + Twitter
+        setMeta("og:locale", route.locale);
+        setMeta("og:title", route.title);
+        setMeta("og:description", route.desc);
+        setMeta("og:url", route.url);
+        setMeta("og:image", route.img);
+        setMeta("twitter:title", route.title, true);
+        setMeta("twitter:description", route.desc, true);
+        setMeta("twitter:image", route.img, true);
+
+        // Keep document.title in sync (nice for copy/paste too)
+        try {
+          document.title = route.title + " | TropiNord";
+        } catch {}
+      })();
+    </script>
+    <script
+      src="https://www.google.com/recaptcha/api.js?render=%VITE_RECAPTCHA_SITE_KEY%"
+      async
+      defer
+    ></script>
   </head>
+
   <body>
+    <noscript>
+      <style>
+        body {
+          font-size: 16px;
+          padding: 1rem;
+        }
+      </style>
+      JavaScript is required to run this app.
+    </noscript>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
 
-    <!-- 🌿 Zoho Newsletter Popup Integration -->
+    <!--  Zoho Newsletter Popup Integration (kept) -->
     <style>
-      /* Paste your Zoho CSS styles here */
-      /* [start style block from your code above] */
       .zf_lB_Dimmer_172856 {
         position: fixed;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
+        inset: 0;
         background: rgb(0, 0, 0);
         opacity: 0.8;
         z-index: 10000000;
       }
-
       .zf_lB_Container_172856 {
         position: fixed;
-        background-color: white;
+        background-color: #fff;
         margin: 0;
         padding: 0;
         height: 878px;
@@ -35,12 +184,12 @@
         bottom: 30px;
         left: 30px;
         border: 7px solid none;
-        max-height: calc(100% - 60px);
+        max-width: 92vw;
+        max-height: min(90vh, calc(100% - 60px));
         z-index: 999999;
         transition: height 0.5s ease;
         outline: none;
       }
-
       .zf_lB_Wrapper_172856 {
         position: fixed;
         top: 50%;
@@ -49,14 +198,13 @@
         margin-top: -180px;
         z-index: 10000001;
       }
-
       .zf_main_id_172856 {
         height: calc(100% - 0px);
         display: flex;
         overflow-y: auto;
         overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
       }
-
       .zf_lb_closeform_172856 {
         position: absolute;
         right: -20px;
@@ -69,7 +217,6 @@
         cursor: pointer;
         border: 2px solid #d9d9d9;
       }
-
       .zf_lb_closeform_172856:before,
       .zf_lb_closeform_172856:after {
         position: absolute;
@@ -80,21 +227,18 @@
         top: 7px;
         background-color: #f7f7f7;
       }
-
       .zf_lb_closeform_172856:before {
         transform: rotate(45deg);
       }
       .zf_lb_closeform_172856:after {
         transform: rotate(-45deg);
       }
-
       .fadeIn {
         animation-name: fadeIn;
         animation-duration: 1s;
         animation-fill-mode: both;
         display: block !important;
       }
-
       @keyframes fadeIn {
         0% {
           opacity: 0;
@@ -103,59 +247,98 @@
           opacity: 1;
         }
       }
-
+      @media (max-width: 640px) {
+        .zf_lB_Container_172856 {
+          left: 16px;
+          bottom: 16px;
+          width: 92vw !important;
+          height: auto;
+        }
+      }
       @media screen and (max-width: 380px) {
         .zf_lB_Container_172856 {
-          width: 270px !important;
+          width: 90vw !important;
         }
       }
-
       @media screen and (max-width: 480px) {
         .zf_lB_Container_172856 {
-          width: 350px !important;
+          width: 92vw !important;
         }
       }
-
       @media screen and (max-width: 500px) {
         .zf_lB_Container_172856 {
-          width: 380px !important;
+          width: 92vw !important;
         }
       }
-
       @media (min-width: 500px) and (max-width: 600px) {
         .zf_lB_Container_172856 {
           width: 450px;
         }
       }
-
       @media (min-width: 601px) and (max-width: 700px) {
         .zf_lB_Container_172856 {
           width: 540px;
         }
       }
-
       @media (min-width: 700px) and (max-width: 800px) {
         .zf_lB_Container_172856 {
           width: 650px;
         }
       }
-
       @media (min-width: 801px) and (max-width: 1268px) {
         .zf_lB_Container_172856 {
           width: 750px !important;
         }
       }
+      @media (prefers-reduced-motion: reduce) {
+        .fadeIn {
+          animation: none;
+        }
+      }
     </style>
 
-    <button id="zf_button_172856" style="display: none">Form</button>
+    <button id="zf_button_172856" style="display: none">Open</button>
 
-    <script type="text/javascript">
-      /* Paste your Zoho <script> code here exactly as given */
-      /* This will create the popup and bind to #zf_button_172856 */
-      // [start of your JS script... (truncated here for brevity)]
-      // ...
-      // [end of script]
+    <script
+      src="https://forms.zohopublic.eu/infotrop1/form/Newsletter/formperma/3Sqq3-MLnln4ANhFbTRGgs6rKG_M6XegeWhPuc1OEmg/litebox.js"
+      defer
+    ></script>
+
+    <script>
+      (function () {
+        const BTN_ID = "zf_button_172856";
+        const EXCLUDE = [/\/order/i, /\/cart/i, /\/checkout/i, /\/payment/i];
+        if (EXCLUDE.some((re) => re.test(location.pathname))) return;
+
+        const isMobile = matchMedia("(max-width: 640px)").matches;
+        const delay = isMobile ? 12000 : 7000;
+
+        if (sessionStorage.getItem("nl_shown") === "1") return;
+
+        const DAY = 86400000;
+        const last = Number(localStorage.getItem("nl_last")) || 0;
+        const dismissed = localStorage.getItem("nl_dismissed") === "1";
+        if (dismissed && Date.now() - last < 30 * DAY) return;
+
+        window.addEventListener("load", () => {
+          setTimeout(() => {
+            if (document.hidden) return;
+            const btn = document.getElementById(BTN_ID);
+            if (btn) {
+              btn.click();
+              sessionStorage.setItem("nl_shown", "1");
+              localStorage.setItem("nl_last", String(Date.now()));
+            }
+          }, delay);
+        });
+
+        document.addEventListener("click", (e) => {
+          if (e.target.closest(".zf_lb_closeform_172856")) {
+            localStorage.setItem("nl_dismissed", "1");
+            localStorage.setItem("nl_last", String(Date.now()));
+          }
+        });
+      })();
     </script>
-    <!-- ✅ End of Zoho Form Integration -->
   </body>
 </html>

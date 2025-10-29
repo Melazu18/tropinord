@@ -1,0 +1,25 @@
+{
+  "yourCart": "Your Cart",
+  "cartPreview": "Cart Preview",
+  "qty": "Quantity:",
+  "price": "Price",
+  "continueShopping": "← Continue Shopping",
+  "goToCart": "Go to Cart",
+  "emptyCart": "Your cart is empty.",
+  "clearCart": "Clear Cart",
+  "keepBrowsing": "🛍️ Keep Browsing",
+  "proceedCheckout": "➡️ Proceed to Checkout",
+  "confirmClear": "Are you sure you want to clear the cart?",
+  "cancel": "Cancel",
+  "confirm": "Yes, Clear",
+  
+  "toast": {
+    "updated": "Quantity updated",
+    "removed": "Item removed",
+    "cleared": "Cart cleared!",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "tax": "VAT",
+    "totalLabel": "Total: {{amount}}"
+  }
+}

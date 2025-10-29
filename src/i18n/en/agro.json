@@ -1,0 +1,62 @@
+{
+  "items": {
+    "banana-leaves": {
+      "title": "Banana Leaves",
+      "description": "Fresh green banana leaves for organic textile production, wrapping or cooking – Bulk only."
+    },
+    "charcoal-(bulk)": {
+      "title": "Charcoal (Bulk)",
+      "description": "High-quality charcoal for BBQ or industrial use. Contact to order."
+    },
+    "dry-bones-(for-feed)": {
+      "title": "Dry Bones (for Feed)",
+      "description": "Clean, sun-dried bones for animal feed. Export available."
+    },
+    "palm-oil-(bulk)": {
+      "title": "Palm Oil (Bulk)",
+      "description": "Bulk red palm oil, ideal for cooking and cosmetic production."
+    },
+    "shea-butter-(bulk)": {
+      "title": "Shea Butter (Bulk)",
+      "description": "Bulk unrefined shea butter for wholesale and cosmetic use."
+    },
+    "cassava-residue": {
+      "title": "Cassava Residue",
+      "description": "High-energy byproduct ideal for animal feed and industrial use."
+    },
+    "dried-cassava-peel": {
+      "title": "Dried Cassava Peel",
+      "description": "Sun-dried cassava peel suitable for feed and composting solutions."
+    },
+    "noDescription": "No detailed description available.",
+    "notFound": "Product not found"
+  },
+  "fields": {
+    "botanicalName": "Botanical Name",
+    "family": "Family",
+    "origin": "Origin",
+    "history": "History",
+    "usage": "Usage",
+    "benefits": "Benefits",
+    "sideEffects": "Side Effects",
+    "productionDate": "Production Date",
+    "bestBefore": "Best Before"
+  },
+  "priceLabel": "Price",
+  "contactForPricing": "Contact for pricing",
+  "buttons": {
+    "backToProducts": "Back to Products"
+  },
+  "inquiry": {
+    "title": "Product Inquiry"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "sending": "Sending...",
+    "send": "Send Inquiry",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again."
+  }
+}

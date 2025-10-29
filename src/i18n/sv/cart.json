@@ -1,0 +1,24 @@
+{
+  "yourCart": "Din Varukorg",
+  "cartPreview": "Varukorgsförhandsvisning",
+  "qty": "Antal:",
+  "price": "Pris",
+  "continueShopping": "← Fortsätt handla",
+  "goToCart": "Gå till Varukorg",
+  "emptyCart": "Din varukorg är tom.",
+  "clearCart": "Töm Varukorgen",
+  "keepBrowsing": "🛍️ Fortsätt Bläddra",
+  "proceedCheckout": "➡️ Gå till Kassan",
+  "confirmClear": "Är du säker på att du vill tömma varukorgen?",
+  "cancel": "Avbryt",
+  "confirm": "Ja, Töm",
+  "toast": {
+    "updated": "Antal uppdaterat",
+    "removed": "Artikel borttagen",
+    "cleared": "Varukorgen tömd!",
+    "total": "Totalt",
+    "subtotal": "Delsumma",
+    "tax": "Moms",
+    "totalLabel": "Totalt: {{amount}}"
+  }
+}

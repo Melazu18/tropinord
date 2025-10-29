@@ -1,0 +1,14 @@
+{
+  "heading": "Handla efter kategori",
+  "items": {
+    "all": { "title": "Alla produkter", "subtitle": "Bläddra bland allt" },
+    "soaps": {
+      "title": "Naturliga tvålar",
+      "subtitle": "Skonsamma, handgjorda"
+    },
+    "oils": { "title": "Oljor", "subtitle": "Kallpressad hälsa" },
+    "tea": { "title": "Te", "subtitle": "Herbal & premiumblandningar" },
+    "agro": { "title": "Jordbruksprodukter", "subtitle": "Råvaror" },
+    "offers": { "title": "Erbjudanden", "subtitle": "Veckans deals" }
+  }
+}

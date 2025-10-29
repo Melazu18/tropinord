@@ -1,0 +1,103 @@
+{
+  "payment": {
+    "backToCheckout": "Tillbaka till kassan",
+    "chooseMethod": "💳 Välj betalningsmetod",
+    "orderSummary": "Ordersammanfattning",
+    "shippingTo": "Leveransadress:",
+    "total": "Totalt:",
+    "payCard": "Betala med kort",
+    "paySwish": "Betala med Swish",
+    "payBankgiro": "Betala med Bankgiro",
+    "processing": "Bearbetar...",
+    "loadingPaymentDetails": "Laddar betalningsinformation...",
+    "missingFields": "Fält saknas: {{fields}}",
+    "cartEmpty": "Din varukorg är tom. Vänligen lägg till produkter.",
+    "cartError": "Kunde inte ladda din varukorg",
+    "paymentFailed": "Betalningen misslyckades",
+    "sessionFailed": "Kunde inte starta betalningssession",
+    "paymentError": "Ett fel uppstod vid betalningen",
+    "currencyLabel": "Valuta:"
+  },
+
+  "thankYou": {
+    "loading": "Laddar...",
+    "orderReceived": "⏳ Order mottagen!",
+    "paymentSuccessful": "✅ Betalning lyckades!",
+    "thankYou": "Tack",
+    "forYourOrder": "för din beställning!",
+    "paymentReceived": "Din betalning på {{amount}} SEK har mottagits. Ha en fin dag!",
+    "completePayment": "Vänligen slutför din betalning så vi kan behandla din beställning.",
+    "downloadReceipt": "📄 Ladda ner kvitto",
+    "trackOrder": "🔍 Spåra min beställning",
+    "backToHome": "Tillbaka till startsidan",
+    "customer": "Kund",
+    "copied": "kopierad!",
+    "text": "Text"
+  },
+
+  "order": {
+    "success": "✅ Betalning lyckades!",
+    "thankYou": "Tack",
+    "forOrder": "för din beställning!",
+    "paymentReceived": "Din betalning har mottagits.",
+    "backToHome": "Tillbaka till startsidan",
+    "manualReceived": "⏳ Order mottagen!",
+    "manualInstructions": "Vänligen följ instruktionerna nedan för att slutföra din betalning.",
+    "orderReceived": "Din beställning har mottagits.",
+    "thanks": "Tack",
+    "downloadReceipt": "📄 Ladda ner kvitto",
+    "trackOrder": "🔍 Spåra min beställning",
+    "loading": "Laddar...",
+    "copied": "kopierad!",
+    "text": "Text",
+    "customer": "Kund",
+    "title": "Beställ produkter",
+    "currencyLabel": "Valuta",
+    "categoryLabel": "Kategori",
+    "searchLabel": "Sök",
+    "searchPlaceholder": "Sök efter produktnamn...",
+    "addToCart": "Lägg i varukorgen",
+    "contactToOrder": "Kontakta för beställning",
+    "proceedToCheckout": "Gå till kassan"
+  },
+
+  "checkout": {
+    "title": "Kassa",
+    "fullName": "Fullständigt namn",
+    "email": "E-post",
+    "phone": "Telefonnummer",
+    "street": "Gatuadress",
+    "postal": "Postnummer",
+    "city": "Stad",
+    "selectCountry": "Välj land",
+    "currencyLabel": "Valuta:",
+    "proceedButton": "Fortsätt till betalning",
+    "emptyCartWarning": "Din varukorg är tom. Lägg till produkter innan du fortsätter.",
+    "countries": [
+      "Sverige",
+      "Österrike",
+      "Belgien",
+      "Tjeckien",
+      "Danmark",
+      "Estland",
+      "Finland",
+      "Frankrike",
+      "Tyskland",
+      "Grekland",
+      "Ungern",
+      "Island",
+      "Irland",
+      "Italien",
+      "Nederländerna",
+      "Norge",
+      "Polen",
+      "Portugal",
+      "Spanien",
+      "Schweiz"
+    ]
+  },
+
+  "errors": {
+    "sessionFailed": "Kunde inte hämta session:"
+  }
+}

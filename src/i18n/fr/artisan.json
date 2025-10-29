@@ -1,0 +1,107 @@
+{
+  "apply": {
+    "title": "Devenez Artisan TropiNord",
+    "subtitle": "Tous les utilisateurs approuvés apparaissent avec un nom d'affichage anonyme sous leur photo de profil.",
+    "description": "Rejoignez notre communauté d'artisans locaux et présentez vos produits artisanaux au monde entier.",
+    "successTitle": "Candidature soumise avec succès ! 🎉",
+    "successMessage": "Votre candidature d'artisan a été reçue et est en cours d'examen. Nous vous informerons une fois votre demande traitée.",
+    "viewStatus": "Voir le statut de la candidature",
+    "error": "Échec de la soumission de la candidature",
+    "form": {
+      "typeLabel": "Je postule en tant que *",
+      "type": {
+        "artisan": "Artisan",
+        "seller": "Vendeur / Marketeur"
+      },
+      "companyName": "Nom de l'entreprise",
+      "website": "Site web",
+      "country": "Pays",
+      "description": "Description",
+      "productCategories": "Catégories de produits",
+      "selectedCategories": "Catégories sélectionnées",
+      "submit": "Soumettre la candidature",
+      "submitting": "Soumission...",
+      "requiredField": "Ce champ est obligatoire",
+      "minLength": "Doit contenir au moins {{count}} caractères",
+      "descriptionHint": "Minimum 50 caractères décrivant votre métier et vos produits",
+      "skillLevelLabel": "Niveau de compétence *",
+      "skill": {
+        "beginner": "Débutant",
+        "intermediate": "Intermédiaire",
+        "professional": "Professionnel"
+      },
+      "skillHint": "Un niveau supérieur peut débloquer des tarifs premium.",
+      "craftFrequencyLabel": "Fréquence de production *",
+      "freq": {
+        "weekly": "Hebdomadaire",
+        "biweekly": "Bimensuelle",
+        "monthly": "Mensuelle",
+        "two_months": "Bimestrielle",
+        "quarterly": "Trimestrielle",
+        "semi_annual": "Semestrielle",
+        "yearly": "Annuelle"
+      },
+      "anonNote": "Note : Votre profil public affichera un nom d'affichage anonyme après approbation.",
+      "errors": {
+        "categoriesRequired": "Veuillez sélectionner au moins une catégorie de produit"
+      },
+      "placeholder": {
+        "companyName": "Le nom de votre entreprise ou marque",
+        "country": "Entrez votre pays",
+        "website": "https://votresiteweb.com",
+        "description": "Parlez-nous de vos produits, techniques et inspiration...",
+        "searchCategories": "Rechercher des catégories..."
+      }
+    },
+    "guidelines": {
+      "title": "Directives de candidature",
+      "quality": "Les produits doivent être faits main ou faits maison avec des matériaux de qualité",
+      "originality": "Les articles doivent être des créations originales ou des artisanats traditionnels",
+      "description": "Fournissez des descriptions détaillées de vos techniques et matériaux",
+      "categories": "Sélectionnez toutes les catégories de produits pertinentes"
+    },
+    "categories": {
+      "pottery": "Poterie",
+      "ceramics": "Céramique",
+      "jewelry": "Bijoux",
+      "textiles": "Textiles",
+      "woodwork": "Bois",
+      "metalwork": "Métal",
+      "glass": "Verre",
+      "painting": "Peinture",
+      "sculpture": "Sculpture",
+      "home-decor": "Décoration d'intérieur",
+      "clothing": "Vêtements",
+      "accessories": "Accessoires",
+      "natural-products": "Produits naturels",
+      "food": "Alimentation",
+      "cosmetics": "Cosmétiques",
+      "basketry": "Vannerie",
+      "leatherwork": "Maroquinerie",
+      "candles": "Bougies",
+      "soaps": "Savons",
+      "essential-oils": "Huiles essentielles",
+      "it-tech": "Programmation & Codage (Informatique & Technologie)"
+    }
+  },
+  "status": {
+    "pending": "EN ATTENTE",
+    "approved": "APPROUVÉ",
+    "rejected": "REJETÉ",
+    "noApplication": "Aucune candidature trouvée",
+    "notApplied": "Vous n'avez pas encore soumis de candidature d'artisan.",
+    "applyNow": "Postuler maintenant",
+    "businessName": "Nom de l'entreprise",
+    "appliedOn": "Postulé le",
+    "reviewedOn": "Examiné le",
+    "reviewNotes": "Notes d'évaluation",
+    "pendingNotice": "Votre candidature est en cours d'examen. Nous vous informerons une fois qu'elle sera traitée.",
+    "rejectedNotice": "Votre candidature n'a pas été approuvée. Vous pouvez postuler à nouveau avec des informations supplémentaires.",
+    "reapply": "Repostuler",
+    "approvedNotice": "🎉 Félicitations ! Votre candidature a été approuvée !",
+    "approvedMessage": "Vous pouvez maintenant commencer à lister vos produits sur TropiNord.",
+    "goToDashboard": "Aller au tableau de bord",
+    "loading": "Chargement du statut de la candidature...",
+    "error": "Échec du chargement du statut de la candidature"
+  }
+}

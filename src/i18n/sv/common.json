@@ -1,0 +1,361 @@
+{
+  "loading": "Laddar...",
+  "close": "Stäng",
+
+  "branding": {
+    "tagline": "Naturen minns – och det gör vi också."
+  },
+
+  "explore": {
+    "title": "Utforska våra produkter",
+    "searchPlaceholder": "Sök produkter..."
+  },
+  "categories": {
+    "all": "Alla kategorier",
+    "cosmetics": "Kosmetiska produkter",
+    "healingBotanicals": "Botaniska läkningsmedel",
+    "food": "Mat & Livsmedel",
+    "agro": "Agrohandel & råmaterial",
+    "search": "Sök",
+    "Growth Hair Cream": "Hårväxtkräm",
+    "Scalp Treatment Cream": "Hårbottenbehandling"
+  },
+  "subcategories": {
+    "crownRituals": "Hårvård (Crown Rituals)",
+    "glowRoots": "Hudvård (Glow Roots)",
+    "essenceEchoes": "Parfym (Essence Echoes)",
+    "botanicBrews": "Te (Botanic Brews)",
+    "liquidGolds": "Oljor (Liquid Golds)",
+    "soulSeasonings": "Kryddor (Soul Seasonings)",
+    "earthOrigins": "Bananblad (Earth Origins)",
+    "palmOil": "Palmolja (Bulk)",
+    "sheaButter": "Sheasmör (Bulk)",
+    "palmOilDesc": "Bulk röd palmolja, perfekt för matlagning och kosmetik.",
+    "sheaButterDesc": "Bulk oraffinerat sheasmör för grossist och kosmetiskt bruk."
+  },
+  "order": {
+    "title": "Välj dina produkter",
+    "currencyLabel": "Valuta:",
+    "searchLabel": "Sök",
+    "addToCart": "Lägg i varukorg",
+    "contactToOrder": "Kontakta för beställning",
+    "currencyWarning": "Observera: Swish och Bankgiro stöder endast SEK. Valutan ställs in automatiskt.",
+    "addedToCart": "Produkten har lagts till i varukorgen!",
+    "proceedToCheckout": "Gå till kassan",
+    "categoryLabel": "Filtrera efter kategori:",
+    "searchPlaceholder": "Sök efter produktnamn..."
+  },
+  "contact": {
+    "title": "Kontakta oss",
+    "description": "Vi vill gärna höra från dig! Fyll i formuläret nedan.",
+    "name": "Namn",
+    "email": "E-post",
+    "subject": "Ämne",
+    "category": "Tjänstekategori",
+    "message": "Meddelande",
+    "send": "Skicka meddelande",
+    "success": "Meddelandet skickades!",
+    "error": "Något gick fel. Försök igen.",
+    "options": {
+      "olis": "Ekologiska oljor",
+      "soaps": "Naturliga tvålar",
+      "agro": "Agroimporter",
+      "other": "Annat"
+    }
+  },
+  "popup": {
+    "viewProducts": "Visa produkter",
+    "continue": "Fortsätt bläddra",
+    "comingSoon": "Kommer snart!",
+    "close": "Stäng"
+  },
+  "products": {
+    "organic-oils": {
+      "name": "Ekologiska oljor",
+      "description": "Kallpressade oljor som kokos, mandel, neem, etc."
+    },
+    "natural-soaps": {
+      "name": "Naturliga tvålar",
+      "description": "Afrikansk svarttvål, shea-bars, frukttvålar."
+    },
+    "agro-imports": {
+      "name": "Agroimporter",
+      "description": "Bananblad, ben, träkol och små jordbruksredskap."
+    },
+    "bananaLeaves": {
+      "label": "Bananblad",
+      "description": "Färska gröna bananblad för inslagning eller matlagning – endast i bulk."
+    },
+    "charcoal": {
+      "label": "Träkol (Bulk)",
+      "description": "Högkvalitativt träkol för grill eller industriell användning. Kontakta för beställning."
+    },
+    "dryBones": {
+      "label": "Torra ben (för foder)",
+      "description": "Rena, soltorkade ben för djurfoder. Export tillgänglig."
+    },
+    "notFound": "Produkten kunde inte hittas",
+    "shopNow": "Handla nu"
+  },
+  "thankYou": {
+    "swishPrompt": "Vänligen slutför din Swish-betalning på {{amount}} för att fortsätta.",
+    "bankgiroPrompt": "Vänligen överför {{amount}} till Bankgiro-numret nedan.",
+    "amountMissing": "Beloppet är inte tillgängligt."
+  },
+  "services": {
+    "title": "Våra tjänster",
+    "collabHeading": "Intresserad av att samarbeta med oss?",
+    "collabText": "Kontakta oss så hjälper vi dig att realisera ditt projekt.",
+    "cta": "Kontakta oss",
+    "organicOils": {
+      "title": "Ekologiska oljor",
+      "desc": "Kallpressade kokos-, neem-, baobab- och mandeloljor.",
+      "detail": "Våra ekologiska oljor som baobab, kokos, neem och mandel är etiskt kallpressade från pålitliga kooperativ i Afrika, Asien och Karibien. Varje sats är obearbetad och rik på näringsämnen, perfekt för välbefinnande, hudvård eller matlagning. Vi prioriterar renhet, rättvis handel och full spårbarhet."
+    },
+    "naturalSoaps": {
+      "title": "Naturliga tvålar",
+      "desc": "Afrikansk svarttvål, sheatvål och örtblandningar.",
+      "detail": "Våra naturliga tvålar inkluderar traditionell afrikansk svarttvål, sheasmörstvålar och specialblandningar med moringa, gurkmeja och neem. Tillverkade med gamla metoder och hållbart skördade ingredienser ger dessa tvålar en mild men effektiv rengöring samtidigt som de stödjer lokala hantverkare."
+    },
+    "agroImports": {
+      "title": "Agro- & råmaterialimport",
+      "desc": "Jordbruksprodukter, örter och ekoförpackningar från tropikerna.",
+      "detail": "Vi importerar nischade agro-baserade material och ekoprodukter som bananblad, kassavamel, torkade örter och nedbrytningsbara förpackningar. Vårt nätverk sträcker sig över Afrika, Asien och Karibien – och stödjer rena varumärken, restauranger och hållbara återförsäljare i Norden."
+    },
+    "logistics": {
+      "title": "Detaljhandel & logistikstöd",
+      "desc": "Nordisk logistik för små varumärken.",
+      "detail": "Vår logistikservice är utformad för mikrovarumärken och enskilda entreprenörer. Vi hjälper till med lagerhållning, etikettering, nordiskt anpassad förpackning och sista milens leverans inom Sverige och EU. Oavsett om du lanserar en örtprodukt eller en ny snacksort, gör vårt stöd dig redo för detaljhandeln."
+    },
+    "ecoSourcing": {
+      "title": "Eko-upphandlingspartnerskap",
+      "desc": "Rättvis handel med full spårbarhet.",
+      "detail": "Vi tror på etisk, miljövänlig handel. Vår eko-upphandling kopplar samman dig med småskaliga odlare som använder regenerativt jordbruk och agroekologi. Vi utvecklar försörjningskedjor tillsammans med producenter i underrepresenterade regioner, säkerställer rättvisa priser, hållbara skördar och berättelser som säljer."
+    },
+    "community": {
+      "title": "Samhällsengagemang",
+      "desc": "Stärker ungdomar genom hållbarhet.",
+      "detail": "Vårt engagemang fokuserar på ungdomsutveckling, matbildning och grönt entreprenörskap. Genom mentorskap, workshops och idrottsbaserade program hjälper vi till att bygga broar mellan landsbygdens talang och stadsmarknader – från lokalsamhällen i Västafrika till integrationsnav i Skandinavien."
+    }
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "whatisTropinord": {
+      "q": "Vad är TropiNord?",
+      "a": "TropiNord kombinerar tropiska traditioner med nordisk kvalitet. Vi fokuserar nu på naturliga oljor och teer från tropiska regioner, särskilt Afrika."
+    },
+    "productsOffered": {
+      "q": "Vilka produkter erbjuder ni?",
+      "a": "Vi erbjuder högkvalitativa oljor för hud, hår och matlagning samt teer (ört-, grönt, svart och specialblandningar), alla etiskt framställda."
+    },
+    "organicSourcing": {
+      "q": "Är era produkter verkligen ekologiska eller naturliga?",
+      "a": "Vi prioriterar kallpressade, oraffinerade oljor och naturligt odlade växter. Många kommer från kooperativ som följer ekologiska metoder."
+    },
+    "sourcingAfrica": {
+      "q": "Kommer era produkter verkligen från Afrika?",
+      "a": "Ja, många av våra oljor och teer är direktimporterade från kooperativ i Väst-, Öst- och Sydafrika."
+    },
+    "oilUse": {
+      "q": "Hur använder jag era oljor? Är de ätbara?",
+      "a": "Vissa oljor är för hud/hår, andra för matlagning. Produktsidorna visar tydligt användning och fördelar."
+    },
+    "allergens": {
+      "q": "Finns det allergener?",
+      "a": "Om du är känslig mot nötter, frön eller örter—kontrollera ingredienserna. Gör alltid ett litet hudtest först."
+    },
+    "teaPrep": {
+      "q": "Hur brygger jag teet?",
+      "a": "Örtte: 95–100°C i 5–10 min; Grönt: ~80°C i 2–3 min; Svart: 95°C i 3–5 min."
+    },
+    "storage": {
+      "q": "Hur ska oljor och teer förvaras?",
+      "a": "Förvara svalt och mörkt. Oljor håller längre i kylskåp. Teer förvaras bäst torrt i burk."
+    },
+    "shipsFrom": {
+      "q": "Varifrån skickas varorna?",
+      "a": "Vi skickar från Sverige och levererar inom hela EU."
+    },
+    "shippingPolicy": {
+      "q": "Hur fungerar frakten?",
+      "a": "Order behandlas inom 1–3 dagar. Sverige: 2–5 dagar; EU: 5–10+ dagar. Avgifter och spårning visas i kassan."
+    },
+    "returnPolicy": {
+      "q": "Hur fungerar returer?",
+      "a": "Oöppnade varor kan returneras inom 14 dagar. Öppnade teer eller kroppsvård returneras ej om de inte är defekta."
+    },
+    "payments": {
+      "q": "Vilka betalningsmetoder finns?",
+      "a": "Kortbetalning via Stripe. I Sverige även Swish och Bankgiro."
+    },
+    "contactSupport": {
+      "q": "Hur kontaktar jag support?",
+      "a": "Via vårt kontaktformulär eller info@tropinord.com. Svar inom 24–48 timmar."
+    },
+    "wholesale": {
+      "q": "Erbjuder ni grossist eller större volymer?",
+      "a": "Ja, bulkorder av oljor och teer finns på begäran—kontakta sellers@tropinord.com."
+    }
+  },
+  "shipping": {
+    "title": "Frakt & returer",
+    "policyTitle": "Fraktpolicy",
+    "intro": "På TropiNord är vi engagerade i att leverera din beställning snabbt och säkert. Alla beställningar packas med omsorg, gärna med hållbara material när det är möjligt.",
+    "points": [
+      "Behandlingstid: Beställningar behandlas normalt inom 1–3 arbetsdagar efter betalningsbekräftelse.",
+      "Leveranstid: Inom Sverige: 2–5 arbetsdagar. Internationellt: 7–21 arbetsdagar beroende på destination.",
+      "Fraktavgifter: Beräknas i kassan baserat på vikt, storlek och leveransadress.",
+      "Spårning: En spårningslänk skickas via e-post när din beställning har skickats.",
+      "Tull & importavgifter: Internationella kunder ansvarar för eventuella tullavgifter, moms eller importkostnader som kan tillkomma."
+    ],
+    "returnsTitle": "Returer & byten",
+    "returnsIntro": "Din tillfredsställelse är viktig för oss. Om du inte är helt nöjd med ditt köp erbjuder vi returer och byten enligt villkoren nedan:",
+    "returnPoints": [
+      "Berättigande: Varor måste returneras oanvända, i originalskick och förpackning, inom 14 dagar från leverans.",
+      "Ej returnerbara varor: Av hygien- och säkerhetsskäl kan personliga vårdprodukter, färskvaror eller specialtillverkade produkter inte returneras om de inte är defekta.",
+      "Returnbegäran: Kontakta vårt supportteam på support@tropinord.com med ditt ordernummer och anledning till retur.",
+      "Återbetalningar: Godkända returer återbetalas till den ursprungliga betalningsmetoden inom 7–10 arbetsdagar efter inspektion.",
+      "Returfrakt: Du ansvarar för returfrakten om inte varan var skadad, defekt eller felaktig vid mottagandet."
+    ],
+    "closing": "Om du har frågor eller behöver hjälp, tveka inte att kontakta oss. Vi finns här för dig!",
+    "servicesTitle": "Frakttjänster",
+    "servicesIntro": "Vi samarbetar med pålitliga logistikpartners för att säkerställa säkra och punktliga leveranser:",
+    "serviceProviders": ["DHL Express", "PostNord", "UPS", "Bring"],
+    "faqTitle": "Vanliga frågor",
+    "faqIntro": "Vanliga frågor om frakt och returer:",
+    "faqList": [
+      "Hur lång tid tar frakten till mitt land?",
+      "Kan jag ändra min leveransadress efter att jag beställt?",
+      "Vad händer om mitt paket försvinner eller skadas?",
+      "Hur spårar jag min beställning?",
+      "Finns det några leveransbegränsningar?"
+    ],
+    "contactTitle": "Behöver du hjälp? Kontakta oss",
+    "emailLabel": "E-post",
+    "supportEmail": "support@tropinord.com",
+    "phoneLabel": "Telefon/WhatsApp",
+    "phoneNumber": "+46700711713",
+    "supportHours": "Kundtjänst tillgänglig måndag–fredag, 09:00–17:00 (CET)"
+  },
+
+  "privacy": {
+    "title": "Integritetspolicy",
+    "effectiveDate": "Giltigt från: 12 juni 2025",
+    "intro": "På TropiNord är din integritet en hög prioritet. Denna integritetspolicy förklarar hur vi samlar in, använder och skyddar din personliga information...",
+    "section1": {
+      "title": "1. Vilken information vi samlar in",
+      "personalInfo": "Personlig information: Namn, adress, e-post, telefonnummer och betalningsinformation (används endast för transaktioner).",
+      "technicalData": "Teknisk data: IP-adress, webbläsartyp, enhetsidentifierare och besökta sidor, samlas in automatiskt via cookies och analysverktyg.",
+      "thirdPartyData": "Tredjepartsdata: Information från betaltjänster och leveranspartners för orderhantering."
+    },
+    "section2": {
+      "title": "2. Hur vi använder din information",
+      "uses": [
+        "För att behandla och leverera dina beställningar effektivt.",
+        "För att skicka orderbekräftelser, leveransuppdateringar eller nyhetsbrev.",
+        "För att förbättra webbplatsfunktioner, kundservice och erbjudanden.",
+        "För att uppfylla juridiska eller skattemässiga krav enligt svensk och EU-lag."
+      ]
+    },
+    "section3": {
+      "title": "3. Delning av data",
+      "description": "Vi delar endast din data med betrodda tredje parter som är nödvändiga för orderhantering, såsom betalningslösningar (t.ex. Stripe, Swish, PayPal) och logistikpartners. Vi säljer inte eller hyr ut din data under några omständigheter."
+    },
+    "section4": {
+      "title": "4. Datasäkerhet",
+      "description": "Vi använder branschstandardkryptering, säkra servrar och åtkomstkontroller för att skydda dina personuppgifter. Observera dock att ingen digital överföring eller lagringsmetod är helt säker."
+    },
+    "section5": {
+      "title": "5. Dina rättigheter",
+      "intro": "Enligt EU:s dataskyddsförordning (GDPR) har du rätt att:",
+      "rights": [
+        "Begära tillgång till dina personuppgifter",
+        "Begära rättelse av felaktiga eller inaktuella uppgifter",
+        "Begära radering av dina uppgifter (\"rätten att bli glömd\")",
+        "Återkalla samtycke för marknadskommunikation",
+        "Lämna in klagomål till en tillsynsmyndighet"
+      ],
+      "contactForm": "För att utöva dessa rättigheter, kontakta oss på"
+    },
+    "section6": {
+      "title": "6. Cookies",
+      "description": "TropiNord använder cookies och liknande teknologier för att förbättra din upplevelse..."
+    },
+    "section7": {
+      "title": "7. Databevarande",
+      "description": "Vi sparar dina uppgifter endast så länge det är nödvändigt för att uppfylla syftena enligt denna policy..."
+    },
+    "section8": {
+      "title": "8. Uppdateringar av policyn",
+      "description": "Vi kan ibland uppdatera denna integritetspolicy för att återspegla nya regler eller affärsmetoder..."
+    },
+    "section9": {
+      "title": "9. Kontakt",
+      "contact": "Frågor om vår integritetspolicy eller hur vi hanterar din data? Kontakta oss:<br /><strong>E-post:</strong><a href=\"mailto:privacy@tropinord.com\" class=\"text-blue-600 underline\">privacy@tropinord.com</a><br /><strong>Telefon:</strong> +46 76 433 05 23"
+    },
+    "lastUpdated": "Senast uppdaterad"
+  },
+
+  "terms": {
+    "title": "Användarvillkor",
+    "intro": "Dessa villkor styr din användning av TropiNord-tjänster och produkter...",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptans av villkor",
+        "content": "Genom att använda vår webbplats godkänner du dessa villkor."
+      },
+      "eligibility": {
+        "title": "2. Behörighet",
+        "content": "Du måste vara minst 18 år för att göra ett köp."
+      },
+      "orders": {
+        "title": "3. Beställningar",
+        "content": [
+          "Alla beställningar är beroende av produktens tillgänglighet",
+          "Priser kan ändras utan föregående meddelande",
+          "Vi förbehåller oss rätten att neka eller avbryta en beställning"
+        ]
+      },
+      "shipping": {
+        "title": "4. Frakt",
+        "content": "Vi levererar till EU-länder via pålitliga transportörer. Leveranstiderna kan variera."
+      },
+      "returns": {
+        "title": "5. Returer",
+        "content": "Se vår Returpolicy för fullständiga villkor."
+      },
+      "payments": {
+        "title": "6. Betalningar",
+        "content": "Vi accepterar Swish, PayPal, Stripe och banköverföring. Alla betalningar måste göras i SEK."
+      },
+      "privacy": {
+        "title": "7. Integritet",
+        "content": "Din personliga information hanteras enligt vår integritetspolicy."
+      },
+      "prohibited": {
+        "title": "8. Förbjuden användning",
+        "content": "Du får inte använda våra tjänster för olagliga eller obehöriga ändamål."
+      },
+      "governingLaw": {
+        "title": "9. Tillämplig lag",
+        "content": "Dessa villkor styrs av svensk lag och EU-förordningar."
+      },
+      "changes": {
+        "title": "10. Ändringar",
+        "content": "Vi kan när som helst uppdatera dessa villkor. Ändringar publiceras på denna sida."
+      },
+      "usage": {
+        "title": "11. Användning av våra tjänster",
+        "content": "Du förbinder dig att använda våra tjänster på ett ansvarsfullt och lagligt sätt."
+      },
+      "intellectualProperty": {
+        "title": "12. Immateriella rättigheter",
+        "content": "Allt innehåll på webbplatsen är TropiNords egendom och får inte reproduceras utan tillstånd."
+      },
+      "limitation": {
+        "title": "13. Ansvarsbegränsning",
+        "content": "Vi ansvarar inte för indirekta skador eller förluster som uppstår vid användning av våra produkter eller tjänster."
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "brand": "TropiNord",
+  "tagline": "Tropical Origins. Global Harmony.",
+  "menu": {
+    "openAriaLabel": "Open menu",
+    "closeAriaLabel": "Close menu"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "faq": "FAQ",
+    "origin": "The Origin",
+    "oil": "Oils",
+    "tea": "Tea",
+    "contact": "Contact",
+    "cart": "Cart",
+    "login": "Account",
+    "dashboard": "Dashboard",
+    "orderHistory": "Order history",
+    "admin": "Admin"
+  },
+  "logo": {
+    "alt": "TropiNord Logo"
+  },
+  "drawerTitle": "Menu",
+  "preferences": "Preferences",
+  "signedInAs": "Signed in as",
+  "closeMenu": "Close menu",
+  "openMenu": "Open menu"
+}

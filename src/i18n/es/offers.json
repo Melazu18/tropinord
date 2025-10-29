@@ -1,0 +1,17 @@
+{
+  "title": "Ofertas Especiales",
+  "shopNow": "Compra Ahora",
+  "expired": "Oferta Expirada",
+  "offer1": {
+    "title": "Compra 2 Aceites de Neem, Obtén 1 Gratis",
+    "description": "¡Agrega 3 aceites de neem a tu carrito y paga solo por 2!"
+  },
+  "offer2": {
+    "title": "Envío Gratis en Pedidos Superiores a €50",
+    "description": "Disfruta del envío gratuito en todos los pedidos superiores a €50."
+  },
+  "offer3": {
+    "title": "20% de Descuento en Productos de Manteca de Karité",
+    "description": "Usa el código SHEA20 al pagar para obtener tu descuento."
+  }
+}

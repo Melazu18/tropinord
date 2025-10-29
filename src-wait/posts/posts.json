@@ -1,0 +1,64 @@
+[
+  {
+    "title": "How Baobab Fruit Nourishes Your Skin",
+    "slug": "baobab-skin-benefits",
+    "description": "Explore the skincare benefits of organic baobab fruit powder.",
+    "date": "2025-06-25",
+    "image": "/images/blog/skin02.png",
+    "excerpt": "Baobab fruit is a skincare powerhouse packed with antioxidants, vitamin C, and minerals to revitalize your skin from within and out.",
+    "tags": [
+      "baobab",
+      "skincare",
+      "organic"
+    ],
+    "author": "TropiNord Editorial Team"
+  },
+  {
+    "title": "The Remarkable Benefits of Palm Kernel Oil",
+    "slug": "benefits-of-palm-kernel-oil",
+    "date": "2025-07-12",
+    "excerpt": "Palm kernel oil is more than a cooking ingredient — it's a nutritional powerhouse and sustainable resource in organic farming and health.",
+    "image": "/images/blog/palmkernelOil01.jpg",
+    "tags": [
+      "palm",
+      "oil",
+      "organic"
+    ],
+    "author": "TropiNord Editorial Team",
+    "productId": "palm-kernel-oil"
+  },
+  {
+    "title": "How African Black Soap is Made",
+    "slug": "african-black-soap",
+    "description": "Discover the age-old process and cultural heritage behind this natural soap.",
+    "date": "2024-06-20",
+    "excerpt": "African Black Soap is a traditional handmade cleanser packed with natural oils and ashes — loved for its healing properties and cultural roots.",
+    "tags": [
+      "soap",
+      "skincare",
+      "africa",
+      "winter-protection",
+      "family-health"
+    ],
+    "author": "TropiNord Editorial Team"
+  },
+  {
+    "slug": "cold-pressed-oils",
+    "excerpt": "",
+    "date": null,
+    "tags": []
+  },
+  {
+    "title": "The Future of Organic Farming",
+    "slug": "organic-farming",
+    "date": "2025-07-10",
+    "excerpt": "Discover how organic agriculture is reshaping the world with sustainable practices and regenerative innovation.",
+    "image": "/images/blog/farm01.jpg",
+    "tags": [
+      "organic",
+      "farming",
+      "sustainability"
+    ],
+    "author": "TropiNord Editorial Team"
+  }
+]

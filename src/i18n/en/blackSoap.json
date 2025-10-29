@@ -1,0 +1,23 @@
+{
+  "title": "African Black Soap Collection",
+  "intro": "Discover our range of authentic African Black Soaps — hand-crafted using natural ingredients, ideal for cleansing, exfoliating, and protecting skin year-round.",
+  "tagline": "Nature remembers — and so do we.",
+  "climateNote": "🌱 TropiNord supports permanent carbon removal. 0.5% of every order funds climate solutions.",
+  "quote": "“Shop naturally, give back globally — every TropiNord order helps remove CO₂ from the atmosphere.”",
+  "readMore": "Read more about African Black Soap →",
+  "interestedInProduct": "Interested in trying this product?",
+  "products": {
+    "blackSoap": {
+      "name": "African Black Soap (100g)",
+      "description": "Traditional handcrafted bar for face & body, ideal for daily cleansing and sensitive skin."
+    },
+    "original": {
+      "name": "Black Soap Original (100g)",
+      "description": "Classic recipe with intense cleansing power, loved for its exfoliating properties."
+    },
+    "liquid": {
+      "name": "Liquid African Black Soap (250ml)",
+      "description": "Perfect for handwashing and body care during winter. Antibacterial and hydrating."
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "The Artisans' Touch",
+    "subtitle": "Where expert hands honor the natural beauty of your hair and nails.",
+    "alt": "The Artisans' Touch — Hair & Nails"
+  },
+  "booking": {
+    "heading": "Reserve Your Artisan Experience",
+    "lead": "Choose a date and time. We’ll confirm via WhatsApp or email.",
+    "note": "Popular times may be limited. More slots open daily.",
+    "success": "Thank you! We’ll confirm your appointment shortly.",
+    "error": "Sorry, something went wrong."
+  },
+  "cta": {
+    "primary": "Reserve Your Artisan Experience",
+    "secondaryPrefix": "Or,",
+    "secondaryLink": "contact us to schedule your personal consultation"
+  },
+  "contact": {
+    "heading": "Questions?",
+    "copy": "We’re happy to help you pick styles and estimate session time.",
+    "call": "Call",
+    "phone": "Phone"
+  },
+  "services": {
+    "hair": "Hair Braiding",
+    "nails": "Nails"
+  },
+  "styles": {
+    "knotless": "Knotless Braids",
+    "box": "Box Braids",
+    "cornrows": "Cornrows / Feed-ins",
+    "classicMani": "Classic Manicure",
+    "french": "French Nails",
+    "chrome": "Chrome Nails"
+  },
+  "sizes": {
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "basic": "Basic",
+    "design": "Design",
+    "standard": "Standard",
+    "gel": "Gel"
+  },
+  "lengths": {
+    "shoulder": "Shoulder length",
+    "midback": "Mid-back",
+    "waist": "Waist length"
+  },
+  "gallery": {
+    "heading": "Hair & Nails Gallery",
+    "pearlOmbre": "Pearl Ombre Set",
+    "classicFrench": "Classic French Luxe",
+    "roseQuartz": "Rose Quartz Gloss",
+    "emeraldTips": "Emerald Tips",
+    "blushAlmond": "Blush Almond",
+    "chromeShine": "Chrome Shine",
+    "knotlessMedium": "Knotless Braids (Medium)",
+    "cornrowsFeedIn": "Cornrows & Feed-ins",
+    "boxSmall": "Box Braids (Small)"
+  },
+  "modal": {
+    "step1Title": "Choose Your Style",
+    "step2Title": "Confirm Details",
+    "service": "Service",
+    "style": "Style",
+    "sizeOrType": "Size / Type",
+    "length": "Length",
+    "selectedService": "Service",
+    "selectedStyle": "Style",
+    "selectedVariant": "Variant",
+    "selectedLength": "Length",
+    "estimate": "Estimated price",
+    "continue": "Continue",
+    "step2Lead": "Enter your contact details so we can confirm your reservation.",
+    "yourName": "Your name",
+    "phone": "Phone / WhatsApp",
+    "emailOptional": "Email (optional)",
+    "messageOptional": "Message (optional)",
+    "back": "Back",
+    "confirmReserve": "Confirm & Reserve",
+    "submitting": "Booking..."
+  },
+  "currency": "{{value, number}} SEK"
+}

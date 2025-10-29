@@ -1,0 +1,16 @@
+{
+  "title": "Rastrea tu pedido",
+  "emailPlaceholder": "Ingresa tu correo electrónico",
+  "trackButton": "Rastrear pedido",
+  "loading": "Cargando...",
+  "errorEnterEmail": "Por favor ingresa tu correo electrónico",
+  "errorFetchOrder": "No se pudo obtener el pedido",
+  "orderDate": "Fecha del pedido",
+  "status": "Estado",
+  "pending": "Pendiente",
+  "total": "Total",
+  "paymentMethod": "Método de pago",
+  "receipt": "Recibo",
+  "download": "Descargar",
+  "items": "Artículos"
+}

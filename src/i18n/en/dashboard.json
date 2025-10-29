@@ -1,0 +1,17 @@
+{
+  "title": "Artisan Dashboard",
+  "myProducts": "My Products",
+  "noProductsYet": "No products yet.",
+  "auction": "Auction",
+  "fixed": "Fixed",
+  "pendingShort": "Your application is pending approval.",
+  "approvalNeeded": "You need to be approved before uploading products.",
+  "noOrdersForEmail": "You have no past orders associated with {{email}}.",
+  "orders": {
+    "title": "📦 Order History",
+    "loading": "🔄 Loading your orders...",
+    "orderId": "Order ID",
+    "date": "Date",
+    "leaveReview": "Leave a Review"
+  }
+}

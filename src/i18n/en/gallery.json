@@ -1,0 +1,42 @@
+{
+  "logoAlt": "Artisan Gallery",
+  "title": "Artisan Gallery",
+  "subtitle": "Discover designs from artisans. Like, comment, and follow their journey.",
+  "loading": "Loading...",
+  "empty": "No items yet.",
+  "by": "by",
+  "likes": "likes",
+  "comments": "comments",
+  "previewOnly": "Preview only",
+  "view": "View",
+  "loadMore": "Load more",
+  "hero": {
+    "title": "Welcome to the Artisan Gallery",
+    "tagline": "Where Craft Meets Connection",
+    "p1": "At the heart of every handmade creation lies a story—a story of skill, passion, and dedication. The Artisan Gallery is your stage to share that story with the world.",
+    "yourTalent": "Your Talent, Our Platform",
+    "yourTalentList": [
+      "Showcase your unique creations to an appreciative audience",
+      "Connect with customers who value quality and authenticity",
+      "Grow your reach from local recognition to global appreciation",
+      "Thrive in a community that celebrates handmade excellence"
+    ],
+    "howItWorks": "How It Works",
+    "forArtisans": "For Artisans:",
+    "forArtisansText": "Display your work in a curated digital gallery, receive genuine feedback, get discovered by buyers worldwide, sell directly through our secure marketplace, and build your reputation through reviews and ratings.",
+    "forBuyers": "For Art Lovers & Buyers:",
+    "forBuyersText": "Discover unique, handcrafted treasures, connect directly with talented creators, commission custom pieces, support authentic craftsmanship, and own something truly special with a story behind it.",
+    "whyJoin": "Why Join Our Community?",
+    "whyJoinList": [
+      "Celebrates the time-honored traditions of handmade craft",
+      "Empowers creators to turn passion into sustainable livelihoods",
+      "Connects makers with audiences who truly appreciate their work",
+      "Preserves cultural heritage through modern technology",
+      "Inspires the next generation of artisans"
+    ],
+    "closing": "Whether you're a seasoned craftsperson or just beginning to share your talents, the Artisan Gallery welcomes you. This is more than a platform—it's your partner in growth, your amplifier in a crowded digital world, and your connection to people who value the human touch in every creation.",
+    "slogan": "The Artisan Gallery: Preserving Tradition, Empowering Creators, Connecting Worlds.",
+    "ctaExplore": "Explore the Gallery",
+    "ctaBecome": "Become an Artisan"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "reviewPage": {
+    "title": "⭐ Laissez un avis",
+    "thankYou": "Merci pour votre avis !",
+    "missingInfo": "❌ Informations de commande manquantes. Impossible de laisser un avis.",
+    "tags": {
+      "fastShipping": "Livraison rapide",
+      "nicePackaging": "Emballage soigné",
+      "worthPrice": "Bon rapport qualité/prix"
+    },
+    "placeholder": "Dites-nous ce que vous avez aimé (ou pas)...",
+    "uploadPhoto": "Téléverser une photo",
+    "submit": "Envoyer l'avis"
+  },
+  "reviewEmail": {
+    "subject": "📦 Comment s'est passée votre commande TropiNord ?",
+    "heading": "📦 Votre commande est arrivée",
+    "greeting": "Bonjour {{name}},",
+    "intro": "Nous espérons que vous appréciez votre récente commande chez TropiNord !",
+    "request": "Si vous avez eu le temps d’essayer vos produits, nous aimerions avoir votre avis. Cela nous aide à grandir et aide aussi d'autres clients.",
+    "leaveReview": "✍️ Laissez un avis",
+    "footer": "www.tropinord.com | info@tropinord.com | Trollhättan, Suède"
+  },
+  "adminReview": {
+    "edit": "Modifier",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "delete": "Supprimer",
+    "pending": "En attente",
+    "approved": "Approuvé",
+    "rejected": "Rejeté",
+    "search": "Rechercher des avis..."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "logoAlt": "Galerie des Artisans",
+  "title": "Galerie des Artisans",
+  "subtitle": "Découvrez les créations d’artisans. Aimez, commentez et suivez leur parcours.",
+  "loading": "Chargement…",
+  "empty": "Aucun élément pour le moment.",
+  "by": "par",
+  "likes": "j’aime",
+  "comments": "commentaires",
+  "previewOnly": "Aperçu uniquement",
+  "view": "Voir",
+  "loadMore": "Charger plus",
+  "hero": {
+    "title": "Bienvenue à la Galerie des Artisans",
+    "tagline": "Là où l’artisanat crée du lien",
+    "p1": "Au cœur de chaque création faite main se cache une histoire—une histoire de savoir-faire, de passion et de dévouement. La Galerie des Artisans est votre scène pour partager cette histoire avec le monde.",
+    "yourTalent": "Votre talent, notre plateforme",
+    "yourTalentList": [
+      "Exposez vos créations uniques à un public attentif",
+      "Entrez en contact avec des clients qui valorisent la qualité et l’authenticité",
+      "Passez de la reconnaissance locale à l’appréciation mondiale",
+      "Évoluez au sein d’une communauté qui célèbre l’excellence artisanale"
+    ],
+    "howItWorks": "Fonctionnement",
+    "forArtisans": "Pour les artisans :",
+    "forArtisansText": "Exposez vos œuvres dans une galerie numérique organisée, recevez des retours authentiques, soyez découverts par des acheteurs du monde entier, vendez directement via notre place de marché sécurisée et construisez votre réputation grâce aux avis et aux notes.",
+    "forBuyers": "Pour les amateurs d’art et acheteurs :",
+    "forBuyersText": "Découvrez des trésors uniques et faits main, contactez directement des créateurs talentueux, commandez des pièces sur mesure, soutenez l’artisanat authentique et possédez quelque chose de vraiment spécial, porteur d’une histoire.",
+    "whyJoin": "Pourquoi rejoindre notre communauté ?",
+    "whyJoinList": [
+      "Célébrer les traditions intemporelles de l’artisanat",
+      "Permettre aux créateurs de transformer leur passion en activité durable",
+      "Relier les artisans à des publics qui apprécient réellement leur travail",
+      "Préserver le patrimoine culturel grâce aux technologies modernes",
+      "Inspirer la prochaine génération d’artisans"
+    ],
+    "closing": "Que vous soyez artisan confirmé ou que vous commenciez tout juste à partager vos talents, la Galerie des Artisans vous accueille. Plus qu’une plateforme, c’est votre partenaire de croissance, votre amplificateur dans un monde numérique saturé et votre lien avec celles et ceux qui apprécient la touche humaine dans chaque création.",
+    "slogan": "Galerie des Artisans : préserver la tradition, valoriser les créateurs, relier les mondes.",
+    "ctaExplore": "Explorer la galerie",
+    "ctaBecome": "Devenir artisan"
+  }
+}

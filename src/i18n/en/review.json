@@ -1,0 +1,34 @@
+{
+  "reviewPage": {
+    "title": "⭐ Leave a Review",
+    "thankYou": "Thanks for your review!",
+    "missingInfo": "❌ Missing order information. Cannot leave a review.",
+    "tags": {
+      "fastShipping": "Fast shipping",
+      "nicePackaging": "Nice packaging",
+      "worthPrice": "Worth the price"
+    },
+    "placeholder": "Tell us what you loved (or didn’t)...",
+    "uploadPhoto": "Upload Photo",
+    "submit": "Submit Review"
+  },
+  "reviewEmail": {
+    "subject": "📦 How was your TropiNord order?",
+    "heading": "📦 Your Order Has Arrived",
+    "greeting": "Hi {{name}},",
+    "intro": "We hope you're enjoying your recent order from TropiNord!",
+    "request": "If you've had a chance to try your items, we'd love your feedback. It helps us grow and helps other customers too.",
+    "leaveReview": "✍️ Leave a review",
+    "footer": "www.tropinord.com | info@tropinord.com | Trollhättan, Sweden"
+  },
+  "adminReview": {
+    "edit": "Edit",
+    "approve": "Approve",
+    "reject": "Reject",
+    "delete": "Delete",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "search": "Search reviews..."
+  }
+}

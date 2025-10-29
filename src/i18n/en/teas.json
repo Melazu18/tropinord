@@ -1,0 +1,97 @@
+{
+  "title": "Our Herbal Teas",
+  "subtitle": "Carefully selected herbal teas, complemented by green, black, and white varieties.",
+  "showMore": "Show More Teas",
+  "filterByCategory": "Filter by category:",
+  "modal": {
+    "historyHeading": "History",
+    "benefitsHeading": "Health Benefits",
+    "ingredientsHeading": "Ingredients"
+  },
+  "categories": {
+    "all": "All",
+    "herbal": "Herbal",
+    "green": "Green",
+    "black": "Black",
+    "white": "White"
+  },
+  "tea-hibiscus": {
+    "name": "Hibiscus Herbal Tea",
+    "description": "Known for its vibrant color and tart flavor, hibiscus tea is rich in antioxidants.",
+    "history": "Hibiscus tea has roots in ancient Egypt and West Africa and is widely enjoyed in Caribbean cultures.",
+    "benefits": [
+      "Supports heart health",
+      "Helps lower blood pressure",
+      "Rich in vitamin C and antioxidants"
+    ],
+    "ingredients": "Organic hibiscus flowers, organic rose hips, natural orange flavor"
+  },
+  "tea-mountain-herbs": {
+    "name": "Mountain Forest Herbal Tea",
+    "description": "A blend of Nordic and alpine botanicals for natural energy and immunity.",
+    "history": "Inspired by traditional Scandinavian herbal medicine and alpine infusions.",
+    "benefits": [
+      "Boosts natural energy",
+      "Supports immune system",
+      "Promotes focus and clarity"
+    ],
+    "ingredients": "Wildcrafted nettle leaves, birch leaves, juniper berries, thyme"
+  },
+  "tea-brennessel": {
+    "name": "Nettle Leaves",
+    "description": "Supports kidney and joint health.",
+    "ingredients": "100% organic stinging nettle leaves (Urtica dioica)"
+  },
+  "tea-pfefferminz": {
+    "name": "Peppermint",
+    "description": "Digestive and relaxing herbal infusion.",
+    "ingredients": "Pure peppermint leaves (Mentha × piperita)"
+  },
+  "tea-kamille": {
+    "name": "Chamomile",
+    "description": "Calming tea for sleep and stress relief.",
+    "ingredients": "Organic chamomile flowers (Matricaria chamomilla)"
+  },
+  "tea-lemongrass": {
+    "name": "Lemongrass",
+    "description": "Fresh, zesty, and great for digestion.",
+    "ingredients": "Pure lemongrass leaves (Cymbopogon citratus)"
+  },
+  "tea-frauenmantel": {
+    "name": "Lady's Mantle",
+    "description": "Traditionally used for hormonal balance.",
+    "ingredients": "Lady's mantle leaves (Alchemilla vulgaris)"
+  },
+  "tea-melisse": {
+    "name": "Lemon Balm",
+    "description": "Calming and anxiety-relieving herbal tea.",
+    "ingredients": "Organic lemon balm leaves (Melissa officinalis)"
+  },
+
+  "addedToCart": "{{name}} added to cart!",
+  "filters": {
+    "category": "Category",
+    "caffeine": {
+      "label": "Caffeine",
+      "any": "Any",
+      "free": "Caffeine-Free",
+      "caffeinated": "Caffeinated"
+    },
+    "profile": {
+      "label": "Flavor",
+      "any": "Any"
+    }
+  },
+  "profiles": {
+    "minty": "Minty",
+    "fruity": "Fruity",
+    "floral": "Floral",
+    "earthy": "Earthy",
+    "neutral": "Neutral"
+  },
+  "badges": {
+    "organic": "Organic",
+    "caffeineFree": "Caffeine-Free",
+    "antioxidants": "Rich in Antioxidants"
+  }
+}

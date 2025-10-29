@@ -1,0 +1,27 @@
+{
+  "title": "🌿 Colección de Aceites Orgánicos",
+  "intro": "Explora nuestra colección de aceites naturales para cocinar, rituales y bienestar. De origen responsable y ricos en nutrientes.",
+  "buttons": {
+    "addToCart": "Añadir al carrito"
+  },
+  "fields": {
+    "origin": "Origen",
+    "scent": "Aroma",
+    "skinType": "Tipo de piel",
+    "ingredients": "Ingredientes"
+  },
+  "byId": {
+    "neem-oil": {
+      "name": "Aceite de neem",
+      "description": "Prensado en frío y natural, usado en remedios tradicionales y cuidado de la piel."
+    },
+    "avocado-oil": {
+      "name": "Aceite de aguacate",
+      "description": "Rico en nutrientes y muy hidratante, ideal para el cabello y la piel."
+    },
+    "coconut-oil": {
+      "name": "Aceite de coco",
+      "description": "Aceite orgánico multiusos para cocinar, el cabello o nutrir la piel."
+    }
+  }
+}

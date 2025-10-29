@@ -1,0 +1,97 @@
+{
+  "title": "Nuestros Tés de Hierbas",
+  "subtitle": "Tés herbales cuidadosamente seleccionados, complementados con variedades verde, negro y blanco.",
+  "showMore": "Ver más tés",
+  "filterByCategory": "Filtrar por categoría:",
+  "modal": {
+    "historyHeading": "Historia",
+    "benefitsHeading": "Beneficios para la salud",
+    "ingredientsHeading": "Ingredientes"
+  },
+  "categories": {
+    "all": "Todos",
+    "herbal": "Herbal",
+    "green": "Té verde",
+    "black": "Té negro",
+    "white": "Té blanco"
+  },
+  "tea-hibiscus": {
+    "name": "Té de Hibisco",
+    "description": "Conocido por su color vibrante y sabor ácido, rico en antioxidantes.",
+    "history": "El té de hibisco tiene raíces en Egipto y África Occidental, y es popular en el Caribe.",
+    "benefits": [
+      "Apoya la salud del corazón",
+      "Ayuda a reducir la presión arterial",
+      "Rico en vitamina C y antioxidantes"
+    ],
+    "ingredients": "Flores de hibisco orgánico, escaramujos orgánicos, sabor natural de naranja"
+  },
+  "tea-mountain-herbs": {
+    "name": "Té de Hierbas de Montaña",
+    "description": "Mezcla de hierbas nórdicas y alpinas para energía e inmunidad natural.",
+    "history": "Inspirado en la medicina herbaria escandinava y las infusiones alpinas.",
+    "benefits": [
+      "Aumenta la energía natural",
+      "Refuerza el sistema inmunológico",
+      "Promueve la concentración y claridad"
+    ],
+    "ingredients": "Hojas de ortiga silvestre, hojas de abedul, bayas de enebro, tomillo"
+  },
+  "tea-brennessel": {
+    "name": "Ortiga",
+    "description": "Apoya la salud renal y articular.",
+    "ingredients": "100% hojas de ortiga orgánica (Urtica dioica)"
+  },
+  "tea-pfefferminz": {
+    "name": "Menta",
+    "description": "Infusión digestiva y relajante.",
+    "ingredients": "Hojas de menta pura (Mentha × piperita)"
+  },
+  "tea-kamille": {
+    "name": "Manzanilla",
+    "description": "Té calmante para el sueño y el alivio del estrés.",
+    "ingredients": "Flores de manzanilla orgánica (Matricaria chamomilla)"
+  },
+  "tea-lemongrass": {
+    "name": "Hierba de Limón",
+    "description": "Fresca, picante y excelente para la digestión.",
+    "ingredients": "Hojas de hierba de limón pura (Cymbopogon citratus)"
+  },
+  "tea-frauenmantel": {
+    "name": "Manto de Dama",
+    "description": "Tradicionalmente usado para el equilibrio hormonal.",
+    "ingredients": "Hojas de manto de dama (Alchemilla vulgaris)"
+  },
+  "tea-melisse": {
+    "name": "Melisa",
+    "description": "Té calmante y antiansiedad.",
+    "ingredients": "Hojas de melisa orgánica (Melissa officinalis)"
+  },
+
+  "addedToCart": "¡{{name}} añadido al carrito!",
+  "filters": {
+    "category": "Categoría",
+    "caffeine": {
+      "label": "Cafeína",
+      "any": "Cualquiera",
+      "free": "Sin cafeína",
+      "caffeinated": "Con cafeína"
+    },
+    "profile": {
+      "label": "Sabor",
+      "any": "Cualquiera"
+    }
+  },
+  "profiles": {
+    "minty": "Mentolado",
+    "fruity": "Afrutado",
+    "floral": "Floral",
+    "earthy": "Terroso",
+    "neutral": "Neutro"
+  },
+  "badges": {
+    "organic": "Ecológico",
+    "caffeineFree": "Sin cafeína",
+    "antioxidants": "Rico en antioxidantes"
+  }
+}

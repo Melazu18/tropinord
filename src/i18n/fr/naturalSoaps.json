@@ -1,0 +1,61 @@
+{
+  "title": "🌿 Collection de savons naturels",
+  "subtitle": "Des savons doux et nourrissants pour les mains et le corps.",
+  "intro": "Découvrez nos savons biologiques et naturels — conçus avec soin pour nettoyer en douceur, exfolier et nourrir la peau toute l’année.",
+  "quote": "« Achetez naturel, redonnez à la planète — chaque commande TropiNord aide à retirer du CO₂ de l’atmosphère. »",
+  "learnMore": "En savoir plus sur le savon noir africain →",
+
+  "buttons": {
+    "addToCart": "Ajouter au panier"
+  },
+
+  "filters": {
+    "category": {
+      "all": "Tous les savons",
+      "bath": "Savons de bain",
+      "hand": "Savons pour les mains"
+    },
+    "type": {
+      "all": "Tous les types",
+      "bar": "Pain",
+      "liquid": "Liquide"
+    },
+    "origin": {
+      "all": "Toutes les régions",
+      "West Africa": "Afrique de l’Ouest",
+      "Nordic": "Nordique",
+      "Western Europe": "Europe de l’Ouest",
+      "Central Europe": "Europe centrale"
+    },
+    "scent": {
+      "all": "Toutes les senteurs",
+      "lavender": "Lavande",
+      "eucalyptus": "Eucalyptus",
+      "citrus": "Agrumes",
+      "unscented": "Sans parfum"
+    },
+    "skinType": {
+      "all": "Tous types de peau",
+      "sensitive": "Sensible",
+      "dry": "Sèche",
+      "normal": "Normale",
+      "oily": "Grasse"
+    }
+  },
+
+  "blackSoap": {
+    "name": "Savon noir africain (100 g)",
+    "description": "Pain artisanal traditionnel pour le visage et le corps, idéal pour un nettoyage quotidien et les peaux sensibles.",
+    "ingredients": "Cendre de plantain, cendre de cabosse de cacao, beurre de karité, huile de coco, huile de palmiste, eau."
+  },
+  "blackSoapOriginal": {
+    "name": "Savon noir original (100 g)",
+    "description": "Recette classique au pouvoir nettoyant intense, appréciée pour ses propriétés exfoliantes.",
+    "ingredients": "Beurre de karité, cendre de cabosse de cacao, huile de coco, huile de palmiste, glycérine naturelle."
+  },
+  "blackSoapLiquid": {
+    "name": "Savon noir africain liquide (250 ml)",
+    "description": "Idéal pour le lavage des mains et le corps en hiver. Antibactérien et hydratant.",
+    "ingredients": "Huiles saponifiées (coco, karité, palmiste), filtrat de cendre de cacao, eau."
+  }
+}

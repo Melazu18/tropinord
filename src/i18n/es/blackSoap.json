@@ -1,0 +1,23 @@
+{
+  "title": "Colección de Jabón Negro Africano",
+  "intro": "Descubre nuestra gama de jabones negros africanos auténticos — elaborados a mano con ingredientes naturales, ideales para limpiar, exfoliar y proteger la piel durante todo el año.",
+  "tagline": "La nature se souvient — et nous aussi.",
+  "climateNote": "🌱 TropiNord apoya la eliminación permanente de carbono. El 0,5% de cada pedido financia soluciones climáticas.",
+  "quote": "«Compra naturalmente, contribuye globalmente — cada pedido de TropiNord ayuda a eliminar CO₂ de la atmósfera.»",
+  "readMore": "Leer más sobre el jabón negro africano →",
+  "interestedInProduct": "¿Interesado en probar este producto?",
+  "products": {
+    "blackSoap": {
+      "name": "Jabón Negro Africano (100g)",
+      "description": "Jabón artesanal tradicional para rostro y cuerpo, ideal para limpieza diaria y piel sensible."
+    },
+    "original": {
+      "name": "Jabón Negro Original (100g)",
+      "description": "Receta clásica con poder limpiador intenso, apreciado por sus propiedades exfoliantes."
+    },
+    "liquid": {
+      "name": "Jabón Negro Africano Líquido (250ml)",
+      "description": "Perfecto para lavado de manos y cuidado corporal en invierno. Antibacteriano e hidratante."
+    }
+  }
+}

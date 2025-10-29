@@ -1,0 +1,61 @@
+{
+  "title": "🫧 Samling av Naturliga Tvålar",
+  "subtitle": "Milda, närande tvålar för händer och kropp.",
+  "intro": "Utforska våra ekologiska och naturliga tvålar — varsamt framtagna för skonsam rengöring, peeling och näring året runt.",
+  "quote": "”Handla naturligt, ge tillbaka globalt — varje TropiNord-order hjälper till att ta bort CO₂ från atmosfären.”",
+  "learnMore": "Läs mer om Afrikansk svart tvål →",
+
+  "buttons": {
+    "addToCart": "Lägg i varukorg"
+  },
+
+  "filters": {
+    "category": {
+      "all": "Alla tvålar",
+      "bath": "Badtvålar",
+      "hand": "Handtvålar"
+    },
+    "type": {
+      "all": "Alla typer",
+      "bar": "Fast tvål",
+      "liquid": "Flytande"
+    },
+    "origin": {
+      "all": "Alla regioner",
+      "West Africa": "Västafrika",
+      "Nordic": "Nordiskt",
+      "Western Europe": "Västeuropa",
+      "Central Europe": "Centraleuropa"
+    },
+    "scent": {
+      "all": "Alla dofter",
+      "lavender": "Lavendel",
+      "eucalyptus": "Eukalyptus",
+      "citrus": "Citrus",
+      "unscented": "Oparfymerad"
+    },
+    "skinType": {
+      "all": "Alla hudtyper",
+      "sensitive": "Känslig",
+      "dry": "Torr",
+      "normal": "Normal",
+      "oily": "Fet"
+    }
+  },
+
+  "blackSoap": {
+    "name": "Afrikansk Svart Tvål (100g)",
+    "description": "Traditionell handgjord tvål för ansikte och kropp, perfekt för daglig rengöring och känslig hud.",
+    "ingredients": "Bananbladaska, kakaobönsaska, sheasmör, kokosolja, palmkärnolja, vatten."
+  },
+  "blackSoapOriginal": {
+    "name": "Original Svart Tvål (100g)",
+    "description": "Klassiskt recept med kraftfull rengöringseffekt, älskad för sina peelande egenskaper.",
+    "ingredients": "Sheasmör, kakaobönsaska, kokosolja, palmkärnolja, naturligt glycerin."
+  },
+  "blackSoapLiquid": {
+    "name": "Flytande Afrikansk Svart Tvål (250ml)",
+    "description": "Perfekt för handtvätt och kroppsvård under vintern. Antibakteriell och fuktgivande.",
+    "ingredients": "Försåpade oljor (kokos, shea, palmkärna), kakaobönsaskfiltrat, vatten."
+  }
+}

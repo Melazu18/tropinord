@@ -1,0 +1,677 @@
+{
+  "nav": {
+    "home": "Hem",
+    "services": "Tjänster",
+    "explore": "Utforska",
+    "contact": "Kontakt",
+    "about": "Om",
+    "mustTry": "Måste Provas",
+    "products": "Produkter",
+    "offers": "Erbjudanden",
+    "faq": "Vanliga frågor",
+    "label": "Meny",
+    "helpHeading": "Behöver du hjälp eller vill samarbeta?",
+    "helpSubtext": "För bästa upplevelse, kontakta oss direkt via",
+    "orEmail": "eller skicka ett e-postmeddelande till",
+    "midHeading": "Firar afro-europeisk skönhet",
+    "midSubtext": "Det finns produkter kopplade till varje bild",
+    "searchPlaceholder": "Sök efter titel eller beskrivning...",
+    "allCategories": "Alla kategorier"
+  },
+
+  "hero": {
+    "hero.title": "Naturliga produkter med globala rötter",
+    "hero.subtitle": "Etiskt, hållbart välbefinnande, från tropikerna till Norden.",
+    "buttons.explore": "Utforska våra produkter",
+    "buttons.contact": "Kontakta oss",
+    "midHeading": "Firar afro-europeisk skönhet",
+    "midSubtext": "Varje bild är länkad till noggrant utvalda produkter",
+    "searchPlaceholder": "Sök efter titel, kategori eller fördel...",
+    "allCategories": "Alla kategorier"
+  },
+
+  "common": {
+    "aboutUs": "Om Oss",
+    "placeOrder": "Beställa",
+    "lightMode": "Ljusläge",
+    "darkMode": "Mörkt läge",
+    "aboutTropinord": "Om TropiNord",
+    "somethingWentWrong": "Något gick fel"
+  },
+
+  "hero": {
+    "home": "Hem",
+    "services": "Tjänster",
+    "explore": "Utforska",
+    "contact": "Kontakt",
+    "about": "Om oss",
+    "mustTry": "Måste provas",
+    "products": "Produkter",
+    "offers": "Erbjudanden",
+    "faq": "Vanliga frågor",
+    "heroTitle": "Naturliga produkter med globala rötter",
+    "heroSubtitle": "Etisk, hållbar wellness från tropikerna till Norden.",
+    "midHeading": "Firar afroeuropeisk skönhet",
+    "midSubtext": "Det finns produkter kopplade till varje bild",
+    "searchPlaceholder": "Sök efter titel eller beskrivning...",
+    "allCategories": "Alla kategorier",
+    "stayInLoop": "Håll dig uppdaterad",
+    "subscribeText": "Prenumerera för tidig tillgång till nya afroeuropeiska hår- och hudvårdsprodukter.",
+    "emailPlaceholder": "Ange din e-postadress",
+    "helpHeading": "Behöver du hjälp eller vill samarbeta?",
+    "helpSubtext": "För bästa upplevelse, kontakta oss direkt via",
+    "orEmail": "eller skicka ett e-postmeddelande till"
+  },
+  "buttons": {
+    "explore": "Utforska våra produkter",
+    "contact": "Kontakta TropiNord",
+    "subscribe": "Prenumerera"
+  },
+
+  "about": {
+    "metaTitle": "Om TropiNord | Vår Historia & Mission",
+    "metaDescription": "Lär dig om TropiNords mission, rötter, etisk upphandling och engagemang för hållbar hälsa.",
+    "heading": "Om TropiNord",
+    "subheading": "Vår historia, våra värderingar, vårt uppdrag",
+    "ourStoryTitle": "Vår Historia",
+    "ourStoryContent": "TropiNord är ett svenskt wellnessvarumärke förankrat i hållbarhet, kulturellt arv och etisk handel. Vi förenar den nordiska livsstilens klarhet och precision med Afrikas och Stilla havets djupa, tidlösa traditioner. Vår grund vilar på respekt för naturen, för människor och för den kunskap som gått i arv i generationer. Från Sveriges rena, skogstäckta landskap till Afrikas och Stilla havsöarnas solvärmda jordar, varje ingrediens väljs för sin renhet, styrka och syfte. På TropiNord är hållbarhet inte en trend, det är en princip. Våra produkter och samarbeten speglar: ❄️ Nordiska standarder, genomtänkt upphandling, ren produktion och kompromisslös kvalitet 🌿 Global visdom, inspiration från förfäders kunskap om örter, oljor och holistiskt välbefinnande 🌍 Delat ansvar skydda ekosystem, stötta små producenter och hedra arv. Det här är mer än hälsa, det är en koppling mellan världar som firar människor, planeten och traditionens kraft.",
+    "missionQuote": "”Som en del av vårt uppdrag är TropiNord stolta över att utveckla en produktlinje specifikt för afro-europeiska kunder, som förenar afrikansk växtbaserad visdom med nordisk renhet.”",
+    "valuesTitle": "Vad Vi Står För",
+    "valuesContent": "TropiNord är mer än en butik. Det är en plattform skapad för att stötta människor. Med ett starkt syfte vill vi stärka små producenter, främja miljövänlig livsstil och hjälpa kunder återknyta till naturen genom enkla, ärliga produkter.",
+    "whatWeDoTitle": "Vad Vi Gör",
+    "whatWeDoItem1": "Importerar och distribuerar ekologiska oljor, naturliga tvålar och hälsoartiklar",
+    "whatWeDoItem2": "Arbetar nära små producenter i Afrika, Sverige och andra regioner",
+    "whatWeDoItem3": "Erbjuder stöd och synlighet till lokala tillverkare",
+    "whatWeDoItem4": "Säljer via nätet med planer för fysisk expansion",
+    "whatWeDoExtra": "Vi samarbetar också med småföretagare och startups genom att erbjuda dem utrymme att växa. Genom att visa deras produkter på TropiNord-plattformen stöttar vi lokal och internationell synlighet samt bygger kundförtroende.",
+    "ourMissionTitle": "Vårt Uppdrag",
+    "ourMissionContent": "Vårt uppdrag är att skapa en genuin koppling mellan tradition, natur och kvalitet. TropiNord finns till för att stötta hållbar handel och fira kulturell mångfald genom produkter som återspeglar omsorg, hantverk och gemenskap.",
+    "exploreButton": "Utforska Våra Produkter"
+  },
+
+  "categorySection": {
+    "title": "Firar afro-europeisk skönhet",
+    "description": "Det finns produkter kopplade till varje bild",
+    "searchPlaceholder": "Sök efter titel eller beskrivning...",
+    "allCategories": "Alla kategorier"
+  },
+  "newsletter": {
+    "title": "Håll dig uppdaterad",
+    "subtitle": "Prenumerera för tidig tillgång till nya afro-europeiska hår- och hudvårdsprodukter.",
+    "inputPlaceholder": "Ange din e-post",
+    "subscribeButton": "Prenumerera"
+  },
+  "support": {
+    "title": "Behöver du hjälp eller vill samarbeta?",
+    "message": "För bästa upplevelse, kontakta oss direkt via",
+    "whatsapp": "WhatsApp",
+    "or": "eller skicka ett mejl till"
+  },
+
+  "menu": {
+    "hamburger": "Meny ➤",
+    "darkMode": "Mörkt Läge",
+    "chat": "Chatta med oss",
+    "label": "Menu"
+  },
+
+  "explore": {
+    "title": "Utforska Våra Produkter",
+    "searchPlaceholder": "Sök produkter..."
+  },
+  "categories": {
+    "all": "Alla kategorier",
+    "cosmetics": "Kosmetiska Produkter",
+    "healingBotanicals": "Botaniska Läkningsmedel",
+    "food": "Botaniska Läkningsmedel",
+    "agro": "Agrohandel & Råmaterial",
+    "search": "Sök"
+  },
+  "subcategories": {
+    "crownRituals": "Hårvård (Crown Rituals)",
+    "glowRoots": "Hudvård (Glow Roots)",
+    "essenceEchoes": "Parfym (Essence Echoes)",
+    "botanicBrews": "Te (Botanic Brews)",
+    "liquidGolds": "Oljor (Liquid Golds)",
+    "soulSeasonings": "Kryddor (Soul Seasonings)",
+    "earthOrigins": "Banana Leaves (Earth Origins)"
+  },
+  "order": {
+    "title": "Välj dina produkter",
+    "currencyLabel": "Valuta:",
+    "searchLabel": "Sök",
+    "addToCart": "Lägg i varukorg",
+    "contactToOrder": "Kontakta för beställning",
+    "currencyWarning": "Observera: Swish och Bankgiro stöder endast SEK. Valutan ställs in automatiskt.",
+    "addedToCart": "Produkt tillagd i kundvagnen!",
+    "proceedToCheckout": "Gå till kassan",
+    "categoryLabel": "Filtrera efter kategori:",
+    "searchPlaceholder": "Sök efter produktnamn..."
+  },
+  "thankYou": {
+    "swishPrompt": "Vänligen slutför din Swish-betalning på {{amount}} för att fortsätta.",
+    "bankgiroPrompt": "Vänligen överför {{amount}} till Bankgiro-numret nedan.",
+    "amountMissing": "Beloppet är inte tillgängligt."
+  },
+  "footer": {
+    "quickLinksTitle": "Snabblänkar",
+    "contact": "Kontakt",
+    "blog": "Blog",
+    "phone": "Telefon",
+    "contactUs": "Kontakta Oss",
+    "followUs": "Följ Oss",
+    "quickLinks": "Snabblänkar",
+    "subscribe": "Håll Dig Uppdaterad",
+    "newsletterText": "Prenumerera på vårt nyhetsbrev",
+    "support": "Stöd Oss",
+    "suggestions": "Produktförslag",
+    "testimonials": "Omdömen",
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "shipping": "Fraktpolicy",
+    "returns": "Returpolicy",
+    "copyright": "TropiNord. Alla rättigheter förbehållna.",
+    "rightsReserved": "Alla rättigheter förbehållna.",
+    "thankYou": "Tack för din prenumeration!",
+    "emailPlaceholder": "Ange din e-postadress",
+    "newsletter": "Nyhetsbrev",
+    "newsletterDesc": "Prenumerera för att få erbjudanden",
+    "instagramTag": "Insta",
+    "viewOnInstagram": "Visa på Instagram",
+    "successMessage": "Prenumerationen lyckades!",
+    "errorMessage": "Vänligen ange en giltig e-postadress.",
+    "paymentMethods": "Betalningsmetoder",
+    "paymentMethodsDesc": "Vi accepterar kort, Swish och PayPal för smidig betalning.",
+    "securePayment": "Säker betalning",
+    "stripe": "Kortbetalning (Stripe)",
+    "swish": "Swish",
+    "bankgiro": "Bankgiro",
+    "bankTransfer": "Bank överföring",
+    "supportHours": "Kundsupport tillgänglig måndag-fredag, 9-17 CET",
+    "closing": "Tack för att du handlar hos TropiNord!",
+    "InstagramTag": "Insta",
+    "paymentMethod": "Betalningsmetod"
+  },
+
+  "home": {
+    "welcome": "Välkommen till TropiNord",
+    "tagline1": "Naturliga Produkter med Globala Rötter",
+    "tagline2": "Etisk, hållbar hälsa – från tropikerna till norr.",
+    "tagline3": "Tropiska Traditioner, Nordiska Standarder.",
+    "mission": "Vårt Uppdrag",
+    "intro": "TropiNord levererar ekologiska oljor, naturliga tvålar och välmåendeprodukter, och stödjer små producenter över Sverige och Europa.",
+    "ctaExplore": "Utforska Våra Produkter",
+    "ctaContact": "Kontakta Oss",
+    "missionText": "Vi tror på transparens, etisk upphandling och samhällsdriven tillväxt. Från afrikansk svarttvål till ungdomsprogram, vi förenar global arv med nordiska vården."
+  },
+
+  "about": {
+    "title": "Firar Afro-europeisk Skönhet",
+    "afroElegantHair": "Elegant Afro-hår",
+    "afroElegantHairDesc": "Definiera dina lockar med fuktgivande näring för glans och form.",
+    "velvetCurlHarmony": "Sammetig Lockharmoni",
+    "velvetCurlHarmonyDesc": "Sammetstextur och yppig definition - skapat för självsäker lockuttryck.",
+    "afroCurlyHair": "Afro Lockigt Hår i Stil",
+    "afroCurlyHairDesc": "Vår stylingblandning framhäver naturliga lockar med lätt stadga.",
+    "afroRuggedHair": "Robust Afro-hår",
+    "afroRuggedHairDesc": "Tjockt och texturerat hår stärks med vår växtbaserade infusion.",
+    "thickAfroHair": "Tjockt Afro-hår",
+    "thickAfroHairDesc": "Återuppliva lockar med botaniskt kraft för densitet och styrka.",
+    "midnightSunBouquet": "Midnattssolbukett (roll-on)",
+    "midnightSunBouquetDesc": "En mild, aluminiumfri roll-on med arktiska vildblomsextrakt och gyllene honung för att lugna huden, medan nordisk björksav neutraliserar lukt naturligt. Lätt doftad med midnattmusk för en viskning av bestående fräschör.",
+    "essentialOilRollOn": "Eterisk Olja Roll-On Blandning",
+    "essentialOilRollOnDesc": "Praktisk roll-on med anpassade eteriska oljekombinationer för heldagsfräschör.",
+    "herbalInnerGlowTea": "Örtdryck för Inre Glöd",
+    "herbalInnerGlowTeaDesc": "Njut av lugn, vår örtblandning lugnar din själ och näring inifrån.",
+    "radiantSkinTone": "Strålande Hudton",
+    "radiantSkinToneDesc": "Framhävd din naturliga glöd med vår tonförstärkande elixir, mild, glödande, graciös.",
+    "melaninGlow": "Melanimik Lyster",
+    "melaninGlowDesc": "Ljusa upp och balansera huden med vår vitaminrika elixir.",
+    "mixedSkin": "Blandad Hudskönhet",
+    "mixedSkinDesc": "Vår fuktkräm respekterar både struktur och hudton.",
+    "goldenCurlsDelight": "Gyllene Lockars Fröjd",
+    "goldenCurlsDelightDesc": "Mjuka, studsande blonda lockar förstärkta med gyllene botanik och mild vård.",
+    "hairGrowthOil": "Hårolja för Tillväxt",
+    "hairGrowthOilDesc": "Stimulera rötter och väck härsäckar med vår eteriska blandning.",
+    "coconutGrowth": "Kokosnöts Tillväxt",
+    "coconutGrowthDesc": "Bekämpa torrhet och främja hälsosam tillväxt med tropisk näring.",
+    "coconutStrength": "Kokosnöts Styrka",
+    "coconutStrengthDesc": "Ge studs och motståndskraft i varje droppe.",
+    "avocadoEssence": "Avokado-essens",
+    "avocadoEssenceDesc": "Djupkonditionera ditt här med kalipressad avokadonäring.",
+    "deepMoisture": "Djup Fukt",
+    "deepMoistureDesc": "Försegla fukten för varaktig mjukhet och glans.",
+    "afroEuroCream": "Afro-Euro Kräm",
+    "afroEuroCreamDesc": "Rika afrikanska smörer och nordisk renhet i mångsidig styling.",
+    "origin": "Ursprunget",
+    "originDesc": "Fira dina rötter med naturlig näring från jorden.",
+    "naturalPerfumeEssence": "Naturlig Parfymessens",
+    "naturalPerfumeEssenceDesc": "Upplev subtil lyx med naturens egen doft, ren, varm och själstillfredsställande."
+  },
+
+  "categorySection": {
+    "title": "Firar afro-europeisk skönhet",
+    "description": "Det finns produkter kopplade till varje bild",
+    "searchPlaceholder": "Sök efter titel eller beskrivning...",
+    "allCategories": "Alla kategorier"
+  },
+  "newsletter": {
+    "title": "Håll dig uppdaterad",
+    "subtitle": "Prenumerera för tidig tillgång till nya afro-europeiska hår- och hudvårdsprodukter.",
+    "inputPlaceholder": "Ange din e-post",
+    "subscribeButton": "Prenumerera"
+  },
+  "support": {
+    "title": "Behöver du hjälp eller vill samarbeta?",
+    "message": "För bästa upplevelse, kontakta oss direkt via",
+    "whatsapp": "WhatsApp",
+    "or": "eller skicka ett mejl till"
+  },
+
+  "mustTry": {
+    "heading": "Fira afro-europeisk skönhet",
+    "description": "Det finns produkter kopplade till varje bild",
+    "searchPlaceholder": "Sök efter titel eller beskrivning..."
+  },
+  "tags": {
+    "hydrating": "Återfuktande",
+    "growth": "Tillväxt",
+    "glow": "Lyster",
+    "curl": "Lockar",
+    "skin": "Hud",
+    "botanical": "Botanisk"
+  },
+  "subscribe": {
+    "title": "Håll dig uppdaterad",
+    "description": "Prenumerera för tidig tillgång till nya afro-europeiska hår- och hudvårdsprodukter.",
+    "placeholder": "Ange din e-postadress",
+    "button": "Prenumerera",
+    "success": "✅ You're subscribed!"
+  },
+  "contact": {
+    "title": "Kontakta Oss",
+    "description": "Vi vill gärna höra från dig! Fyll i formuläret nedan.",
+    "name": "Namn",
+    "email": "E-post",
+    "subject": "Ämne",
+    "category": "Tjänstekategori",
+    "message": "Meddelande",
+    "send": "Skicka Meddelande",
+    "success": "Meddelandet skickades!",
+    "error": "Något gick fel. Försök igen.",
+    "options": {
+      "olis": "Ekologiska Oljor",
+      "soaps": "Naturliga Tvålar",
+      "agro": "Agroimporter",
+      "other": "Annat"
+    }
+  },
+  "products": {
+    "organic-oils": {
+      "name": "Ekologiska Oljor",
+      "description": "Kallpressade oljor som kokos, mandel, neem, etc."
+    },
+    "natural-soaps": {
+      "name": "Naturliga Tvålar",
+      "description": "Afrikansk svarttvål, shea-bars, frukttvålar."
+    },
+
+    "bananaLeaves": {
+      "label": "Bananblad",
+      "description": "Färska gröna bananblad för inslagning eller matlagning – endast i bulk."
+    },
+    "charcoal": {
+      "label": "Träkol (Bulk)",
+      "description": "Högkvalitativt träkol för grill eller industriell användning. Kontakta för beställning."
+    },
+    "dryBones": {
+      "label": "Torra ben (för foder)",
+      "description": "Rena, soltorkade ben för djurfoder. Export tillgänglig."
+    },
+    "perfumes": {
+      "name": "Naturliga Parfymer",
+      "description": "Roll-on parfymer och doftessenser med naturliga ingredienser."
+    },
+    "teas": {
+      "name": "Hälsoteer",
+      "description": "Örtteer för välbefinnande och inre balans."
+    },
+    "notFound": "Produkten kunde inte hittas",
+    "shopNow": "Handla Nu"
+  },
+  "services": {
+    "title": "Våra Tjänster",
+    "collabHeading": "Intresserad av att samarbeta med oss?",
+    "collabText": "Kontakta oss så hjälper vi dig att realisera ditt projekt.",
+    "cta": "Kontakta Oss",
+    "organicOils": {
+      "title": "Ekologiska Oljor",
+      "desc": "Kallpressade kokos-, neem-, baobab- och mandeloljor.",
+      "detail": "Våra ekologiska oljor som baobab, kokos, neem och mandel är etiskt kallpressade från pålitliga kooperativ i Afrika, Asien och Karibien. Varje sats är obearbetad och rik på näringsämnen, perfekt för välbefinnande, hudvård eller matlagning. Vi prioriterar renhet, rättvis handel och full spårbarhet."
+    },
+    "naturalSoaps": {
+      "title": "Naturliga Tvålar",
+      "desc": "Afrikansk svarttvål, sheatvål och örtblandningar.",
+      "detail": "Våra naturliga tvålar inkluderar traditionell afrikansk svarttvål, sheasmörstvålar och specialblandningar med moringa, gurkmeja och neem. Tillverkade med gamla metoder och hållbart skördade ingredienser ger dessa tvålar en mild men effektiv rengöring samtidigt som de stödjer lokala hantverkare."
+    },
+    "agroImports": {
+      "title": "Agro- & Råmaterialimport",
+      "desc": "Jordbruksprodukter, örter och ekoförpackningar från tropikerna.",
+      "detail": "Vi importerar nischade agro-baserade material och ekoprodukter som bananblad, kassavamel, torkade örter och nedbrytningsbara förpackningar. Vårt nätverk sträcker sig över Afrika, Asien och Karibien – och stödjer rena varumärken, restauranger och hållbara återförsäljare i Norden."
+    },
+    "logistics": {
+      "title": "Detaljhandel & Logistikstöd",
+      "desc": "Nordisk logistik för små varumärken.",
+      "detail": "Vår logistikservice är utformad för mikrovarumärken och enskilda entreprenörer. Vi hjälper till med lagerhållning, etikettering, nordiskaupassad förpackning och sista milens leverans inom Sverige och EU. Oavsett om du lanserar en örtprodukt eller en ny snacksort, gör vårt stöd dig redo för detaljhandeln."
+    },
+    "ecoSourcing": {
+      "title": "Eko-upphandlingspartnerskap",
+      "desc": "Rättvis handel med full spårbarhet.",
+      "detail": "Vi tror på etisk, miljövänlig handel. Vår eko-upphandling kopplar samman dig med småskaliga odlare som använder regenerativt jordbruk och agroekologi. Vi utvecklar försörjningskedjor tillsammans med producenter i underrepresenterade regioner, säkerställer rättvisa priser, hållbara skördar och berättelser som säljer."
+    },
+    "community": {
+      "title": "Samhällsengagemang",
+      "desc": "Stärker ungdomar genom hållbarhet.",
+      "detail": "Vårt engagemang fokuserar på ungdomsutveckling, matbildning och grönt entreprenörskap. Genom mentorskap, workshops och idrottsbaserade program hjälper vi till att bygga broar mellan landsbygdens talang och stadsmarknader – från lokalsamhällen i Västafrika till integrationsnav i Skandinavien."
+    }
+  },
+  "faq": {
+    "title": "Vanliga Frågor",
+    "whatlsTropinord": {
+      "q": "Vad är TropiNord?",
+      "a": "TropiNord är ett varumärke som förenar tropiska traditioner med nordisk kvalitet och erbjuder ekologiska produkter som oljor, naturlig hudvård och mer. Vi kommer också att lansera växtbaserad mjölk inom kort."
+    },
+    "productsOffered": {
+      "q": "Vilka produkter erbjuder ni?",
+      "a": "Vi erbjuder ekologiska oljor, traditionella afrikanska tvålar, agroimporter och ekoförpackningar. Alla produkter är etiskt upphandlade och stödjer små producenter."
+    },
+    "organicSourcing": {
+      "q": "Är era produkter verkligen ekologiska?",
+      "a": "Ja, vi fokuserar på kalipressade, obearbetade och ekologiskt odlade ingredienser. Vi samarbetar med kooperativ som använder hållbara metoder."
+    },
+    "plantMilk": {
+      "q": "Erbjuder ni växtbaserad mjölk?",
+      "a": "Inte än, men vi utvecklar just nu en linje tropisk växtbaserad mjölk från Afrika, lanseras snart!"
+    },
+    "shipsFrom": {
+      "q": "Varifrån skickar ni varorna?",
+      "a": "Vi skickar från vårt logistikcenter i Sverige och levererar till kunder i hela EU."
+    },
+    "shippingPolicy": {
+      "q": "Vad är er fraktpolicy?",
+      "a": "Beställningar behandlas inom 2–4 arbetsdagar. Leveranstiden beror på din plats. Fraktalternativ och kostnader visas vid kassan."
+    },
+    "returnPolicy": {
+      "q": "Vad är er returpolicy?",
+      "a": "Vi accepterar returer inom 14 dagar från leverans. Produkterna måste vara oanvända och i originalskick. Kontakta oss innan retur."
+    },
+    "contactSupport": {
+      "q": "Hur kontaktar jag kundsupport?",
+      "a": "Du kan nå oss via kontaktformuläret eller e-posta info@tropinord.com. Vi svarar vanligtvis inom 24–48 timmar."
+    },
+    "WhatIsTropinord": {
+      "q": "What is TropiNord?",
+      "a": "TropiNord is a brand that blends tropical traditions with Nordic quality, offering organic products like oils, natural skincare, and more. We will also be expanding into plant-based milk in the near future."
+    }
+  },
+  "shipping": {
+    "title": "Frakt & Returer",
+    "policyTitle": "Fraktpolicy",
+    "intro": "På TropiNord är vi engagerade i att leverera din beställning snabbt och säkert. Alla beställningar packas med omsorg, gärna med hållbara material när det är möjligt.",
+    "points": [
+      "Behandlingstid: Beställningar behandlas normalt inom 1–3 arbetsdagar efter betalningsbekräftelse.",
+      "Leveranstid: Inom Sverige: 2–5 arbetsdagar. Internationellt: 7–21 arbetsdagar beroende på destination.",
+      "Fraktavgifter: Beräknas i kassan baserat på vikt, storlek och leveransadress.",
+      "Spårning: En spårningslänk skickas via e-post när din beställning har skickats.",
+      "Tull & importavgifter: Internationella kunder ansvarar för eventuella tullavgifter, moms eller importkostnader som kan tillkomma."
+    ],
+    "returnsTitle": "Returer & Byten",
+    "returnsIntro": "Din tillfredsställelse är viktig för oss. Om du inte är helt nöjd med ditt köp erbjuder vi returer och byten enligt villkoren nedan:",
+    "returnPoints": [
+      "Berättigande: Varor måste returneras oanvända, i originalskick och förpackning, inom 14 dagar från leverans.",
+      "Ej returnerbara varor: Av hygien- och säkerhetsskäl kan personliga vårdprodukter, färskvaror eller specialtillverkade produkter inte returneras om de inte är defekta.",
+      "Returnbegäran: Kontakta vårt supportteam på support@tropinord.com med ditt ordernummer och anledning till return.",
+      "Återbetalningar: Godkända returer återbetalas till den ursprungliga betalningsmetoden inom 7–10 arbetsdagar efter inspektion.",
+      "Returfrakt: Du ansvarar för returfrakten om inte varan var skadad, defekt eller felaktig vid mottagandet."
+    ],
+    "closing": "Om du har frågor eller behöver hjälp, tveka inte att kontakta oss. Vi finns här för dig!",
+    "servicesTitle": "Shipping Services",
+    "servicesIntro": "We partner with reliable logistics providers to ensure safe and timely deliveries:",
+    "serviceProviders": ["DHL Express", "PostNord", "UPS", "Bring"],
+    "faqTitle": "Frequently Asked Questions",
+    "faqIntro": "Common questions about shipping and returns:",
+    "faqList": [
+      "How long does shipping take to my country?",
+      "Can I change my shipping address after ordering?",
+      "What if my package is lost or damaged?",
+      "How do I track my order?",
+      "Are there any shipping restrictions?"
+    ],
+    "contactTitle": "Need Help? Contact Us",
+    "emailLabel": "Email",
+    "supportEmail": "support@tropinord.com",
+    "phoneLabel": "Phone/WhatsApp",
+    "phoneNumber": "+46700711713",
+    "supportHours": "Customer support available Monday-Friday, 9AM-5PM CET"
+  },
+  "privacy": {
+    "title": "Integritetspolicy",
+    "effectiveDate": "Giltigt från: 12 juni 2025",
+    "intro": "På TropiNord är din integritet en hög prioritet. Denna integritetspolicy förklarar hur vi samlar in, använder och skyddar din personliga information...",
+    "section1": {
+      "title": "1. Vilken information vi samlar in",
+      "personalInfo": "Personlig information: Namn, adress, e-post, telefonnummer och betalningsinformation (används endast för transaktioner).",
+      "technicalData": "Teknisk data: IP-adress, webbläsartyp, enhetsidentifierare och besökta sidor, samlas in automatiskt via cookies och analysverktyg.",
+      "thirdPartyData": "Tredjepartsdata: Information från betaltjänster och leveranspartners för orderhantering."
+    },
+    "section2": {
+      "title": "2. Hur vi använder din information",
+      "uses": [
+        "För att behandla och leverera dina beställningar effektivt.",
+        "För att skicka orderbekräftelser, leveransuppdateringar eller nyhetsbrev.",
+        "För att förbättra webbplatsfunktioner, kundservice och erbjudanden.",
+        "För att uppfylla juridiska eller skattemässiga krav enligt svensk och EU-lag."
+      ]
+    },
+    "section3": {
+      "title": "3. Delning av data",
+      "description": "Vi delar endast din data med betrodda tredje parter som är nödvändiga för orderhantering, såsom betalningslösningar (t.ex. Stripe, Swish, PayPal) och logistikpartners. Vi säljer inte eller hyr ut din data under några omständigheter."
+    },
+    "section4": {
+      "title": "4. Datasäkerhet",
+      "description": "Vi använder branschstandardkryptering, säkra servrar och åtkomstkontroller för att skydda dina personuppgifter. Observera dock att ingen digital överföring eller lagringsmetod är helt säker."
+    },
+    "section5": {
+      "title": "5. Dina rättigheter",
+      "intro": "Enligt EU:s dataskyddsförordning (GDPR) har du rätt att:",
+      "rights": [
+        "Begära tillgång till dina personuppgifter",
+        "Begära rättelse av felaktiga eller inaktuella uppgifter",
+        "Begära radering av dina uppgifter (\"rätten att bli glömd\")",
+        "Aterkalla samtycke för marknadskommunikation",
+        "Lämna in klagomål till en tillsynsmyndighet"
+      ],
+      "contactForm": "För att utöva dessa rättigheter, kontakta oss på"
+    },
+    "section6": {
+      "title": "6. Cookies",
+      "description": "TropiNord använder cookies och liknande teknologier för att förbättra din upplevelse..."
+    },
+    "section7": {
+      "title": "7. Databevarande",
+      "description": "Vi sparar dina uppgifter endast så länge det är nödvändigt för att uppfylla syftena enligt denna policy..."
+    },
+    "section8": {
+      "title": "8. Uppdateringar av policyn",
+      "description": "Vi kan ibland uppdatera denna integritetspolicy för att återspegla nya regler eller affärsmetoder..."
+    },
+    "section9": {
+      "title": "9. Kontakt",
+      "contact": "Frågor om vår integritetspolicy eller hur vi hanterar din data? Kontakta oss:<br /><strong>E-post:</strong><a href=\"mailto:privacy@tropinord.com\" class=\"text-blue-600 underline\">privacy@tropinord.com</a><br /><strong>Telefon:</strong> +46 76 433 05 23"
+    },
+    "lastUpdated": "Last Updated",
+    "collectionTitle": "1. Information We Collect",
+    "collectionIntro": "We collect information to provide better services to our customers. The types of information we gather include:",
+    "infoCollected": [
+      "Personal Information: Name, email address, phone number, shipping/billing address when you make a purchase or create an account",
+      "Payment Information: Credit/debit card details processed securely via third-party payment processors",
+      "Usage Data: Information about how you use our website, products, and services",
+      "Cookies and Tracking Data: We use cookies and similar tracking technologies"
+    ],
+    "usageTitle": "2. How We Use Your Information",
+    "infoUsage": [
+      "To provide and maintain our service",
+      "To process your transactions",
+      "To notify you about changes to our service",
+      "To provide customer support",
+      "To gather analysis to improve our service"
+    ],
+    "sharingTitle": "3. Data Sharing and Disclosure",
+    "sharingIntro": "We may share your personal information in the following situations:",
+    "dataSharing": [
+      "With service providers who assist in our operations",
+      "For business transfers like mergers or acquisitions",
+      "When required by law or valid legal requests"
+    ],
+    "securityTitle": "4. Data Security",
+    "securityContent": "We implement appropriate security measures to protect your personal data, though no method of transmission over the Internet is 100% secure.",
+    "rightsTitle": "5. Your Data Protection Rights",
+    "rightsIntro": "Depending on your location, you may have rights including:",
+    "userRights": [
+      "The right to access, update or delete your information",
+      "The right of rectification",
+      "The right to object to processing",
+      "The right to data portability"
+    ],
+    "cookiesTitle": "6. Cookies and Tracking Technologies",
+    "cookiesContent": "We use cookies to track activity on our website. You can instruct your browser to refuse all cookies.",
+    "childrenTitle": "7. Children's Privacy",
+    "childrenContent": "Our service does not address anyone under the age of 16. We do not knowingly collect personal information from children.",
+    "changesTitle": "8. Changes to This Privacy Policy",
+    "changesContent": "We may update our Privacy Policy periodically. We will notify you of any changes by posting the new policy on this page.",
+    "contactTitle": "9. Contact Us",
+    "contactContent": "If you have questions about this Privacy Policy, please contact us at support@tropinord.com."
+  },
+  "terms": {
+    "title": "Användarvillkor",
+    "intro": "Välkommen till TropiNord! Dessa <strong>Användarvillkor</strong> reglerar din användning av vår webbplats, tjänster och alla köp som görs via www.tropinord.com. Genom att använda vår plattform godkänner du dessa villkor.",
+    "sections": {
+      "about": {
+        "title": "1. Om oss",
+        "content": "TropiNord är ett svenskt företag som fokuserar på att förmedla de bästa ekologiska och hälsoprodukterna från Afrika och den globala södern till kunder i Europa och utanför. Vi strävar efter att erbjuda etiska, högkvalitativa produkter med integritet och transparens."
+      },
+      "orders": {
+        "title": "2. Beställningar & Betalningar",
+        "intro": "På TropiNord håller vi det enkelt och flexibelt för dig. Alla produktoriser visas i Euro (€), Svenska kronor (SEK kr) och US-dollar (USD $) beroende på din valda region eller leveransadress. Om inte annat anges inkluderar våra priser moms i enlighet med tillämpliga regler.",
+        "paymentOptions": "Vi accepterar flera säkra betalningsalternativ, inklusive:",
+        "paymentMethods": [
+          "Visa, MasterCard, American Express",
+          "PayPal",
+          "Swish (tillgängligt i Sverige och andra stödda regioner)",
+          "Direkt banköverföring för partihandel och specialbeställningar (efter godkännande)"
+        ],
+        "paymentProtection": "För att skydda både våra kunder och vår verksamhet måste betalningen slutföras innan din beställning behandlas och skickas. Vi förbehåller oss rätten att avslå eller avbryta beställningar på grund av misstänkt bedrägeri, betalningsproblem, prisfel eller brist på lager.",
+        "bulkBuyers": "För <strong>partiköpare, återförsäljare och partners</strong> erbjuder vi faktureringsalternativ. Kontakta oss för att ordna B2B-köp. Alla fakturerade betalningar måste vara betalda senast den angivna förfallodagen. Försenade betalningar kan medföra ränta och administrativa avgifter i enlighet med lokal lagstiftning.",
+        "content": [
+          "All orders are subject to product availability",
+          "Prices are subject to change without notice",
+          "We reserve the right to refuse or cancel any order"
+        ]
+      },
+      "shipping": {
+        "title": "3. Frak!",
+        "content": "Vi skickar världen över från vår bas i Sverige. Fraktider, kostnader och transportörer varierar beroende på plats och beställningsstorlek. För mer information, besök vår sida om <a>Frakt & Returer</a>."
+      },
+      "returns": {
+        "title": "4. Returer & Återbetalningar",
+        "content": "Din tillfredsställelse är viktig för oss. Du kan returnera oöppnade och oanvända varor inom <strong>14 dagar</strong> från leverans. Återbetalningar görs till det ursprungliga betalningssättet, minus fraktkostnader, efter inspektion av de returnerade varorna. Se vår <a>Returnolicy</a> för fullständiga villkor."
+      },
+      "availability": {
+        "title": "5. Produktillgänglighet & Beskrivningar",
+        "content": "Vi gör vårt bästa för att säkerställa att all produktinformation, priser och tillgänglighet är korrekta. Dock kan vi inte garantera tillgänglighet och vi kan ändra eller avsluta produkter utan föregående meddelande. Naturliga variationer i färg, textur eller doft kan förekomma, särskilt hos ekologiska och handgjorda produkter."
+      },
+      "conduct": {
+        "title": "6. Användaruppförande",
+        "content": "Du godkänner att inte använda vår webbplats för olagliga ändamål, störa dess funktionalitet eller kränka vår eller andras immateriella rättigheter."
+      },
+      "ip": {
+        "title": "7. Immateriella rättigheter",
+        "content": "Allt innehåll på TropiNords webbplats - inklusive text, grafik, logotyper, foton och produktnamn - är TropiNords eller dess licensgivares egendom och skyddas av upphovsrättsoch varumärkeslagar. Du får inte använda eller reproducera detta utan tillstånd."
+      },
+      "liability": {
+        "title": "8. Ansvar",
+        "content": "TropiNord ansvarar inte för indirekta, tillfälliga eller följdskador som uppstår från din användning av vår webbplats eller produkter, i den utsträckning som tillåts enligt lag."
+      },
+      "changes": {
+        "title": "9. Ändringar av villkor",
+        "content": "Vi kan uppdatera dessa villkor då och då. Eventuella ändringar publiceras på denna sida, och fortsatt användning av webbplatsen innebär acceptans av dessa ändringar."
+      },
+      "contact": {
+        "title": "10. Kontakt",
+        "intro": "Om du har frågor om dessa villkor eller behöver hjälp med en beställning kan du nå oss på:",
+        "email": "info@tropinord.com",
+        "phone": "+46 700711713",
+        "content": "For any questions about these Terms of Service, please contact us:"
+      },
+      "usage": {
+        "title": "1. Use of Our Services",
+        "content": [
+          "You must be at least 16 years old to use our services",
+          "You agree to provide accurate and complete information when creating an account",
+          "You are responsible for maintaining the confidentiality of your account credentials"
+        ]
+      },
+      "IntellectualProperty": {
+        "title": "5. Intellectual Property",
+        "content": "All content on our website, including text, graphics, logos, and images, is our property and protected by copyright laws."
+      },
+      "limitation": {
+        "title": "6. Limitation of Liability",
+        "content": "We shall not be liable for any indirect, incidental, or consequential damages arising from your use of our services."
+      },
+      "blog": {
+        "metaTitle": "Blog | TropiNord",
+        "metaDescription": "TropiNord blog - stories, tips and traditions in organic wellness and eco imports.",
+        "heading": "TropiNord Blog",
+        "intro": "Stories, inspiration, and knowledge from the heart of TropiNord’s tropical and Nordic roots.",
+        "posts": [
+          {
+            "title": "How African Black Soap is Made",
+            "description": "Discover the age-old process and cultural heritage behind this natural soap."
+          },
+          {
+            "title": "Why Cold-Pressed Oils Matter",
+            "description": "A breakdown of why purity and technique shape the power of natural oils."
+          }
+        ]
+      }
+    },
+    "blog": {
+      "metaTitle": "Blogg | TropiNord",
+      "metaDescription": "TropiNords blogg – berättelser, tips och traditioner inom ekologisk hälsa och import.",
+      "heading": "TropiNords Blogg",
+      "intro": "Berättelser, inspiration och kunskap från TropiNords tropiska och nordiska rötter.",
+      "posts": [
+        {
+          "title": "Hur afrikansk svarttvål tillverkas",
+          "description": "Upptäck den urgamla processen och kulturarvet bakom denna naturliga tvål."
+        },
+        {
+          "title": "Varför kallpressade oljor är viktiga",
+          "description": "En genomgång av varför renhet och teknik avgör naturliga oljors kraft."
+        }
+      ]
+    },
+    "paymentMethodsTitle": "Godkända betalningsmetoder",
+    "contact": {
+      "emailLabel": "E-post",
+      "phoneLabel": "Mobil"
+    },
+    "popup": {
+      "viewProducts": "Visa produkter",
+      "continue": "Fortsätt bläddra",
+      "comingSoon": "Kommer snart!",
+      "close": "Stäng"
+    }
+  }
+}

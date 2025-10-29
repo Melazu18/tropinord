@@ -1,0 +1,23 @@
+{
+  "title": "Afrikansk Svart Tvål Kollektion",
+  "intro": "Upptäck vårt utbud av autentisk afrikansk svart tvål — handgjord med naturliga ingredienser, perfekt för rengöring, peeling och skydd av huden året runt.",
+  "tagline": "Naturen minns — och det gör vi också.",
+  "climateNote": "🌱 TropiNord stödjer permanent koldioxidavlägsnande. 0,5% av varje order går till klimatlösningar.",
+  "quote": "“Handla naturligt, ge tillbaka globalt — varje TropiNord-order hjälper till att avlägsna CO₂ från atmosfären.”",
+  "readMore": "Läs mer om afrikansk svart tvål →",
+  "interestedInProduct": "Intresserad av att prova den här produkten?",
+  "products": {
+    "blackSoap": {
+      "name": "Afrikansk Svart Tvål (100g)",
+      "description": "Traditionell handgjord tvål för ansikte och kropp, idealisk för daglig rengöring och känslig hud."
+    },
+    "original": {
+      "name": "Original Svart Tvål (100g)",
+      "description": "Klassikt recept med intensiv rengöringseffekt, populär för sina peelande egenskaper."
+    },
+    "liquid": {
+      "name": "Flytande Afrikansk Svart Tvål (250ml)",
+      "description": "Perfekt för handtvätt och kroppsvård under vintern. Antibakteriell och fuktgivande."
+    }
+  }
+}

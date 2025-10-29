@@ -1,0 +1,62 @@
+{
+  "items": {
+    "banana-leaves": {
+      "title": "Feuilles de Bananier",
+      "description": "Feuilles vertes fraîches pour production textile biologique, emballage ou cuisine - Vente en gros uniquement."
+    },
+    "charcoal-(bulk)": {
+      "title": "Charbon de Bois (En Gros)",
+      "description": "Charbon de bois de haute qualité pour BBQ ou usage industriel. Contactez-nous pour commander."
+    },
+    "dry-bones-(for-feed)": {
+      "title": "Os Séchés (Pour Alimentation)",
+      "description": "Os propres et séchés au soleil pour alimentation animale. Exportation disponible."
+    },
+    "palm-oil-(bulk)": {
+      "title": "Huile de Palme (En Gros)",
+      "description": "Huile de palme rouge en gros, idéale pour la cuisine et la production cosmétique."
+    },
+    "shea-butter-(bulk)": {
+      "title": "Beurre de Karité (En Gros)",
+      "description": "Beurre de karité non raffiné en gros pour vente en gros et usage cosmétique."
+    },
+    "cassava-residue": {
+      "title": "Résidu de Manioc",
+      "description": "Sous-produit à haute énergie idéal pour l'alimentation animale et l'usage industriel."
+    },
+    "dried-cassava-peel": {
+      "title": "Peau de Manioc Séchée",
+      "description": "Peau de manioc séchée au soleil, adaptée à l'alimentation et aux solutions de compostage."
+    },
+    "noDescription": "Aucune description détaillée disponible.",
+    "notFound": "Produit non trouvé"
+  },
+  "fields": {
+    "botanicalName": "Nom Botanique",
+    "family": "Famille",
+    "origin": "Origine",
+    "history": "Histoire",
+    "usage": "Utilisation",
+    "benefits": "Avantages",
+    "sideEffects": "Effets Secondaires",
+    "productionDate": "Date de Production",
+    "bestBefore": "À consommer de préférence avant le"
+  },
+  "priceLabel": "Prix",
+  "contactForPricing": "Contactez-nous pour le prix",
+  "buttons": {
+    "backToProducts": "Retour aux Produits"
+  },
+  "inquiry": {
+    "title": "Demande de Produit"
+  },
+  "form": {
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "sending": "Envoi en cours...",
+    "send": "Envoyer la Demande",
+    "success": "Message envoyé avec succès !",
+    "error": "Échec de l'envoi du message. Veuillez réessayer."
+  }
+}

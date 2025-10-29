@@ -1,0 +1,17 @@
+{
+  "title": "Panel de artesano",
+  "myProducts": "Mis productos",
+  "noProductsYet": "Aún no hay productos.",
+  "auction": "Subasta",
+  "fixed": "Precio fijo",
+  "pendingShort": "Tu solicitud está pendiente de aprobación.",
+  "approvalNeeded": "Debes ser aprobado antes de subir productos.",
+  "noOrdersForEmail": "No tienes pedidos anteriores asociados a {{email}}.",
+  "orders": {
+    "title": "📦 Historial de pedidos",
+    "loading": "🔄 Cargando tus pedidos...",
+    "orderId": "ID de pedido",
+    "date": "Fecha",
+    "leaveReview": "Dejar una reseña"
+  }
+}

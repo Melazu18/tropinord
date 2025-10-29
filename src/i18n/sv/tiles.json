@@ -1,0 +1,23 @@
+{
+  "shopByCategory": "Handla efter kategori",
+  "allProducts": "Bläddra bland allt",
+  "naturalSoaps": "Skonsamt, handgjort",
+  "oils": "Kallpressad hälsa",
+  "tea": "Örter & premiumblandningar",
+  "agro": "Jordbruksvaror",
+  "offers": "Veckans erbjudanden",
+  "badge": { "sale": "-20%" },
+
+  "nordicHarvest": {
+    "title": "NordSkörd",
+    "subtitle": "Skörd, bröd & naturens gåvor"
+  },
+  "design": {
+    "title": "Design",
+    "subtitle": "Hantverk, målningar, stickning & textil"
+  },
+  "africanFoods": {
+    "title": "Afrikanska livsmedel & ingredienser",
+    "subtitle": "Råvaror & smaker från kontinenten"
+  }
+}

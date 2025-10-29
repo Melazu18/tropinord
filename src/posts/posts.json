@@ -1,0 +1,70 @@
+[
+  {
+    "title": "How Baobab Fruit Nourishes Your Skin",
+    "slug": "baobab-skin-benefits",
+    "description": "Explore the skincare and health benefits of organic baobab fruit powder, from antioxidants to gut support.",
+    "date": "2025-06-25",
+    "excerpt": "Baobab is a powerful natural ingredient loaded with vitamin C, minerals, and prebiotics that promote glowing, resilient skin from within.",
+    "image": "/images/blog/baobabPowder.jpg",
+    "tags": [
+      "baobab",
+      "skincare",
+      "organic",
+      "superfoods"
+    ],
+    "author": "TropiNord Editorial Team",
+    "productId": "baobab-powder-a2d83f"
+  },
+  {
+    "title": "The Remarkable Benefits of Palm Kernel Oil",
+    "slug": "benefits-of-palm-kernel-oil",
+    "description": "Palm kernel oil is packed with lauric acid, vitamin E, and antioxidants — making it a sustainable choice for health-conscious consumers, farmers, and skincare lovers.",
+    "date": "2025-07-12",
+    "excerpt": "Discover why palm kernel oil is a powerful ally in organic skincare, sustainable farming, and traditional nutrition across the tropics.",
+    "image": "/images/blog/palmkernelOil01.jpg",
+    "tags": [
+      "palm",
+      "oil",
+      "organic",
+      "sustainability",
+      "skincare"
+    ],
+    "author": "TropiNord Editorial Team",
+    "productId": "palm-kernel-oil"
+  },
+  {
+    "title": "How African Black Soap is Made",
+    "slug": "african-black-soap",
+    "description": "Learn the traditional process, benefits, and cultural impact of African Black Soap — a natural cleanser handmade with ash, oils, and centuries of care.",
+    "date": "2024-06-20",
+    "excerpt": "African Black Soap is a time-honored West African cleanser made with plantain ash, shea butter, and natural oils — cherished for its purifying, soothing properties.",
+    "tags": [
+      "soap",
+      "skincare",
+      "africa",
+      "winter-protection",
+      "family-health"
+    ],
+    "author": "TropiNord Editorial Team",
+    "productId": "african-black-soap-original-112233"
+  },
+  {
+    "slug": "cold-pressed-oils",
+    "excerpt": "",
+    "date": null,
+    "tags": []
+  },
+  {
+    "title": "The Future of Organic Farming",
+    "slug": "organic-farming",
+    "date": "2025-07-10",
+    "excerpt": "Discover how organic agriculture is reshaping the world with sustainable practices and regenerative innovation.",
+    "image": "/images/blog/farm01.jpg",
+    "tags": [
+      "organic",
+      "farming",
+      "sustainability"
+    ],
+    "author": "TropiNord Editorial Team"
+  }
+]

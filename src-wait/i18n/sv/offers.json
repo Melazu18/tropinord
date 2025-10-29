@@ -1,0 +1,19 @@
+{
+  "offers": {
+    "title": "Specialerbjudanden",
+    "shopNow": "Handla Nu",
+    "expired": "Erbjudandet har gått ut",
+    "offer1": {
+      "title": "Köp 2 Neemoljor, Få 1 Gratis",
+      "description": "Lägg 3 neemoljor i kundvagnen och betala bara för 2!"
+    },
+    "offer2": {
+      "title": "Fri Frakt vid Köp över 50 €",
+      "description": "Njut av fri frakt på alla beställningar över 50 €."
+    },
+    "offer3": {
+      "title": "20% Rabatt på Sheasmörprodukter",
+      "description": "Använd koden SHEA20 i kassan för att få din rabatt."
+    }
+  }
+}

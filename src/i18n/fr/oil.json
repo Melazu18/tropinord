@@ -1,0 +1,27 @@
+{
+  "title": "🌿 Collection d’huiles biologiques",
+  "intro": "Découvrez notre sélection d’huiles naturelles pour la cuisine, les rituels et le bien-être. D’origine responsable, riches en nutriments.",
+  "buttons": {
+    "addToCart": "Ajouter au panier"
+  },
+  "fields": {
+    "origin": "Origine",
+    "scent": "Parfum",
+    "skinType": "Type de peau",
+    "ingredients": "Ingrédients"
+  },
+  "byId": {
+    "neem-oil": {
+      "name": "Huile de neem",
+      "description": "Pressée à froid et naturelle, souvent utilisée dans les remèdes traditionnels et le soin de la peau."
+    },
+    "avocado-oil": {
+      "name": "Huile d’avocat",
+      "description": "Riche en nutriments et très hydratante, idéale pour les cheveux et la peau."
+    },
+    "coconut-oil": {
+      "name": "Huile de coco",
+      "description": "Huile biologique polyvalente pour la cuisine, les cheveux ou la nutrition de la peau."
+    }
+  }
+}

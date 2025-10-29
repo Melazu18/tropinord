@@ -1,0 +1,443 @@
+{
+  "pageHeading": "Utforska våra produkter",
+
+  "categories": {
+    "cosmetics": "Kosmetiska produkter",
+    "healingBotanicals": "Läkande botaniska",
+    "agro": "Agrohandel & råvaror"
+  },
+
+  "subcategories": {
+    "Hair": "Hårvård",
+    "Skin": "Hudvård",
+    "Tea": "Örtteer",
+    "Items": "Artiklar"
+  },
+
+  "fieldLabels": {
+    "description": "Beskrivning",
+    "origin": "Ursprung",
+    "history": "Historia",
+    "botanicalName": "Vetenskapligt namn",
+    "family": "Familj",
+    "benefits": "Fördelar",
+    "usage": "Användning",
+    "sideEffects": "Biverkningar",
+    "productionDate": "Produktionsdatum",
+    "bestBefore": "Bäst före",
+    "price": "Pris"
+  },
+
+  "buttons": {
+    "contactWhatsApp": "Kontakta via WhatsApp"
+  },
+
+  "product": {
+    "notFound": "Produkt",
+    "contactAdmin": "admin@tropinord.com"
+  },
+
+  "order": {
+    "quantity": "Kvantitet",
+    "addToCart": "Lägg i varukorg",
+    "addedToCart": "{{item}} (x{{qty}}) har lagts i varukorgen!"
+  },
+
+  "agro": {
+    "items": {
+      "banana-leaves": {
+        "title": "Bananblad (Jordens ursprung)",
+        "description": "Färska gröna bananblad för organisk textilproduktion, inslagning eller matlagning – endast bulk.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "charcoal-bulk": {
+        "title": "Träkol (bulk)",
+        "description": "Högkvalitativt träkol för grill eller industriellt bruk. Kontakta oss för beställning.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "dry-bones-for-feed": {
+        "title": "Torkade ben (för foder)",
+        "description": "Rena, soltorkade ben för djurfoder. Export möjlig.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "palm-oil-bulk": {
+        "title": "Palmolja (bulk)",
+        "description": "Bulk röd palmolja, idealisk för matlagning och kosmetisk produktion.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "shea-butter-bulk": {
+        "title": "Sheasmör (bulk)",
+        "description": "Oraffinerat sheasmör i bulk för grossist- och kosmetikabruk.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "cassava-residue": {
+        "title": "Kassavarest",
+        "description": "Energirik biprodukt idealisk för djurfoder och industriellt bruk.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "dried-cassava-peel": {
+        "title": "Torkat kassavaskal",
+        "description": "Soltorkat kassavaskal som lämpar sig för foder och kompostlösningar.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      }
+    }
+  },
+
+  "byId": {
+    "growth-hair-cream-b27663": {
+      "label": "Hårväxtkräm",
+      "description": "Näringsrik kräm med biotin och naturliga oljor som stärker hårfolliklarna och främjar hälsosam tillväxt.",
+      "botanicalName": "Saknas",
+      "family": "Saknas",
+      "origin": "Nigeria",
+      "history": "Används i västafrikanska hårrutiner i generationer.",
+      "usage": "Applicera direkt på hårbotten och massera.",
+      "benefits": "Stimulerar hårväxt och minskar hårbrott.",
+      "sideEffects": "Inga kända biverkningar.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "scalp-treatment-cream-39109f": {
+      "label": "Hårbottenbehandlingskräm",
+      "description": "Lindrar irritation och minskar flass med teeträdolja och aloe vera för en balanserad hårbotten.",
+      "botanicalName": "Melaleuca alternifolia",
+      "family": "Myrtaceae",
+      "origin": "Australien",
+      "history": "Historisk användning för att behandla hårbottensinflammation.",
+      "usage": "Applicera två gånger i veckan på torr hårbotten.",
+      "benefits": "Minskar klåda, förbättrar hårbottens hälsa.",
+      "sideEffects": "Lätt stickande känsla möjlig.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "curls-hair-cream-9f7de4": {
+      "label": "Lockkräm",
+      "description": "Definierar och fuktar lockar med sheasmör och kokosolja för frizzfri volym.",
+      "botanicalName": "Butyrospermum parkii, Cocos nucifera",
+      "family": "Sapotaceae, Arecaceae",
+      "origin": "Ghana & Filippinerna",
+      "history": "Traditionellt använd för att mjuka upp och definiera lockar.",
+      "usage": "Applicera på vått hår och skrynkla.",
+      "benefits": "Ger glans och volym, minskar frizz.",
+      "sideEffects": "Inga rapporterade biverkningar.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "afro-hair-cream-5dc05e": {
+      "label": "Afro Hårkräm",
+      "description": "Rik, icke-flottig formel som hydrerar och skyddar afro-texturerat hår mot brott.",
+      "botanicalName": "Saknas",
+      "family": "Saknas",
+      "origin": "Nigeria",
+      "history": "Del av afrikanska skönhetsrutiner.",
+      "usage": "Massera in i fuktigt eller torrt hår.",
+      "benefits": "Förhindrar torrhet och skador.",
+      "sideEffects": "Inga kända biverkningar.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "dreadlock-hair-cream-868670": {
+      "label": "Dreadlock Hårkräm",
+      "description": "Lätt kräm som låser in fukt och håller välskötta, friska dreadlocks.",
+      "botanicalName": "Saknas",
+      "family": "Saknas",
+      "origin": "Jamaica",
+      "history": "Används i karibiska hårritualer.",
+      "usage": "Applicera vid behov för att underhålla dreadlocks.",
+      "benefits": "Fuktar och konditionerar dreadlocks.",
+      "sideEffects": "Inga rapporterade biverkningar.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "shea-butter-b289b0": {
+      "label": "Sheasmör",
+      "description": "Oraffinerat, 100% rent sheasmör för djup fukt och reparation av torr hud.",
+      "botanicalName": "Butyrospermum parkii",
+      "family": "Sapotaceae",
+      "origin": "Västafrika",
+      "history": "Använt i århundraden som hudskydd och fuktgivare.",
+      "usage": "Applicera på huden vid behov.",
+      "benefits": "Hydrerar och näringsberikar torr hud.",
+      "sideEffects": "Sällsynta allergiska reaktioner.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "neem-oil-76981d": {
+      "label": "Neemolja",
+      "description": "Antibakteriell olja för behandling av acne, eksem och svampinfektioner samt lindrar inflammation.",
+      "botanicalName": "Azadirachta indica",
+      "family": "Meliaceae",
+      "origin": "Indien",
+      "history": "Används i ayurvedisk medicin för hudvård.",
+      "usage": "Applicera utspädd på drabbade områden.",
+      "benefits": "Läker sår och rensar infektioner.",
+      "sideEffects": "Möjlig hudirritation vid ospädd användning.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "african-black-soap-raw-123abc": {
+      "label": "Afrikansk Svart Tvål – Rå",
+      "description": "Traditionell rå afrikansk svart tvål för djup hudrengöring.",
+      "botanicalName": "Varierar (Blandning av plantainskalsaska, kakaoskalsaska, sheasmör, palmolja)",
+      "family": "Flera (naturliga växtingredienser)",
+      "origin": "Västafrika",
+      "history": "En århundraden gammal västafrikansk skönhetshemlighet.",
+      "usage": "Skumma med vatten, applicera på huden, skölj grundligt.",
+      "benefits": "Rengör och exfolierar djupare samtidigt som den näringsberikar huden.",
+      "sideEffects": "Kan vara torkande för känslig hud; använd återfuktande efterbehandling.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "african-black-soap-liquid-456def": {
+      "label": "Afrikansk Svart Tvål – Flytande",
+      "description": "Flytande form, idealisk för mild daglig tvätt och familjehygien.",
+      "botanicalName": "Varierar (Blandning av plantainskalsaska, kakaoskalsaska, sheasmör, palmolja)",
+      "family": "Flera (naturliga växtingredienser)",
+      "origin": "Västafrika",
+      "history": "Utvecklad som en modern, lättanvänd version av den traditionella tvålen.",
+      "usage": "Applicera på våt hud, massera försiktigt, skölj av.",
+      "benefits": "Bekväm flytande form för daglig rengöring.",
+      "sideEffects": "Kan vara torkande för mycket känslig hud; använd återfuktande efterbehandling.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "african-black-soap-original-112233": {
+      "label": "Afrikansk Svart Tvål – Original",
+      "description": "Äkta afrikansk svart tvål med traditionell recept och rik textur.",
+      "botanicalName": "Varierar (Blandning av plantainskalsaska, kakaoskalsaska, sheasmör, palmolja)",
+      "family": "Flera (naturliga växtingredienser)",
+      "origin": "Västafrika",
+      "history": "Traditionellt hantverk som förts vidare genom generationer.",
+      "usage": "Arbeta till skum, rengör huden, skölj med vatten.",
+      "benefits": "Rengör djupt samtidigt som hudens naturliga oljor bevaras.",
+      "sideEffects": "Kan vara något skrovlig vid direkt applicering utan skumning.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "tulsi-herbal-tea-001": {
+      "label": "Tulsi Örtte",
+      "description": "Stöder immunhälsa och lindrar stress.",
+      "botanicalName": "Ocimum tenuiflorum",
+      "family": "Lamiaceae",
+      "origin": "Indien",
+      "history": "Använd i ayurvedisk medicin som 'örtens drottning'.",
+      "usage": "Brygg i hetvatten i 5–7 minuter.",
+      "benefits": "Adaptogen, antiinflammatorisk, avgiftande.",
+      "sideEffects": "Rekommenderas inte under graviditet.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "sweet-apple-tea-002": {
+      "label": "Sött Äpple",
+      "description": "En fruktig, tröstande blandning av torkade äpplen och söta örter för att lugna sinnena.",
+      "botanicalName": "Malus domestica (Äpple), Hibiscus sabdariffa",
+      "family": "Rosaceae, Malvaceae",
+      "origin": "Tyskland",
+      "history": "Populärt som barnörtte.",
+      "usage": "Brygg 1 tsk i 250 ml kokande vatten i 8 minuter.",
+      "benefits": "Lugnar matsmältningen och främjar avkoppling.",
+      "sideEffects": "Inga rapporterade biverkningar.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "ginger-lemon-tea-003": {
+      "label": "Ingefära Citron",
+      "description": "En fräsig örtblandning med ingefära och citronskal som ger energi och stöder matsmältningen.",
+      "botanicalName": "Zingiber officinale, Citrus limon",
+      "family": "Zingiberaceae, Rutaceae",
+      "origin": "Blandat i Tyskland",
+      "history": "Traditionellt europeiskt botemedel mot förkylning och illamående.",
+      "usage": "Brygg 1 tsk i 200 ml hett vatten i 5–7 minuter.",
+      "benefits": "Lindrar illamående och ger energi.",
+      "sideEffects": "Kan irritera känsliga magar.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "herbs-and-honey-tea-004": {
+      "label": "Örter & Honung",
+      "description": "En mild blandning av söta örter med naturlig honungssmak – lugnande och aromatisk.",
+      "botanicalName": "Olika örter inkl. kamomill och fänkål",
+      "family": "Asteraceae, Apiaceae",
+      "origin": "Europa",
+      "history": "Vanligt förekommande för avslappning före sömn.",
+      "usage": "Brygg i kokande vatten i 8 minuter.",
+      "benefits": "Hjälper till att lugna nerver och stabilisera matsmältningen.",
+      "sideEffects": "Undvik under graviditet (på grund av fänkål).",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "feel-fit-tea-005": {
+      "label": "Feel Fit",
+      "description": "En uppiggande välte med citrongräs, ingefära och mynta för daglig balans.",
+      "botanicalName": "Cymbopogon citratus, Mentha piperita",
+      "family": "Poaceae, Lamiaceae",
+      "origin": "Blandat i Tyskland",
+      "history": "Populär modern wellnessblandning.",
+      "usage": "Brygg i 5–7 minuter.",
+      "benefits": "Stöder ämnesomsättning och immunförsvar.",
+      "sideEffects": "Inga rapporterade biverkningar.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "evening-dream-tea-006": {
+      "label": "Evening Dream",
+      "description": "Lugnande örtte med lavendel och citronmeliss som främjar god sömn.",
+      "botanicalName": "Melissa officinalis, Lavandula angustifolia",
+      "family": "Lamiaceae",
+      "origin": "Europa",
+      "history": "Traditionellt använd för att minska ångest och främja avkoppling.",
+      "usage": "Drick 30 minuter före sömn.",
+      "benefits": "Lugnar nervsystemet och förbättrar sömnkvalitet.",
+      "sideEffects": "Kan orsaka sömnighet.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "fennel-anise-caraway-tea-007": {
+      "label": "Fänkål Anis Kummin",
+      "description": "En klassisk tysk matsmältningsblandning som lindrar uppblåsthet och lugnar magen.",
+      "botanicalName": "Foeniculum vulgare, Pimpinella anisum, Carum carvi",
+      "family": "Apiaceae",
+      "origin": "Tyskland",
+      "history": "Ett traditionellt hembotemedel i hela Europa.",
+      "usage": "Brygg 1 tsk i 250 ml kokande vatten i 10 minuter.",
+      "benefits": "Stöder matsmältningen och lindrar gaser.",
+      "sideEffects": "Undvik i stora mängder under graviditet.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "harmony-herbal-blend-008": {
+      "label": "Harmony Örtblandning",
+      "description": "Floral och kryddig blandning för inre balans och bättre humör.",
+      "botanicalName": "Inkluderar hibiskus, citrongräs, nypon",
+      "family": "Malvaceae, Poaceae, Rosaceae",
+      "origin": "Tyskland",
+      "history": "Skapad för emotionellt välbefinnande och kroppsharmoni.",
+      "usage": "Brygg 5–10 minuter beroende på smakstyrka.",
+      "benefits": "Ger energi samtidigt som den lugnar sinnet.",
+      "sideEffects": "Inga rapporterade biverkningar.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "good-evening-tea-009": {
+      "label": "Good Evening",
+      "description": "Avslappnande sömntee med lugnande örter för att varva ner kropp och sinne.",
+      "botanicalName": "Chamomilla recutita, Passiflora incarnata",
+      "family": "Asteraceae, Passifloraceae",
+      "origin": "Tyskland",
+      "history": "Pålitlig för mild sömnstöd.",
+      "usage": "Njut av på kvällen före sänggående.",
+      "benefits": "Främjar god sömn och avkoppling.",
+      "sideEffects": "Kan orsaka sömnighet.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "arctic-sunrise-herbal-blend-257172": {
+      "label": "Arctic Sunrise Örtblandning",
+      "description": "Nordiska örter och citronskal för att ge energi på morgonen.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "forest-berry-immunity-aedd73": {
+      "label": "Forest Berry Immunity",
+      "description": "Nordiska bär och hibiskus för vinterhälsa.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "organic-coffee-abc123": {
+      "label": "Ekologiskt Kaffe",
+      "description": "Mjuk och aromatisk ekologiska kaffebönor från tropiska högland.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    }
+  },
+
+  "upload": {
+    "approvalNeeded": "Du måste bli godkänd innan du kan ladda upp produkter."
+  },
+
+  "nordic-harvest-corn-bread": {
+    "label": "NordSkörd Majsbröd",
+    "description": "Rustikt majsbröd inspirerat av nordiska skördekök — fyllig smula och gyllene skorpa.",
+    "origin": "Norden",
+    "history": "Bakas i små satser med stenmalda sädesslag och knyter an till skandinavisk gårdsbakning där säsongens skörd satte smaken. Gott med smör, till soppor eller som bas till smörrebröd.",
+    "usage": "Skiva och ät färskt; värms gärna i ugn.",
+    "benefits": "Mättande och hemtrevligt bröd med enkla ingredienser.",
+    "sideEffects": "Kan innehålla gluten om vetemjöl ingår.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  },
+  "hand-knit-wool-scarf": {
+    "label": "Handstickad Ullhalsduk",
+    "description": "Mysig hantverksstickad halsduk med klassiska nordiska mönster och mjuk ull.",
+    "origin": "Skandinavien",
+    "history": "Inspirerad av skandinaviska sticktraditioner som förts vidare i generationer; mönster från kust- och fjällmiljöer.",
+    "usage": "Vädra efter användning; handtvätt kallt och plantorkas.",
+    "benefits": "Varm, andningsbar och hållbar naturfiber.",
+    "sideEffects": "Ull kan upplevas som kliande för känslig hud.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "N/A"
+  },
+  "cassava-fufu": {
+    "label": "Kassava Fufu",
+    "description": "Klassisk västafrikansk basrätt av kassava — len, elastisk och perfekt till egusi, grönsakssoppa, ogbono/okro m.fl.",
+    "origin": "Västafrika",
+    "history": "En hörnsten i västafrikisk matkultur. Traditionellt mortlad; modern malning ger jämn konsistens.",
+    "usage": "Tillaga enligt förpackning; servera varm till soppor och grytor.",
+    "benefits": "Mättande och mångsidig bas som lyfter kraftiga smaker.",
+    "sideEffects": "Kolhydratrik; ät som del av en balanserad kost.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  },
+
+  "dagman-001": {
+    "label": "Melonkärnebröd",
+    "description": "Rustikt vardagsbröd för varje dag – mjuk smula och stadig skorpa.",
+    "origin": "Nordiska regionen",
+    "history": "Inspirerat av nordiska skörderitualer och gårdsbagerier. Stenmalda sädesslag ger djup och näring.",
+    "usage": "Skiva och njut färskt; utmärkt med smör, soppor eller som rostat.",
+    "benefits": "Mättande bas med härlig textur.",
+    "sideEffects": "Innehåller gluten; kan innehålla spår av nötter.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  },
+  "dagman-002": {
+    "label": "Majsbröd",
+    "description": "Mättande, mjukare limpa som passar utmärkt till soppor och grytor.",
+    "origin": "Nordiska regionen",
+    "history": "Traditionsbakning möter modernt hantverk. Balanserad hydrering ger mjukhet.",
+    "usage": "Värm lätt före servering för extra doft.",
+    "benefits": "Tröstande smula och mångsidig smak.",
+    "sideEffects": "Innehåller gluten.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  },
+  "tropical-crunchy-001": {
+    "label": "Tropical Crunchy",
+    "description": "Knaprig skorpa med en lätt, lekfull ton – ljuvlig med pålägg. Finns med nötter och utan nötter.",
+    "origin": "Nordiska regionen",
+    "history": "Ett ljust komplement till traditionella nordiska bröd. Småskalig bakning för maximal färskhet.",
+    "usage": "Gott med nötsmör, sylt eller färskost.",
+    "benefits": "Knaprig textur; lekfull smakbild.",
+    "sideEffects": "Innehåller gluten; nötvariant kan innehålla nötter.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  },
+  "fufu-egusi-001": {
+    "label": "Fufu & Egusi",
+    "description": "Klassisk västafrikansk kombination – mjuk, seg fufu med fyllig egusisoppa.",
+    "origin": "Västafrika",
+    "history": "Egusi görs på malda melonkärnor för en fyllig, nötaktig bas; omtyckt i Nigeria och grannländer.",
+    "usage": "Servera varmt; äts med händerna tillsammans med soppan.",
+    "benefits": "Mättande bas som passar proteinrik soppa.",
+    "sideEffects": "Kan innehålla allergener (melonkärnor); ät som del av en balanserad kost.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  }
+}

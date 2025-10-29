@@ -1,41 +1,51 @@
+// src/i18n/index.js (or wherever your i18n bootstrap file lives)
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
-import en from "./en.json";
-import es from "./es.json";
-import fr from "./fr.json";
-import sv from "./sv.json";
+// ✅ Supported languages
+const supportedLangs = ["en", "sv", "es", "fr"];
 
-const supportedLangs = ["en", "es", "fr", "sv"];
+// Eagerly load all translation JSON files under ./<lang>/**/*.json
+const translationFiles = import.meta.glob("./*/**/*.json", { eager: true });
+
+// Build resources like:
+// { en: { common: {...}, hero: {...}, ... }, sv: { ... }, es: { ... }, fr: { ... } }
+const resources = {};
+supportedLangs.forEach((lang) => {
+  resources[lang] = {};
+  Object.entries(translationFiles).forEach(([path, mod]) => {
+    const match = path.match(new RegExp(`./${lang}/(.+?)\\.json$`));
+    if (match) {
+      const namespace = match[1]; // e.g. 'hero', 'common', 'footer'
+      resources[lang][namespace] = mod.default;
+    }
+  });
+});
+
+// Pick namespaces from English as a base (falls back to ["common"] if empty)
+const baseNamespaces = Object.keys(resources.en || {});
+const namespaces = baseNamespaces.length ? baseNamespaces : ["common"];
 
 i18n
-  .use(LanguageDetector) // 👈 Detect language automatically
+  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    resources: {
-      en: { translation: en },
-      es: { translation: es },
-      fr: { translation: fr },
-      sv: { translation: sv },
-    },
+    resources,
     fallbackLng: "en",
     supportedLngs: supportedLangs,
+    ns: namespaces,
+    defaultNS: "common",
+    interpolation: { escapeValue: false },
     detection: {
       order: ["localStorage", "navigator", "htmlTag"],
       caches: ["localStorage"],
     },
-    interpolation: {
-      escapeValue: false,
-    },
-    react: {
-      useSuspense: false,
-    },
+    react: { useSuspense: false },
   });
 
-// Optional: Add RTL info per language
-const isRtlLanguage = (lang) => ["ar", "he", "fa", "ur"].includes(lang);
-
+// Keep <html lang> and direction in sync
+const isRtlLanguage = (lng) => ["ar", "he", "fa", "ur"].includes(lng);
 i18n.on("languageChanged", (lng) => {
   const html = document.documentElement;
   html.lang = lng;

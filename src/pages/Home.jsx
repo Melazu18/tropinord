@@ -1,195 +1,26 @@
-import React, { useState, useEffect } from "react";
-import Button from "../components/ui/Button";
-import { Link, useNavigate } from "react-router-dom";
-import { useTranslation } from "react-i18next";
-
-const mustTryImages = [
-  {
-    src: "/images/afroHair04.jpg",
-    title: "Afro Elegant Hair",
-    description:
-      "Define your curls with moisture-rich hydration for shine and shape.",
-    link: "/products/oils",
-    tags: ["curls", "hydration"],
-  },
-  {
-    src: "/images/darkCurlyHair01.jpg",
-    title: "Velvet Curl Harmony",
-    description:
-      "Velvety texture and lush definition—crafted for confident curl expression.",
-    link: "/products/oils",
-    tags: ["curl", "definition"],
-  },
-  {
-    src: "/images/afroHair05.jpg",
-    title: "Afro Rugged Hair",
-    description:
-      "Thick, textured hair gets extra strength with our herbal infusion.",
-    link: "/products/oils",
-    tags: ["thick hair", "herbal"],
-  },
-  {
-    src: "/images/afroHair06.jpg",
-    title: "Thick Afro Hair",
-    description:
-      "Revive coils with a botanical boost made for density and resilience.",
-    link: "/products/oils",
-    tags: ["botanical", "resilience"],
-  },
-  {
-    src: "/images/roll-on02.jpg",
-    title: "Midnight Sun Bouquet(roll-on)",
-    description:
-      "A gentle, aluminum-free roll-on infused with Arctic wildflower extracts and golden honey to soothe skin, while Nordic birch sap neutralizes odor naturally. Lightly scented with midnight musk for a whisper of enduring freshness day or midnight sun.",
-    link: "/products/perfumes",
-    tags: ["roll-on", "deodorant"],
-  },
-  {
-    src: "/images/tea001.png",
-    title: "Herbal Inner Glow Tea",
-    description:
-      "Sip serenity, our herbal blend calms your spirit and nourishes from within.",
-    link: "/products/teas",
-    tags: ["tea", "herbal"],
-  },
-  {
-    src: "/images/beautyTone.jpg",
-    title: "Radiant Skin Tone",
-    description:
-      "Bring out your natural radiance with our tone-enhancing elixir, gentle, glowing, graceful.",
-    link: "/products/oils",
-    tags: ["radiance", "skin"],
-  },
-  {
-    src: "/images/afroHair03.jpg",
-    title: "Afro Curly Hair in Style",
-    description:
-      "Our styling blend enhances natural curls with lightweight hold.",
-    link: "/products/oils",
-    tags: ["styling", "curls"],
-  },
-  {
-    src: "/images/blondCurlyHair01.jpg",
-    title: "Golden Curls Delight",
-    description:
-      "Soft, bouncy blond curls enhanced with golden botanicals and gentle care.",
-    link: "/products/oils",
-    tags: ["blond", "curls"],
-  },
-  {
-    src: "/images/mixedRaceSkin01.jpg",
-    title: "Melanin-Rich Glow",
-    description: "Brighten and balance skin with our vitamin-rich elixir.",
-    link: "/products/oils",
-    tags: ["melanin", "glow"],
-  },
-  {
-    src: "/images/mixedRaceSkin02.jpg",
-    title: "Mixed Skin Beauty",
-    description: "Our moisturizer respects both texture and tone.",
-    link: "/products/oils",
-    tags: ["moisturizer", "mixed skin"],
-  },
-  {
-    src: "/images/coconut-growth.jpg",
-    title: "Coconut Growth",
-    description:
-      "Tame dryness and encourage healthy growth with tropical nourishment.",
-    link: "/products/oils",
-    tags: ["coconut", "growth"],
-  },
-  {
-    src: "/images/coconut-growth01.jpg",
-    title: "Coconut Strength",
-    description: "Add bounce and resilience with every drop.",
-    link: "/products/oils",
-    tags: ["coconut", "strength"],
-  },
-  {
-    src: "/images/avocadoOil001.jpg",
-    title: "Avocado Oil Essence",
-    description:
-      "Deeply condition your strands with cold-pressed avocado goodness.",
-    link: "/products/oils",
-    tags: ["avocado", "condition"],
-  },
-  {
-    src: "/images/avocadoOil002.jpg",
-    title: "Deep Moisture",
-    description: "Seal in hydration for lasting softness and shine.",
-    link: "/products/oils",
-    tags: ["moisture", "hydration"],
-  },
-  {
-    src: "/images/afroEuroCream01.jpg",
-    title: "Afro-Euro Cream",
-    description:
-      "Combines rich African butters and Nordic purity for versatile hair styling.",
-    link: "/products/oils",
-    tags: ["cream", "styling"],
-  },
-  {
-    src: "/images/afroHair02.jpg",
-    title: "The Origin",
-    description:
-      "Celebrate your roots with natural nourishment from the earth.",
-    link: "/products/oils",
-    tags: ["roots", "nourishment"],
-  },
-  {
-    src: "/images/naturalPerfumes.png",
-    title: "Natural Perfume Essence",
-    description:
-      "Experience subtle luxury with nature's own fragrance, pure, warm, and soul-soothing.",
-    link: "/products/perfumes",
-    tags: ["perfume", "natural"],
-  },
-  {
-    src: "/images/hairGrowthOil.jpg",
-    title: "Hair Growth Oil",
-    description:
-      "Stimulate roots and awaken follicles with our essential blend.",
-    link: "/products/oils",
-    tags: ["growth", "oil"],
-  },
-];
+// src/pages/Home.jsx
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { Trans, useTranslation } from "react-i18next";
+import Tagline from "../components/Tagline";
+import { getLocalizedPath } from "../utils/getLocalizedPath";
+import { API_BASE } from "../utils/api";
 
 export default function Home() {
-  const { t } = useTranslation();
-  const navigate = useNavigate();
-  const [paused, setPaused] = useState(false);
-  const [popup, setPopup] = useState(null);
+  const { t, i18n } = useTranslation(["hero", "buttons", "footer"]);
+  const lang = (i18n.language || "en").slice(0, 2);
+
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
-  const [productAvailable, setProductAvailable] = useState(false);
-  const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("all");
-  const [selectedTags, setSelectedTags] = useState([]);
-
-  const tags = ["hydrating", "growth", "glow", "curl", "skin", "botanical"];
-
-  useEffect(() => {
-    const handleMouseMove = () => setPaused(true);
-    window.addEventListener("mousemove", handleMouseMove);
-    return () => window.removeEventListener("mousemove", handleMouseMove);
-  }, []);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setProductAvailable(true);
-    }, 3000);
-  }, []);
+  const path = (key) => getLocalizedPath(key, lang);
 
   const handleSubscribe = async (e) => {
     e.preventDefault();
     if (!email) return;
-
     try {
-      const res = await fetch("http://localhost:3001/api/subscribe", {
+      const res = await fetch(`${API_BASE}/subscribe`, {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email }),
       });
       if (res.ok) setSubscribed(true);
@@ -198,233 +29,302 @@ export default function Home() {
     }
   };
 
-  const toggleTag = (tag) => {
-    setSelectedTags((prev) =>
-      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]
-    );
-  };
-
-  const filteredImages = mustTryImages.filter((img) => {
-    const matchCategory =
-      selectedCategory === "all" || img.link.includes(selectedCategory);
-    const matchSearch =
-      img.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      img.description.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchTags =
-      selectedTags.length === 0 ||
-      selectedTags.some((tag) =>
-        img.description.toLowerCase().includes(tag.toLowerCase())
-      );
-    return matchCategory && matchSearch && matchTags;
-  });
-
   return (
-    <div className="space-y-20">
-      {/* Hero Section */}
+    <div className="space-y-16">
+      {/* tiny CSS for nature separators + gentle float */}
+      <style>{`
+        @keyframes tn-float {
+          0% { transform: translateY(0px); }
+          50% { transform: translateY(-6px); }
+          100% { transform: translateY(0px); }
+        }
+        .tn-float { animation: tn-float 5s ease-in-out infinite; }
+        @keyframes tn-leaf-wave {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+        .tn-nature-sep {
+          background: linear-gradient(90deg, rgba(16,122,57,0.15), rgba(212,175,55,0.25), rgba(16,122,57,0.15));
+          background-size: 200% 200%;
+          animation: tn-leaf-wave 8s ease-in-out infinite;
+        }
+      `}</style>
+
+      {/* Hero (kept) */}
       <section
-        className="relative w-full text-center bg-no-repeat bg-cover bg-center bg-white h-screen flex items-center justify-center"
+        className="relative min-h-[70vh] bg-no-repeat bg-cover bg-center flex items-center justify-center px-4 sm:px-6 md:px-12"
         style={{ backgroundImage: "url('/images/tropinordHome.png')" }}
       >
-        <div className="absolute inset-0 bg-black/20"></div>
-        <div className="relative z-10 max-w-4xl mx-auto px-6 py-12 bg-black/40 backdrop-blur-sm rounded-xl shadow-2xl">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-            Natural Products with Global Roots
+        <div className="absolute inset-0 bg-black/30" />
+        <div className="relative z-10 max-w-3xl w-full text-center bg-black/40 backdrop-blur-sm rounded-xl p-6 sm:p-10 shadow-2xl">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
+            {t("headline", { defaultValue: "Oils & Teas from the Tropics" })}
           </h1>
-          <p className="text-xl md:text-2xl text-gray-100 mb-8 leading-relaxed">
-            Ethical, sustainable wellness, from the Tropics to the North.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/explore">
-              <Button className="px-8 py-3 text-lg font-medium bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white rounded-lg transition-colors duration-300">
-                Explore Our Products
-              </Button>
-            </Link>
 
-            <Link to="/contact">
-              <Button className="px-8 py-3 text-lg font-medium bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white rounded-lg transition-colors duration-300">
-                Contact Us
-              </Button>
+          <p className="text-base sm:text-lg md:text-xl text-gray-100 mb-6">
+            {t("subheadline", {
+              defaultValue:
+                "Sustainably sourced, ethically crafted. A curated selection of tropical oils and teas, especially from Africa.",
+            })}
+          </p>
+
+          <p className="mt-1 mb-8 italic text-green-300 text-lg">
+            {t("tagline", { defaultValue: "Nature remembers — and so do we." })}
+          </p>
+
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <Link
+              to={path("oils")}
+              className="text-sm sm:text-base px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+            >
+              {t("browseOils", { defaultValue: "Browse Oils" })}
+            </Link>
+            <Link
+              to={path("tea")}
+              className="text-sm sm:text-base px-6 py-3 border-2 border-[#D4AF37] text-[#D4AF37] rounded-lg hover:bg-[#D4AF37] hover:text-white transition-colors"
+            >
+              {t("browseTeas", { defaultValue: "Browse Teas" })}
+            </Link>
+            <Link
+              to={path("contact")}
+              className="text-sm sm:text-base px-6 py-3 border-2 border-white text-white rounded-lg hover:bg:white/10 transition-colors"
+            >
+              {t("contactUs", { defaultValue: "Contact Us" })}
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Must Try Section */}
-      <section
-        id="must-try"
-        className="relative bg-white dark:bg-gray-800 py-16 px-4 text-center"
-      >
-        <h2 className="text-3xl font-bold text-amber-700 mb-4">
-          Celebrating Afro-European Beauty
-        </h2>
-        <p className="text-gray-600 dark:text-yellow-400 mb-10">
-          There are products linked with every image
-        </p>
-        <div className="mb-4 max-w-md mx-auto">
-          <input
-            type="text"
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            placeholder="Search by title or description..."
-            className="w-full p-2 border rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 text-black dark:text-yellow-400 bg-white dark:bg-gray-900"
-          />
+      {/* Tagline (kept) */}
+      <section className="px-4 md:px-8 -mt-6">
+        <div className="max-w-7xl mx-auto space-y-6">
+          <Tagline />
         </div>
-        <div className="mb-6 max-w-xs mx-auto">
-          <select
-            value={selectedCategory}
-            onChange={(e) => setSelectedCategory(e.target.value)}
-            className="w-full p-2 border rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 text-black dark:text-yellow-400 bg-white dark:bg-gray-900"
+      </section>
+
+      {/* ===== Nature separator ===== */}
+      <div className="tn-nature-sep h-10 rounded-full mx-4 md:mx-8" />
+
+      {/* TEA: hero card FIRST (clickable) */}
+      <section className="px-4 md:px-8">
+        <div className="max-w-6xl mx-auto">
+          <Link
+            to={path("tea")}
+            className="block rounded-2xl overflow-hidden shadow-lg border border-gray-100 dark:border-gray-700 group"
+            aria-label="Browse Teas"
           >
-            <option value="all">All Categories</option>
-            <option value="oils">Oils</option>
-            <option value="perfumes">Perfumes</option>
-            <option value="teas">Teas</option>
-          </select>
-        </div>
-
-        {/* Tag Filters */}
-        <div className="flex flex-wrap justify-center gap-2 mb-8">
-          {tags.map((tag) => (
-            <button
-              key={tag}
-              onClick={() => toggleTag(tag)}
-              className={`px-4 py-1 rounded-full border text-sm transition-all duration-200 ${
-                selectedTags.includes(tag)
-                  ? "bg-green-600 text-white"
-                  : "border-green-600 text-green-600 hover:bg-green-100 dark:hover:bg-gray-700"
-              }`}
-            >
-              {tag.charAt(0).toUpperCase() + tag.slice(1)}
-            </button>
-          ))}
-        </div>
-
-        <div
-          className="flex flex-wrap justify-center gap-4 animate-floating transition-all duration-500 ease-in-out"
-          onMouseMove={() => setPaused(true)}
-        >
-          {filteredImages.map((img, index) => (
-            <div
-              key={index}
-              className={`w-32 h-32 rounded-full overflow-hidden border-2 border-white shadow-lg transform transition duration-300 hover:scale-110 cursor-pointer ${
-                !paused ? "animate-bounce-slow" : ""
-              }`}
-              onClick={() => setPopup(img)}
-            >
+            <div className="relative">
               <img
-                src={img.src}
-                alt={img.title}
-                title={img.title}
-                className="w-full h-full object-cover"
+                src="/images/TropiNordTeaProduct003.png"
+                alt="TropiNord Tea"
+                className="w-full h-[280px] sm:h-[360px] md:h-[420px] object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+                loading="eager"
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+              <div className="absolute bottom-4 left-4 text-white">
+                <h3 className="text-2xl font-bold tn-float">
+                  {t("teaCtaTitle", {
+                    defaultValue: "Steep calm, sip clarity",
+                  })}
+                </h3>
+                <p className="text-sm opacity-90">
+                  {t("teaCtaSub", {
+                    defaultValue:
+                      "Whole-leaf character. Honest aroma. Taste of place.",
+                  })}
+                </p>
+              </div>
             </div>
-          ))}
-        </div>
+          </Link>
 
-        {/* Popup Card */}
-        {popup && (
-          <div
-            className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center"
-            onClick={() => setPopup(null)}
-          >
-            <div
-              className="bg-white dark:bg-gray-900 max-w-md rounded-xl p-6 text-left shadow-2xl"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <img
-                src={popup.src}
-                alt={popup.title}
-                className="rounded-lg mb-4 w-full h-64 object-cover"
-              />
-              <h3 className="text-xl font-semibold mb-2">{popup.title}</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
-                {popup.description}
+          {/* TEA: side image left, copy right */}
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+            <div className="order-1">
+              <Link to={path("tea")} aria-label="Browse Teas">
+                <img
+                  src="/images/enjoyTea01.jpg"
+                  alt="Enjoy tea"
+                  className="w-full h-72 object-cover rounded-xl shadow-md transition-transform duration-500 hover:scale-[1.02]"
+                />
+              </Link>
+            </div>
+            <div className="order-2">
+              <h4 className="text-2xl font-bold text-green-800 dark:text-green-300 mb-3">
+                {t("teaEnjoyTitle", {
+                  defaultValue: "Enjoy a cup of tea with your loved ones",
+                })}
+              </h4>
+              <p className="text-gray-700 dark:text-gray-200 leading-relaxed">
+                {t("teaEnjoyBody", {
+                  defaultValue:
+                    "Pause the noise and gather close. Our herbal, green and black teas carry the quiet wisdom of the tropics—leaves picked at their peak, crafted to calm the mind and warm the spirit. Share a pot, breathe deeper, and let the cup do the caring.",
+                })}
               </p>
-
-              {productAvailable ? (
-                <div className="space-y-3">
-                  <Button
-                    onClick={() => navigate(popup.link)}
-                    className="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700"
-                  >
-                    View Products
-                  </Button>
-                  <button
-                    onClick={() => setPopup(null)}
-                    className="w-full bg-gray-200 text-gray-800 py-2 rounded hover:bg-gray-300"
-                  >
-                    Continue Browsing
-                  </button>
-                </div>
-              ) : (
-                <div className="space-y-3">
-                  <p className="text-green-600 font-medium">Coming Soon!</p>
-                  <button
-                    onClick={() => setPopup(null)}
-                    className="w-full bg-gray-200 text-gray-800 py-2 rounded hover:bg-gray-300"
-                  >
-                    Close
-                  </button>
-                </div>
-              )}
+              <div className="mt-4">
+                <Link
+                  to={path("tea")}
+                  className="inline-block px-5 py-2 rounded-lg bg-emerald-600 text-white font-semibold hover:bg-emerald-700 transition"
+                >
+                  {t("browseTeas", { defaultValue: "Browse Teas" })}
+                </Link>
+              </div>
             </div>
           </div>
-        )}
-
-        {/* Email Signup */}
-        <div className="mt-16 max-w-xl mx-auto">
-          <h3 className="text-2xl font-semibold mb-4 text-green-700">
-            Stay in the Loop
-          </h3>
-          <p className="text-gray-700 dark:text-yellow-400 mb-6">
-            Subscribe to get early access to new Afro-European hair & skincare
-            releases.
-          </p>
-
-          {subscribed ? (
-            <p className="text-green-600 font-medium">✅ You're subscribed!</p>
-          ) : (
-            <form
-              className="flex gap-2 justify-center"
-              onSubmit={handleSubscribe}
-            >
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Enter your email"
-                className="w-full p-2 border rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 text-black dark:text-yellow-400 bg-white dark:bg-gray-900"
-              />
-              <button
-                type="submit"
-                className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
-              >
-                Subscribe
-              </button>
-            </form>
-          )}
         </div>
       </section>
-      <section className="bg-green-50 dark:bg-gray-800 text-center py-8 px-4 mt-12 rounded-lg shadow-md">
-        <h3 className="text-xl font-bold text-green-800 dark:text-green-300 mb-2">
-          Need Help or Want to Partner?
+
+      {/* ===== Nature separator ===== */}
+      <div className="tn-nature-sep h-10 rounded-full mx-4 md:mx-8" />
+
+      {/* OILS: hero head (clickable) */}
+      <section className="px-4 md:px-8">
+        <div className="max-w-6xl mx-auto">
+          <Link
+            to={path("oils")}
+            className="block rounded-2xl overflow-hidden shadow-lg border border-gray-100 dark:border-gray-700 group"
+            aria-label="Browse Oils"
+          >
+            <div className="relative">
+              <img
+                src="/images/organicOils.png"
+                alt="Organic tropical oils"
+                className="w-full h-[260px] sm:h-[340px] md:h-[400px] object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+              <div className="absolute bottom-4 left-4 text-white">
+                <h3 className="text-2xl font-bold tn-float">
+                  {t("oilsCtaTitle", {
+                    defaultValue: "Press nature, pour nourishment",
+                  })}
+                </h3>
+                <p className="text-sm opacity-90">
+                  {t("oilsCtaSub", {
+                    defaultValue:
+                      "Cold-pressed goodness for scalp, skin, and kitchen.",
+                  })}
+                </p>
+              </div>
+            </div>
+          </Link>
+        </div>
+      </section>
+
+      {/* OILS: side copy left, image right */}
+      <section className="px-4 md:px-8">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+          <div className="order-2 md:order-1">
+            <h4 className="text-2xl font-bold text-green-800 dark:text-green-300 mb-3">
+              {t("oilsCareTitle", {
+                defaultValue: "Nourish scalp & skin with 100% natural oils",
+              })}
+            </h4>
+            <p className="text-gray-700 dark:text-gray-200 leading-relaxed">
+              {t("oilsCareBody", {
+                defaultValue:
+                  "From shea and coconut to castor and beyond—our cold-pressed oils are crafted to soothe the scalp, seal in moisture and let your natural glow rise to the surface. Honest texture. Quiet shine. Care you can feel.",
+              })}
+            </p>
+            <div className="mt-4">
+              <Link
+                to={path("oils")}
+                className="inline-block px-5 py-2 rounded-lg bg-emerald-600 text-white font-semibold hover:bg-emerald-700 transition"
+              >
+                {t("browseOils", { defaultValue: "Browse Oils" })}
+              </Link>
+            </div>
+          </div>
+
+          <div className="order-1 md:order-2">
+            <Link to={path("oils")} aria-label="Browse Oils">
+              <img
+                src="/images/haircare.png"
+                alt="Hair & skin care oils"
+                className="w-full h-72 object-cover rounded-xl shadow-md transition-transform duration-500 hover:scale-[1.02]"
+              />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== Nature separator ===== */}
+      <div className="tn-nature-sep h-10 rounded-full mx-4 md:mx-8" />
+
+      {/* Subscribe (kept) */}
+      <section className="mt-2 max-w-xl mx-auto px-4">
+        <h3 className="text-xl sm:text-2xl font-semibold mb-2 text-green-700 dark:text-green-300 text-center">
+          {t("stayInLoop", { defaultValue: "Stay in the loop" })}
         </h3>
-        <p className="text-gray-700 dark:text-gray-200">
-          For the best experience, reach out to us directly on{" "}
-          <a
-            href="https://wa.me/+46700711713"
-            className="underline font-semibold"
+        <p className="text-sm sm:text-base text-gray-700 dark:text-gray-200 mb-4 text-center">
+          {t("subscribeText", {
+            defaultValue:
+              "Get product updates, small-batch releases, and occasional perks.",
+          })}
+        </p>
+
+        {subscribed ? (
+          <p className="text-green-600 font-medium text-center">
+            {t("successMessage", {
+              ns: "footer",
+              defaultValue: "Thanks! You're on the list.",
+            })}
+          </p>
+        ) : (
+          <form
+            className="flex flex-col sm:flex-row gap-2 justify-center"
+            onSubmit={handleSubscribe}
           >
-            WhatsApp
-          </a>{" "}
-          or send us an email at{" "}
-          <a
-            href="mailto:support@tropinord.com"
-            className="underline font-semibold"
-          >
-            support@tropinord.com
-          </a>
-          .
+            <input
+              id="home-newsletter-email"
+              name="email"
+              type="email"
+              autoComplete="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder={t("emailPlaceholder", {
+                defaultValue: "Enter your email",
+              })}
+              className="flex-grow p-2 border rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 text-black dark:text-yellow-400 bg-white dark:bg-gray-900"
+              required
+            />
+            <button
+              type="submit"
+              className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+            >
+              {t("subscribe", { ns: "buttons", defaultValue: "Subscribe" })}
+            </button>
+          </form>
+        )}
+      </section>
+
+      {/* Help (kept) */}
+      <section className="bg-green-50 dark:bg-gray-800 text-center py-8 px-4 mt-8 rounded-lg shadow-md">
+        <h3 className="text-lg sm:text-xl font-bold text-green-800 dark:text-green-300 mb-2">
+          {t("helpHeading", { ns: "footer", defaultValue: "Need a hand?" })}
+        </h3>
+
+        <p className="text-sm sm:text-base text-gray-700 dark:text-gray-200">
+          <Trans
+            i18nKey="helpBody"
+            ns="footer"
+            components={{
+              whatsapp: (
+                <a
+                  href="https://wa.me/+46700711713"
+                  className="underline font-semibold mx-1"
+                  target="_blank"
+                  rel="noreferrer"
+                />
+              ),
+              email: (
+                <a
+                  href="mailto:support@tropinord.com"
+                  className="underline font-semibold mx-1"
+                />
+              ),
+            }}
+            defaults="Reach us on <whatsapp>WhatsApp</whatsapp> or email <email>support@tropinord.com</email>."
+          />
         </p>
       </section>
     </div>

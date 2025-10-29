@@ -1,0 +1,269 @@
+{
+  "categories": {
+    "cosmetics": "Produits Cosmétiques",
+    "healingBotanicals": "Plantes Médicinales",
+    "agroTrade": "Agro-Commerce & Matières Premières"
+  },
+  "buttons": {
+    "contact": "Contacter TropiNord"
+  },
+  "agro": {
+    "items": {
+      "banana-leaves": {
+        "title": "Feuilles de Bananier (Origines Terrestres)",
+        "description": "Feuilles vertes fraîches de bananier pour production textile bio, emballage ou cuisine - Vente en gros uniquement."
+      },
+      "charcoal-(bulk)": {
+        "title": "Charbon de Bois (En gros)",
+        "description": "Charbon de bois de haute qualité pour BBQ ou usage industriel. Contactez-nous pour commander."
+      },
+      "dry-bones-(for-feed)": {
+        "title": "Os Séchés (pour Alimentation)",
+        "description": "Os propres et séchés au soleil pour alimentation animale. Exportation disponible."
+      },
+      "palm-oil-(bulk)": {
+        "title": "Huile de Palme (En gros)",
+        "description": "Huile de palme rouge en vrac, idéale pour la cuisine et la production cosmétique."
+      },
+      "shea-butter-(bulk)": {
+        "title": "Beurre de Karité (En gros)",
+        "description": "Beurre de karité non raffiné en gros pour vente en gros et usage cosmétique."
+      }
+    }
+  },
+  "products": {
+    "organic-oils": {
+      "name": "Huiles Bio",
+      "items": [
+        {
+          "label": "Huile de Neem",
+          "image": "/images/neemoil.jpg",
+          "price": 10,
+          "slug": "neem-oil",
+          "id": "neem-oil-76981d"
+        },
+        {
+          "label": "Huile d'Avocat",
+          "image": "/images/avocadooil.jpg",
+          "price": 12,
+          "slug": "avocado-oil",
+          "id": "avocado-oil-a7c767"
+        },
+        {
+          "label": "Huile de Curcuma",
+          "image": "/images/tumericoil.jpg",
+          "price": 12,
+          "slug": "tumeric-oil",
+          "id": "tumeric-oil-b09e17"
+        },
+        {
+          "label": "Huile de Lavande",
+          "image": "/images/cosmeticsoils01.jpg",
+          "price": 10,
+          "slug": "lavender-oil",
+          "id": "lavender-oil-a6e64a"
+        },
+        {
+          "label": "Huile Essentielle d'Eucalyptus Citriodora",
+          "image": "/images/eucalyptusoil.jpg",
+          "price": 11,
+          "slug": "eucalyptus-citriodora-essential-oil",
+          "id": "eucalyptus-citriodora-essential-oil-02c924"
+        }
+      ]
+    },
+    "hair-care": {
+      "name": "Soins Capillaires",
+      "items": [
+        {
+          "label": "Crème pour la Croissance des Cheveux",
+          "image": "/images/products/placeholder-hair-growth.jpg",
+          "price": 14,
+          "slug": "growth-hair-cream",
+          "id": "growth-hair-cream-b27663"
+        },
+        {
+          "label": "Crème Traitante pour Cuir Chevelu",
+          "image": "/images/products/placeholder-scalp.jpg",
+          "price": 13,
+          "slug": "scalp-treatment-cream",
+          "id": "scalp-treatment-cream-39109f"
+        },
+        {
+          "label": "Crème pour Boucles",
+          "image": "/images/products/placeholder-curls.jpg",
+          "price": 15,
+          "slug": "curls-hair-cream",
+          "id": "curls-hair-cream-9f7de4"
+        },
+        {
+          "label": "Crème pour Cheveux Afro",
+          "image": "/images/products/placeholder-afro.jpg",
+          "price": 15,
+          "slug": "afro-hair-cream",
+          "id": "afro-hair-cream-5dc05e"
+        },
+        {
+          "label": "Crème pour Dreadlocks",
+          "image": "/images/products/placeholder-dread.jpg",
+          "price": 16,
+          "slug": "dreadlock-hair-cream",
+          "id": "dreadlock-hair-cream-868670"
+        }
+      ]
+    },
+    "skin-care": {
+      "name": "Soins de la Peau",
+      "items": [
+        {
+          "label": "Beurre de Karité",
+          "image": "/images/sheabutter01.jpg",
+          "price": 9,
+          "slug": "shea-butter",
+          "id": "shea-butter-b289b0"
+        },
+        {
+          "label": "Savon Noir Africain - Naturel",
+          "image": "/images/blacksoap01.jpg",
+          "price": 9,
+          "slug": "african-black-soap-raw",
+          "id": "african-black-soap-raw-123abc",
+          "description": "Savon noir africain traditionnel pour un nettoyage profond de la peau."
+        },
+        {
+          "label": "Savon Noir Africain - Liquide",
+          "image": "/images/LiquidSoap01.png",
+          "price": 11,
+          "slug": "african-black-soap-liquid",
+          "id": "african-black-soap-liquid-456def",
+          "description": "Forme liquide, idéale pour un lavage quotidien doux et l'hygiène familiale."
+        },
+        {
+          "label": "Savon Noir Africain - Original",
+          "image": "/images/BlackSoapOriginal01.png",
+          "price": 10,
+          "slug": "african-black-soap-original",
+          "id": "african-black-soap-original-112233",
+          "description": "Savon noir africain authentique avec formulation traditionnelle et texture riche."
+        }
+      ]
+    },
+    "perfumes": {
+      "name": "Parfums Naturels",
+      "items": [
+        {
+          "label": "Essence de Menthe Nordique",
+          "image": "/images/mintPerfumes01.jpg",
+          "price": 25,
+          "description": "Un mélange frais et vivifiant de menthe polaire et notes boisées.",
+          "slug": "nordic-mint-essence",
+          "id": "nordic-mint-essence-437685"
+        },
+        {
+          "label": "Brume Aurore de Lavande",
+          "image": "/images/lavandaPerfume.jpg",
+          "price": 28,
+          "description": "Champs de lavande équilibrés avec douceur florale et notes terreuses nordiques.",
+          "slug": "lavender-aurora-mist",
+          "id": "lavender-aurora-mist-c2fe24"
+        },
+        {
+          "label": "Roll-On Inox 24H (Sans Parfum)",
+          "image": "/images/roll-on02.jpg",
+          "price": 22,
+          "description": "Formule inodore avancée avec protection 24 heures, ne tache pas les tissus.",
+          "slug": "24h-stainless-roll-on-(unscented)",
+          "id": "24h-stainless-roll-on-(unscented)-a725ac"
+        }
+      ]
+    },
+    "teas": {
+      "name": "Thés et Café",
+      "items": [
+        {
+          "label": "Mélange d'Herbes Lever du Soleil Arctique",
+          "image": "/images/tea001.jpg",
+          "price": 12,
+          "description": "Herbes nordiques et écorces d'agrumes pour dynamiser vos matinées.",
+          "slug": "arctic-sunrise-herbal-blend",
+          "id": "arctic-sunrise-herbal-blend-257172"
+        },
+        {
+          "label": "Immunité aux Baies de la Forêt",
+          "image": "/images/tea01.jpg",
+          "price": 18,
+          "description": "Baies nordiques et hibiscus pour le bien-être hivernal.",
+          "slug": "forest-berry-immunity",
+          "id": "forest-berry-immunity-aedd73"
+        },
+        {
+          "label": "Café Biologique",
+          "image": "/images/organiccoffee.jpg",
+          "price": 14,
+          "description": "Grains de café biologiques doux et aromatiques des hauts plateaux tropicaux.",
+          "slug": "organic-coffee",
+          "id": "organic-coffee-abc123"
+        }
+      ]
+    },
+    "spices": {
+      "name": "Épices Bio",
+      "items": [
+        {
+          "label": "Poudre de Gingembre Bio",
+          "image": "/images/products/placeholder-ginger.jpg",
+          "price": 7,
+          "slug": "organic-ginger-powder",
+          "id": "organic-ginger-powder-0b603f"
+        },
+        {
+          "label": "Poudre de Curcuma",
+          "image": "/images/products/placeholder-turmeric.jpg",
+          "price": 6,
+          "slug": "turmeric-powder",
+          "id": "turmeric-powder-ced26f"
+        }
+      ]
+    },
+    "agro-products": {
+      "name": "Produits Agricoles",
+      "items": [
+        {
+          "label": "Feuilles de Bananier",
+          "image": "/images/bananaleaves01.jpg",
+          "description": "Feuilles vertes fraîches de bananier pour production textile bio, emballage ou cuisine - Vente en gros uniquement.",
+          "slug": "banana-leaves",
+          "id": "banana-leaves-035b30"
+        },
+        {
+          "label": "Charbon de Bois (En gros)",
+          "image": "/images/charcoal.jpg",
+          "description": "Charbon de bois de haute qualité pour BBQ ou usage industriel. Contactez-nous pour commander.",
+          "slug": "charcoal-(bulk)",
+          "id": "charcoal-(bulk)-4ab139"
+        },
+        {
+          "label": "Os Séchés (pour Alimentation)",
+          "image": "/images/drybones01.jpg",
+          "description": "Os propres et séchés au soleil pour alimentation animale. Exportation disponible.",
+          "slug": "dry-bones-(for-feed)",
+          "id": "dry-bones-(for-feed)-e2e94e"
+        },
+        {
+          "label": "Huile de Palme (En gros)",
+          "image": "/images/RedPalmOil01.png",
+          "slug": "palm-oil-(bulk)",
+          "id": "palm-oil-(bulk)-789ghi",
+          "description": "Huile de palme rouge en vrac, idéale pour la cuisine et la production cosmétique."
+        },
+        {
+          "label": "Beurre de Karité (En gros)",
+          "image": "/images/SheaButter04.png",
+          "slug": "shea-butter-(bulk)",
+          "id": "shea-butter-(bulk)-101jkl",
+          "description": "Beurre de karité non raffiné en gros pour vente en gros et usage cosmétique."
+        }
+      ]
+    }
+  }
+}

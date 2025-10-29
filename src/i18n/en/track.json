@@ -1,0 +1,16 @@
+{
+  "title": "Track Your Order",
+  "emailPlaceholder": "Enter your email",
+  "trackButton": "Track Order",
+  "loading": "Loading...",
+  "errorEnterEmail": "Please enter your email",
+  "errorFetchOrder": "Failed to fetch order",
+  "orderDate": "Order Date",
+  "status": "Status",
+  "pending": "Pending",
+  "total": "Total",
+  "paymentMethod": "Payment Method",
+  "receipt": "Receipt",
+  "download": "Download",
+  "items": "Items"
+}

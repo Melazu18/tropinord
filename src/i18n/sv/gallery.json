@@ -1,0 +1,42 @@
+{
+  "logoAlt": "Artisangalleriet",
+  "title": "Artisangalleriet",
+  "subtitle": "Upptäck skapelser från hantverkare. Gilla, kommentera och följ deras resa.",
+  "loading": "Laddar…",
+  "empty": "Inga objekt ännu.",
+  "by": "av",
+  "likes": "gillar",
+  "comments": "kommentarer",
+  "previewOnly": "Endast förhandsvisning",
+  "view": "Visa",
+  "loadMore": "Ladda mer",
+  "hero": {
+    "title": "Välkommen till Artisangalleriet",
+    "tagline": "Där hantverk möter gemenskap",
+    "p1": "I hjärtat av varje handgjord skapelse finns en berättelse—om skicklighet, passion och dedikation. Artisangalleriet är din scen för att dela den berättelsen med världen.",
+    "yourTalent": "Din talang, vår plattform",
+    "yourTalentList": [
+      "Visa upp dina unika alster för en uppskattande publik",
+      "Få kontakt med kunder som värdesätter kvalitet och äkthet",
+      "Väx från lokal kännedom till global uppskattning",
+      "Trivs i ett community som hyllar handgjord excellens"
+    ],
+    "howItWorks": "Så fungerar det",
+    "forArtisans": "För hantverkare:",
+    "forArtisansText": "Visa upp ditt arbete i ett kurerat digitalt galleri, få genuin feedback, bli upptäckt av köpare världen över, sälj direkt via vår säkra marknadsplats och bygg ditt rykte genom omdömen och betyg.",
+    "forBuyers": "För konstälskare & köpare:",
+    "forBuyersText": "Upptäck unika, handgjorda skatter, få direktkontakt med talangfulla skapare, beställ specialtillverkade verk, stötta äkta hantverk och äg något verkligt speciellt med en berättelse bakom.",
+    "whyJoin": "Varför gå med i vårt community?",
+    "whyJoinList": [
+      "Vi firar hantverkets tidlösa traditioner",
+      "Vi möjliggör att förvandla passion till hållbar försörjning",
+      "Vi knyter samman skapare med en publik som verkligen uppskattar deras arbete",
+      "Vi bevarar kulturarv med modern teknik",
+      "Vi inspirerar nästa generation av hantverkare"
+    ],
+    "closing": "Oavsett om du är en erfaren hantverkare eller just har börjat dela din talang är Artisangalleriet öppet för dig. Det här är mer än en plattform—det är din partner i tillväxt, din förstärkare i en brusig digital värld och din länk till människor som värdesätter den mänskliga handen i varje skapelse.",
+    "slogan": "Artisangalleriet: Bevarar traditionen, stärker skapare, förenar världar.",
+    "ctaExplore": "Utforska galleriet",
+    "ctaBecome": "Bli hantverkare"
+  }
+}

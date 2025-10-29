@@ -1,0 +1,17 @@
+{
+  "heading": "Acheter par catégorie",
+  "items": {
+    "all": { "title": "Tous les produits", "subtitle": "Voir tout" },
+    "soaps": { "title": "Savons Naturels", "subtitle": "Doux et faits main" },
+    "oils": { "title": "Huiles", "subtitle": "Bien-être pressé à froid" },
+    "tea": {
+      "title": "Thé",
+      "subtitle": "Mélanges à base de plantes et premium"
+    },
+    "agro": {
+      "title": "Produits Agricoles",
+      "subtitle": "Produits de commodité agricole"
+    },
+    "offers": { "title": "Offres", "subtitle": "Promotions de la semaine" }
+  }
+}

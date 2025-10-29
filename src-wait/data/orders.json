@@ -1,0 +1,14 @@
+[
+  {
+    "email": "paul.emartins@yahoo.com",
+    "status": "Pending Payment",
+    "amount": 4000,
+    "receiptFilename": "receipt_12345.pdf"
+  },
+  {
+    "email": "test@example.com",
+    "status": "Paid",
+    "amount": 7800,
+    "receiptFilename": null
+  }
+]

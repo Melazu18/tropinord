@@ -1,0 +1,15 @@
+{
+  "tagline": "Tropical Traditions, Nordic Standards",
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "products": "Products",
+    "offers": "Offers",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "menu": {
+    "label": "Menu",
+    "lightMode": "Light Mode"
+  }
+}

@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx}"],
+  content: ["./src/**/*.{js,jsx,mdx}"], // ✅ Add .mdx for blog support
   darkMode: "class",
   theme: {
     extend: {
@@ -14,6 +14,7 @@ module.exports = {
           700: "#a77e2c",
         },
       },
+
       animation: {
         "fade-in": "fadeIn 1s ease-out forwards",
       },
@@ -26,8 +27,43 @@ module.exports = {
       transformOrigin: {
         center: "center",
       },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: theme("colors.gray.800"),
+            a: {
+              color: theme("colors.green.700"),
+              "&:hover": {
+                color: theme("colors.green.600"),
+              },
+            },
+            h1: { color: theme("colors.green.800") },
+            h2: { color: theme("colors.green.800") },
+            h3: { color: theme("colors.green.800") },
+            code: {
+              backgroundColor: theme("colors.gray.100"),
+              padding: "0.2em 0.4em",
+              borderRadius: "0.25rem",
+            },
+            img: {
+              borderRadius: theme("borderRadius.lg"),
+            },
+          },
+        },
+        invert: {
+          css: {
+            color: theme("colors.gray.200"),
+            a: { color: theme("colors.green.400") },
+            h1: { color: theme("colors.green.300") },
+            h2: { color: theme("colors.green.300") },
+            h3: { color: theme("colors.green.300") },
+            code: {
+              backgroundColor: theme("colors.gray.800"),
+            },
+          },
+        },
+      }),
     },
   },
-  plugins: [require("@tailwindcss/typography")],
-  plugins: [require("tailwindcss-rtl")],
+  plugins: [require("@tailwindcss/typography"), require("tailwindcss-rtl")],
 };

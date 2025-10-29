@@ -1,0 +1,28 @@
+{
+  "brand": "TropiNord",
+  "tagline": "Origines tropicales. Harmonie mondiale.",
+  "menu": {
+    "openAriaLabel": "Ouvrir le menu",
+    "closeAriaLabel": "Fermer le menu"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "faq": "FAQ",
+    "origin": "L’Origine",
+    "oil": "Huiles",
+    "tea": "Thé",
+    "contact": "Contact",
+    "cart": "Panier",
+    "login": "Compte",
+    "dashboard": "Tableau de bord",
+    "orderHistory": "Historique des commandes",
+    "admin": "Admin"
+  },
+  "logo": { "alt": "Logo TropiNord" },
+  "drawerTitle": "Menu",
+  "preferences": "Préférences",
+  "signedInAs": "Connecté en tant que",
+  "closeMenu": "Fermer le menu",
+  "openMenu": "Ouvrir le menu"
+}

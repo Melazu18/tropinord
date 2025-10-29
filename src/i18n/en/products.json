@@ -1,0 +1,447 @@
+{
+  "pageHeading": "Explore Our Products",
+
+  "categories": {
+    "cosmetics": "Cosmetic Products",
+    "healingBotanicals": "Healing Botanicals",
+    "agro": "Agro-Trade & Raw Materials"
+  },
+
+  "subcategories": {
+    "Hair": "Hair Care",
+    "Skin": "Skin Care",
+    "Tea": "Herbal Teas",
+    "Items": "Items"
+  },
+
+  "fieldLabels": {
+    "description": "Description",
+    "origin": "Origin",
+    "history": "History",
+    "botanicalName": "Botanical Name",
+    "family": "Family",
+    "benefits": "Benefits",
+    "usage": "Usage",
+    "sideEffects": "Side Effects",
+    "productionDate": "Date of Production",
+    "bestBefore": "Best Before",
+    "price": "Price"
+  },
+
+  "buttons": {
+    "contactWhatsApp": "Contact via WhatsApp"
+  },
+
+  "product": {
+    "notFound": "Product",
+    "contactAdmin": "admin@tropinord.com"
+  },
+
+  "order": {
+    "quantity": "Quantity",
+    "addToCart": "Add to Cart",
+    "addedToCart": "{{item}} (x{{qty}}) added to cart!"
+  },
+
+  "agro": {
+    "items": {
+      "banana-leaves": {
+        "title": "Banana Leaves (Earth Origin)",
+        "description": "Fresh green banana leaves for organic textile production, wrapping, or cooking – bulk only.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "charcoal-bulk": {
+        "title": "Charcoal (bulk)",
+        "description": "High-quality charcoal for grilling or industrial use. Contact us for orders.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "dry-bones-for-feed": {
+        "title": "Dried Bones (for feed)",
+        "description": "Clean, sun-dried bones for animal feed. Export possible.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "palm-oil-bulk": {
+        "title": "Palm Oil (bulk)",
+        "description": "Bulk red palm oil, ideal for cooking and cosmetic production.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "shea-butter--bulk": {
+        "title": "Shea Butter (bulk)",
+        "description": "Unrefined shea butter in bulk for wholesale and cosmetic use.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "cassava-residue": {
+        "title": "Cassava Residue",
+        "description": "Energy-rich byproduct ideal for animal feed and industrial use.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      },
+      "dried-cassava-peel": {
+        "title": "Dried Cassava Peel",
+        "description": "Sun-dried cassava peel suitable for feed and compost solutions.",
+        "productionDate": "0000-00-00",
+        "bestBefore": "0000-00-00"
+      }
+    }
+  },
+
+  "byId": {
+    "growth-hair-cream-b27663": {
+      "label": "Growth Hair Cream",
+      "description": "Nourishing cream infused with biotin and natural oils to strengthen hair follicles and promote healthy growth.",
+      "botanicalName": "N/A",
+      "family": "N/A",
+      "origin": "Nigeria",
+      "history": "Used in West African hair routines for generations.",
+      "usage": "Apply directly to scalp and massage.",
+      "benefits": "Stimulates hair growth and reduces breakage.",
+      "sideEffects": "None known.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "scalp-treatment-cream-39109f": {
+      "label": "Scalp Treatment Cream",
+      "description": "Soothes irritation and reduces flakiness with tea tree oil and aloe vera for a balanced scalp.",
+      "botanicalName": "Melaleuca alternifolia",
+      "family": "Myrtaceae",
+      "origin": "Australia",
+      "history": "Historically used to treat scalp inflammation.",
+      "usage": "Apply twice a week to dry scalp.",
+      "benefits": "Reduces itchiness, improves scalp health.",
+      "sideEffects": "Mild tingling sensation possible.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "curls-hair-cream-9f7de4": {
+      "label": "Curls Hair Cream",
+      "description": "Defines and moisturizes curls with shea butter and coconut oil for frizz-free bounce.",
+      "botanicalName": "Butyrospermum parkii, Cocos nucifera",
+      "family": "Sapotaceae, Arecaceae",
+      "origin": "Ghana & Philippines",
+      "history": "Traditionally used to soften and define curls.",
+      "usage": "Apply to wet hair and scrunch.",
+      "benefits": "Adds shine and bounce, tames frizz.",
+      "sideEffects": "None reported.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "afro-hair-cream-5dc05e": {
+      "label": "Afro Hair Cream",
+      "description": "Rich, non-greasy formula to hydrate and protect afro-textured hair from breakage.",
+      "botanicalName": "N/A",
+      "family": "N/A",
+      "origin": "Nigeria",
+      "history": "Part of African beauty practices.",
+      "usage": "Massage into damp or dry hair.",
+      "benefits": "Prevents dryness and damage.",
+      "sideEffects": "None known.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "dreadlock-hair-cream-868670": {
+      "label": "Dreadlock Hair Cream",
+      "description": "Lightweight cream to lock in moisture and maintain neat, healthy dreadlocks.",
+      "botanicalName": "N/A",
+      "family": "N/A",
+      "origin": "Jamaica",
+      "history": "Used in Caribbean hair rituals.",
+      "usage": "Apply as needed to maintain locks.",
+      "benefits": "Moisturizes and conditions locs.",
+      "sideEffects": "None reported.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+
+    "shea-butter-b289b0": {
+      "label": "Shea Butter",
+      "description": "Unrefined, 100% pure shea butter to deeply moisturize and repair dry skin.",
+      "botanicalName": "Butyrospermum parkii",
+      "family": "Sapotaceae",
+      "origin": "West Africa",
+      "history": "Used for centuries as a skin protectant and moisturizer.",
+      "usage": "Apply to skin as needed.",
+      "benefits": "Hydrates and nourishes dry skin.",
+      "sideEffects": "Rare allergic reactions.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "neem-oil-76981d": {
+      "label": "Neem Oil",
+      "description": "Antibacterial oil to treat acne, eczema, and fungal infections while soothing inflammation.",
+      "botanicalName": "Azadirachta indica",
+      "family": "Meliaceae",
+      "origin": "India",
+      "history": "Used in Ayurvedic medicine for skin care.",
+      "usage": "Apply diluted to affected areas.",
+      "benefits": "Heals wounds and clears infections.",
+      "sideEffects": "Possible skin irritation if undiluted.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+
+    "african-black-soap-raw-123abc": {
+      "label": "African Black Soap – Raw",
+      "description": "Traditional raw African black soap for deep skin cleansing.",
+      "botanicalName": "Varies (Plantain skin ash, cocoa pod ash, shea butter, palm oil)",
+      "family": "Multiple (natural plant ingredients)",
+      "origin": "West Africa",
+      "history": "A centuries-old West African beauty secret.",
+      "usage": "Lather with water, apply to skin, rinse thoroughly.",
+      "benefits": "Deep cleanses and exfoliates while nourishing skin.",
+      "sideEffects": "May be drying for sensitive skin; follow with moisturizer.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "african-black-soap-liquid-456def": {
+      "label": "African Black Soap – Liquid",
+      "description": "Liquid form, ideal for gentle daily wash and family hygiene.",
+      "botanicalName": "Varies (Plantain skin ash, cocoa pod ash, shea butter, palm oil)",
+      "family": "Multiple (natural plant ingredients)",
+      "origin": "West Africa",
+      "history": "Developed as a modern, easy-to-use version of the traditional soap.",
+      "usage": "Apply to wet skin, massage gently, rinse off.",
+      "benefits": "Convenient liquid form for everyday cleansing.",
+      "sideEffects": "May be drying for very sensitive skin; follow with moisturizer.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "african-black-soap-original-112233": {
+      "label": "African Black Soap – Original",
+      "description": "Authentic African black soap with traditional formulation and rich texture.",
+      "botanicalName": "Varies (Plantain skin ash, cocoa pod ash, shea butter, palm oil)",
+      "family": "Multiple (natural plant ingredients)",
+      "origin": "West Africa",
+      "history": "Traditional handcrafted soap passed down through generations.",
+      "usage": "Work into lather, cleanse skin, rinse with water.",
+      "benefits": "Cleanses deeply while maintaining skin’s natural oils.",
+      "sideEffects": "Can be slightly abrasive if used directly on skin without lathering.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+
+    "tulsi-herbal-tea-001": {
+      "label": "Tulsi Herbal Tea",
+      "description": "Supports immune health and relieves stress.",
+      "botanicalName": "Ocimum tenuiflorum",
+      "family": "Lamiaceae",
+      "origin": "India",
+      "history": "Used in Ayurvedic medicine as the 'Queen of Herbs'.",
+      "usage": "Steep in hot water for 5-7 minutes.",
+      "benefits": "Adaptogen, anti-inflammatory, detoxifying.",
+      "sideEffects": "Not recommended during pregnancy.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "sweet-apple-tea-002": {
+      "label": "Sweet Apple",
+      "description": "A fruity, comforting blend of dried apples and sweet herbs for calming the senses.",
+      "botanicalName": "Malus domestica (Apple), Hibiscus sabdariffa",
+      "family": "Rosaceae, Malvaceae",
+      "origin": "Germany",
+      "history": "Popular as a children's herbal tea.",
+      "usage": "Steep 1 tsp in 250ml boiling water for 8 minutes.",
+      "benefits": "Soothes digestion and promotes relaxation.",
+      "sideEffects": "None reported.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "ginger-lemon-tea-003": {
+      "label": "Ginger Lemon",
+      "description": "A zesty herbal infusion with ginger and lemon peel to invigorate and support digestion.",
+      "botanicalName": "Zingiber officinale, Citrus limon",
+      "family": "Zingiberaceae, Rutaceae",
+      "origin": "Blended in Germany",
+      "history": "Traditional European remedy for cold and nausea.",
+      "usage": "Brew 1 tsp in 200ml hot water for 5-7 minutes.",
+      "benefits": "Eases nausea and energizes the body.",
+      "sideEffects": "May irritate sensitive stomachs.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "herbs-and-honey-tea-004": {
+      "label": "Herbs & Honey",
+      "description": "A mellow blend of sweet herbs with a natural honey flavor – soothing and aromatic.",
+      "botanicalName": "Various herbs incl. chamomile and fennel",
+      "family": "Asteraceae, Apiaceae",
+      "origin": "Europe",
+      "history": "Commonly consumed to relax before sleep.",
+      "usage": "Steep for 8 minutes in boiling water.",
+      "benefits": "Helps calm nerves and settle digestion.",
+      "sideEffects": "Avoid during pregnancy (due to fennel).",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "feel-fit-tea-005": {
+      "label": "Feel Fit",
+      "description": "A revitalizing wellness tea with lemongrass, ginger, and mint for daily balance.",
+      "botanicalName": "Cymbopogon citratus, Mentha piperita",
+      "family": "Poaceae, Lamiaceae",
+      "origin": "Blended in Germany",
+      "history": "Popular modern wellness blend.",
+      "usage": "Steep for 5–7 minutes.",
+      "benefits": "Supports metabolism and immunity.",
+      "sideEffects": "None reported.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "evening-dream-tea-006": {
+      "label": "Evening Dream",
+      "description": "Calming herbal tea with lavender and lemon balm to support restful sleep.",
+      "botanicalName": "Melissa officinalis, Lavandula angustifolia",
+      "family": "Lamiaceae",
+      "origin": "Europe",
+      "history": "Traditionally used to ease anxiety and promote relaxation.",
+      "usage": "Drink 30 minutes before sleep.",
+      "benefits": "Relaxes the nervous system and improves sleep quality.",
+      "sideEffects": "May cause drowsiness.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "fennel-anise-caraway-tea-007": {
+      "label": "Fennel Anise Caraway",
+      "description": "A classic German digestive blend to relieve bloating and soothe the stomach.",
+      "botanicalName": "Foeniculum vulgare, Pimpinella anisum, Carum carvi",
+      "family": "Apiaceae",
+      "origin": "Germany",
+      "history": "A traditional home remedy across Europe.",
+      "usage": "Steep 1 tsp in 250ml boiling water for 10 minutes.",
+      "benefits": "Supports digestion and relieves gas.",
+      "sideEffects": "Avoid in large amounts during pregnancy.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "harmony-herbal-blend-008": {
+      "label": "Harmony Herbal Blend",
+      "description": "Floral and spicy blend to restore inner balance and lift mood.",
+      "botanicalName": "Includes hibiscus, lemongrass, rosehips",
+      "family": "Malvaceae, Poaceae, Rosaceae",
+      "origin": "Germany",
+      "history": "Crafted for emotional well-being and body harmony.",
+      "usage": "Steep 5–10 minutes depending on flavor strength.",
+      "benefits": "Energizes while calming the mind.",
+      "sideEffects": "None reported.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "good-evening-tea-009": {
+      "label": "Good Evening",
+      "description": "Relaxing bedtime herbal infusion with calming herbs to unwind the body and mind.",
+      "botanicalName": "Chamomilla recutita, Passiflora incarnata",
+      "family": "Asteraceae, Passifloraceae",
+      "origin": "Germany",
+      "history": "Trusted for gentle sleep support.",
+      "usage": "Enjoy in the evening before bed.",
+      "benefits": "Supports restful sleep and relaxation.",
+      "sideEffects": "May cause drowsiness.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+
+    "arctic-sunrise-herbal-blend-257172": {
+      "label": "Arctic Sunrise Herbal Blend",
+      "description": "Nordic herbs and citrus peel to energize your mornings.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "forest-berry-immunity-aedd73": {
+      "label": "Forest Berry Immunity",
+      "description": "Nordic berries and hibiscus for winter wellness.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    },
+    "organic-coffee-abc123": {
+      "label": "Organic Coffee",
+      "description": "Smooth and aromatic organic coffee beans from tropical highlands.",
+      "productionDate": "0000-00-00",
+      "bestBefore": "0000-00-00"
+    }
+  },
+
+  "upload": {
+    "approvalNeeded": "You need to be approved before uploading products."
+  },
+
+  "nordic-harvest-corn-bread": {
+    "label": "Nordic Harvest Corn Bread",
+    "description": "Rustic cornbread loaf inspired by Nordic harvest kitchens — hearty crumb, golden crust.",
+    "origin": "Nordic region",
+    "history": "Baked in small batches with stone-ground grains, this loaf nods to Scandinavian farm baking where seasonal harvests shaped daily bread. Delicious with butter, soups, or open sandwiches.",
+    "usage": "Slice and enjoy fresh; warms well in the oven.",
+    "benefits": "Hearty, comforting staple made with simple ingredients.",
+    "sideEffects": "Contains gluten if blended with wheat flour.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  },
+  "hand-knit-wool-scarf": {
+    "label": "Hand-Knit Wool Scarf",
+    "description": "Cozy artisan scarf knit with classic Nordic pattern elements and soft wool.",
+    "origin": "Scandinavia",
+    "history": "Inspired by Scandinavian knitting traditions passed down through generations; patterns reflect coastal and mountain communities.",
+    "usage": "Air out after wear; hand-wash cold and dry flat.",
+    "benefits": "Warm, breathable, and durable natural fibers.",
+    "sideEffects": "Wool may feel itchy for very sensitive skin.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "N/A"
+  },
+  "cassava-fufu": {
+    "label": "Cassava Fufu",
+    "description": "Classic West African staple made from cassava — smooth, stretchy and perfect with egusi, vegetable, ogbono/okro and other soups.",
+    "origin": "West Africa",
+    "history": "A cornerstone starch across West Africa. Traditionally pounded; modern milling refines the texture for convenience.",
+    "usage": "Cook per pack; serve warm as a side to soups and stews.",
+    "benefits": "Satisfying, versatile base that pairs with bold flavors.",
+    "sideEffects": "High-carbohydrate food; consume as part of a balanced diet.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  },
+
+  "dagman-001": {
+    "label": "Melon Seed Bread",
+    "description": "Rustic daily bread baked for everyday moments — soft crumb, sturdy crust.",
+    "origin": "Nordic region",
+    "history": "Inspired by Nordic harvest rituals and farmhouse baking. Stone-ground grains add depth and nutrition.",
+    "usage": "Slice and enjoy fresh; excellent with butter, soups or as toast.",
+    "benefits": "Hearty staple with satisfying texture.",
+    "sideEffects": "Contains gluten; may contain traces of nuts.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  },
+  "dagman-002": {
+    "label": "Corn Bread",
+    "description": "Hearty, softer loaf that pairs beautifully with soups and stews.",
+    "origin": "Nordic region",
+    "history": "Heritage baking meets modern craft for weeknight tables. Balanced hydration for tenderness.",
+    "usage": "Warm slightly before serving to enhance aroma.",
+    "benefits": "Comforting crumb and versatile flavor.",
+    "sideEffects": "Contains gluten.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  },
+  "tropical-crunchy-001": {
+    "label": "Tropical Crunchy",
+    "description": "Crunchy crust with a light, playful note — delightful with spreads. Available with nuts and without nuts.",
+    "origin": "Nordic region",
+    "history": "A bright counterpoint to traditional Nordic loaves. Small-batch bake for maximum freshness.",
+    "usage": "Great with nut butters, jams, or soft cheeses.",
+    "benefits": "Crunchy texture; playful flavor profile.",
+    "sideEffects": "Contains gluten; nut-containing variant may contain nuts.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  },
+  "fufu-egusi-001": {
+    "label": "Fufu & Egusi",
+    "description": "Classic West African combo — soft, stretchy fufu with rich egusi soup.",
+    "origin": "West Africa",
+    "history": "Egusi uses ground melon seeds for a savory, nutty base; beloved across Nigeria and neighboring regions.",
+    "usage": "Serve warm; enjoy by hand with soup portions.",
+    "benefits": "Satisfying starch paired with protein-rich soup.",
+    "sideEffects": "May contain allergens (melon seeds); consume as part of a balanced diet.",
+    "productionDate": "0000-00-00",
+    "bestBefore": "0000-00-00"
+  }
+}
