@@ -26,19 +26,19 @@ export default function About() {
   }
   const canonical = `${origin}${path.startsWith("/") ? "" : "/"}${path}`;
 
-  // Localized meta (updated defaults for Oils & Teas focus)
+  // Localized meta (updated defaults for Oils,  Teas, Coffee, and Superfoods focus)
   const metaTitle =
     tAbout("metaTitle", {
       defaultValue:
-        "About TropiNord | Oils & Teas from the Tropics, Nordic Standards",
-    }) || "About TropiNord | Oils & Teas from the Tropics, Nordic Standards";
+        "About TropiNord | Oils, Teas, Coffee, and Superfoods from the Tropics, with Nordic Standards",
+    }) || "About TropiNord | Oils, Teas, Coffee, and Superfoods from the Tropics, withNordic Standards";
 
   const metaDescription =
     tAbout("metaDescription", {
       defaultValue:
-        "TropiNord connects tropical heritage and Nordic quality. We curate ethically sourced oils and teas—crafted with care, selected to Nordic standards.",
+        "TropiNord connects tropical heritage and Nordic quality. We curate ethically sourced oils, teas, coffee, and superfoods, crafted with care, selected to Nordic standards.",
     }) ||
-    "TropiNord connects tropical heritage and Nordic quality. We curate ethically sourced oils and teas—crafted with care, selected to Nordic standards.";
+    "TropiNord connects tropical heritage and Nordic quality. We curate ethically sourced oils, teas, coffee, and superfoods, crafted with care, selected to Nordic standards.";
 
   // Absolute share image
   const shareImage = `${origin}/images/share/about.jpg`;
@@ -113,14 +113,13 @@ export default function About() {
             <header className="text-center py-10">
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-green-700 dark:text-green-400 drop-shadow-md">
                 {tAbout("heading", {
-                  defaultValue:
-                    "Oils & Teas from the Tropics — meeting Nordic standards.",
+                  defaultValue: "Connecting Nature, Innovation, and Wellbeing",
                 })}
               </h1>
               <p className="mt-3 text-base sm:text-lg text-gray-700 dark:text-gray-200">
                 {tAbout("subheading", {
                   defaultValue:
-                    "Rooted in tropical heritage. Refined by Nordic care.",
+                    "Where tradition meets technology for natural wellbeing.",
                 })}
               </p>
             </header>
@@ -134,41 +133,53 @@ export default function About() {
                 <p>
                   {tAbout("ourStoryContent.p1", {
                     defaultValue:
-                      "TropiNord began with a simple promise: to bring you the finest natural oils and teas from tropical regions—carefully curated to meet the rigor and reliability people expect from the Nordics.",
+                      "At TropiNord, we believe wellness should connect people to nature, to heritage, and to the wisdom that sustains both.",
                   })}
                 </p>
                 <p>
                   {tAbout("ourStoryContent.p2", {
                     defaultValue:
-                      "We partner with growers and small producers across Africa and other tropical zones, then apply Nordic quality control, traceability, and clean presentation. The result: products that feel authentic, taste pure, and respect both people and planet.",
+                      "Born in Sweden, TropiNord blends Nordic precision with tropical innovation to create natural products that nurture, restore, and protect.",
+                  })}
+                </p>
+                <p>
+                  {tAbout("ourStoryContent.p3", {
+                    defaultValue:
+                      "Built from the ground up by an IT student and entrepreneur, TropiNord is more than a wellness brand. It is a digitally driven sustainability platform. Our systems, logistics, and digital architecture were designed in-house to make global trade between small producers and modern consumers transparent, traceable, and fair.",
                   })}
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>
                     {tAbout("ourStoryContent.list1", {
                       defaultValue:
-                        "Tropical excellence: cold-pressed, minimally processed oils; character-rich whole-leaf teas.",
+                        "Sustainable value chains through digital traceability and transparent sourcing",
                     })}
                   </li>
                   <li>
                     {tAbout("ourStoryContent.list2", {
                       defaultValue:
-                        "Nordic standards: transparent sourcing, consistent batches, and careful handling from origin to you.",
+                        "Eco-innovation using biodegradable and circular packaging concepts",
                     })}
                   </li>
                   <li>
                     {tAbout("ourStoryContent.list3", {
                       defaultValue:
-                        "Shared value: fair partnerships with smallholders and cooperatives, investing in long-term relationships.",
+                        "Inclusive growth and fair opportunities for smallholder producers",
                     })}
                   </li>
                 </ul>
                 <p>
-                  {tAbout("ourStoryContent.p3", {
+                  {tAbout("ourStoryContent.p4", {
                     defaultValue:
-                      "Whether you’re nourishing your skin, cooking at home, or steeping a calming cup, we want every drop and every leaf to carry a story of care.",
+                      "We believe technology can bring clarity, fairness, and connection to the global wellness industry.",
                   })}
                 </p>
+                <blockquote className="border-l-4 border-green-500 pl-4 italic text-gray-700 dark:text-gray-300">
+                  {tAbout("ourStoryContent.quote", {
+                    defaultValue:
+                      "We collaborate with smallholder producers across Africa, and tropical regions to develop sustainably sourced teas, oils, coffee, and superfoods. Every ingredient tells a story of craft, culture, and care, refined through science, design, and technology.",
+                  })}
+                </blockquote>
               </div>
             </section>
 
@@ -180,7 +191,7 @@ export default function About() {
               <p className="text-lg">
                 {tAbout("valuesContent", {
                   defaultValue:
-                    "Honesty in ingredients, respect for origin, and products that earn their place in your daily rituals. Our curation focuses on purity, sensory quality, and sustainability—without excess or shortcuts.",
+                    "TropiNord is a sustainability and innovation hub. We bridge continents through collaboration, empower local producers, and design transparent, circular systems that link traditional wisdom with modern tools.",
                 })}
               </p>
             </section>
@@ -194,32 +205,32 @@ export default function About() {
                 <li>
                   {tAbout("whatWeDoItem1", {
                     defaultValue:
-                      "Curate tropical oils for cooking and care—shea, coconut, palm varieties, and more—prioritizing cold-pressed and minimally processed options.",
+                      "Develop and distribute functional teas, natural oils, coffee, and superfoods of traceable and sustainable origin",
                   })}
                 </li>
                 <li>
                   {tAbout("whatWeDoItem2", {
                     defaultValue:
-                      "Select single-origin and blended tropical teas—herbal, black, green—valued for aroma, character, and integrity.",
+                      "Partner with ethical producers and eco-innovators across Africa, other tropical regions, and Europe",
                   })}
                 </li>
                 <li>
                   {tAbout("whatWeDoItem3", {
                     defaultValue:
-                      "Work hand-in-hand with small producers across Africa and uphold Nordic quality control for consistency.",
+                      "Pilot digital traceability models for transparent supply chains",
                   })}
                 </li>
                 <li>
                   {tAbout("whatWeDoItem4", {
                     defaultValue:
-                      "Support transparent supply chains and responsible packaging choices.",
+                      "Offer a platform where small businesses can grow sustainably and reach new markets",
                   })}
                 </li>
               </ul>
               <p className="mt-4 text-lg">
                 {tAbout("whatWeDoExtra", {
                   defaultValue:
-                    "Every product is selected for its provenance, its benefits, and its ability to uplift everyday life—quietly and honestly.",
+                    "Every product we share is chosen with purpose for its purity, its story, and its ability to make a measurable impact.",
                 })}
               </p>
             </section>
@@ -243,7 +254,7 @@ export default function About() {
                   <p className="text-lg mb-4">
                     {tClimate("supportText", {
                       defaultValue:
-                        "Every order contributes to permanent carbon removal projects via trusted partners. It’s a small step we take on every purchase—so your rituals can be a little kinder to the planet.",
+                        "We believe innovation must serve both people and the planet. That is why 0.5% of every purchase funds verified carbon-removal projects and community reforestation programs. Each order is a small but meaningful act toward a healthier planet.",
                     })}
                   </p>
                 </div>
@@ -255,10 +266,16 @@ export default function About() {
               <h2 className="text-3xl font-bold text-green-600 dark:text-green-400 mb-4">
                 {tAbout("ourMissionTitle", { defaultValue: "Our Mission" })}
               </h2>
-              <p className="text-lg">
+              <p className="text-lg mb-4">
                 {tAbout("ourMissionContent", {
                   defaultValue:
-                    "To connect tropical heritage with Nordic reliability—through oils and teas that are simple, honest, and good. For body, for home, for everyday life.",
+                    "To redefine natural wellness through innovation, technology, and care, linking tradition with modern tools to create products that are as responsible as they are restorative.",
+                })}
+              </p>
+              <p className="text-xl font-semibold text-green-700 dark:text-green-400 italic">
+                {tAbout("ourMissionTagline", {
+                  defaultValue:
+                    "TropiNord: Where tradition meets technology for natural wellbeing.",
                 })}
               </p>
             </section>

@@ -27,9 +27,7 @@ export default function Login() {
   const nextQP = params.get("next");
   const fromState = location.state?.from;
   const fromStateFull = fromState
-    ? `${fromState.pathname || ""}${fromState.search || ""}${
-        fromState.hash || ""
-      }`
+    ? `${fromState.pathname || ""}${fromState.search || ""}${fromState.hash || ""}`
     : null;
   const initialRedirect = nextQP || fromStateFull || null;
 
@@ -110,6 +108,20 @@ export default function Login() {
     }
   }
 
+  // ✅ Golden palette input styling (iOS Safari-safe)
+  // - Light: white bg + deep gold text (readable)
+  // - Dark: dark bg + brand gold text
+  // - Autofill-safe via Tailwind's arbitrary selectors
+  const inputClass =
+    "w-full rounded border border-slate-300 px-3 py-2 " +
+    "bg-white text-amber-700 placeholder:text-amber-600/70 " +
+    "dark:border-slate-700 dark:bg-gray-800 dark:text-[#f2c94c] dark:placeholder:text-yellow-200/60 " +
+    "focus:outline-none focus:ring-2 focus:ring-emerald-500 " +
+    "[&:-webkit-autofill]:[box-shadow:0_0_0px_1000px_white_inset] " +
+    "dark:[&:-webkit-autofill]:[box-shadow:0_0_0px_1000px_#1f2937_inset] " +
+    "[&:-webkit-autofill]:[-webkit-text-fill-color:rgb(180,83,9)] " +
+    "dark:[&:-webkit-autofill]:[-webkit-text-fill-color:#f2c94c]";
+
   return (
     <div className="max-w-md mx-auto px-4 pt-28 pb-16">
       <h1 className="text-2xl font-bold mb-6">
@@ -127,7 +139,7 @@ export default function Login() {
         className="space-y-4 bg-white dark:bg-gray-900 p-6 rounded shadow"
       >
         <div>
-          <label className="block text-sm font-medium mb-1">
+          <label className="block text-sm font-medium mb-1 text-amber-800 dark:text-[#f2c94c]">
             {t("auth:email", { defaultValue: "Email" })}
           </label>
           <input
@@ -136,12 +148,12 @@ export default function Login() {
             value={form.email}
             onChange={onChange}
             autoComplete="email"
-            className="w-full border rounded px-3 py-2 dark:bg-gray-800 dark:text-white"
+            className={inputClass}
           />
         </div>
 
         <div>
-          <label className="block text-sm font-medium mb-1">
+          <label className="block text-sm font-medium mb-1 text-amber-800 dark:text-[#f2c94c]">
             {t("auth:password", { defaultValue: "Password" })}
           </label>
           <div className="relative">
@@ -151,12 +163,12 @@ export default function Login() {
               value={form.password}
               onChange={onChange}
               autoComplete="current-password"
-              className="w-full border rounded px-3 py-2 pr-10 dark:bg-gray-800 dark:text-white"
+              className={`${inputClass} pr-10`}
             />
             <button
               type="button"
               onClick={() => setShowPwd((s) => !s)}
-              className="absolute inset-y-0 right-2 flex items-center text-gray-500 hover:text-gray-700 dark:text-gray-300"
+              className="absolute inset-y-0 right-2 flex items-center text-amber-700 hover:text-amber-900 dark:text-[#f2c94c]"
               aria-label={
                 showPwd
                   ? t("auth:hide", { defaultValue: "Hide" })

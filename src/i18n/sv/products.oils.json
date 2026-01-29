@@ -1,0 +1,151 @@
+{
+  "oil-coconut": {
+    "name": "Kallpressad Kokosolja",
+    "description": "Kallpressad kokosolja med en enda ingrediens. Fast i sval temperatur och smälter vid kontakt.",
+    "history": "Kokosolja har använts i generationer i hushåll och traditionella rutiner i många delar av världen.",
+    "benefits": [
+      "Mångsidig råvara för DIY-blandningar",
+      "Vanlig basolja i traditionella rutiner",
+      "Naturlig fettsyresammansättning",
+      "Mjuk konsistens för blandning"
+    ],
+    "ingredients": ["Cocos Nucifera Oil"]
+  },
+  "oil-coconut-heat": {
+    "name": "Värmebehandlad Kokosolja",
+    "description": "Kokosolja framställd med värmebehandling. Lämplig för matlagning eller traditionellt utvärtes bruk.",
+    "history": "Kokosolja har länge varit en självklar del av hushåll och matlagning i tropiska regioner.",
+    "benefits": [
+      "Praktisk hushållsolja",
+      "Tål högre temperaturer vid matlagning",
+      "Mångsidig basolja",
+      "Används även i traditionella rutiner"
+    ],
+    "ingredients": ["Cocos Nucifera Oil"]
+  },
+  "oil-castor": {
+    "name": "Ricinolja",
+    "description": "Tjock traditionell olja som ofta används i hår- och hårbottenrutiner.",
+    "history": "Ricinolja har använts i traditionella vårdrutiner i många kulturer.",
+    "benefits": [
+      "Populär i traditionella hårrutiner",
+      "Rik konsistens",
+      "Vanlig bas i DIY-blandningar",
+      "Används i små till måttliga mängder"
+    ],
+    "ingredients": ["Ricinus Communis Seed Oil"]
+  },
+  "oil-moringa-seed": {
+    "name": "Moringafröolja",
+    "description": "Lätt, snabbt absorberande olja för traditionella hud- och hårrutiner.",
+    "history": "Moringaträdet har länge använts i traditionella hushållsrutiner.",
+    "benefits": [
+      "Lätt känsla",
+      "Blandas enkelt med andra oljor",
+      "Traditionell rutinolja",
+      "Snabb absorption"
+    ],
+    "ingredients": ["Moringa Oleifera Seed Oil"]
+  },
+  "oil-palm-kernel": {
+    "name": "Palmkärnolja",
+    "description": "Traditionell västafrikansk olja med rik konsistens, ofta använd i tvålar och smör.",
+    "history": "En traditionell råvara i västafrikanska hushåll och formuleringar.",
+    "benefits": [
+      "Rik konsistens",
+      "Traditionell formuleringolja",
+      "Vanlig i DIY-tvål och smör",
+      "Kulturell stapelvara"
+    ],
+    "ingredients": ["Elaeis Guineensis Kernel Oil"]
+  },
+  "oil-avocado": {
+    "name": "Avokadoolja",
+    "description": "Mjukgörande olja som ofta används som bas i hud- och hårrutiner.",
+    "history": "Historiskt använd i traditionella hushållsberedningar i Centralamerika.",
+    "benefits": [
+      "Utmärkt basolja",
+      "Mjuk konsistens",
+      "Lätt att blanda",
+      "Populär i DIY-rutiner"
+    ],
+    "ingredients": ["Persea Gratissima Oil"]
+  },
+  "oil-black-seed": {
+    "name": "Svartkumminolja",
+    "description": "Kallpressad aromatisk olja som används som bas eller tillsats i traditionella rutiner.",
+    "history": "En traditionell olja med lång användning i hushåll och beredningar.",
+    "benefits": [
+      "Aromatisk profil",
+      "Blandas med andra oljor",
+      "Används i små mängder",
+      "Traditionell råvara"
+    ],
+    "ingredients": ["Nigella Sativa Seed Oil"]
+  },
+  "oil-lavender": {
+    "name": "Lavendelolja",
+    "description": "Aromatisk olja för traditionellt hantverk och blandning.",
+    "history": "Lavendel har länge använts i hushåll och traditionella rutiner.",
+    "benefits": [
+      "Aromatisk blandningsolja",
+      "Används i små mängder",
+      "Populär i DIY-hantverk",
+      "Traditionell tillsats"
+    ],
+    "ingredients": ["Lavandula Angustifolia Oil"]
+  },
+  "oil-rosemary": {
+    "name": "Rosmarinolja",
+    "description": "Aromatisk olja för traditionell blandning och hantverk.",
+    "history": "Rosmarin har använts historiskt i hushållsberedningar.",
+    "benefits": [
+      "Aromatisk blandningsolja",
+      "Används sparsamt",
+      "Vanlig i DIY-hantverk",
+      "Traditionell tillsats"
+    ],
+    "ingredients": ["Rosmarinus Officinalis Leaf Oil"]
+  },
+  "oil-mint": {
+    "name": "Myntolja",
+    "description": "Frisk aromatisk olja som används i små mängder för blandning.",
+    "history": "Mynta har använts länge i hushåll och traditionella rutiner.",
+    "benefits": [
+      "Frisk arom",
+      "Används i små mängder",
+      "Populär i DIY-hantverk",
+      "Traditionell tillsats"
+    ],
+    "ingredients": ["Mentha Piperita Oil"]
+  },
+  "butter-shea": {
+    "name": "Sheasmör",
+    "description": "Oraffinerat sheasmör med rik konsistens, lämpligt för DIY-blandningar.",
+    "history": "Ett traditionellt västafrikanskt smör använt i generationer.",
+    "benefits": [
+      "Mångsidig DIY-bas",
+      "Rik konsistens",
+      "Traditionell stapelvara",
+      "Används med sked"
+    ],
+    "ingredients": ["Butyrospermum Parkii Butter"]
+  },
+  "moringa-balm": {
+    "name": "Moringabalsam",
+    "description": "Mjukgörande balsam med moringaolja och mynta.",
+    "history": "En modern produkt inspirerad av traditionella rutiner.",
+    "benefits": [
+      "Mjukgör känslig hud",
+      "Ger svalkande känsla",
+      "Skyddande formula",
+      "Lätt konsistens"
+    ],
+    "ingredients": [
+      "Moringa Oleifera Seed Oil",
+      "Mentha Piperita Oil",
+      "Beeswax",
+      "Cocos Nucifera Oil"
+    ]
+  }
+}

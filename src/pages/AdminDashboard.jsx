@@ -1,26 +1,26 @@
 // src/pages/AdminDashboard.jsx
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-// (keep your other cards if you have them)
-import AdminProductsQueue from "../components/admin/AdminProductsQueue";
+import { Link } from "react-router-dom";
+import AdminProductsManager from "../components/admin/AdminProductsManager";
+import AdminNewsletter from "../components/admin/AdminNewsletter";
+import { routeMap } from "../routes/routeMap";
 
 export default function AdminDashboard() {
-  const { t } = useTranslation("admin");
+  const { t, i18n } = useTranslation("admin");
+  const lang2 = (i18n.language || "en").slice(0, 2);
+
   const [me, setMe] = useState(null);
   const [loading, setLoading] = useState(true);
   const [authError, setAuthError] = useState(null);
-
-  const [pendingSellers, setPendingSellers] = useState([]);
-  const [approvedSellers, setApprovedSellers] = useState([]);
-  const [sellersError, setSellersError] = useState(null);
-
   const [activities, setActivities] = useState([]);
   const [activitiesError, setActivitiesError] = useState(null);
 
-  // NEW: seed UI state (non-breaking)
-  const [seedMsg, setSeedMsg] = useState("");
-  const [seedLoading, setSeedLoading] = useState(false);
+  // NEW: sync UI state
+  const [syncLoading, setSyncLoading] = useState(false);
+  const [syncMsg, setSyncMsg] = useState("");
 
+  // Reusable fetch helper
   async function fetchJSON(url, opts) {
     const res = await fetch(url, {
       credentials: "include",
@@ -34,7 +34,32 @@ export default function AdminDashboard() {
     return res.json();
   }
 
-  // Auth gate
+  // 🔄 Sync FE catalogs → Prisma products
+  async function syncProducts() {
+    setSyncLoading(true);
+    setSyncMsg("");
+    try {
+      const res = await fetch("/api/admin/products/sync", {
+        method: "POST",
+        credentials: "include",
+        headers: { Accept: "application/json" },
+      });
+      const data = await res.json();
+      if (!res.ok || !data.ok)
+        throw new Error(data.error || `HTTP ${res.status}`);
+      const { created = 0, updated = 0, total = 0 } = data;
+      setSyncMsg(
+        `Sync complete: ${created} created, ${updated} updated (scanned ${total})`
+      );
+      window.dispatchEvent(new CustomEvent("admin-products-sync-done"));
+    } catch (e) {
+      setSyncMsg(`Sync failed: ${e.message}`);
+    } finally {
+      setSyncLoading(false);
+    }
+  }
+
+  // Auth check (admin only)
   useEffect(() => {
     (async () => {
       try {
@@ -49,23 +74,7 @@ export default function AdminDashboard() {
     })();
   }, []);
 
-  // Sellers lists (best-effort)
-  useEffect(() => {
-    if (authError || !me || me.role !== "ADMIN") return;
-    (async () => {
-      try {
-        const pending = await fetchJSON("/api/sellers/pending");
-        const approved = await fetchJSON("/api/sellers/approved");
-        setPendingSellers(pending.items || []);
-        setApprovedSellers(approved.items || []);
-        setSellersError(null);
-      } catch {
-        setSellersError("not_available");
-      }
-    })();
-  }, [me, authError]);
-
-  // Activity (best-effort)
+  // Recent activity logs
   useEffect(() => {
     if (authError || !me || me.role !== "ADMIN") return;
     (async () => {
@@ -78,6 +87,7 @@ export default function AdminDashboard() {
     })();
   }, [me, authError]);
 
+  // Logout
   async function logout() {
     try {
       await fetchJSON("/api/auth/logout", { method: "POST" });
@@ -85,70 +95,21 @@ export default function AdminDashboard() {
     window.location.reload();
   }
 
-  async function approveSeller(id) {
-    try {
-      if (!id) return;
-      const res = await fetch(
-        `/api/sellers/${encodeURIComponent(id)}/approve`,
-        {
-          method: "POST",
-          credentials: "include",
-          headers: { Accept: "application/json" },
-        }
-      );
-      if (!res.ok) {
-        const text = await res.text();
-        alert(`Approve failed (${res.status}): ${text}`);
-        return;
-      }
-      setPendingSellers((s) => s.filter((x) => x.id !== id));
-    } catch (e) {
-      alert(`Approve failed: ${e.message}`);
-    }
-  }
+  // ---- route helpers ----
+  const publicPath = (key) =>
+    `/${lang2}/${routeMap[key]?.[lang2] || routeMap[key]?.en || ""}`;
 
-  async function rejectSeller(id) {
-    try {
-      await fetchJSON(`/api/sellers/${encodeURIComponent(id)}/reject`, {
-        method: "POST",
-      });
-      setPendingSellers((s) => s.filter((x) => x.id !== id));
-    } catch {
-      alert(t("rejectFailed", { defaultValue: "Reject failed." }));
-    }
-  }
+  const adminPath = (key) =>
+    `/${lang2}/${routeMap.admin?.[lang2] || "admin"}/${
+      routeMap[key]?.[lang2] || routeMap[key]?.en || ""
+    }`;
 
-  // NEW: Seed handler (non-breaking)
-  async function seedGallery() {
-    setSeedLoading(true);
-    setSeedMsg(t("seeding", { defaultValue: "Seeding…" }));
-    try {
-      const res = await fetch("/api/admin/gallery/seed", {
-        method: "POST",
-        credentials: "include", // uses your admin session cookie
-        headers: { Accept: "application/json" },
-      });
-      const data = await res.json();
-      if (!res.ok || !data.ok) {
-        throw new Error(data.error || `HTTP ${res.status}`);
-      }
-      setSeedMsg(
-        t("seedDone", {
-          defaultValue: "Done: {{count}} items",
-          count: data.count,
-        })
-      );
-    } catch (e) {
-      setSeedMsg(
-        t("seedError", {
-          defaultValue: "Error: {{msg}}",
-          msg: e.message,
-        })
-      );
-    } finally {
-      setSeedLoading(false);
-    }
-  }
+  const linkClass =
+    "inline-flex items-center justify-between gap-2 px-3 py-2 rounded border dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800 text-sm";
+
+  // ──────────────────────────────
+  //  RENDERING
+  // ──────────────────────────────
 
   if (loading) {
     return (
@@ -176,6 +137,7 @@ export default function AdminDashboard() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 pt-28 pb-16">
+      {/* HEADER */}
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl font-bold">
           {t("dashboardTitle", { defaultValue: "Admin Dashboard" })}
@@ -188,124 +150,122 @@ export default function AdminDashboard() {
         </button>
       </div>
 
-      {/* ONE grid only — put all admin cards here as siblings */}
-      <div className="grid md:grid-cols-2 gap-6 mb-10">
-        {/* Pending Sellers */}
-        <div className="p-4 rounded-lg border shadow-sm bg-white dark:bg-gray-900">
-          <h2 className="text-lg font-semibold mb-3">
-            {t("pendingSellers", { defaultValue: "Pending Sellers" })}
-          </h2>
-          {sellersError === "not_available" ? (
-            <p className="text-sm text-gray-600 dark:text-gray-400">
-              {t("sellersApiMissing", {
-                defaultValue:
-                  "Seller API not available yet. Hook up /api/sellers to enable this section.",
-              })}
-            </p>
-          ) : pendingSellers.length === 0 ? (
-            <p className="text-sm text-gray-600 dark:text-gray-400">
-              {t("none", { defaultValue: "None" })}
-            </p>
-          ) : (
-            <ul className="space-y-3">
-              {pendingSellers.map((s) => (
-                <li
-                  key={s.id}
-                  className="p-3 rounded border bg-gray-50 dark:bg-gray-800 flex items-center justify-between"
-                >
-                  <div>
-                    <div className="font-medium">{s.companyName}</div>
-                    <div className="text-sm text-gray-600">
-                      {s.user?.email || s.email}
-                    </div>
-                  </div>
-                  <div className="flex gap-2">
-                    <button
-                      onClick={() => approveSeller(s.id)}
-                      className="px-3 py-1 rounded bg-green-600 text-white hover:bg-green-700"
-                    >
-                      {t("approve", { defaultValue: "Approve" })}
-                    </button>
-                    <button
-                      onClick={() => rejectSeller(s.id)}
-                      className="px-3 py-1 rounded bg-red-600 text-white hover:bg-red-700"
-                    >
-                      {t("reject", { defaultValue: "Reject" })}
-                    </button>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
-
-        {/* Products Queue card (unchanged) */}
-        <AdminProductsQueue />
-
-        {/* NEW: Artisan Gallery tools (seed) */}
-        <div className="p-4 rounded-lg border shadow-sm bg-white dark:bg-gray-900">
-          <h2 className="text-lg font-semibold mb-2">
-            {t("artisanGallery", { defaultValue: "Artisan Gallery" })}
-          </h2>
-          <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
-            {t("seedInfo", {
-              defaultValue:
-                "Seed the starter images from /public/images/gallery into the database.",
-            })}
-          </p>
-          <button
-            onClick={seedGallery}
-            disabled={seedLoading}
-            className={`px-3 py-2 rounded text-white ${
-              seedLoading ? "bg-green-400" : "bg-green-600 hover:bg-green-700"
-            }`}
-          >
-            {seedLoading
-              ? t("seeding", { defaultValue: "Seeding…" })
-              : t("seedButton", { defaultValue: "Seed Artisan Gallery" })}
-          </button>
-          {seedMsg && (
-            <p className="text-sm mt-2 text-gray-700 dark:text-gray-300">
-              {seedMsg}
-            </p>
-          )}
-        </div>
-      </div>
-
-      {/* Approved sellers */}
-      <div className="p-4 rounded-lg border shadow-sm bg-white dark:bg-gray-900 mb-10">
-        <h2 className="text-lg font-semibold mb-3">
-          {t("approvedSellers", { defaultValue: "Approved Sellers" })}
+      {/* 🔄 SYNC CATALOG → PRISMA */}
+      <div className="p-4 rounded-lg border shadow-sm bg-white dark:bg-gray-900 mb-6">
+        <h2 className="text-lg font-semibold mb-2">
+          {t("syncTitle", { defaultValue: "Sync Catalog → Prisma" })}
         </h2>
-        {sellersError === "not_available" ? (
-          <p className="text-sm text-gray-600 dark:text-gray-400">
-            {t("sellersApiMissing", {
-              defaultValue:
-                "Seller API not available yet. Hook up /api/sellers to enable this section.",
-            })}
+        <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+          {t("syncHelp", {
+            defaultValue:
+              "Imports/updates Tea, Oils, Coffee, and Superfoods from your frontend catalog data into the Prisma Product table.",
+          })}
+        </p>
+        <button
+          onClick={syncProducts}
+          disabled={syncLoading}
+          className={`px-3 py-2 rounded text-white ${
+            syncLoading
+              ? "bg-emerald-400"
+              : "bg-emerald-600 hover:bg-emerald-700"
+          }`}
+        >
+          {syncLoading
+            ? t("syncing", { defaultValue: "Syncing…" })
+            : t("runSync", { defaultValue: "Run Sync" })}
+        </button>
+        {syncMsg && (
+          <p className="text-sm mt-2 text-gray-700 dark:text-gray-300">
+            {syncMsg}
           </p>
-        ) : approvedSellers.length === 0 ? (
-          <p className="text-sm text-gray-600 dark:text-gray-400">
-            {t("none", { defaultValue: "None" })}
-          </p>
-        ) : (
-          <ul className="space-y-2">
-            {approvedSellers.map((s) => (
-              <li
-                key={s.id}
-                className="p-3 rounded border bg-gray-50 dark:bg-gray-800"
-              >
-                <div className="font-medium">{s.companyName}</div>
-                <div className="text-sm text-gray-600">
-                  {s.user?.email || s.email}
-                </div>
-              </li>
-            ))}
-          </ul>
         )}
       </div>
 
-      {/* Recent activity */}
+      {/* ✅ LABELS (PUBLIC + ADMIN) */}
+      <div className="p-4 rounded-lg border shadow-sm bg-white dark:bg-gray-900 mb-6">
+        <h2 className="text-lg font-semibold mb-2">
+          {t("labelsTitle", { defaultValue: "Printable Labels" })}
+        </h2>
+        <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+          {t("labelsHelp", {
+            defaultValue:
+              "Open printable label sheets (public) or admin sheets (with extra fields).",
+          })}
+        </p>
+
+        <div className="grid md:grid-cols-2 gap-4">
+          {/* Tea */}
+          <div className="rounded border dark:border-gray-700 p-3">
+            <div className="font-semibold mb-2">Tea</div>
+            <div className="flex flex-col gap-2">
+              <Link to={publicPath("teaLabels")} className={linkClass}>
+                <span>Public labels</span>
+                <span>→</span>
+              </Link>
+              <Link to={adminPath("teaAdminLabels")} className={linkClass}>
+                <span>Admin labels</span>
+                <span>→</span>
+              </Link>
+            </div>
+          </div>
+
+          {/* Coffee */}
+          <div className="rounded border dark:border-gray-700 p-3">
+            <div className="font-semibold mb-2">Coffee</div>
+            <div className="flex flex-col gap-2">
+              <Link to={publicPath("coffeeLabels")} className={linkClass}>
+                <span>Public labels</span>
+                <span>→</span>
+              </Link>
+              <Link to={adminPath("coffeeAdminLabels")} className={linkClass}>
+                <span>Admin labels</span>
+                <span>→</span>
+              </Link>
+            </div>
+          </div>
+
+          {/* Oils */}
+          <div className="rounded border dark:border-gray-700 p-3">
+            <div className="font-semibold mb-2">Oils</div>
+            <div className="flex flex-col gap-2">
+              <Link to={publicPath("oilsLabels")} className={linkClass}>
+                <span>Public labels</span>
+                <span>→</span>
+              </Link>
+              <Link to={adminPath("oilsAdminLabels")} className={linkClass}>
+                <span>Admin labels</span>
+                <span>→</span>
+              </Link>
+            </div>
+          </div>
+
+          {/* Superfoods */}
+          <div className="rounded border dark:border-gray-700 p-3">
+            <div className="font-semibold mb-2">Superfoods</div>
+            <div className="flex flex-col gap-2">
+              <Link to={publicPath("superfoodsLabels")} className={linkClass}>
+                <span>Public labels</span>
+                <span>→</span>
+              </Link>
+              <Link
+                to={adminPath("superfoodsAdminLabels")}
+                className={linkClass}
+              >
+                <span>Admin labels</span>
+                <span>→</span>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ✅ PRODUCT MANAGEMENT SECTION */}
+      <div className="grid gap-6 mb-10">
+        <AdminProductsManager />
+        <AdminNewsletter />
+      </div>
+
+      {/* ✅ OPTIONAL: RECENT ACTIVITY */}
       <div className="p-4 rounded-lg border shadow-sm bg-white dark:bg-gray-900">
         <h2 className="text-lg font-semibold mb-3">
           {t("recentActivity", { defaultValue: "Recent Activity" })}
@@ -326,7 +286,9 @@ export default function AdminDashboard() {
             {activities.map((a) => (
               <li key={a.id} className="py-2 text-sm">
                 <div className="flex items-center justify-between">
-                  <span className="font-medium">{a.type}</span>
+                  <span className="font-medium">
+                    {a.type || t("activity", { defaultValue: "Activity" })}
+                  </span>
                   <span className="text-gray-500">
                     {new Date(a.createdAt).toLocaleString()}
                   </span>

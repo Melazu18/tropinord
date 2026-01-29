@@ -1,0 +1,52 @@
+{
+  "coffee-ethiopia-yirgacheffe": {
+    "name": "Etiopien Yirgacheffe",
+    "description": "Blommig, citrusaktig höglandsarabica med ljus syra och te-liknande kropp. Lätt-mellanrost.",
+    "history": "Från kaffets födelseplats i Etiopiens högland, Yirgacheffe är känt som 'kaffets champagne' med århundraden gamla arvsorter.",
+    "benefits": [
+      "Rik på antioxidanter och klorogensyror",
+      "Naturlig energiboost utan nervositet",
+      "Stöder mental fokus och vakenhet",
+      "Kan förbättra fysisk prestation"
+    ],
+    "ingredients": ["100% Arabica kaffebönor (Coffea arabica)"]
+  },
+  "coffee-kenya-aa": {
+    "name": "Kenya AA",
+    "description": "Ljus syra med distinkta svartvinbärs- och bärtoner. Tvättad process för ren koppprofil.",
+    "history": "Kaffeodling i Kenya daterar tillbaka till 1800-talet, med AA-klass som representerar störst bönstorlek och högsta kvalitet i Östafrikas klassificeringssystem.",
+    "benefits": [
+      "Högt innehåll av antioxidanter och näringsämnen",
+      "Stöder kognitiv funktion",
+      "Kan minska risk för kroniska sjukdomar",
+      "Naturlig humörförbättring"
+    ],
+    "ingredients": [
+      "100% Arabica kaffebönor (Coffea arabica, SL28 & SL34 sorter)"
+    ]
+  },
+  "coffee-tanzania-peaberry": {
+    "name": "Tanzania Peaberry",
+    "description": "Rundad sötma med kakaoslut och livfull syra. Unik peaberry-mutation skapar koncentrerad smak.",
+    "history": "Från sluttningarna av Mount Kilimanjaro och Meru, tanzaniskt kaffe har odlats sedan 1500-talet. Peaberry-bönor uppstår naturligt när endast ett frö utvecklas i kaffebäret.",
+    "benefits": [
+      "Rik på essentiella näringsämnen och antioxidanter",
+      "Stöder leverhälsa",
+      "Kan förbättra atletisk prestation",
+      "Naturlig källa till fördelaktiga föreningar"
+    ],
+    "ingredients": ["100% Arabica peaberry kaffebönor (Coffea arabica)"]
+  },
+  "coffee-nigeria-robusta": {
+    "name": "Nigeria Robusta",
+    "description": "Djärvt, fylligt kaffe med jordiga toner och högre koffeininnehåll. Perfekt för starka bryggningar och espresso.",
+    "history": "Kaffeodling i Nigeria daterar tillbaka till 1800-talet, med robusta-sorter som frodas i landets tropiska klimat och bidrar till Västafrikas kaffearv.",
+    "benefits": [
+      "Högre koffeininnehåll för uthållig energi",
+      "Rik på antioxidanter och klorogensyra",
+      "Stöder metabolisk hälsa",
+      "Traditionell västafrikansk kaffeupplevelse"
+    ],
+    "ingredients": ["100% Robusta kaffebönor (Coffea canephora)"]
+  }
+}

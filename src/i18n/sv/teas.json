@@ -1,97 +1,210 @@
 {
-  "title": "Våra örtteer",
-  "subtitle": "Noggrant utvalda örtteer, kompletterade med grönt, svart och vitt te.",
-  "showMore": "Visa fler teer",
-  "filterByCategory": "Filtrera efter kategori:",
-  "modal": {
-    "historyHeading": "Historia",
-    "benefitsHeading": "Hälsofördelar",
-    "ingredientsHeading": "Ingredienser"
-  },
-  "categories": {
-    "all": "Alla",
-    "herbal": "Örtte",
-    "green": "Grönt te",
-    "black": "Svart te",
-    "white": "Vitt te"
-  },
-  "tea-hibiscus": {
-    "name": "Hibiskuste",
-    "description": "Känd för sin livfulla färg och syrliga smak, har hibiskuste konsumerats i Afrika och Asien i århundraden. Rik på antioxidanter och kan bidra till att sänka blodtrycket.",
-    "history": "Hibiskuste har gamla rötter i Egypten, där det användes för att kyla kroppen i ökenvärmen. Det är också centralt i västafrikanska gästfrihetsritualer och karibiska traditioner.",
-    "benefits": [
-      "Stödjer hjärthälsa",
-      "Sänker blodtrycket",
-      "Rik på C-vitamin och antioxidanter"
-    ],
-    "ingredients": "Ekologiska hibiskusblommor, ekologiska nypon, naturlig apelsinsmak"
-  },
-  "tea-mountain-herbs": {
-    "name": "Skogsörtte",
-    "description": "En kraftfull örtblandning från nordiska och alpina växter med jordig smak och naturlig energi.",
-    "history": "Baserat på skandinavisk örtmedicin och traditionella brygder från bergsregioner.",
-    "benefits": [
-      "Ger naturlig energi",
-      "Stödjer immunförsvaret",
-      "Främjar fokus och klarhet"
-    ],
-    "ingredients": "Vildplockade brännässelblad, björklöv, enbär, timjan"
-  },
-  "tea-brennessel": {
-    "name": "Brännässla",
-    "description": "Traditionellt örtte som stöder njur- och ledhälsa.",
-    "ingredients": "100% ekologiska brännässelblad (Urtica dioica)"
-  },
-  "tea-pfefferminz": {
-    "name": "Pepparmynta",
-    "description": "Uppfriskande myntate som stödjer matsmältning och avslappning.",
-    "ingredients": "Rena pepparmyntablad (Mentha × piperita)"
-  },
-  "tea-kamille": {
-    "name": "Kamomill",
-    "description": "Lugnt och blommigt te som främjar sömn och ro.",
-    "ingredients": "Ekologiska kamomillblommor (Matricaria chamomilla)"
-  },
-  "tea-lemongrass": {
-    "name": "Citrongräs",
-    "description": "Friskt och fräscht te som stödjer matsmältning och immunitet.",
-    "ingredients": "Rena citrongräsblad (Cymbopogon citratus)"
-  },
-  "tea-frauenmantel": {
-    "name": "Daggkåpa",
-    "description": "Traditionellt använt för att stödja kvinnors hormonbalans.",
-    "ingredients": "Daggkåpeblad (Alchemilla vulgaris)"
-  },
-  "tea-melisse": {
-    "name": "Citronmeliss",
-    "description": "Lugnar och minskar stress och ångest.",
-    "ingredients": "Ekologiska citronmelissblad (Melissa officinalis)"
-  },
-
-  "addedToCart": "{{name}} lades till i varukorgen!",
-  "filters": {
-    "category": "Kategori",
-    "caffeine": {
-      "label": "Koffein",
-      "any": "Alla",
-      "free": "Utan koffein",
-      "caffeinated": "Med koffein"
+    "title": "TropiNord Tesamling",
+    "subtitle": "Utforska vårt urval av svarta, gröna, frukt- och örtblandningar som härstammar från pålitliga odlare och förädlas med omsorg. Varje doypack innehåller lösviktste och miljövänliga tepåsar så att du kan skapa ditt perfekta brygg hemma. Premiumblandningar. Personlig tillredning. Ren upplevelse.",
+    "showMore": "Visa fler tesorter",
+    "learnMore": "Läs mer",
+    "filterByCategory": "Filtrera efter kategori:",
+    "modal": {
+      "historyHeading": "Historia",
+      "benefitsHeading": "Hälsofördelar",
+      "ingredientsHeading": "Ingredienser",
+      "detailsHeading": "Tedetaljer",
+      "originLabel": "Ursprung (produktionsland)",
+      "productionYearLabel": "Produktionsår",
+      "bestBeforeLabel": "Bäst före",
+      "naturallyGrownLabel": "Odling",
+      "naturallyGrown": "Naturligt odlad",
+      "preparationHeading": "Tillredning",
+      "articleNoLabel": "Artikelnr",
+      "dosageLabel": "Dosering",
+      "brewingTimeLabel": "Bryggtid",
+      "brewTemperatureLabel": "Bryggtemperatur",
+      "flavouringLabel": "Smaksättning",
+      "flavourLabel": "Smak",
+      "importantNoticeHeading": "Viktigt Meddelande"
     },
-    "profile": {
-      "label": "Smakprofil",
-      "any": "Alla"
-    }
-  },
-  "profiles": {
-    "minty": "Mintig",
-    "fruity": "Fruktig",
-    "floral": "Blommig",
-    "earthy": "Jordig",
-    "neutral": "Neutral"
-  },
-  "badges": {
-    "organic": "Ekologisk",
-    "caffeineFree": "Utan koffein",
-    "antioxidants": "Rik på antioxidanter"
+    "card": {
+      "originLabel": "Ursprung (produktionsland)",
+      "productionYearLabel": "Produktionsår",
+      "bestBeforeLabel": "Bäst före",
+      "naturallyGrownLabel": "Odling",
+      "naturallyGrown": "Naturligt odlad",
+      "dosageLabel": "Dosering",
+      "brewingTimeLabel": "Bryggtid",
+      "brewTemperatureLabel": "Temperatur"
+    },
+    "categories": {
+      "all": "Alla",
+      "herbal": "Örtte",
+      "green": "Grönt te",
+      "black": "Svart te",
+      "white": "Vitt te"
+    },
+    "badges": {
+      "organic": "Ekologiskt",
+      "caffeineFree": "Kaffeinfritt",
+      "antioxidants": "Rikt på Antioxidanter",
+      "naturallyGrown": "Naturligt odlad"
+    },
+    "filters": {
+      "category": "Kategori",
+      "caffeine": {
+        "label": "Kaffein",
+        "any": "Valfri",
+        "free": "Kaffeinfritt",
+        "caffeinated": "Med kaffein"
+      },
+      "profile": {
+        "label": "Smak",
+        "any": "Valfri"
+      }
+    },
+    "profiles": {
+      "minty": "Myntig",
+      "fruity": "Fruktig",
+      "floral": "Floral",
+      "earthy": "Jordig",
+      "neutral": "Neutral"
+    },
+    "addedToCart": "{{name}} tillagd i varukorgen!",
+    "labels": {
+      "title": "Teetikettblad",
+      "print": "Skriv ut",
+      "preparation": "Tillredning"
+    },
+    "safety": {
+      "heading": "Viktigt meddelande",
+      "herbal": "Av livsmedelssäkerhetsskäl, använd alltid kokande vatten och brygg i minst 5 minuter.",
+      "fruit": "Av livsmedelssäkerhetsskäl, använd alltid kokande vatten och brygg i minst 5 minuter.",
+      "green": "Använd vatten under kokpunkten för att bevara känsliga smaker. Innehåller naturligt kaffein.",
+      "white": "Använd vatten under kokpunkten för att bevara känsliga smaker. Innehåller naturligt kaffein.",
+      "black": "Innehåller naturligt kaffein."
+    },
+    "brew": {
+      "dosageMetric": "{{amount}} {{unit}} (per {{volume}} ml)",
+      "dosageImperial": "{{amount}} {{unit}} (per {{volume}} fl oz)",
+      "timeRange": "{{min}}–{{max}} {{unit}}",
+      "timeSingle": "{{value}} {{unit}}",
+      "temperatureC": "{{value}}°C",
+      "temperatureF": "{{value}}°F"
+    },
+    "prepSheet": {
+      "title": "Teberedningsblad",
+      "print": "Skriv ut",
+      "preparation": "Tillredning"
+    },
+    "adminLabels": {
+      "title": "Administrativt teetikettblad",
+      "print": "Skriv ut"
+    },
+    "detail": {
+      "preparation": "Tillredning",
+      "story": "Historia",
+      "reviews": "Recensioner"
+    },
+    "hibiscus": {
+      "name": "Hibiskus Örtte",
+      "description": "Livfull rubinröd infusion med syrliga, uppfriskande toner; naturligt rik på antioxidanter."
+    },
+    "mountain-forest": {
+      "name": "Mountain Forest Örtte",
+      "description": "En blandning av nordiska och alpina botaniker för naturlig energi och immunitet."
+    },
+    "nettle": {
+      "name": "Nässelblad",
+      "description": "Örtteklassiker som stödjer njur- och ledhälsa."
+    },
+    "peppermint": {
+      "name": "Pepparmynta",
+      "description": "Kylande, mintig kopp som lindrar matsmältningen och klargör sinnet."
+    },
+    "chamomile": {
+      "name": "Kamomill",
+      "description": "Mild floral te att varva ner, lugna och stödja sömn."
+    },
+    "lemongrass": {
+      "name": "Citrongräs",
+      "description": "Kryddig, citrusig infusion som ofta njuts efter måltider."
+    },
+    "ladys-mantle": {
+      "name": "Daggkåpa",
+      "description": "Traditionellt använt för att stödja balans och välbefinnande."
+    },
+    "lemon-balm": {
+      "name": "Citronmeliss",
+      "description": "Mjuk citron-örtig arom; känd för sina lugnande egenskaper."
+    },
+    "african-summer": {
+      "name": "Afrikansk Sommar",
+      "description": "En uppfriskande kafeinfri örtblandning inspirerad av afrikansk solsken och varma kvällar."
+    },
+    "chai-magic": {
+      "name": "Chai Magic",
+      "description": "En mysig, kryddig chai med värme som passar vackert till mjölk eller växtbaserade alternativ."
+    },
+    "detox-balance": {
+      "name": "Detox Balance",
+      "description": "En renande örtblandning utformad för att stödja kroppens naturliga rening och daglig balans."
+    },
+    "energize": {
+      "name": "Energize",
+      "description": "En upplyftande infusion skapad för att hjälpa dig känna dig vaken, fokuserad och redo för dagen."
+    },
+    "fresh-breeze": {
+      "name": "Fresh Breeze",
+      "description": "Krispig och mintig med en kylande avslutning, perfekt när du vill ha en ren, uppfriskande kopp."
+    },
+    "ginger-chili": {
+      "name": "Ginger Chili",
+      "description": "En djärv och uppiggande blandning med värmande ingefära och ett milt chilikick som eldar upp dina sinnen."
+    },
+    "moringa-detox": {
+      "name": "Moringa Detox",
+      "description": "Näringsrik moringa i kombination med renande örter för en mild daglig detoxritual."
+    },
+    "peach-garden": {
+      "name": "Peach Garden",
+      "description": "En delikat fruktig infusion med mjuka persikotoner, idealisk som eftermiddags- eller sommaristet."
+    },
+    "rooibos-energy": {
+      "name": "Rooibos Energy",
+      "description": "Len rooibos med en naturligt söt profil, som stödjer lugn, stadig energi utan kaffein."
+    },
+    "wellness-green": {
+      "name": "Wellness Green",
+      "description": "En balanserad grönteblandning skapad för att harmonisera fokus, klarhet och vardagligt välbefinnande."
+    },
+    "sencha": {
+      "name": "Sencha Grönt Te",
+      "description": "Klassisk japanskt ångat grönt te med gräsmattesmak och rikt på antioxidanter."
+    },
+    "gunpowder": {
+      "name": "Gunpowder Grönt Te",
+      "description": "Rullade gröna teblad som vecklar ut sig vid bryggning; djärvt med en lätt rökig ton."
+    },
+    "jasmine-green": {
+      "name": "Jasmin Grönt Te",
+      "description": "Grönt te fint infusionerat med jasminblommor för en mjuk blomsterupplevelse."
+    },
+    "assam": {
+      "name": "Assam Svart Te",
+      "description": "Starkt, maltigt svart te från Assam—rikt, robust och uppiggande."
+    },
+    "earl-grey": {
+      "name": "Earl Grey",
+      "description": "Klassisk svart te parfymerad med bergamott för en fräsch citrusarom."
+    },
+    "white-peony": {
+      "name": "Vit Pion (Bai Mudan)",
+      "description": "Delikat vitt te med mild sötma och subtila blommiga toner."
+    },
+    "silver-needle": {
+      "name": "Silver Needle (Bai Hao Yin Zhen)",
+      "description": "Premium vitt te gjort av unga knoppar; raffinerat, lätt och elegant."
+    },
+    "floral-green": {
+      "name": "Floral Grönt",
+      "description": "Ett delikat grönt te med mjuka blommiga toner—ljus, rent och lugnande."
+    },
+    "dashboard": "instrumentpanel"
   }
-}

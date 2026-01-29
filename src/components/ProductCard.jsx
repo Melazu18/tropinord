@@ -1,6 +1,8 @@
+// src/components/ProductCard.jsx
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import PriceTag from "./PriceTag";
 
 function getTagColor(tag) {
   const map = {
@@ -13,65 +15,52 @@ function getTagColor(tag) {
 }
 
 export default function ProductCard({
-  category,
   product,
-  currency,
   quantity,
-  isChecked,
   onQuantityChange,
-  onCheckboxChange,
   onAddToCart,
   contactLabel,
+  productUrl, // optional: pass a fully built localized URL from parent
 }) {
   const { t } = useTranslation();
   const [showMessage, setShowMessage] = useState(false);
 
-  const conversionRates = {
-    EUR: 1,
-    SEK: 11,
-    USD: 1.12,
-    GBP: 0.85,
-  };
-
-  const symbol = {
-    EUR: "€",
-    USD: "$",
-    GBP: "£",
-    SEK: "kr",
-  }[currency];
-
+  // Optional “bulk only” fallback
   const isBulkOnly =
-    category === "agro" ||
-    product.description?.toLowerCase().includes("bulk only") ||
-    product.description?.toLowerCase().includes("contact to order");
+    Boolean(product.bulkOnly) ||
+    /bulk only|contact to order/i.test(product.description || "");
 
-  const handleContact = () => {
+  const handleContact = (e) => {
+    e.stopPropagation();
     const message = encodeURIComponent(
-      `Hello! I'm interested in ordering: ${product.label}`
+      `Hello! I'm interested in ordering: ${product.label || product.title}`
     );
     window.open(`https://wa.me/?text=${message}`, "_blank");
   };
 
   const handleAddToCart = (e) => {
     e.stopPropagation();
-    onAddToCart(e);
+    onAddToCart?.(product, quantity); // ← pass product + quantity
     setShowMessage(true);
     setTimeout(() => setShowMessage(false), 2000);
   };
 
-  const quantityInputId = `qty-${product.id}`;
-  const checkboxId = `chk-${product.id}`;
+  const quantityInputId = `qty-${product.id || product.slug || "x"}`;
 
   return (
     <div className="border p-3 rounded-md shadow-sm flex flex-col items-center bg-white dark:bg-gray-800 hover:scale-105 transition-transform duration-200">
-      <Link to={`/products/detail/${encodeURIComponent(product.slug)}`}>
+      <Link
+        to={
+          productUrl || `/products/detail/${encodeURIComponent(product.slug)}`
+        }
+      >
         <img
-          src={product.image || "/images/fallback.jpg"}
-          alt={product.label}
+          src={product.image || product.images?.[0] || "/images/fallback.jpg"}
+          alt={product.label || product.title}
           className="w-full h-32 object-cover mb-2 rounded"
         />
         <div className="font-semibold mb-1 text-black dark:text-amber-500">
-          {product.label}
+          {product.label || product.title}
         </div>
       </Link>
 
@@ -79,7 +68,7 @@ export default function ProductCard({
         <div className="flex flex-wrap justify-center gap-1 mb-1">
           {product.tags.map((tag, idx) => (
             <span
-              key={`${product.id}-tag-${idx}`}
+              key={`${product.id || product.slug}-tag-${idx}`}
               className={`text-xs px-2 py-0.5 rounded-full ${getTagColor(tag)}`}
             >
               {tag}
@@ -94,28 +83,32 @@ export default function ProductCard({
         </p>
       )}
 
-      {category !== "agro" && (
-        <div className="text-sm mb-2 text-black dark:text-white">
-          {symbol}
-          {(product.price * conversionRates[currency] || 0).toFixed(2)}
-        </div>
-      )}
-      {category !== "agro" && (
-        <div className="flex items-center gap-2">
-          <label htmlFor={`qty-${product.id}`} className="sr-only">
-            Quantity
-          </label>
-          <input
-            id={`qty-${product.id}`}
-            type="number"
-            min="1"
-            value={quantity}
-            onChange={(e) => onQuantityChange(Number(e.target.value))}
-            className="w-16 text-center border rounded bg-white dark:bg-gray-600 dark:text-white"
-          />
-        </div>
-      )}
+      {/* FX-aware price (handled entirely inside PriceTag via CurrencyProvider) */}
+      <PriceTag
+        product={{
+          ...product,
+          // ensure there is a base price field for CurrencyProvider / priceToDisplay
+          price: product.price,
+          prices: product.prices,
+        }}
+      />
 
+      {/* Quantity */}
+      <div className="flex items-center gap-2">
+        <label htmlFor={quantityInputId} className="sr-only">
+          {t("order.quantity", { defaultValue: "Quantity" })}
+        </label>
+        <input
+          id={quantityInputId}
+          type="number"
+          min="1"
+          value={quantity}
+          onChange={(e) => onQuantityChange?.(Number(e.target.value || 1))}
+          className="w-16 text-center border rounded bg-white dark:bg-gray-600 dark:text-white"
+        />
+      </div>
+
+      {/* Action */}
       {isBulkOnly ? (
         <button
           className="mt-2 text-sm bg-yellow-500 hover:bg-yellow-600 text-white px-3 py-1 rounded"
@@ -135,7 +128,10 @@ export default function ProductCard({
 
       {showMessage && (
         <div className="mt-2 text-sm text-green-700 bg-green-100 border border-green-300 px-3 py-1 rounded w-full text-center">
-          ✅ {t("order.addedToCart", { defaultValue: "Item added to cart!" })}
+          ✅{" "}
+          {t("order.addedToCart", {
+            defaultValue: "Item added to cart!",
+          })}
         </div>
       )}
     </div>

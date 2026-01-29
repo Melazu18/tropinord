@@ -1,0 +1,45 @@
+{
+  "title": "💱 World Currency Exchange Rates",
+  "subtitle": "Live exchange rates for major world currencies. Real-time conversion from Swedish Krona (SEK).",
+
+  "lastUpdated": "Last updated:",
+  "loading": "Loading...",
+  "refresh": "Refresh Rates",
+  "refreshing": "Refreshing...",
+
+  "converter": {
+    "title": "💲 Quick Currency Converter",
+    "amount": "Amount in SEK"
+  },
+
+  "search": {
+    "placeholder": "Search by code or name..."
+  },
+
+  "filter": {
+    "region": "Filter by Region",
+    "allRegions": "All Regions"
+  },
+
+  "ratesTable": {
+    "currency": "Currency",
+    "perSek": "Units per 1 SEK",
+    "sekPerUnit": "SEK per 1 Unit",
+    "amount": "{{amount}} SEK Value"
+  },
+
+  "base": "Base",
+  "noResults": "No currencies found matching your search.",
+
+  "regional": {
+    "title": "🌍 Currencies by Region"
+  },
+
+  "info": {
+    "title": "ℹ️ About These Rates",
+    "description": "These exchange rates are used to calculate international pricing for our products. Rates are updated regularly from reliable financial sources. All product prices are originally set in SEK (Swedish Krona) and converted to other currencies using these rates.",
+    "coverage": "Coverage:",
+    "currencies": "currencies with active rates",
+    "disclaimer": "For informational purposes only. Your bank or card provider may use a different exchange rate."
+  }
+}

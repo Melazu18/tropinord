@@ -95,6 +95,17 @@ export default function Register() {
 
   const passwordsMismatch = confirm.length > 0 && password !== confirm;
 
+  // ✅ Golden palette input styling (iOS Safari-safe)
+  const inputClass =
+    "w-full rounded border border-slate-300 px-3 py-2 " +
+    "bg-white text-amber-700 placeholder:text-amber-600/70 " +
+    "dark:border-slate-700 dark:bg-gray-800 dark:text-[#f2c94c] dark:placeholder:text-yellow-200/60 " +
+    "focus:outline-none focus:ring-2 focus:ring-emerald-500 " +
+    "[&:-webkit-autofill]:[box-shadow:0_0_0px_1000px_white_inset] " +
+    "dark:[&:-webkit-autofill]:[box-shadow:0_0_0px_1000px_#1f2937_inset] " +
+    "[&:-webkit-autofill]:[-webkit-text-fill-color:rgb(180,83,9)] " +
+    "dark:[&:-webkit-autofill]:[-webkit-text-fill-color:#f2c94c]";
+
   return (
     <div className="max-w-xl mx-auto px-4 pt-28 pb-16">
       <h1 className="text-2xl font-semibold mb-6">
@@ -126,7 +137,10 @@ export default function Register() {
         noValidate
       >
         <div>
-          <label className="block text-sm font-medium mb-1" htmlFor="name">
+          <label
+            className="block text-sm font-medium mb-1 text-amber-800 dark:text-[#f2c94c]"
+            htmlFor="name"
+          >
             {t("name")}
           </label>
           <input
@@ -134,13 +148,16 @@ export default function Register() {
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="w-full rounded border px-3 py-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+            className={inputClass}
             autoComplete="name"
           />
         </div>
 
         <div>
-          <label className="block text-sm font-medium mb-1" htmlFor="email">
+          <label
+            className="block text-sm font-medium mb-1 text-amber-800 dark:text-[#f2c94c]"
+            htmlFor="email"
+          >
             {t("email")}
           </label>
           <input
@@ -149,13 +166,16 @@ export default function Register() {
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full rounded border px-3 py-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+            className={inputClass}
             autoComplete="email"
           />
         </div>
 
         <div>
-          <label className="block text-sm font-medium mb-1" htmlFor="password">
+          <label
+            className="block text-sm font-medium mb-1 text-amber-800 dark:text-[#f2c94c]"
+            htmlFor="password"
+          >
             {t("password")}
           </label>
           <div className="relative">
@@ -165,14 +185,14 @@ export default function Register() {
               required
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="w-full rounded border px-3 py-2 pr-10 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+              className={`${inputClass} pr-10`}
               autoComplete="new-password"
               minLength={8}
             />
             <button
               type="button"
               onClick={() => setShowPwd((s) => !s)}
-              className="absolute inset-y-0 right-2 flex items-center text-gray-500 hover:text-gray-700 dark:text-gray-300"
+              className="absolute inset-y-0 right-2 flex items-center text-amber-700 hover:text-amber-900 dark:text-[#f2c94c]"
               aria-label={
                 showPwd
                   ? t("hide", { defaultValue: "Hide" })
@@ -182,7 +202,7 @@ export default function Register() {
               {showPwd ? <EyeOff size={18} /> : <Eye size={18} />}
             </button>
           </div>
-          <p className="mt-1 text-xs text-gray-500">
+          <p className="mt-1 text-xs text-amber-700/80 dark:text-yellow-200/70">
             {t("passwordHint", {
               defaultValue: "At least 8 characters.",
             })}
@@ -190,7 +210,10 @@ export default function Register() {
         </div>
 
         <div>
-          <label className="block text-sm font-medium mb-1" htmlFor="confirm">
+          <label
+            className="block text-sm font-medium mb-1 text-amber-800 dark:text-[#f2c94c]"
+            htmlFor="confirm"
+          >
             {t("confirmPassword")}
           </label>
           <div className="relative">
@@ -200,7 +223,7 @@ export default function Register() {
               required
               value={confirm}
               onChange={(e) => setConfirm(e.target.value)}
-              className={`w-full rounded border px-3 py-2 pr-10 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 ${
+              className={`${inputClass} pr-10 ${
                 passwordsMismatch ? "border-red-400" : ""
               }`}
               autoComplete="new-password"
@@ -211,7 +234,7 @@ export default function Register() {
             <button
               type="button"
               onClick={() => setShowConfirm((s) => !s)}
-              className="absolute inset-y-0 right-2 flex items-center text-gray-500 hover:text-gray-700 dark:text-gray-300"
+              className="absolute inset-y-0 right-2 flex items-center text-amber-700 hover:text-amber-900 dark:text-[#f2c94c]"
               aria-label={
                 showConfirm
                   ? t("hide", { defaultValue: "Hide" })
@@ -233,9 +256,7 @@ export default function Register() {
           disabled={busy}
           className="inline-flex items-center justify-center rounded bg-green-600 hover:bg-green-700 text-white font-medium px-4 py-2 disabled:opacity-60"
         >
-          {busy
-            ? t("working", { defaultValue: "Working..." })
-            : t("createAccount")}
+          {busy ? t("working", { defaultValue: "Working..." }) : t("createAccount")}
         </button>
 
         <p className="text-sm text-gray-600 dark:text-gray-300">

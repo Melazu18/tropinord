@@ -1,0 +1,45 @@
+{
+  "title": "💱 Växelkurser för världens valutor",
+  "subtitle": "Aktuella växelkurser för större valutor i världen. Direktomräkning från svenska kronor (SEK).",
+
+  "lastUpdated": "Senast uppdaterad:",
+  "loading": "Laddar...",
+  "refresh": "Uppdatera kurser",
+  "refreshing": "Uppdaterar...",
+
+  "converter": {
+    "title": "💲 Snabb valutakonverterare",
+    "amount": "Belopp i SEK"
+  },
+
+  "search": {
+    "placeholder": "Sök efter valutakod eller namn..."
+  },
+
+  "filter": {
+    "region": "Filtrera efter region",
+    "allRegions": "Alla regioner"
+  },
+
+  "ratesTable": {
+    "currency": "Valuta",
+    "perSek": "Enheter per 1 SEK",
+    "sekPerUnit": "SEK per 1 enhet",
+    "amount": "{{amount}} SEK motsvarar"
+  },
+
+  "base": "Bas",
+  "noResults": "Inga valutor matchar din sökning.",
+
+  "regional": {
+    "title": "🌍 Valutor per region"
+  },
+
+  "info": {
+    "title": "ℹ️ Om dessa kurser",
+    "description": "Dessa växelkurser används för att beräkna internationella priser på våra produkter. Kurserna uppdateras regelbundet från pålitliga finansiella källor. Alla produktpriser sätts ursprungligen i SEK (svenska kronor) och omräknas till andra valutor med hjälp av dessa kurser.",
+    "coverage": "Täckning:",
+    "currencies": "valutor med aktiva kurser",
+    "disclaimer": "Endast i informationssyfte. Din bank eller kortutgivare kan använda en annan växelkurs."
+  }
+}

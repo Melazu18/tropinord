@@ -2,7 +2,7 @@ import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function WhatsAppChat() {
-  const phoneNumber = "46764330523"; // e.g. 46701234567 (no + or 0)
+  const phoneNumber = "46700711713"; // e.g. 46701234567 (no + or 0)
   const message = "Hello, I'm interested in your products on TropiNord!";
   const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     message

@@ -1,0 +1,26 @@
+{
+  "title": "Recherche",
+  "placeholder": "Tapez pour rechercher thés, huiles, café, superaliments…",
+  "browseTitle": "Parcourir les produits",
+  "resultsFor": "Résultats pour « {{q}} »",
+  "showing": {
+    "across": "Affichage de {{count}} articles parmi Thés, Huiles, Café et Superaliments",
+    "inCat": "Affichage de {{count}} articles dans {{category}}"
+  },
+  "empty": {
+    "noMatches": "Aucun résultat. Essayez d’autres mots-clés ou parcourez :"
+  },
+  "categories": {
+    "all": "Tous",
+    "tea": "Thés",
+    "oils": "Huiles",
+    "coffee": "Café",
+    "superfoods": "Superaliments"
+  },
+  "btn": {
+    "browseTeas": "Parcourir les thés",
+    "browseOils": "Parcourir les huiles",
+    "browseCoffee": "Parcourir le café",
+    "browseSuperfoods": "Parcourir les superaliments"
+  }
+}

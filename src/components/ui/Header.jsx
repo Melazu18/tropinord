@@ -11,6 +11,7 @@ import i18n from "i18next";
 import { useAuth } from "../../contexts/AuthContext";
 import { API_BASE } from "../../utils/api";
 import AccountMenu from "./AccountMenu.jsx";
+import { CurrencySelect } from "../../shared/ui/CurrencyProvider";
 
 const BASE_URL = import.meta.env?.BASE_URL || "/";
 const withBase = (p) =>
@@ -87,6 +88,13 @@ export default function Header() {
       ? "bg-green-500"
       : "bg-emerald-600";
 
+  const navLinkClass = (active) =>
+    `text-sm font-semibold px-3 py-2 rounded-md leading-none transition-colors ${
+      active
+        ? "bg-slate-100 dark:bg-slate-800 text-green-700 dark:text-green-400"
+        : "text-slate-800 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-green-700 dark:hover:text-green-400"
+    }`;
+
   return (
     <>
       {/* Header */}
@@ -106,22 +114,35 @@ export default function Header() {
 
         <div className="w-full px-3 sm:px-6 py-2">
           {/* 3-column layout; center column for the logo */}
-          <div className="grid grid-cols-[1fr_auto_1fr] items-center">
+          <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center">
             {/* LEFT — primary nav (desktop) */}
-            <nav className="hidden md:flex items-center gap-4">
+            <nav className="hidden md:flex items-center gap-2 lg:gap-4 min-w-0">
               {/* About */}
               <Link
                 to={getLocalizedPath("about", lang)}
                 aria-current={
                   isActive(getLocalizedPath("about", lang)) ? "page" : undefined
                 }
-                className={`text-sm font-semibold px-3 py-2 rounded-md leading-none ${
+                className={navLinkClass(
                   isActive(getLocalizedPath("about", lang))
-                    ? "bg-slate-100 dark:bg-slate-800 text-green-700 dark:text-green-400"
-                    : "text-slate-800 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-green-700 dark:hover:text-green-400"
-                }`}
+                )}
               >
                 {t("nav.about", { defaultValue: "About" })}
+              </Link>
+
+              {/* Profile */}
+              <Link
+                to={getLocalizedPath("profile", lang)}
+                aria-current={
+                  isActive(getLocalizedPath("profile", lang))
+                    ? "page"
+                    : undefined
+                }
+                className={navLinkClass(
+                  isActive(getLocalizedPath("profile", lang))
+                )}
+              >
+                {t("profile", { ns: "auth", defaultValue: "Profile" })}
               </Link>
 
               {/* FAQ */}
@@ -130,11 +151,9 @@ export default function Header() {
                 aria-current={
                   isActive(getLocalizedPath("faq", lang)) ? "page" : undefined
                 }
-                className={`text-sm font-semibold px-3 py-2 rounded-md leading-none ${
+                className={navLinkClass(
                   isActive(getLocalizedPath("faq", lang))
-                    ? "bg-slate-100 dark:bg-slate-800 text-green-700 dark:text-green-400"
-                    : "text-slate-800 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-green-700 dark:hover:text-green-400"
-                }`}
+                )}
               >
                 {t("nav.faq", { defaultValue: "FAQ" })}
               </Link>
@@ -150,17 +169,16 @@ export default function Header() {
                   aria-haspopup="menu"
                   aria-expanded={originOpen}
                   onClick={() => setOriginOpen((v) => !v)}
-                  className={`text-sm font-semibold px-3 py-2 rounded-md leading-none inline-flex items-center gap-1 ${
+                  className={`${navLinkClass(
                     originOpen ||
-                    isActive(originPath("tea")) ||
-                    isActive(originPath("oils"))
-                      ? "bg-slate-100 dark:bg-slate-800 text-green-700 dark:text-green-400"
-                      : "text-slate-800 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-green-700 dark:hover:text-green-400"
-                  }`}
+                      isActive(originPath("tea")) ||
+                      isActive(originPath("oils"))
+                  )} inline-flex items-center gap-1`}
                 >
                   {t("nav.origin", { defaultValue: "The Origin" })}
                   <ChevronDown className="w-4 h-4" />
                 </button>
+
                 {originOpen && (
                   <div
                     role="menu"
@@ -185,17 +203,17 @@ export default function Header() {
               </div>
             </nav>
 
-            {/* CENTER — brand (bigger & centered, tagline under logo) */}
+            {/* CENTER — brand */}
             <div className="flex flex-col items-center justify-center min-w-0">
               <Link to={homePath} className="flex items-center">
                 <img
-                  src={withBase("/images/tropinordlogoPreview.png")}
+                  src={withBase("/images/tropiLogo004.png")}
                   alt={t("logo.alt", { defaultValue: "TropiNord Logo" })}
                   className="h-16 md:h-20 lg:h-24 w-auto object-contain"
                   onError={(e) => (e.currentTarget.src = withBase("/logo.svg"))}
                 />
               </Link>
-              <span className="mt-1 text-sm sm:text-base font-semibold text-[#f2c94c]">
+              <span className="mt-1 text-sm sm:text-base font-semibold text-[#f2c94c] text-center">
                 {t("tagline", {
                   defaultValue: "Tropical Origins. Global Harmony.",
                 })}
@@ -203,7 +221,7 @@ export default function Header() {
             </div>
 
             {/* RIGHT — utilities */}
-            <div className="flex items-center justify-end gap-1 sm:gap-2">
+            <div className="flex items-center justify-end gap-1 sm:gap-2 min-w-0">
               {/* Cart */}
               <Link
                 to={getLocalizedPath("cart", lang)}
@@ -222,7 +240,11 @@ export default function Header() {
               {/* Account dropdown */}
               <AccountMenu user={user} onLogout={handleLogout} />
 
-              {/* Language & Theme — visible in both light & dark modes */}
+              <div className="flex items-center gap-2">
+                <CurrencySelect className="hidden sm:block" />
+              </div>
+
+              {/* Language & Theme */}
               <div className="inline-flex items-center gap-2">
                 <LanguageSwitcher
                   compact
@@ -299,6 +321,15 @@ export default function Header() {
               {t("nav.about", { defaultValue: "About" })}
             </Link>
 
+            {/* Profile */}
+            <Link
+              to={getLocalizedPath("profile", lang)}
+              onClick={() => setDrawerOpen(false)}
+              className="block px-3 py-2 rounded hover:bg-slate-100 dark:hover:bg-slate-800"
+            >
+              {t("profile", { ns: "auth", defaultValue: "Profile" })}
+            </Link>
+
             {/* FAQ */}
             <Link
               to={getLocalizedPath("faq", lang)}
@@ -353,18 +384,13 @@ export default function Header() {
               ) : (
                 <>
                   <Link
-                    to={getLocalizedPath("dashboard", lang)}
-                    onClick={() => setDrawerOpen(false)}
-                    className="block w-full h-10 px-3 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800 text-sm font-semibold text-center leading-10"
-                  >
-                    {t("nav.dashboard", { defaultValue: "Dashboard" })}
-                  </Link>
-                  <Link
                     to={getLocalizedPath("orderHistory", lang)}
                     onClick={() => setDrawerOpen(false)}
                     className="block w-full h-10 px-3 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800 text-sm font-semibold text-center leading-10"
                   >
-                    {t("nav.orderHistory", { defaultValue: "Order history" })}
+                    {t("nav.orderHistory", {
+                      defaultValue: "Order history",
+                    })}
                   </Link>
                   <button
                     onClick={() => {
@@ -379,7 +405,7 @@ export default function Header() {
               )}
             </div>
 
-            {/* Language + Theme in drawer for quick access */}
+            {/* Language + Theme in drawer */}
             <div className="mt-4 border-t border-slate-200 dark:border-slate-700 pt-4 flex items-center gap-2">
               <LanguageSwitcher
                 compact

@@ -1,13 +1,16 @@
+//src/pages/CheckoutPage.jsx
+
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useCart } from "../contexts/CartContext";
 import { useTranslation } from "react-i18next";
+import { routeMap } from "../routes/routeMap";
 
 export default function CheckoutForm() {
   const navigate = useNavigate();
   const location = useLocation();
   const { cart } = useCart();
-  const { t } = useTranslation(["order", "checkout"]);
+  const { t, i18n } = useTranslation(["order", "checkout"]);
 
   const [formData, setFormData] = useState({
     name: "",
@@ -20,30 +23,23 @@ export default function CheckoutForm() {
     currency: "SEK",
   });
 
-  // Reusable Tailwind styles for all form fields (handles dark mode)
   const fieldClasses =
-    "border border-gray-300 dark:border-gray-600 " +
-    "bg-white dark:bg-gray-900 " +
-    "text-gray-900 dark:text-gray-100 " +
-    "placeholder-gray-500 dark:placeholder-gray-400 " +
-    "rounded p-2 " +
-    "focus:outline-none focus:ring-2 focus:ring-emerald-400/40 focus:border-emerald-500 " +
-    "caret-emerald-400";
+    "border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 rounded p-2 focus:outline-none focus:ring-2 focus:ring-emerald-400/40 focus:border-emerald-500 caret-emerald-400";
 
+  // Rehydrate from localStorage (never rely only on location.state)
   useEffect(() => {
-    const saved = JSON.parse(localStorage.getItem("checkout-form"));
+    const saved = JSON.parse(localStorage.getItem("checkout-form") || "{}");
     const currencyFromProducts = location.state?.currency;
-    if (saved) {
-      setFormData((prev) => ({
-        ...prev,
-        ...saved,
-        currency: currencyFromProducts || saved.currency,
-      }));
-    } else if (currencyFromProducts) {
-      setFormData((prev) => ({ ...prev, currency: currencyFromProducts }));
-    }
-  }, [location.state]);
 
+    setFormData((prev) => ({
+      ...prev,
+      ...saved,
+      ...(currencyFromProducts ? { currency: currencyFromProducts } : {}),
+    }));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // once on mount
+
+  // Persist as the user types
   useEffect(() => {
     localStorage.setItem("checkout-form", JSON.stringify(formData));
   }, [formData]);
@@ -66,10 +62,14 @@ export default function CheckoutForm() {
       return;
     }
 
+    // Persist before navigating
     localStorage.setItem("checkout-form", JSON.stringify(formData));
     localStorage.setItem("cart", JSON.stringify(cart));
 
-    navigate("/payment", { state: { ...formData } });
+    // 🔑 Navigate to the *localized* payment route
+    const lang = (i18n.language || "en").slice(0, 2);
+    const dest = `/${lang}/${routeMap.payment[lang]}`;
+    navigate(dest, { state: { ...formData } });
   };
 
   const countries = Object.keys(

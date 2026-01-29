@@ -1,0 +1,26 @@
+{
+  "title": "Sök",
+  "placeholder": "Sök teer, oljor, kaffe, superfoods…",
+  "browseTitle": "Bläddra bland produkter",
+  "resultsFor": "Resultat för ”{{q}}”",
+  "showing": {
+    "across": "Visar {{count}} artiklar inom Teer, Oljor, Kaffe och Superfoods",
+    "inCat": "Visar {{count}} artiklar i {{category}}"
+  },
+  "empty": {
+    "noMatches": "Inga träffar. Prova andra sökord eller bläddra:"
+  },
+  "categories": {
+    "all": "Alla",
+    "tea": "Teer",
+    "oils": "Oljor",
+    "coffee": "Kaffe",
+    "superfoods": "Superfoods"
+  },
+  "btn": {
+    "browseTeas": "Bläddra bland teer",
+    "browseOils": "Bläddra bland oljor",
+    "browseCoffee": "Bläddra bland kaffe",
+    "browseSuperfoods": "Bläddra bland superfoods"
+  }
+}

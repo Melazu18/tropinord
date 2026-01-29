@@ -7,6 +7,7 @@ import toast, { Toaster } from "react-hot-toast";
 import CartItem from "../components/CartItem";
 import { useTranslation } from "react-i18next";
 import { routeMap } from "../routes/routeMap";
+import { useCurrency } from "../shared/ui/CurrencyProvider";
 
 export default function CartPage() {
   const { t, i18n } = useTranslation(["cart", "products"]);
@@ -15,22 +16,27 @@ export default function CartPage() {
   const location = useLocation();
   const [showConfirm, setShowConfirm] = useState(false);
 
-  const lang = i18n.resolvedLanguage || i18n.language || "en";
+  const { currency, priceFor, format } = useCurrency();
+
+  const lang = (i18n.resolvedLanguage || i18n.language || "en").slice(0, 2);
+
+  // Where the user came from (if caller passed it)
   const from = location.state?.from || null;
 
-  const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  // 🧮 Total in currently selected currency
+  const totalInCur = cart.reduce((sum, item) => {
+    const unit = Number(priceFor(item, currency) || 0);
+    if (!Number.isFinite(unit)) return sum;
+    return sum + unit * (item.quantity || 1);
+  }, 0);
 
-  // Resolve localized paths with safe fallbacks
-  const browseSlug =
-    (routeMap?.order && routeMap.order[lang]) ||
-    (routeMap?.browse && routeMap.browse[lang]) ||
-    (routeMap?.products && routeMap.products[lang]) ||
-    "products";
-
+  // Localized routes
+  const exploreSlug =
+    (routeMap?.explore && routeMap.explore[lang]) || "explore";
   const checkoutSlug =
     (routeMap?.checkout && routeMap.checkout[lang]) || "checkout";
 
-  const browsePath = `/${lang}/${browseSlug}`;
+  const explorePath = `/${lang}/${exploreSlug}`;
   const checkoutPath = `/${lang}/${checkoutSlug}`;
 
   const handleCheckout = () => navigate(checkoutPath);
@@ -45,19 +51,15 @@ export default function CartPage() {
 
   const cancelClear = () => setShowConfirm(false);
 
+  // ✅ Hybrid behavior:
+  // 1) If we were given an explicit "from", go there.
+  // 2) Otherwise, always go to localized Explore.
   const handleKeepBrowsing = () => {
-    // 1) go back to the page that sent us here (if provided)
     if (from) {
       navigate(from);
       return;
     }
-    // 2) if there is history, go back
-    if (window.history.length > 1) {
-      navigate(-1);
-      return;
-    }
-    // 3) otherwise go to a sensible localized browse/products page
-    navigate(browsePath);
+    navigate(explorePath);
   };
 
   return (
@@ -72,7 +74,7 @@ export default function CartPage() {
         />
 
         <div className="mb-4">
-          {/* Use a button so we can respect 'from' and history logic */}
+          {/* Button respects "from" first, else Explore */}
           <button
             type="button"
             onClick={handleKeepBrowsing}
@@ -80,10 +82,11 @@ export default function CartPage() {
           >
             {t("continueShopping", { defaultValue: "← Continue Shopping" })}
           </button>
-          {/* Optional: also expose a direct localized link */}
+
+          {/* Direct link to Explore (explicit, predictable) */}
           <span className="ml-3 text-sm">
             <Link
-              to={browsePath}
+              to={explorePath}
               className="text-gray-500 hover:underline dark:text-gray-300"
             >
               ({t("goToBrowse", { defaultValue: "Go to browse" })})
@@ -100,61 +103,70 @@ export default function CartPage() {
             {t("emptyCart", { defaultValue: "Your cart is empty." })}
           </p>
         ) : (
-<div className="space-y-6">
-  {cart.map((item, idx) => {
-    // Build a stable, unique key for each line item
-    const lineKey =
-      item._lineId || // if your cart sets a unique line id
-      item.key ||     // or a custom key from elsewhere
-      [item.id, item.variant, item.size, item.length, item.option, item.note]
-        .filter(Boolean)
-        .join("|") ||
-      `${item.id}|${idx}`; // last-resort fallback
+          <div className="space-y-6">
+            {cart.map((item, idx) => {
+              // Stable key per line item
+              const lineKey =
+                item._lineId ||
+                item.key ||
+                [
+                  item.id,
+                  item.variant,
+                  item.size,
+                  item.length,
+                  item.option,
+                  item.note,
+                ]
+                  .filter(Boolean)
+                  .join("|") ||
+                `${item.id}|${idx}`;
 
-    return (
-      <CartItem
-        key={lineKey}
-        item={item}
-        updateQuantity={updateQuantity}
-        removeFromCart={removeFromCart}
-      />
-    );
-  })}
+              return (
+                <CartItem
+                  key={lineKey}
+                  item={item}
+                  updateQuantity={updateQuantity}
+                  removeFromCart={removeFromCart}
+                />
+              );
+            })}
 
-  <div className="border-t pt-4">
-    <div className="text-right font-bold text-xl text-green-800 dark:text-green-300">
-      {t("toast.total", { defaultValue: "Total" })}: kr{total.toFixed(2)}
-    </div>
+            <div className="border-t pt-4">
+              <div className="text-right font-bold text-xl text-green-800 dark:text-green-300">
+                {t("toast.total", { defaultValue: "Total" })}:{" "}
+                {format(totalInCur, currency)}
+              </div>
 
-    <div className="flex justify-between mt-4 flex-wrap gap-4 items-center">
-      <button
-        type="button"
-        onClick={handleClearCart}
-        className="px-4 py-2 bg-red-600 text-white text-sm rounded hover:bg-red-700 transition"
-      >
-        {t("clearCart", { defaultValue: "Clear Cart" })}
-      </button>
+              <div className="flex justify-between mt-4 flex-wrap gap-4 items-center">
+                <button
+                  type="button"
+                  onClick={handleClearCart}
+                  className="px-4 py-2 bg-red-600 text-white text-sm rounded hover:bg-red-700 transition"
+                >
+                  {t("clearCart", { defaultValue: "Clear Cart" })}
+                </button>
 
-      <div className="flex gap-4 ml-auto">
-        <button
-          type="button"
-          onClick={handleKeepBrowsing}
-          className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-6 rounded transition"
-        >
-          {t("keepBrowsing", { defaultValue: " Keep Browsing" })}
-        </button>
-        <button
-          type="button"
-          onClick={handleCheckout}
-          className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded transition"
-        >
-          {t("proceedCheckout", { defaultValue: " Proceed to Checkout" })}
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-
+                <div className="flex gap-4 ml-auto">
+                  <button
+                    type="button"
+                    onClick={handleKeepBrowsing}
+                    className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-6 rounded transition"
+                  >
+                    {t("keepBrowsing", { defaultValue: " Keep Browsing" })}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handleCheckout}
+                    className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded transition"
+                  >
+                    {t("proceedCheckout", {
+                      defaultValue: " Proceed to Checkout",
+                    })}
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         )}
 
         {showConfirm && (

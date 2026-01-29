@@ -1,0 +1,92 @@
+{
+  "badge": "B2B · PEDIDOS AL POR MAYOR",
+  "homeCta": {
+    "title": "Pedidos al por mayor para negocios",
+    "text": "¿Tienes una tienda, salón, spa o café? Visita nuestra página B2B para ver precios mayoristas, mínimos de pedido y opciones de envío.",
+    "button": "Ver opciones mayoristas"
+  },
+
+  "title": "Productos de bienestar africanos al por mayor para negocios europeos",
+  "subtitle": "Tés, aceites, superalimentos y café procedentes de productores africanos, pensados para tiendas, salones, spas y cafeterías en Europa.",
+
+  "whoFor": {
+    "heading": "¿Para quién es?",
+    "intro": "TropiNord colabora con negocios que buscan productos auténticos, trazables y respetuosos con la naturaleza.",
+    "retail": "Tiendas ecológicas, colmados africanos y comercios especializados.",
+    "salons": "Salones de peluquería, centros de belleza y bienestar.",
+    "hospitality": "Hoteles, cafeterías, salones de té y casas de huéspedes.",
+    "online": "Pequeñas marcas online y tiendas concepto."
+  },
+
+  "catalog": {
+    "heading": "Catálogo mayorista y resumen de productos",
+    "text": "Consulta nuestra gama actual de tés, aceites, superalimentos y cafés para B2B. La información detallada sobre productos y envases está disponible en nuestro catálogo PDF.",
+    "downloadLabel": "Descargar catálogo mayorista (PDF)",
+    "comingSoon": "Estamos actualizando el catálogo digital. Contáctanos para recibir la lista de productos más reciente."
+  },
+
+  "howToOrder": {
+    "heading": "Cómo hacer un pedido al por mayor",
+    "step1": "Descarga nuestro catálogo mayorista y elige los productos y formatos que te interesan.",
+    "step2": "Envía tu lista de pedido y la dirección de entrega por correo electrónico o WhatsApp a nuestro equipo B2B.",
+    "step3": "Confirmamos precios, disponibilidad, plazos de entrega y opciones de envío.",
+    "step4": "Recibes una factura proforma y pagas mediante transferencia bancaria, tarjeta o Swish (cuando aplique).",
+    "step5": "Coordinamos la preparación y el envío desde nuestros socios en África o desde nuestro almacén en Suecia, y te compartimos la información de seguimiento."
+  },
+
+  "pricing": {
+    "heading": "Ejemplo de precios mayoristas",
+    "note": "Los precios finales dependen del origen, el tipo de envase y la logística. A continuación tienes un ejemplo sencillo de precios por volumen:",
+    "baobabHeading": "POLVO DE BAOBAB (bolsa 200 g, ejemplo)",
+    "line1": "10–24 unidades: 200 SEK / unidad",
+    "line2": "25–49 unidades: 180 SEK / unidad",
+    "line3": "50+ unidades: 160 SEK / unidad",
+    "minimum": "Pedido mínimo: 10 unidades por producto / referencia"
+  },
+
+  "moq": {
+    "heading": "Mínimos de pedido y plazos",
+    "text": "Los mínimos estándar empiezan en unas 10–20 unidades por producto para artículos en stock, y son más elevados para envases personalizados o marca blanca. Los plazos de entrega suelen variar entre 2 y 5 semanas según el stock, la temporada de cosecha y la ruta de envío."
+  },
+
+  "shipping": {
+    "heading": "Envío y logística",
+    "line1": "Los envíos dentro de la UE pueden salir desde Suecia o directamente desde el país de origen, según el producto y el volumen.",
+    "line2": "Trabajamos con socios logísticos de confianza que gestionan aduanas, documentación y, cuando es necesario, mercancías sensibles a la temperatura.",
+    "line3": "Siempre recibirás una estimación clara de los costes de envío y del plazo de entrega antes de confirmar tu pedido."
+  },
+
+  "contact": {
+    "heading": "Contacta con nuestro equipo B2B",
+    "text": "Envíanos los datos de tu empresa y una breve descripción de lo que buscas. Te responderemos con opciones adaptadas, rangos de precios y, cuando sea posible, muestras.",
+    "emailLabel": "Correo B2B",
+    "whatsappLabel": "WhatsApp (empresa)",
+    "phoneLabel": "Teléfono"
+  },
+
+  "ctaBlock": {
+    "heading": "¿Listo para explorar el mayorista con TropiNord?",
+    "text": "Cuéntanos qué tipo de negocio tienes, tu volumen mensual aproximado y qué productos te interesan más (tés, aceites, café, superalimentos).",
+    "button": "Contactar con el equipo mayorista"
+  },
+
+  "form": {
+    "businessName": "Nombre de la empresa / nombre de la tienda",
+    "contactName": "Persona de contacto",
+    "email": "Correo electrónico",
+    "phone": "Teléfono / WhatsApp",
+    "country": "País",
+    "interest": "¿Qué le interesa principalmente?",
+    "interestPlaceholder": "Seleccione uno o escriba en el mensaje",
+    "optionTeas": "Tés",
+    "optionOils": "Aceites",
+    "optionCoffee": "Café",
+    "optionSuperfoods": "Superalimentos",
+    "optionMixed": "Surrido mixto",
+    "message": "Cuéntenos brevemente sobre su empresa y volúmenes",
+    "validationRequired": "Por favor complete al menos el nombre de la empresa y el correo electrónico.",
+    "success": "Gracias por su interés. Nuestro equipo B2B se pondrá en contacto con usted shortly.",
+    "error": "Algo salió mal. Por favor intente nuevamente o envíenos un correo electrónico.",
+    "sending": "Enviando..."
+  }
+}

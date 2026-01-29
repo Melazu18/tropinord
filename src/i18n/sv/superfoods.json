@@ -1,0 +1,27 @@
+{
+  "title": "🌱 Superfoods",
+  "subtitle": "Naturliga basvaror från Afrika och Stilla havet: ren energi och daglig balans utan tillsatser.",
+  "searchPlaceholder": "Sök pulver och blandningar…",
+  "addedToCart": "{{name}} tillagd i varukorgen!",
+  "modal": {
+    "detailsHeading": "Superfood-detaljer",
+    "historyHeading": "Historia",
+    "benefitsHeading": "Hälsofördelar",
+    "ingredientsHeading": "Ingredienser",
+    "originLabel": "Ursprung (produktionsland)",
+    "productionYearLabel": "Produktionsår",
+    "bestBeforeLabel": "Bäst före",
+    "naturallyGrownLabel": "Odling",
+    "naturallyGrown": "Naturligt odlad"
+  },
+  "card": {
+    "originLabel": "Ursprung",
+    "productionYearLabel": "Produktionsår",
+    "bestBeforeLabel": "Bäst före",
+    "naturallyGrownLabel": "Odling",
+    "naturallyGrown": "Naturligt odlad"
+  },
+  "badges": {
+    "natural": "Naturligt Odlad"
+  }
+}

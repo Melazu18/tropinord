@@ -1,0 +1,217 @@
+{
+  "tea-hibiscus": {
+    "name": "Té de Hibisco",
+    "description": "Conocido por su color vibrante y sabor ácido, el té de hibisco es rico en antioxidantes.",
+    "history": "Con raíces en las tradiciones egipcias y del África Occidental.",
+    "benefits": [
+      "Apoya la salud del corazón",
+      "Reduce la presión arterial",
+      "Rico en Vitamina C"
+    ],
+    "ingredients": [
+      "Cálizes de hibisco secos (Hibiscus sabdariffa)"
+    ]
+  },
+  "tea-mountain-herbs": {
+    "name": "Té de Hierbas de Montaña",
+    "description": "Una mezcla de botánicos nórdicos y alpinos para energía natural e inmunidad.",
+    "history": "Inspirado en la medicina herbal escandinava tradicional y prácticas de recolección alpina.",
+    "benefits": [
+      "Aumenta la energía natural",
+      "Fortalece el sistema inmunológico",
+      "Mejora la claridad mental",
+      "Rico en antioxidantes"
+    ],
+    "ingredients": [
+      "Puntas de abeto (Picea abies)",
+      "Baya de enebro (Juniperus communis)",
+      "Hoja de abedul (Betula pendula)",
+      "Hoja de ortiga (Urtica dioica)",
+      "Toronjil (Melissa officinalis)"
+    ]
+  },
+  "tea-brennessel": {
+    "name": "Hojas de Ortiga (Brennessel)",
+    "description": "Clásico herbal que apoya la salud renal y articular con propiedades ricas en minerales.",
+    "history": "Usado en la medicina popular europea durante siglos como tónico primaveral y desintoxicante.",
+    "benefits": [
+      "Apoya la función renal",
+      "Reduce la inflamación en las articulaciones",
+      "Rico en hierro y minerales",
+      "Apoyo natural a la desintoxicación"
+    ],
+    "ingredients": [
+      "Hoja de ortiga (Urtica dioica)"
+    ]
+  },
+  "tea-pfefferminz": {
+    "name": "Menta Piperita (Pfefferminz)",
+    "description": "Taza refrescante y mentolada que calma la digestión y despeja la mente.",
+    "history": "Remedio antiguo egipcio y griego para problemas digestivos y salud respiratoria.",
+    "benefits": [
+      "Ayuda a la digestión y alivia la hinchazón",
+      "Calma dolores de cabeza y tensión",
+      "Despeja el sistema respiratorio",
+      "Alivio natural del estrés"
+    ],
+    "ingredients": [
+      "Hoja de menta piperita (Mentha × piperita)"
+    ]
+  },
+  "tea-kamille": {
+    "name": "Manzanilla (Kamille)",
+    "description": "Té floral suave para relajarse, calmar y apoyar el sueño reparador.",
+    "history": "Remedio herbal antiguo egipcio, romano y griego para la relajación y la curación.",
+    "benefits": [
+      "Promueve la relajación y el sueño",
+      "Reduce la ansiedad y el estrés",
+      "Calma el sistema digestivo",
+      "Propiedades antiinflamatorias"
+    ],
+    "ingredients": [
+      "Flor de manzanilla (Matricaria chamomilla)"
+    ]
+  },
+  "tea-lemongrass": {
+    "name": "Hierba de Limón (Zitronengras)",
+    "description": "Infusión fresca, cítrica y ácida a menudo disfrutada después de las comidas para la digestión.",
+    "history": "Remedio tradicional del sudeste asiático para la salud digestiva y reducción de la fiebre.",
+    "benefits": [
+      "Ayuda a la digestión y alivia la hinchazón",
+      "Rico en antioxidantes",
+      "Apoya niveles saludables de colesterol",
+      "Propiedades diuréticas naturales"
+    ],
+    "ingredients": [
+      "Hierba de limón (Cymbopogon citratus)"
+    ]
+  },
+  "tea-frauenmantel": {
+    "name": "Pie de León (Frauenmantel)",
+    "description": "Tradicionalmente usado para apoyar el equilibrio hormonal y el bienestar femenino.",
+    "history": "Hierba medieval europea para la salud femenina, curación de heridas y vitalidad.",
+    "benefits": [
+      "Apoya el equilibrio hormonal",
+      "Propiedades antiinflamatorias",
+      "Promueve la salud de la piel",
+      "Ayuda al comfort menstrual"
+    ],
+    "ingredients": [
+      "Hoja de pie de león (Alchemilla vulgaris)"
+    ]
+  },
+  "tea-melisse": {
+    "name": "Toronjil (Melisse)",
+    "description": "Aroma suave a limón-herbal; conocido por propiedades calmantes y anti-ansiedad.",
+    "history": "Remedio antiguo griego y romano para ansiedad, problemas de sueño y función cognitiva.",
+    "benefits": [
+      "Reduce el estrés y la ansiedad",
+      "Mejora la calidad del sueño",
+      "Propiedades antivirales",
+      "Apoya la función cognitiva"
+    ],
+    "ingredients": [
+      "Hoja de toronjil (Melissa officinalis)"
+    ]
+  },
+  "tea-sencha": {
+    "name": "Té Verde Sencha",
+    "description": "Té verde japonés clásico al vapor con sabor herbáceo y ricos antioxidantes.",
+    "history": "Té japonés tradicional que data del siglo XVIII, popular para el consumo diario.",
+    "benefits": [
+      "Rico en antioxidantes (catequinas)",
+      "Aumenta el metabolismo",
+      "Apoya la salud cardíaca",
+      "Mejora el estado de alerta mental"
+    ],
+    "ingredients": [
+      "Hojas de té verde (Camellia sinensis)"
+    ]
+  },
+  "tea-gunpowder": {
+    "name": "Té Verde Gunpowder",
+    "description": "Hojas de té verde enrolladas que se despliegan al infusionar, ofreciendo un sabor audaz y ligeramente ahumado.",
+    "history": "Originado en la provincia de Zhejiang, China durante la dinastía Tang, nombrado por su apariencia similar a pólvora.",
+    "benefits": [
+      "Alto en antioxidantes",
+      "Apoya el control de peso",
+      "Fortalece el sistema inmunológico",
+      "Mejora la salud dental"
+    ],
+    "ingredients": [
+      "Hojas de té verde (Camellia sinensis)"
+    ]
+  },
+  "tea-jasmine-green": {
+    "name": "Té Verde de Jazmín",
+    "description": "Té verde delicadamente infusionado con flores de jazmín aromáticas para una experiencia floral.",
+    "history": "Tradición china que data de la dinastía Song, donde el té se perfumaba con flores de jazmín frescas.",
+    "benefits": [
+      "Efectos calmantes y relajantes",
+      "Rico en antioxidantes",
+      "Apoya la salud digestiva",
+      "Alivio natural del estrés"
+    ],
+    "ingredients": [
+      "Hojas de té verde (Camellia sinensis)",
+      "Flores de jazmín (Jasminum officinale)"
+    ]
+  },
+  "tea-assam": {
+    "name": "Té Negro Assam",
+    "description": "Té negro fuerte, maltado y robusto de la región de Assam en India.",
+    "history": "Descubierto en Assam, India en el siglo XIX, ahora uno de los tés negros más populares del mundo.",
+    "benefits": [
+      "Aumenta la energía y el estado de alerta",
+      "Apoya la salud cardíaca",
+      "Rico en teaflavinas",
+      "Ayuda a la digestión"
+    ],
+    "ingredients": [
+      "Hojas de té negro (Camellia sinensis, cultivar Assamica)"
+    ]
+  },
+  "tea-earl-grey": {
+    "name": "Earl Grey",
+    "description": "Té negro británico clásico con distintivo sabor y aroma cítrico de bergamota.",
+    "history": "Nombrado en honor a Charles Grey, segundo conde Grey, primer ministro británico en la década de 1830.",
+    "benefits": [
+      "Mejora del estado de ánimo",
+      "Apoyo digestivo",
+      "Propiedades antioxidantes",
+      "Claridad y enfoque mental"
+    ],
+    "ingredients": [
+      "Hojas de té negro (Camellia sinensis)",
+      "Aceite natural de bergamota (Citrus bergamia)"
+    ]
+  },
+  "tea-white-peony": {
+    "name": "Peonía Blanca (Bai Mudan)",
+    "description": "Té blanco delicado con sabor suave y dulce y sutiles notas florales.",
+    "history": "Té blanco chino tradicional de la provincia de Fujian, conocido por su procesamiento delicado.",
+    "benefits": [
+      "Mayor contenido de antioxidantes entre los tés",
+      "Apoya la salud de la piel",
+      "Suave con el estómago",
+      "Propiedades antienvejecimiento naturales"
+    ],
+    "ingredients": [
+      "Brotes y hojas jóvenes de té blanco (Camellia sinensis)"
+    ]
+  },
+  "tea-silver-needle": {
+    "name": "Aguja de Plata (Bai Hao Yin Zhen)",
+    "description": "Té blanco premium hecho exclusivamente de brotes jóvenes y sin abrir con apariencia plateada.",
+    "history": "Té imperial chino reservado para la realeza durante la dinastía Song, representando la cúspide del té blanco.",
+    "benefits": [
+      "Contenido ultra alto de antioxidantes",
+      "Fortalece el sistema inmunológico",
+      "Promueve la piel radiante",
+      "Aumento de energía suave"
+    ],
+    "ingredients": [
+      "Brotes de té blanco (Camellia sinensis)"
+    ]
+  }
+}

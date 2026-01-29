@@ -1,0 +1,151 @@
+{
+  "oil-coconut": {
+    "name": "Huile de Coco Pressée à Froid",
+    "description": "Huile de coco à ingrédient unique, pressée à froid. Solide à basse température.",
+    "history": "L’huile de coco est utilisée depuis des générations dans les foyers et les routines traditionnelles.",
+    "benefits": [
+      "Matière première polyvalente",
+      "Huile de base courante",
+      "Profil naturel en acides gras",
+      "Texture facile à mélanger"
+    ],
+    "ingredients": ["Cocos Nucifera Oil"]
+  },
+  "oil-coconut-heat": {
+    "name": "Huile de Coco Traitée à la Chaleur",
+    "description": "Huile de coco obtenue par traitement thermique, adaptée à la cuisine et à l’usage externe.",
+    "history": "Utilisée depuis longtemps comme huile alimentaire et domestique.",
+    "benefits": [
+      "Huile pratique du quotidien",
+      "Adaptée à la cuisson",
+      "Huile polyvalente",
+      "Usage externe traditionnel"
+    ],
+    "ingredients": ["Cocos Nucifera Oil"]
+  },
+  "oil-castor": {
+    "name": "Huile de Ricin",
+    "description": "Huile épaisse traditionnellement utilisée dans les routines capillaires.",
+    "history": "Utilisée depuis longtemps dans différentes traditions de soin.",
+    "benefits": [
+      "Populaire dans les routines capillaires",
+      "Texture riche",
+      "Base pour mélanges DIY",
+      "Utilisée en petite quantité"
+    ],
+    "ingredients": ["Ricinus Communis Seed Oil"]
+  },
+  "oil-moringa-seed": {
+    "name": "Huile de Graines de Moringa",
+    "description": "Huile légère à absorption rapide pour routines traditionnelles.",
+    "history": "Le moringa est utilisé depuis longtemps dans les foyers.",
+    "benefits": [
+      "Texture légère",
+      "Facile à mélanger",
+      "Huile traditionnelle",
+      "Absorption rapide"
+    ],
+    "ingredients": ["Moringa Oleifera Seed Oil"]
+  },
+  "oil-palm-kernel": {
+    "name": "Huile de Palmiste",
+    "description": "Huile traditionnelle d’Afrique de l’Ouest à texture riche.",
+    "history": "Ingrédient de base des préparations traditionnelles ouest-africaines.",
+    "benefits": [
+      "Texture riche",
+      "Huile de formulation traditionnelle",
+      "Utilisée pour savons et beurres",
+      "Produit patrimonial"
+    ],
+    "ingredients": ["Elaeis Guineensis Kernel Oil"]
+  },
+  "oil-avocado": {
+    "name": "Huile d’Avocat",
+    "description": "Huile émolliente utilisée comme base dans les routines traditionnelles.",
+    "history": "Employée historiquement dans les foyers d’Amérique centrale.",
+    "benefits": [
+      "Bonne huile de base",
+      "Texture douce",
+      "Facile à mélanger",
+      "Populaire pour le DIY"
+    ],
+    "ingredients": ["Persea Gratissima Oil"]
+  },
+  "oil-black-seed": {
+    "name": "Huile de Nigelle",
+    "description": "Huile aromatique pressée à froid utilisée comme base ou additif.",
+    "history": "Huile traditionnelle utilisée dans divers foyers.",
+    "benefits": [
+      "Profil aromatique",
+      "Se mélange avec d’autres huiles",
+      "Utilisée en petite quantité",
+      "Matière première traditionnelle"
+    ],
+    "ingredients": ["Nigella Sativa Seed Oil"]
+  },
+  "oil-lavender": {
+    "name": "Huile de Lavande",
+    "description": "Huile aromatique pour mélanges et préparations traditionnelles.",
+    "history": "La lavande est utilisée depuis longtemps dans les foyers.",
+    "benefits": [
+      "Huile aromatique",
+      "Utilisation en petite quantité",
+      "Courante en DIY",
+      "Additif traditionnel"
+    ],
+    "ingredients": ["Lavandula Angustifolia Oil"]
+  },
+  "oil-rosemary": {
+    "name": "Huile de Romarin",
+    "description": "Huile aromatique utilisée pour les mélanges traditionnels.",
+    "history": "Le romarin est utilisé historiquement dans les préparations domestiques.",
+    "benefits": [
+      "Huile aromatique",
+      "Utilisation limitée",
+      "Courante en DIY",
+      "Additif traditionnel"
+    ],
+    "ingredients": ["Rosmarinus Officinalis Leaf Oil"]
+  },
+  "oil-mint": {
+    "name": "Huile de Menthe",
+    "description": "Huile aromatique fraîche utilisée en petite quantité.",
+    "history": "La menthe est utilisée depuis longtemps dans les foyers.",
+    "benefits": [
+      "Arôme frais",
+      "Utilisation en petite quantité",
+      "Populaire en DIY",
+      "Additif traditionnel"
+    ],
+    "ingredients": ["Mentha Piperita Oil"]
+  },
+  "butter-shea": {
+    "name": "Beurre de Karité",
+    "description": "Beurre de karité non raffiné à texture riche pour préparations DIY.",
+    "history": "Beurre traditionnel d’Afrique de l’Ouest utilisé depuis des générations.",
+    "benefits": [
+      "Base polyvalente",
+      "Texture riche",
+      "Produit traditionnel",
+      "Utilisé à la cuillère"
+    ],
+    "ingredients": ["Butyrospermum Parkii Butter"]
+  },
+  "moringa-balm": {
+    "name": "Baume de Moringa",
+    "description": "Baume doux à base d’huile de moringa et de menthe.",
+    "history": "Formule moderne inspirée des routines traditionnelles.",
+    "benefits": [
+      "Apaise la peau sensible",
+      "Effet rafraîchissant",
+      "Formule protectrice",
+      "Texture légère"
+    ],
+    "ingredients": [
+      "Moringa Oleifera Seed Oil",
+      "Mentha Piperita Oil",
+      "Beeswax",
+      "Cocos Nucifera Oil"
+    ]
+  }
+}

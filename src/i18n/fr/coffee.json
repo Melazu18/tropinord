@@ -1,0 +1,28 @@
+{
+  "title": "☕ Sélection de Café",
+  "subtitle": "Cafés d'origine unique et mélanges équilibrés d'Afrique et d'ailleurs.",
+  "searchPlaceholder": "Rechercher des origines uniques ou des notes de dégustation…",
+  "addedToCart": "{{name}} ajouté au panier!",
+  "modal": {
+    "detailsHeading": "Détails du café",
+    "historyHeading": "Histoire",
+    "benefitsHeading": "Bienfaits pour la Santé",
+    "ingredientsHeading": "Ingrédients",
+    "originLabel": "Origine (pays de production)",
+    "productionYearLabel": "Année de torréfaction",
+    "bestBeforeLabel": "À consommer avant",
+    "naturallyGrownLabel": "Culture",
+    "naturallyGrown": "Cultivé naturellement"
+  },
+  "card": {
+    "originLabel": "Origine",
+    "productionYearLabel": "Année de torréfaction",
+    "bestBeforeLabel": "À consommer avant",
+    "naturallyGrownLabel": "Culture",
+    "naturallyGrown": "Cultivé naturellement"
+  },
+  "badges": {
+    "natural": "Cultivé Naturellement",
+    "caffeinated": "Avec Caféine"
+  }
+}

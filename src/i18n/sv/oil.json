@@ -1,27 +1,87 @@
 {
-  "title": "🌿 Samling av Ekologiska Oljor",
-  "intro": "Utforska vårt utbud av naturliga oljor för matlagning, ritualer och välmående. Ansvarsfullt framtagna och rika på näring.",
+  "title": "Samling av Naturliga Oljor",
+  "intro": "Utforska vårt sortiment av naturliga oljor för matlagning, traditionella rutiner och DIY-blandningar. Ansvarsfullt framställda råvaror med en enda ingrediens.",
   "buttons": {
     "addToCart": "Lägg i varukorg"
   },
-  "fields": {
-    "origin": "Ursprung",
-    "scent": "Doft",
+
+  "productCode": "Produktkod",
+
+  "filters": {
+    "typeOfOil": "Typ av olja",
     "skinType": "Hudtyp",
-    "ingredients": "Ingredienser"
+    "scent": "Doft",
+    "type": {
+      "all": "Alla",
+      "cooking": "Matolja",
+      "external": "Utvärtes bruk",
+      "both": "Mat & utvärtes"
+    },
+    "all": "Alla",
+    "dry": "Torr",
+    "veryDry": "Mycket torr",
+    "sensitive": "Känslig",
+    "normal": "Normal",
+    "any": "Alla",
+    "neutral": "Neutral",
+    "nutty": "Nötig",
+    "coconut": "Kokos",
+    "minty": "Mint"
   },
-  "byId": {
-    "neem-oil": {
-      "name": "Neemolja",
-      "description": "Kallpressad och naturlig, ofta använd i traditionella kurer och hudvård."
-    },
-    "avocado-oil": {
-      "name": "Avokadoolja",
-      "description": "Näringsrik och återfuktande, idealisk för hår och hud."
-    },
-    "coconut-oil": {
-      "name": "Kokosolja",
-      "description": "Mångsidig ekologisk olja för matlagning, hårvård eller hudvård."
-    }
-  }
+  "badges": {
+    "natural": "Naturlig",
+    "coldPressed": "Kallpressad"
+  },
+  "modal": {
+    "detailsHeading": "Produktinformation",
+    "historyHeading": "Bakgrund",
+    "benefitsHeading": "Egenskaper",
+    "ingredientsHeading": "Ingredienser (INCI)",
+    "originLabel": "Ursprung (produktionsland)",
+    "productionYearLabel": "Produktionsår",
+    "bestBeforeLabel": "Bäst före",
+    "naturallyGrownLabel": "Odling",
+    "naturallyGrown": "Naturligt odlad"
+  },
+  "card": {
+    "originLabel": "Ursprung",
+    "productionYearLabel": "Produktionsår",
+    "bestBeforeLabel": "Bäst före",
+    "naturallyGrownLabel": "Odling",
+    "naturallyGrown": "Naturligt odlad"
+  },
+
+  "usageTypesLabel": "Användning:",
+  "usageTypes": {
+    "cookingOnly": "Endast mat",
+    "externalOnly": "Endast utvärtes",
+    "cookingAndExternal": "Mat & utvärtes"
+  },
+  "usageBadges": {
+    "both": "Mat & utvärtes bruk",
+    "cooking": "Matolja",
+    "external": "Endast utvärtes bruk"
+  },
+
+  "adminLabels": {
+    "title": "Etikettblad för Oljor",
+    "subtitle": "Utskriftsklar information för produktetiketter",
+    "print": "Skriv ut",
+    "download": "Ladda ner",
+    "product": "Produkt",
+    "netContent": "Nettoinnehåll",
+    "origin": "Ursprung",
+    "organic": "Ekologisk",
+    "coldPressed": "Kallpressad",
+    "productionYear": "Produktionsår",
+    "bestBefore": "Bäst före",
+    "cultivation": "Odling",
+    "naturallyGrown": "Naturligt odlad",
+    "ingredients": "Ingredienser (INCI)",
+    "usage": "Användning",
+    "yes": "Ja",
+    "no": "Nej"
+  },
+
+  "addedToCart": "{{name}} har lagts i varukorgen!"
 }

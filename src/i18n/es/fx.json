@@ -1,0 +1,45 @@
+{
+  "title": "💱 Tipos de cambio de divisas mundiales",
+  "subtitle": "Tipos de cambio en tiempo real para las principales divisas del mundo. Conversión inmediata desde la corona sueca (SEK).",
+
+  "lastUpdated": "Última actualización:",
+  "loading": "Cargando...",
+  "refresh": "Actualizar tipos",
+  "refreshing": "Actualizando...",
+
+  "converter": {
+    "title": "💲 Conversor rápido de divisas",
+    "amount": "Cantidad en SEK"
+  },
+
+  "search": {
+    "placeholder": "Buscar por código o nombre..."
+  },
+
+  "filter": {
+    "region": "Filtrar por región",
+    "allRegions": "Todas las regiones"
+  },
+
+  "ratesTable": {
+    "currency": "Divisa",
+    "perSek": "Unidades por 1 SEK",
+    "sekPerUnit": "SEK por 1 unidad",
+    "amount": "Valor de {{amount}} SEK"
+  },
+
+  "base": "Base",
+  "noResults": "No se encontraron divisas que coincidan con tu búsqueda.",
+
+  "regional": {
+    "title": "🌍 Divisas por región"
+  },
+
+  "info": {
+    "title": "ℹ️ Sobre estos tipos de cambio",
+    "description": "Estos tipos de cambio se utilizan para calcular los precios internacionales de nuestros productos. Los tipos se actualizan regularmente a partir de fuentes financieras fiables. Todos los precios de los productos se fijan originalmente en SEK (corona sueca) y se convierten a otras divisas utilizando estos tipos.",
+    "coverage": "Cobertura:",
+    "currencies": "divisas con tipos activos",
+    "disclaimer": "Solo con fines informativos. Tu banco o emisor de la tarjeta puede utilizar un tipo de cambio diferente."
+  }
+}

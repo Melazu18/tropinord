@@ -11,8 +11,8 @@ export default function ManualPaymentPage() {
   const amount = searchParams.get("amount");
   const reference = searchParams.get("reference");
 
-  const swishNumber = import.meta.env.VITE_SWISH_NUMBER;
-  const bankgiroNumber = import.meta.env.VITE_BANKGIRO_NUMBER;
+  const swishNumber = import.meta.env.VITE_SWISH_NUMBER || "1230558973";
+  const bankgiroNumber = import.meta.env.VITE_BANKGIRO_NUMBER || "5015-1935";
 
   const handleConfirm = () => {
     navigate(
@@ -32,7 +32,7 @@ export default function ManualPaymentPage() {
         {method === "swish" && (
           <>
             <SwishQrCode
-              swishNumber={swishValue}
+              swishNumber={swishNumber}  
               amount={amount}
               reference={reference}
             />

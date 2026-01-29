@@ -1,15 +1,26 @@
-// src/routes/RouteRedirector.jsx
 import { useEffect, useMemo, useRef } from "react";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { routeMap } from "./routeMap";
+
+const SUPPORTED = ["en", "sv", "fr", "es"];
+
+function getLangFromPath(pathname) {
+  const seg = (pathname.split("/")[1] || "").toLowerCase().slice(0, 2);
+  return SUPPORTED.includes(seg) ? seg : null;
+}
+
+function getLangFromStorage() {
+  const raw = (localStorage.getItem("lang") || "en").toLowerCase().slice(0, 2);
+  return SUPPORTED.includes(raw) ? raw : "en";
+}
 
 const RouteRedirector = ({ to }) => {
   const { maybeRouteKey, ...restParams } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
 
-  const langRaw = localStorage.getItem("lang") || "en";
-  const lang = /^sv/i.test(langRaw) ? "sv" : "en";
+  // Prefer URL lang; fall back to localStorage
+  const lang = getLangFromPath(location.pathname) || getLangFromStorage();
 
   const paramsKey = useMemo(() => JSON.stringify(restParams), [restParams]);
 
@@ -18,6 +29,7 @@ const RouteRedirector = ({ to }) => {
     const current = pathname;
     const appendSH = (p) => `${p}${search || ""}${hash || ""}`;
 
+    // Explicit redirect target (string template with :params)
     if (to) {
       let finalPath = to;
       const params = paramsKey ? JSON.parse(paramsKey) : {};
@@ -28,14 +40,20 @@ const RouteRedirector = ({ to }) => {
       return finalPath !== current ? appendSH(finalPath) : null;
     }
 
-    const matchedKey = Object.keys(routeMap).find(
-      (key) => routeMap[key][lang] === maybeRouteKey
-    );
+    // Try routeMap direct match for current language (supports nested slugs)
+    const matchedKey = Object.keys(routeMap).find((key) => {
+      const slug = routeMap?.[key]?.[lang];
+      if (!slug) return false;
+      const normalized = String(slug).replace(/^\/+/, "");
+      return normalized === maybeRouteKey;
+    });
+
     if (matchedKey) {
       const dest = `/${lang}/${routeMap[matchedKey][lang]}`;
       return dest !== current ? appendSH(dest) : null;
     }
 
+    // Keep tail when possible (legacy blog/blogg only)
     const tail = current.replace(
       new RegExp(`^/${lang}/${maybeRouteKey}/?`),
       ""
@@ -50,7 +68,6 @@ const RouteRedirector = ({ to }) => {
       return dest !== current ? appendSH(dest) : null;
     }
 
-    // FIX: Don't redirect to /404, just return null to stay on current page
     return null;
   }, [
     location.pathname,

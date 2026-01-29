@@ -1,0 +1,108 @@
+{
+  "moringa-powder": {
+    "name": "Polvo de Moringa",
+    "description": "Polvo de hoja denso en nutrientes rico en vitaminas, minerales y antioxidantes. Perfecto para batidos y tés.",
+    "history": "La moringa se ha utilizado durante siglos en la medicina ayurvédica tradicional y las prácticas de curación africanas. Conocida como el 'Árbol Milagroso' por sus extensos beneficios para la salud y valor nutricional.",
+    "benefits": [
+      "Rico en vitaminas A, C y E",
+      "Alto contenido de calcio y hierro",
+      "Propiedades antioxidantes potentes",
+      "Fortalece el sistema inmunológico",
+      "Aumento natural de energía y vitalidad"
+    ],
+    "ingredients": ["100% polvo de hoja de Moringa oleifera"]
+  },
+  "baobab-powder": {
+    "name": "Polvo de Baobab",
+    "description": "Polvo de pulpa de fruta rico en vitamina C con fibra prebiótica y sabor cítrico-ácido. Excelente para la salud digestiva.",
+    "history": "El árbol de Baobab, conocido como el 'Árbol de la Vida' en África, se ha utilizado durante miles de años en la medicina y nutrición tradicional africana. Su fruto se cosecha de árboles antiguos que pueden vivir hasta 3,000 años.",
+    "benefits": [
+      "Excepcionalmente alto en vitamina C",
+      "Fibra prebiótica para la salud intestinal",
+      "Rico en antioxidantes y polifenoles",
+      "Fortalece el sistema inmunológico",
+      "Equilibrio natural de electrolitos"
+    ],
+    "ingredients": [
+      "100% polvo de pulpa de fruta de Baobab (Adansonia digitata)"
+    ]
+  },
+  "dried-mango": {
+    "name": "Mango Seco",
+    "description": "Rodajas de mango seco dulces y masticables sin azúcar añadido. Secado natural al sol para preservar nutrientes y sabor.",
+    "history": "El cultivo de mango en Nigeria data de siglos, con la fruta teniendo significado cultural en las tradiciones de África Occidental. Secar mangos era un método de preservación tradicional que permitía a las comunidades disfrutar la fruta todo el año.",
+    "benefits": [
+      "Rico en vitaminas A y C",
+      "Alto en fibra dietética",
+      "Fuente natural de antioxidantes",
+      "Apoya la salud ocular y de la piel",
+      "Proporciona energía natural"
+    ],
+    "ingredients": ["100% mango seco natural (Mangifera indica)"]
+  },
+  "dried-pineapple": {
+    "name": "Piña Seca",
+    "description": "Trozos de piña tropical seca con dulzura natural. Perfecta para snacks o agregar a mezclas de trail.",
+    "history": "La piña se ha cultivado en regiones tropicales durante siglos. En Nigeria, el cultivo de piña se ha convertido en una práctica agrícola importante, con métodos tradicionales de secado al sol que preservan la bondad natural de la fruta.",
+    "benefits": [
+      "Rica en vitamina C y manganeso",
+      "Contiene enzima bromelina para la digestión",
+      "Propiedades antiinflamatorias naturales",
+      "Fortalece la función inmunológica",
+      "Promueve piel y huesos saludables"
+    ],
+    "ingredients": ["100% piña seca natural (Ananas comosus)"]
+  },
+  "dried-papaya": {
+    "name": "Papaya Seca",
+    "description": "Trozos de papaya seca dulces y tiernos ricos en enzimas digestivas. Secada naturalmente para mantener valor nutricional.",
+    "history": "La papaya se ha utilizado en la medicina tradicional en regiones tropicales por sus propiedades digestivas y curativas. El cultivo nigeriano preserva métodos de cultivo tradicionales mientras asegura calidad premium.",
+    "benefits": [
+      "Rica en enzima digestiva papaína",
+      "Alta en vitaminas C y A",
+      "Apoya la salud digestiva",
+      "Antioxidante y antiinflamatoria",
+      "Promueve la salud de la piel y los ojos"
+    ],
+    "ingredients": ["100% papaya seca natural (Carica papaya)"]
+  },
+  "stevia-powder": {
+    "name": "Polvo de Stevia",
+    "description": "Endulzante natural sin calorías de hojas de stevia. Perfecto para bebidas, horneado y recetas aptas para diabéticos.",
+    "history": "La stevia ha sido utilizada durante siglos por pueblos indígenas en América del Sur. El cultivo moderno en Nigeria adapta este endulzante antiguo a condiciones tropicales mientras mantiene su pureza natural.",
+    "benefits": [
+      "Cero calorías y cero impacto glucémico",
+      "Alternativa natural a endulzantes artificiales",
+      "No afecta los niveles de azúcar en sangre",
+      "Endulzante amigable con los dientes",
+      "Adecuado para dietas diabéticas"
+    ],
+    "ingredients": ["100% polvo puro de hoja de stevia (Stevia rebaudiana)"]
+  },
+  "cocoa-powder": {
+    "name": "Polvo de Cacao",
+    "description": "Polvo de cacao rico y oscuro con sabor intenso a chocolate. Sin procesar y perfecto para bebidas y horneado.",
+    "history": "El cacao tiene profundas raíces en la agricultura de África Occidental, con Nigeria siendo uno de los productores de cacao del mundo. Los métodos de procesamiento tradicionales preservan los antioxidantes naturales y compuestos de sabor del grano.",
+    "benefits": [
+      "Rico en flavonoides y antioxidantes",
+      "Apoya la salud cardiovascular",
+      "Mejorador natural del estado de ánimo",
+      "Alto en magnesio y hierro",
+      "Puede mejorar la función cerebral"
+    ],
+    "ingredients": ["100% polvo de cacao puro (Theobroma cacao)"]
+  },
+  "wild-forest-honey": {
+    "name": "Miel Silvestre de Bosque",
+    "description": "Miel cruda, sin filtrar cosechada de regiones forestales silvestres. Rica en enzimas naturales y notas florales.",
+    "history": "La cosecha tradicional de miel en los bosques de Nigeria data de generaciones, con apicultores usando métodos sostenibles que respetan el ecosistema natural y las poblaciones de abejas silvestres.",
+    "benefits": [
+      "Propiedades antibacterianas y antimicrobianas naturales",
+      "Rica en antioxidantes y enzimas",
+      "Calma dolores de garganta y tos",
+      "Fuente de energía natural",
+      "Apoya la salud digestiva"
+    ],
+    "ingredients": ["100% miel silvestre de bosque pura"]
+  }
+}

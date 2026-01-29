@@ -1,0 +1,151 @@
+{
+  "oil-coconut": {
+    "name": "Cold-Pressed Coconut Oil",
+    "description": "Single-ingredient cold-pressed coconut oil; solid at cooler temperatures and melts on skin contact.",
+    "history": "A traditional tropical oil used for generations in household cooking and traditional preparation routines in many regions.",
+    "benefits": [
+      "Multi-purpose raw material for DIY blends",
+      "Common carrier oil for traditional routines",
+      "Naturally occurring fatty acid profile",
+      "Smooth texture for blending"
+    ],
+    "ingredients": ["Cocos Nucifera Oil"]
+  },
+  "oil-coconut-heat": {
+    "name": "Heat-Processed Coconut Oil",
+    "description": "Single-ingredient coconut oil produced with heat processing; suitable for culinary preparation or traditional external use.",
+    "history": "Coconut oil has long been used as a household staple for cooking and traditional preparations across tropical regions.",
+    "benefits": [
+      "Practical household staple",
+      "Suitable for higher-heat cooking use",
+      "Versatile base oil for recipes",
+      "Also used in traditional external routines"
+    ],
+    "ingredients": ["Cocos Nucifera Oil"]
+  },
+  "oil-castor": {
+    "name": "Castor Oil",
+    "description": "Thick, traditional botanical oil commonly used in hair and scalp preparations.",
+    "history": "A long-used heritage oil in traditional grooming routines across various regions, valued for its rich texture.",
+    "benefits": [
+      "Popular in traditional hair routines",
+      "Rich texture for blending",
+      "Common base oil for DIY mixes",
+      "Used in small-to-moderate amounts"
+    ],
+    "ingredients": ["Ricinus Communis Seed Oil"]
+  },
+  "oil-moringa-seed": {
+    "name": "Moringa Seed Oil",
+    "description": "Light, fast-absorbing oil used in traditional skin and hair preparations.",
+    "history": "The moringa tree has a long history of traditional household use in multiple regions.",
+    "benefits": [
+      "Light feel",
+      "Blends well with other oils",
+      "Traditional oil for routines",
+      "Fast-absorbing texture"
+    ],
+    "ingredients": ["Moringa Oleifera Seed Oil"]
+  },
+  "oil-palm-kernel": {
+    "name": "Palm Kernel Oil",
+    "description": "Traditional West African botanical oil with a rich feel; commonly used in soaps and hair butters.",
+    "history": "A heritage oil used for generations in West African household formulations and cultural preparation practices.",
+    "benefits": [
+      "Rich texture",
+      "Traditional formulation oil",
+      "Popular for DIY soap and butter blends",
+      "Heritage staple"
+    ],
+    "ingredients": ["Elaeis Guineensis Kernel Oil"]
+  },
+  "oil-avocado": {
+    "name": "Avocado Oil",
+    "description": "Deeply emollient botanical oil used as a traditional carrier for skin and hair routines.",
+    "history": "Historically used in household preparations and traditional practices in parts of Central America.",
+    "benefits": [
+      "Great carrier oil",
+      "Smooth texture",
+      "Blends well",
+      "Popular for DIY routines"
+    ],
+    "ingredients": ["Persea Gratissima Oil"]
+  },
+  "oil-black-seed": {
+    "name": "Black Seed Oil",
+    "description": "Premium cold-pressed aromatic botanical oil used as a carrier oil or concentrated additive in traditional routines.",
+    "history": "A long-used heritage oil in traditional household and preparation practices across multiple regions.",
+    "benefits": [
+      "Aromatic profile",
+      "Blends well with carrier oils",
+      "Used in small amounts as an additive",
+      "Popular heritage raw material"
+    ],
+    "ingredients": ["Nigella Sativa Seed Oil"]
+  },
+  "oil-lavender": {
+    "name": "Lavender Oil",
+    "description": "Aromatic botanical oil for traditional craft use and formulation blending.",
+    "history": "Lavender has a long tradition of household aromatic use and traditional preparation routines.",
+    "benefits": [
+      "Aromatic blending oil",
+      "Used in small amounts",
+      "Popular for DIY crafting",
+      "Common additive in traditional routines"
+    ],
+    "ingredients": ["Lavandula Angustifolia Oil"]
+  },
+  "oil-rosemary": {
+    "name": "Rosemary Oil",
+    "description": "Aromatic botanical oil for traditional craft use and formulation blending.",
+    "history": "Rosemary aromatics have been used historically in household preparations and traditional routines.",
+    "benefits": [
+      "Aromatic blending oil",
+      "Used in small amounts",
+      "Popular in DIY crafting",
+      "Common additive in traditional routines"
+    ],
+    "ingredients": ["Rosmarinus Officinalis Leaf Oil"]
+  },
+  "oil-mint": {
+    "name": "Mint Oil",
+    "description": "Aromatic botanical oil used in small amounts for formulation blending and traditional craft routines.",
+    "history": "Mint aromatics have a long tradition of household use in preparations and aromatic blending.",
+    "benefits": [
+      "Fresh aromatic profile",
+      "Used in small amounts",
+      "Popular for DIY crafting",
+      "Common additive in traditional routines"
+    ],
+    "ingredients": ["Mentha Piperita Oil"]
+  },
+  "butter-shea": {
+    "name": "Shea Butter",
+    "description": "Unrefined shea butter with a rich, creamy texture; a versatile base for traditional DIY blends and balms.",
+    "history": "A traditional West African botanical butter used for generations in household and cultural preparations.",
+    "benefits": [
+      "Versatile base for DIY recipes",
+      "Rich texture for blending",
+      "Popular traditional staple",
+      "Used by the scoop for making"
+    ],
+    "ingredients": ["Butyrospermum Parkii Butter"]
+  },
+  "moringa-balm": {
+    "name": "Moringa Balm",
+    "description": "Soothing balm with moringa oil and mint for sensitive skin care and relaxation.",
+    "history": "Modern formulation inspired by traditional practices combining ancient routines with contemporary convenience.",
+    "benefits": [
+      "Calms sensitive and irritated skin",
+      "Provides cooling relief",
+      "Antioxidant protection",
+      "Light, non-greasy moisturization"
+    ],
+    "ingredients": [
+      "Moringa Oleifera Seed Oil",
+      "Mentha Piperita Oil",
+      "Beeswax",
+      "Cocos Nucifera Oil"
+    ]
+  }
+}

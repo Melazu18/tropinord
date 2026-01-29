@@ -1,0 +1,28 @@
+{
+  "title": "☕ Kaffeurval",
+  "subtitle": "Enkelursprungskaffer och balanserade blandningar från Afrika och andra regioner.",
+  "searchPlaceholder": "Sök enkelursprung eller smaknoter…",
+  "addedToCart": "{{name}} tillagd i varukorgen!",
+  "modal": {
+    "detailsHeading": "Kaffedetaljer",
+    "historyHeading": "Historia",
+    "benefitsHeading": "Hälsofördelar",
+    "ingredientsHeading": "Ingredienser",
+    "originLabel": "Ursprung (produktionsland)",
+    "productionYearLabel": "Rostningsår",
+    "bestBeforeLabel": "Bäst före",
+    "naturallyGrownLabel": "Odling",
+    "naturallyGrown": "Naturligt odlad"
+  },
+  "card": {
+    "originLabel": "Ursprung",
+    "productionYearLabel": "Rostningsår",
+    "bestBeforeLabel": "Bäst före",
+    "naturallyGrownLabel": "Odling",
+    "naturallyGrown": "Naturligt odlad"
+  },
+  "badges": {
+    "natural": "Naturligt Odlad",
+    "caffeinated": "Med Koffein"
+  }
+}

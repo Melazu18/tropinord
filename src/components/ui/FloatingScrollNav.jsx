@@ -1,3 +1,4 @@
+// src/components/FloatingScrollNav.jsx
 import React, { useEffect, useState } from "react";
 
 export default function FloatingScrollNav() {
@@ -7,6 +8,7 @@ export default function FloatingScrollNav() {
     const toggleButton = () => {
       setShowButton(window.scrollY > 100);
     };
+
     window.addEventListener("scroll", toggleButton);
     return () => window.removeEventListener("scroll", toggleButton);
   }, []);
@@ -16,17 +18,22 @@ export default function FloatingScrollNav() {
   };
 
   const scrollToBottom = () => {
-    window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "smooth",
+    });
   };
 
   return (
-    <div className="fixed top-1/2 right-4 -translate-y-1/2 flex flex-col items-center gap-3 z-50">
+    // moved slightly higher: bottom-24 ➜ bottom-32
+    <div className="fixed left-4 bottom-32 flex flex-col items-center gap-3 z-40">
       {showButton && (
         <>
           <button
             onClick={scrollToTop}
             className="p-2 rounded-full shadow-md bg-green-600 text-white hover:bg-green-700 transition"
             title="Scroll to top"
+            aria-label="Scroll to top"
           >
             ↑
           </button>
@@ -34,6 +41,7 @@ export default function FloatingScrollNav() {
             onClick={scrollToBottom}
             className="p-2 rounded-full shadow-md bg-green-600 text-white hover:bg-green-700 transition"
             title="Scroll to bottom"
+            aria-label="Scroll to bottom"
           >
             ↓
           </button>

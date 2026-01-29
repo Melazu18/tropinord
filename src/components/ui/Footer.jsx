@@ -13,7 +13,8 @@ import { routeMap } from "../../routes/routeMap";
 import { API_BASE } from "../../utils/api";
 
 const Footer = () => {
-  const { t, i18n } = useTranslation("footer");
+  // ⬇️ include fx namespace so we can use fx:menuLabel
+  const { t, i18n } = useTranslation(["footer", "fx"]);
   const lang = i18n.language || "en";
   const pathFor = (key) => `/${lang}/${routeMap[key]?.[lang] || key}`;
 
@@ -25,7 +26,7 @@ const Footer = () => {
     e.preventDefault();
     if (!email || !/\S+@\S+\.\S+/.test(email)) {
       setMessage({
-        text: t("invalidEmail", {
+        text: t("footer:invalidEmail", {
           defaultValue: "Please enter a valid email address.",
         }),
         type: "error",
@@ -45,7 +46,7 @@ const Footer = () => {
       if (!res.ok) throw new Error("Failed");
 
       setMessage({
-        text: t("thankYou", {
+        text: t("footer:thankYou", {
           defaultValue: "Thank you for subscribing!",
         }),
         type: "success",
@@ -53,7 +54,7 @@ const Footer = () => {
       setEmail("");
     } catch {
       setMessage({
-        text: t("subscriptionFailed", {
+        text: t("footer:subscriptionFailed", {
           defaultValue: "Subscription failed, please try again.",
         }),
         type: "error",
@@ -74,28 +75,36 @@ const Footer = () => {
           {/* Quick Links */}
           <details className="md:open" open>
             <summary className="flex justify-between items-center cursor-pointer text-base sm:text-lg font-semibold mb-2 md:mb-4 list-none">
-              {t("quickLinks", { defaultValue: "Quick Links" })}
+              {t("footer:quickLinks", { defaultValue: "Quick Links" })}
               <span className="md:hidden">+</span>
             </summary>
             <ul className="space-y-2 text-sm sm:text-base px-1">
               <li>
                 <Link to={pathFor("blog")} className="hover:text-gold-100">
-                  {t("blog")}
+                  {t("footer:blog")}
                 </Link>
               </li>
               <li>
                 <Link to={pathFor("shipping")} className="hover:text-gold-100">
-                  {t("shipping")}
+                  {t("footer:shipping")}
                 </Link>
               </li>
               <li>
                 <Link to={pathFor("privacy")} className="hover:text-gold-100">
-                  {t("privacy")}
+                  {t("footer:privacy")}
                 </Link>
               </li>
               <li>
                 <Link to={pathFor("terms")} className="hover:text-gold-100">
-                  {t("terms")}
+                  {t("footer:terms")}
+                </Link>
+              </li>
+              {/* 🌍 FX Guide link */}
+              <li>
+                <Link to={pathFor("fx")} className="hover:text-gold-100">
+                  {t("fx:menuLabel", {
+                    defaultValue: "Currency & FX Guide",
+                  })}
                 </Link>
               </li>
             </ul>
@@ -104,7 +113,7 @@ const Footer = () => {
           {/* Contact */}
           <details className="md:open" open>
             <summary className="flex justify-between items-center cursor-pointer text-base sm:text-lg font-semibold mb-2 md:mb-4 list-none">
-              {t("contact", { defaultValue: "Contact" })}
+              {t("footer:contact", { defaultValue: "Contact" })}
               <span className="md:hidden">+</span>
             </summary>
             <ul className="space-y-3 text-sm sm:text-base px-1">
@@ -135,7 +144,7 @@ const Footer = () => {
                   href="mailto:sellers@tropinord.com"
                   className="hover:text-gold-100 break-words text-sm"
                 >
-                  {t("sellerSupport", {
+                  {t("footer:sellerSupport", {
                     defaultValue: "Seller Support",
                   })}
                 </a>
@@ -146,7 +155,7 @@ const Footer = () => {
           {/* Social */}
           <details className="md:open" open>
             <summary className="flex justify-between items-center cursor-pointer text-base sm:text-lg font-semibold mb-2 md:mb-4 list-none">
-              {t("followUs", { defaultValue: "Follow Us" })}
+              {t("footer:followUs", { defaultValue: "Follow Us" })}
               <span className="md:hidden">+</span>
             </summary>
             <div className="flex items-center space-x-4 text-xl px-1">
@@ -183,19 +192,19 @@ const Footer = () => {
           {/* Newsletter */}
           <details className="md:open" open>
             <summary className="flex justify-between items-center cursor-pointer text-base sm:text-lg font-semibold mb-2 md:mb-4 list-none">
-              {t("newsletter", { defaultValue: "Newsletter" })}
+              {t("footer:newsletter", { defaultValue: "Newsletter" })}
               <span className="md:hidden">+</span>
             </summary>
             <form onSubmit={handleSubmit} className="space-y-3 px-1">
               <label htmlFor="newsletter-email" className="sr-only">
-                {t("emailLabel", { defaultValue: "Email Address" })}
+                {t("footer:emailLabel", { defaultValue: "Email Address" })}
               </label>
               <input
                 id="newsletter-email"
                 type="email"
                 inputMode="email"
                 autoComplete="email"
-                placeholder={t("emailPlaceholder", {
+                placeholder={t("footer:emailPlaceholder", {
                   defaultValue: "Enter your email address",
                 })}
                 className="w-full px-3 py-3 rounded bg-white text-black text-sm sm:text-base"
@@ -211,9 +220,8 @@ const Footer = () => {
                 disabled={isSubmitting}
               >
                 {isSubmitting
-                  ? t("subscribing", { defaultValue: "Subscribing..." })
-                  : t("subscribe", {
-                      ns: "buttons",
+                  ? t("footer:subscribing", { defaultValue: "Subscribing..." })
+                  : t("buttons:subscribe", {
                       defaultValue: "Subscribe",
                     })}
               </button>
@@ -240,7 +248,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-10 pt-6 border-t border-gold-700 text-center text-sm">
           © {new Date().getFullYear()} TropiNord.{" "}
-          {t("rightsReserved", { defaultValue: "All rights reserved." })}
+          {t("footer:rightsReserved", { defaultValue: "All rights reserved." })}
         </div>
       </div>
     </footer>

@@ -1,27 +1,84 @@
 {
-  "title": "🌿 Organic Oils Collection",
-  "intro": "Explore our collection of natural oils for cooking, rituals, and wellness. Responsibly sourced, rich in nutrients.",
+  "title": "Collection of Natural Oils",
+  "intro": "Explore our collection of natural oils for cooking, traditional routines, and DIY formulations. Responsibly sourced, single-ingredient raw materials.",
   "buttons": {
     "addToCart": "Add to Cart"
   },
-  "fields": {
-    "origin": "Origin",
-    "scent": "Scent",
+  "filters": {
+    "typeOfOil": "Type of oil",
     "skinType": "Skin Type",
-    "ingredients": "Ingredients"
+    "scent": "Scent",
+    "type": {
+      "all": "All",
+      "cooking": "Cooking oil",
+      "external": "External use",
+      "both": "Cooking & external"
+    },
+    "all": "All",
+    "dry": "Dry",
+    "veryDry": "Very dry",
+    "sensitive": "Sensitive",
+    "normal": "Normal",
+    "any": "Any",
+    "neutral": "Neutral",
+    "nutty": "Nutty",
+    "coconut": "Coconut",
+    "minty": "Minty"
   },
-  "byId": {
-    "neem-oil": {
-      "name": "Neem Oil",
-      "description": "Cold-pressed and natural, often used in traditional remedies and skin care."
-    },
-    "avocado-oil": {
-      "name": "Avocado Oil",
-      "description": "Rich in nutrients and moisturizing properties, ideal for hair and skin."
-    },
-    "coconut-oil": {
-      "name": "Coconut Oil",
-      "description": "Multi-purpose organic oil for cooking, hair, or skin nourishment."
-    }
-  }
+  "badges": {
+    "natural": "Natural",
+    "coldPressed": "Cold-Pressed"
+  },
+  "modal": {
+    "detailsHeading": "Oil details",
+    "historyHeading": "History",
+    "benefitsHeading": "Benefits",
+    "ingredientsHeading": "Ingredients (INCI)",
+    "originLabel": "Origin (country of production)",
+    "productionYearLabel": "Production year",
+    "bestBeforeLabel": "Best before",
+    "naturallyGrownLabel": "Cultivation",
+    "naturallyGrown": "Naturally grown"
+  },
+  "card": {
+    "originLabel": "Origin (country of production)",
+    "productionYearLabel": "Production year",
+    "bestBeforeLabel": "Best before",
+    "naturallyGrownLabel": "Cultivation",
+    "naturallyGrown": "Naturally grown"
+  },
+
+  "usageTypesLabel": "Usage types:",
+  "usageTypes": {
+    "cookingOnly": "Cooking Only",
+    "externalOnly": "External Only",
+    "cookingAndExternal": "Cooking & External"
+  },
+  "usageBadges": {
+    "both": "Cooking & External Use",
+    "cooking": "Cooking Oil",
+    "external": "External Use Only"
+  },
+
+  "adminLabels": {
+    "title": "Public Product Labels",
+    "subtitle": "Print-ready label information for oils and butters.",
+    "print": "Print",
+    "download": "Download",
+    "product": "Product",
+    "netContent": "Net content",
+    "origin": "Origin",
+    "organic": "Organic",
+"coldPressed": "Cold-pressed",
+    "productionYear": "Production year",
+    "bestBefore": "Best before",
+    "cultivation": "Cultivation",
+    "naturallyGrown": "Naturally grown",
+    "ingredients": "Ingredients (INCI)",
+    "usage": "Usage",
+    "yes": "Yes",
+    "no": "No"
+  },
+
+  "addedToCart": "{{name}} added to cart!"
 }

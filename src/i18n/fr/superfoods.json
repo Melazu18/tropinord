@@ -1,0 +1,27 @@
+{
+  "title": "🌱 Superaliments",
+  "subtitle": "Aliments de base naturels d'Afrique et du Pacifique: énergie propre et équilibre quotidien sans additifs.",
+  "searchPlaceholder": "Rechercher des poudres et mélanges…",
+  "addedToCart": "{{name}} ajouté au panier!",
+  "modal": {
+    "detailsHeading": "Détails du superaliment",
+    "historyHeading": "Histoire",
+    "benefitsHeading": "Bienfaits pour la Santé",
+    "ingredientsHeading": "Ingrédients",
+    "originLabel": "Origine (pays de production)",
+    "productionYearLabel": "Année de production",
+    "bestBeforeLabel": "À consommer avant",
+    "naturallyGrownLabel": "Culture",
+    "naturallyGrown": "Cultivé naturellement"
+  },
+  "card": {
+    "originLabel": "Origine",
+    "productionYearLabel": "Année de production",
+    "bestBeforeLabel": "À consommer avant",
+    "naturallyGrownLabel": "Culture",
+    "naturallyGrown": "Cultivé naturellement"
+  },
+  "badges": {
+    "natural": "Cultivé Naturellement"
+  }
+}

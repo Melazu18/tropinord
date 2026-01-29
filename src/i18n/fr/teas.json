@@ -1,97 +1,210 @@
 {
-  "title": "Nos Tisanes",
-  "subtitle": "Des infusions soigneusement sélectionnées, complétées par des variétés de thé vert, noir et blanc.",
-  "showMore": "Voir plus de tisanes",
-  "filterByCategory": "Filtrer par catégorie :",
-  "modal": {
-    "historyHeading": "Histoire",
-    "benefitsHeading": "Bienfaits pour la santé",
-    "ingredientsHeading": "Ingrédients"
-  },
-  "categories": {
-    "all": "Tous",
-    "herbal": "Infusion",
-    "green": "Thé vert",
-    "black": "Thé noir",
-    "white": "Thé blanc"
-  },
-  "tea-hibiscus": {
-    "name": "Tisane d'Hibiscus",
-    "description": "Connu pour sa couleur vive et sa saveur acidulée, riche en antioxydants.",
-    "history": "Originaire d'Égypte et d'Afrique de l'Ouest, populaire dans les Caraïbes.",
-    "benefits": [
-      "Soutient la santé cardiaque",
-      "Réduit la pression artérielle",
-      "Riche en vitamine C et antioxydants"
-    ],
-    "ingredients": "Fleurs d'hibiscus biologique, églantier biologique, arôme naturel d'orange"
-  },
-  "tea-mountain-herbs": {
-    "name": "Tisane des Montagnes",
-    "description": "Mélange de plantes nordiques et alpines pour l'énergie et l'immunité.",
-    "history": "Inspiré des traditions herboristes scandinaves et des infusions alpines.",
-    "benefits": [
-      "Apporte de l'énergie naturelle",
-      "Soutient l'immunité",
-      "Favorise la clarté mentale"
-    ],
-    "ingredients": "Feuilles d'ortie sauvage, feuilles de bouleau, baies de genièvre, thym"
-  },
-  "tea-brennessel": {
-    "name": "Feuilles d'Ortie",
-    "description": "Soutient la santé des reins et des articulations.",
-    "ingredients": "100% feuilles d'ortie biologique (Urtica dioica)"
-  },
-  "tea-pfefferminz": {
-    "name": "Menthe Poivrée",
-    "description": "Infusion digestive et relaxante.",
-    "ingredients": "Feuilles de menthe poivrée pure (Mentha × piperita)"
-  },
-  "tea-kamille": {
-    "name": "Camomille",
-    "description": "Tisane apaisante pour le sommeil et le stress.",
-    "ingredients": "Fleurs de camomille biologique (Matricaria chamomilla)"
-  },
-  "tea-lemongrass": {
-    "name": "Citronnelle",
-    "description": "Fraîche et zestée, excellente pour la digestion.",
-    "ingredients": "Feuilles de citronnelle pure (Cymbopogon citratus)"
-  },
-  "tea-frauenmantel": {
-    "name": "Alchémille",
-    "description": "Traditionnellement utilisée pour l'équilibre hormonal.",
-    "ingredients": "Feuilles d'alchémille (Alchemilla vulgaris)"
-  },
-  "tea-melisse": {
-    "name": "Mélisse",
-    "description": "Infusion apaisante contre l'anxiété.",
-    "ingredients": "Feuilles de mélisse biologique (Melissa officinalis)"
-  },
-
-  "addedToCart": "{{name}} ajouté au panier !",
-  "filters": {
-    "category": "Catégorie",
-    "caffeine": {
-      "label": "Caféine",
-      "any": "Tous",
-      "free": "Sans caféine",
-      "caffeinated": "Avec caféine"
+    "title": "Collection de Thés TropiNord",
+    "subtitle": "Découvrez notre sélection de mélanges noirs, verts, aux fruits et aux herbes, issus de producteurs de confiance et raffinés avec soin. Chaque doypack contient du thé en vrac et des sachets écologiques pour que vous puissiez créer votre infusion parfaite à la maison. Mélanges premium. Préparation personnelle. Expérience pure.",
+    "showMore": "Voir plus de thés",
+    "learnMore": "En savoir plus",
+    "filterByCategory": "Filtrer par catégorie :",
+    "modal": {
+      "historyHeading": "Histoire",
+      "benefitsHeading": "Bienfaits pour la Santé",
+      "ingredientsHeading": "Ingrédients",
+      "detailsHeading": "Détails du thé",
+      "originLabel": "Origine (pays de production)",
+      "productionYearLabel": "Année de production",
+      "bestBeforeLabel": "À consommer de préférence avant",
+      "naturallyGrownLabel": "Culture",
+      "naturallyGrown": "Cultivé naturellement",
+      "preparationHeading": "Préparation",
+      "articleNoLabel": "Numéro d'article",
+      "dosageLabel": "Dosage",
+      "brewingTimeLabel": "Temps d'infusion",
+      "brewTemperatureLabel": "Température d'infusion",
+      "flavouringLabel": "Aromatisation",
+      "flavourLabel": "Saveur",
+      "importantNoticeHeading": "Avis important"
     },
-    "profile": {
-      "label": "Arôme",
-      "any": "Tous"
-    }
-  },
-  "profiles": {
-    "minty": "Mentholé",
-    "fruity": "Fruité",
-    "floral": "Floral",
-    "earthy": "Terreux",
-    "neutral": "Neutre"
-  },
-  "badges": {
-    "organic": "Bio",
-    "caffeineFree": "Sans caféine",
-    "antioxidants": "Riche en antioxydants"
+    "card": {
+      "originLabel": "Origine (pays de production)",
+      "productionYearLabel": "Année de production",
+      "bestBeforeLabel": "À consommer de préférence avant",
+      "naturallyGrownLabel": "Culture",
+      "naturallyGrown": "Cultivé naturellement",
+      "dosageLabel": "Dosage",
+      "brewingTimeLabel": "Temps d'infusion",
+      "brewTemperatureLabel": "Température"
+    },
+    "categories": {
+      "all": "Tous",
+      "herbal": "Infusions",
+      "green": "Thé vert",
+      "black": "Thé noir",
+      "white": "Thé blanc"
+    },
+    "badges": {
+      "organic": "Biologique",
+      "caffeineFree": "Sans Caféine",
+      "antioxidants": "Riche en Antioxydants",
+      "naturallyGrown": "Cultivé naturellement"
+    },
+    "filters": {
+      "category": "Catégorie",
+      "caffeine": {
+        "label": "Caféine",
+        "any": "Tous",
+        "free": "Sans caféine",
+        "caffeinated": "Avec caféine"
+      },
+      "profile": {
+        "label": "Saveur",
+        "any": "Tous"
+      }
+    },
+    "profiles": {
+      "minty": "Mentholé",
+      "fruity": "Fruité",
+      "floral": "Floral",
+      "earthy": "Terreux",
+      "neutral": "Neutre"
+    },
+    "addedToCart": "{{name}} ajouté au panier !",
+    "labels": {
+      "title": "Feuille d'Étiquettes de Thé",
+      "print": "Imprimer",
+      "preparation": "Préparation"
+    },
+    "safety": {
+      "heading": "Avis important",
+      "herbal": "Pour des raisons de sécurité alimentaire, utilisez toujours de l'eau bouillante et infusez pendant au moins 5 minutes.",
+      "fruit": "Pour des raisons de sécurité alimentaire, utilisez toujours de l'eau bouillante et infusez pendant au moins 5 minutes.",
+      "green": "Utilisez de l'eau sous ébullition pour préserver les saveurs délicates. Contient de la caféine naturelle.",
+      "white": "Utilisez de l'eau sous ébullition pour préserver les saveurs délicates. Contient de la caféine naturelle.",
+      "black": "Contient de la caféine naturelle."
+    },
+    "brew": {
+      "dosageMetric": "{{amount}} {{unit}} (pour {{volume}} ml)",
+      "dosageImperial": "{{amount}} {{unit}} (pour {{volume}} fl oz)",
+      "timeRange": "{{min}}–{{max}} {{unit}}",
+      "timeSingle": "{{value}} {{unit}}",
+      "temperatureC": "{{value}}°C",
+      "temperatureF": "{{value}}°F"
+    },
+    "prepSheet": {
+      "title": "Feuille de Préparation du Thé",
+      "print": "Imprimer",
+      "preparation": "Préparation"
+    },
+    "adminLabels": {
+      "title": "Feuille d'Étiquettes Admin Thé",
+      "print": "Imprimer"
+    },
+    "detail": {
+      "preparation": "Préparation",
+      "story": "Histoire",
+      "reviews": "Avis"
+    },
+    "hibiscus": {
+      "name": "Infusion d'Hibiscus",
+      "description": "Infusion rubis vibrante aux notes acidulées et rafraîchissantes ; naturellement riche en antioxydants."
+    },
+    "mountain-forest": {
+      "name": "Infusion Mountain Forest",
+      "description": "Un mélange de plantes nordiques et alpines pour une énergie et une immunité naturelles."
+    },
+    "nettle": {
+      "name": "Feuilles d'Ortie",
+      "description": "Classique à base de plantes qui soutient la santé des reins et des articulations."
+    },
+    "peppermint": {
+      "name": "Menthe Poivrée",
+      "description": "Tasse fraîche et mentholée qui apaise la digestion et clarifie l'esprit."
+    },
+    "chamomile": {
+      "name": "Camomille",
+      "description": "Thé floral doux pour se détendre, se calmer et favoriser le sommeil."
+    },
+    "lemongrass": {
+      "name": "Citronnelle",
+      "description": "Infusion zestée et citronnée souvent appréciée après les repas."
+    },
+    "ladys-mantle": {
+      "name": "Alchémille",
+      "description": "Traditionnellement utilisé pour soutenir l'équilibre et le bien-être."
+    },
+    "lemon-balm": {
+      "name": "Mélisse Citronnelle",
+      "description": "Arôme doux citron-herbes ; connu pour ses propriétés apaisantes."
+    },
+    "african-summer": {
+      "name": "Été Africain",
+      "description": "Un mélange d'herbes rafraîchissant sans caféine inspiré par le soleil africain et les soirées chaudes."
+    },
+    "chai-magic": {
+      "name": "Chai Magic",
+      "description": "Un chai épicé et réconfortant aux notes chaleureuses qui s'accordent parfaitement avec le lait ou des alternatives végétales."
+    },
+    "detox-balance": {
+      "name": "Detox Balance",
+      "description": "Un mélange d'herbes purifiant conçu pour soutenir la détoxication naturelle et l'équilibre quotidien de votre corps."
+    },
+    "energize": {
+      "name": "Energize",
+      "description": "Une infusion revigorante créée pour vous aider à vous sentir éveillé, concentré et prêt pour la journée."
+    },
+    "fresh-breeze": {
+      "name": "Fresh Breeze",
+      "description": "Frais et mentholé avec une finition rafraîchissante, parfait lorsque vous voulez une tasse propre et revigorante."
+    },
+    "ginger-chili": {
+      "name": "Ginger Chili",
+      "description": "Un mélange audacieux et stimulant avec du gingembre réchauffant et un léger coup de piment pour enflammer vos sens."
+    },
+    "moringa-detox": {
+      "name": "Moringa Detox",
+      "description": "Moringa riche en nutriments associé à des herbes purifiantes pour un rituel de détoxication quotidien doux."
+    },
+    "peach-garden": {
+      "name": "Peach Garden",
+      "description": "Une infusion fruitée délicate aux douces notes de pêche, idéale pour l'après-midi ou en thé glacé d'été."
+    },
+    "rooibos-energy": {
+      "name": "Rooibos Energy",
+      "description": "Rooibos doux au profil naturellement sucré, favorisant une énergie calme et constante sans caféine."
+    },
+    "wellness-green": {
+      "name": "Wellness Green",
+      "description": "Un mélange de thé vert équilibré créé pour harmoniser concentration, clarté et bien-être quotidien."
+    },
+    "sencha": {
+      "name": "Thé Vert Sencha",
+      "description": "Thé vert japonais classique à la vapeur avec une saveur herbacée et riche en antioxydants."
+    },
+    "gunpowder": {
+      "name": "Thé Vert Gunpowder",
+      "description": "Feuilles de thé vert roulées qui se déploient lors de l'infusion ; audacieuse avec une note légèrement fumée."
+    },
+    "jasmine-green": {
+      "name": "Thé Vert au Jasmin",
+      "description": "Thé vert délicatement parfumé aux fleurs de jasmin pour une expérience florale douce."
+    },
+    "assam": {
+      "name": "Thé Noir Assam",
+      "description": "Thé noir fort et malté d'Assam—riche, robuste et énergisant."
+    },
+    "earl-grey": {
+      "name": "Earl Grey",
+      "description": "Thé noir classique parfumé à la bergamote pour un arôme citronné frais."
+    },
+    "white-peony": {
+      "name": "Pivoine Blanche (Bai Mudan)",
+      "description": "Thé blanc délicat avec une douceur légère et des notes florales subtiles."
+    },
+    "silver-needle": {
+      "name": "Aiguille d'Argent (Bai Hao Yin Zhen)",
+      "description": "Thé blanc premium fait de jeunes bourgeons ; raffiné, léger et élégant."
+    },
+    "floral-green": {
+      "name": "Vert Floral",
+      "description": "Un thé vert délicat avec des notes florales douces—clair, propre et calme."
+    },
+    "dashboard": "tableau de bord"
   }
-}

@@ -1,32 +1,33 @@
 {
-  "metaTitle": "Acerca de TropiNord | Aceites y Tés de los Trópicos",
-  "metaDescription": "Descubre TropiNord: los estándares nórdicos se unen a la sabiduría tropical. Obtenemos éticamente aceites y tés naturales de África (y pronto del Pacífico Sur), apoyando a pequeños productores y prácticas sostenibles. Fundado en Suecia por Paul Abejegah.",
+  "metaTitle": "Sobre TropiNord | Aceites, Tés, Café y Superalimentos de los Trópicos, con Estándares Nórdicos",
+  "metaDescription": "Descubre TropiNord — la precisión nórdica se encuentra con la innovación tropical. Somos una plataforma digital que crea aceites, tés, café y superalimentos trazables y sostenibles de África, apoyando a pequeños productores y financiando acción climática. Fundada en Suecia por un estudiante emprendedor.",
 
-  "heading": "Tendiendo puentes a través del arte del cuidado.",
-  "subheading": "Aceites y Tés de los Trópicos, refinados con estándares nórdicos.",
+  "heading": "Conectando Naturaleza, Innovación y Bienestar",
+  "subheading": "Donde la tradición se encuentra con la tecnología para el bienestar natural.",
 
   "ourStoryTitle": "Nuestra Historia",
   "ourStoryContent": {
-    "p1": "En TropiNord creemos que el bienestar debe conectarte con la naturaleza, con la herencia y con la sabiduría de generaciones anteriores.",
-    "p2": "Nacidos en Suecia, unimos la claridad y precisión del estilo de vida nórdico con las profundas tradiciones de África. Desde los paisajes limpios y boscosos de Suecia hasta los suelos cálidos tropicales, cada ingrediente que elegimos tiene un propósito: nutrir, restaurar y proteger.",
-    "p3": "La sostenibilidad no es una moda para nosotros: es el corazón de todo lo que hacemos. Nuestros productos y alianzas se basan en:",
-    "list1": "Estándares nórdicos: abastecimiento cuidadoso, producción limpia, calidad sin concesiones",
-    "list2": "Sabiduría global: conocimiento herbolario ancestral, aceites y tés naturales y cuidado holístico",
-    "list3": "Responsabilidad compartida: proteger ecosistemas, apoyar a pequeños productores y honrar la herencia",
-    "p4": "Esto es más que autocuidado. Es una conexión entre mundos: personas, planeta y el poder de la tradición.",
-    "quote": "Nos enorgullece servir a clientes afro-europeos y a amigos en todas partes, combinando la sabiduría botánica africana con la pureza nórdica."
+    "p1": "En TropiNord, creemos que el bienestar debe conectar a las personas con la naturaleza, con la herencia y con la sabiduría que sustenta a ambas.",
+    "p2": "Nacida en Suecia, TropiNord combina la precisión nórdica con la innovación tropical para crear productos naturales que nutren, restauran y protegen.",
+    "p3": "Construida desde cero por un estudiante de informática y emprendedor, TropiNord es más que una marca de bienestar. Es una plataforma de sostenibilidad impulsada digitalmente. Nuestros sistemas, logística y arquitectura digital fueron diseñados internamente para hacer que el comercio global entre pequeños productores y consumidores modernos sea transparente, trazable y justo.",
+    "list1": "Cadenas de valor sostenibles mediante trazabilidad digital y abastecimiento transparente",
+    "list2": "Eco-innovación utilizando conceptos de embalaje biodegradables y circulares",
+    "list3": "Crecimiento inclusivo y oportunidades justas para pequeños productores",
+    "p4": "Creemos que la tecnología puede aportar claridad, equidad y conexión a la industria global del bienestar.",
+    "quote": "Colaboramos con pequeños productores en África y regiones tropicales para desarrollar tés, aceites, café y superalimentos de origen sostenible. Cada ingrediente cuenta una historia de artesanía, cultura y cuidado, refinada a través de la ciencia, el diseño y la tecnología."
   },
 
-  "valuesTitle": "En Qué Creemos",
-  "valuesContent": "TropiNord es más que una tienda: es una comunidad. Empoderamos a pequeños productores, inspiramos una vida eco-consciente y te ayudamos a elegir productos tan honestos como eficaces. Cada compra apoya a familias, preserva tradiciones y protege la naturaleza para la próxima generación.",
+  "valuesTitle": "Nuestros Valores",
+  "valuesContent": "TropiNord es un centro de sostenibilidad e innovación. Tendemos puentes entre continentes a través de la colaboración, empoderamos a productores locales y diseñamos sistemas circulares transparentes que vinculan la sabiduría tradicional con las herramientas modernas.",
 
   "whatWeDoTitle": "Qué Hacemos",
-  "whatWeDoItem1": "Seleccionar y compartir éticamente aceites naturales y tés finos de origen sostenible",
-  "whatWeDoItem2": "Trabajar directamente con pequeños productores y cooperativas en África, con una hoja de ruta hacia el Pacífico Sur",
-  "whatWeDoItem3": "Dar a los productores y cultivadores locales la visibilidad que merecen",
-  "whatWeDoItem4": "Ofrecer nuestra plataforma a pequeñas empresas y startups para que crezcan y lleguen a nuevos clientes",
-  "whatWeDoExtra": "Cada producto que presentamos se elige con cuidado por su pureza, su historia y su capacidad de marcar la diferencia.",
+  "whatWeDoItem1": "Desarrollamos y distribuimos tés funcionales, aceites naturales, café y superalimentos de origen trazable y sostenible",
+  "whatWeDoItem2": "Nos asociamos con productores éticos y eco-innovadores en África, otras regiones tropicales y Europa",
+  "whatWeDoItem3": "Pilotamos modelos de trazabilidad digital para cadenas de suministro transparentes",
+  "whatWeDoItem4": "Ofrecemos una plataforma donde las pequeñas empresas pueden crecer de manera sostenible y llegar a nuevos mercados",
+  "whatWeDoExtra": "Cada producto que compartimos es elegido con un propósito por su pureza, su historia y su capacidad para generar un impacto medible.",
 
   "ourMissionTitle": "Nuestra Misión",
-  "ourMissionContent": "Vincular tradición, naturaleza y calidad compartiendo aceites y tés que reflejan cuidado, oficio y comunidad. Cuando cuidamos del planeta, cuidamos de nosotros mismos."
+  "ourMissionContent": "Redefinir el bienestar natural a través de la innovación, la tecnología y el cuidado, vinculando la tradición con las herramientas modernas para crear productos tan responsables como reparadores.",
+  "ourMissionTagline": "TropiNord: Donde la tradición se encuentra con la tecnología para el bienestar natural."
 }

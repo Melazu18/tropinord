@@ -1,0 +1,108 @@
+{
+  "moringa-powder": {
+    "name": "Poudre de Moringa",
+    "description": "Poudre de feuille dense en nutriments riche en vitamines, minéraux et antioxydants. Parfaite pour smoothies et thés.",
+    "history": "Le moringa est utilisé depuis des siècles dans la médecine ayurvédique traditionnelle et les pratiques de guérison africaines. Connu comme l'Arbre Miracle' pour ses bienfaits étendus pour la santé et sa valeur nutritionnelle.",
+    "benefits": [
+      "Riche en vitamines A, C et E",
+      "Teneur élevée en calcium et fer",
+      "Propriétés antioxydantes puissantes",
+      "Renforce le système immunitaire",
+      "Augmentation naturelle d'énergie et de vitalité"
+    ],
+    "ingredients": ["100% poudre de feuille de Moringa oleifera"]
+  },
+  "baobab-powder": {
+    "name": "Poudre de Baobab",
+    "description": "Poudre de pulpe de fruit riche en vitamine C avec fibres prébiotiques et goût citronné-acide. Excellente pour la santé digestive.",
+    "history": "L'arbre de Baobab, connu comme l'Arbre de Vie' en Afrique, est utilisé depuis des milliers d'années dans la médecine et la nutrition traditionnelles africaines. Son fruit est récolté sur des arbres anciens qui peuvent vivre jusqu'à 3 000 ans.",
+    "benefits": [
+      "Exceptionnellement riche en vitamine C",
+      "Fibres prébiotiques pour la santé intestinale",
+      "Riche en antioxydants et polyphénols",
+      "Renforce le système immunitaire",
+      "Équilibre naturel des électrolytes"
+    ],
+    "ingredients": [
+      "100% poudre de pulpe de fruit de Baobab (Adansonia digitata)"
+    ]
+  },
+  "dried-mango": {
+    "name": "Mangue Séchée",
+    "description": "Tranches de mangue séchée sucrées et moelleuses sans sucre ajouté. Séchées naturellement au soleil pour préserver les nutriments et la saveur.",
+    "history": "La culture de la mangue au Nigeria remonte à des siècles, le fruit ayant une signification culturelle dans les traditions d'Afrique de l'Ouest. Sécher les mangues était une méthode de conservation traditionnelle permettant aux communautés de profiter du fruit toute l'année.",
+    "benefits": [
+      "Riche en vitamines A et C",
+      "Élevée en fibres alimentaires",
+      "Source naturelle d'antioxydants",
+      "Soutient la santé oculaire et cutanée",
+      "Fournit de l'énergie naturelle"
+    ],
+    "ingredients": ["100% mangue séchée naturelle (Mangifera indica)"]
+  },
+  "dried-pineapple": {
+    "name": "Ananas Séché",
+    "description": "Morceaux d'ananas tropical séché avec une douceur naturelle. Parfait pour les collations ou à ajouter aux mélanges de trail.",
+    "history": "L'ananas est cultivé dans les régions tropicales depuis des siècles. Au Nigeria, la culture de l'ananas est devenue une pratique agricole importante, avec des méthodes traditionnelles de séchage au soleil préservant la bonté naturelle du fruit.",
+    "benefits": [
+      "Riche en vitamine C et manganèse",
+      "Contient l'enzyme bromélaïne pour la digestion",
+      "Propriétés anti-inflammatoires naturelles",
+      "Renforce la fonction immunitaire",
+      "Favorise une peau et des os sains"
+    ],
+    "ingredients": ["100% ananas séché naturel (Ananas comosus)"]
+  },
+  "dried-papaya": {
+    "name": "Papaye Séchée",
+    "description": "Morceaux de papaye séchée doux et tendres riches en enzymes digestives. Séchée naturellement pour maintenir la valeur nutritionnelle.",
+    "history": "La papaye est utilisée en médecine traditionnelle dans les régions tropicales pour ses propriétés digestives et curatives. La culture nigériane préserve les méthodes de culture traditionnelles tout en assurant une qualité premium.",
+    "benefits": [
+      "Riche en enzyme digestive papaïne",
+      "Élevée en vitamines C et A",
+      "Soutient la santé digestive",
+      "Antioxydante et anti-inflammatoire",
+      "Favorise la santé de la peau et des yeux"
+    ],
+    "ingredients": ["100% papaye séchée naturelle (Carica papaya)"]
+  },
+  "stevia-powder": {
+    "name": "Poudre de Stevia",
+    "description": "Édulcorant naturel sans calories à base de feuilles de stevia. Parfait pour boissons, pâtisserie et recettes adaptées aux diabétiques.",
+    "history": "La stevia est utilisée depuis des siècles par les peuples autochtones d'Amérique du Sud. La culture moderne au Nigeria adapte cet édulcorant ancien aux conditions tropicales tout en maintenant sa pureté naturelle.",
+    "benefits": [
+      "Zéro calorie et zéro impact glycémique",
+      "Alternative naturelle aux édulcorants artificiels",
+      "N'affecte pas les niveaux de sucre dans le sang",
+      "Édulcorant respectueux des dents",
+      "Adapté aux régimes diabétiques"
+    ],
+    "ingredients": ["100% poudre pure de feuille de stevia (Stevia rebaudiana)"]
+  },
+  "cocoa-powder": {
+    "name": "Poudre de Cacao",
+    "description": "Poudre de cacao riche et foncée avec une saveur de chocolat intense. Non transformée et parfaite pour boissons et pâtisserie.",
+    "history": "Le cacao a des racines profondes dans l'agriculture ouest-africaine, le Nigeria étant l'un des producteurs de cacao mondiaux. Les méthodes de transformation traditionnelles préservent les antioxydants naturels et les composés aromatiques de la fève.",
+    "benefits": [
+      "Riche en flavonoïdes et antioxydants",
+      "Soutient la santé cardiovasculaire",
+      "Amélioreur d'humeur naturel",
+      "Élevé en magnésium et fer",
+      "Peut améliorer la fonction cérébrale"
+    ],
+    "ingredients": ["100% poudre de cacao pure (Theobroma cacao)"]
+  },
+  "wild-forest-honey": {
+    "name": "Miel Sauvage de Forêt",
+    "description": "Miel cru, non filtré récolté dans les régions forestières sauvages. Riche en enzymes naturelles et notes florales.",
+    "history": "La récolte traditionnelle du miel dans les forêts du Nigeria remonte à des générations, les apiculteurs utilisant des méthodes durables qui respectent l'écosystème naturel et les populations d'abeilles sauvages.",
+    "benefits": [
+      "Propriétés antibactériennes et antimicrobiennes naturelles",
+      "Riche en antioxydants et enzymes",
+      "Apaise les maux de gorge et la toux",
+      "Source d'énergie naturelle",
+      "Soutient la santé digestive"
+    ],
+    "ingredients": ["100% miel sauvage de forêt pur"]
+  }
+}

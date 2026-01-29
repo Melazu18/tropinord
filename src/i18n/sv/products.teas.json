@@ -1,0 +1,193 @@
+{
+  "tea-hibiscus": {
+    "name": "Hibiskuste",
+    "description": "Känt för sin livfulla färg och syrliga smak, hibiskuste är rikt på antioxidanter.",
+    "history": "Förknippad med egyptiska och västafrikanska traditioner.",
+    "benefits": [
+      "Stöder hjärt hälsa",
+      "Sänker blodtrycket",
+      "Rik på C-vitamin"
+    ],
+    "ingredients": ["Torkade hibiskusfodral (Hibiscus sabdariffa)"]
+  },
+  "tea-mountain-herbs": {
+    "name": "Bergsörtete",
+    "description": "En blandning av nordiska och alpina botaniska växter för naturlig energi och immunitet.",
+    "history": "Inspirerad av traditionell skandinavisk örtmedicin och alpina insamlingsmetoder.",
+    "benefits": [
+      "Ökar naturlig energi",
+      "Stöder immunsystemet",
+      "Förbättrar mental klarhet",
+      "Rik på antioxidanter"
+    ],
+    "ingredients": [
+      "Granbarrspetsar (Picea abies)",
+      "Enbär (Juniperus communis)",
+      "Björklöv (Betula pendula)",
+      "Nässellöv (Urtica dioica)",
+      "Citronmeliss (Melissa officinalis)"
+    ]
+  },
+  "tea-brennessel": {
+    "name": "Nässellöv (Brennessel)",
+    "description": "Klassisk ört som stöder njur- och ledhälsa med mineralrika egenskaper.",
+    "history": "Använd i europeisk folkmedicin i århundraden som vårtontik och avgiftningsmedel.",
+    "benefits": [
+      "Stöder njurfunktion",
+      "Minskar inflammation i leder",
+      "Rik på järn och mineraler",
+      "Naturligt stöd för avgiftning"
+    ],
+    "ingredients": ["Nässellöv (Urtica dioica)"]
+  },
+  "tea-pfefferminz": {
+    "name": "Pepparmynta (Pfefferminz)",
+    "description": "Uppfriskande, mintig kopp som lugnar matsmältningen och klargör sinnet.",
+    "history": "Fornida egyptiskt och grekiskt botemedel för matsmältningsproblem och andningshälsa.",
+    "benefits": [
+      "Hjälper matsmältning och lindrar uppblåsthet",
+      "Lugnar huvudvärk och spänning",
+      "Rensar andningssystemet",
+      "Naturlig stresslindring"
+    ],
+    "ingredients": ["Pepparmyntablad (Mentha × piperita)"]
+  },
+  "tea-kamille": {
+    "name": "Kamomill (Kamille)",
+    "description": "Mild blommig te för att slappna av, lugna och stödja återhämtande sömn.",
+    "history": "Fornida egyptiskt, romerskt och grekiskt örtbotemedel för avslappning och läkning.",
+    "benefits": [
+      "Främjar avslappning och sömn",
+      "Minskar ångest och stress",
+      "Lugnar matsmältningssystemet",
+      "Antiinflammatoriska egenskaper"
+    ],
+    "ingredients": ["Kamomillblomma (Matricaria chamomilla)"]
+  },
+  "tea-lemongrass": {
+    "name": "Citrongräs (Zitronengras)",
+    "description": "Frisk, citrusaktig infusion som ofta njuts efter måltider för matsmältning.",
+    "history": "Traditionellt sydostasiatiskt botemedel för matsmältningshälsa och febernedsättning.",
+    "benefits": [
+      "Hjälper matsmältning och lindrar uppblåsthet",
+      "Rik på antioxidanter",
+      "Stöder hälsosamma kolesterolnivåer",
+      "Naturliga diuretiska egenskaper"
+    ],
+    "ingredients": ["Citrongräs (Cymbopogon citratus)"]
+  },
+  "tea-frauenmantel": {
+    "name": "Daggkåpa (Frauenmantel)",
+    "description": "Traditionellt använt för att stödja hormonell balans och kvinnligt välbefinnande.",
+    "history": "Medeltida europeisk ört för kvinnohälsa, sårläkning och vitalitet.",
+    "benefits": [
+      "Stöder hormonell balans",
+      "Antiinflammatoriska egenskaper",
+      "Främjar hudhälsa",
+      "Hjälper vid mensbesvär"
+    ],
+    "ingredients": ["Daggkåpeblad (Alchemilla vulgaris)"]
+  },
+  "tea-melisse": {
+    "name": "Citronmeliss (Melisse)",
+    "description": "Mild citron-örtig arom; känd för lugnande och ångestdämpande egenskaper.",
+    "history": "Fornida grekiskt och romerskt botemedel för ångest, sömnproblem och kognitiv funktion.",
+    "benefits": [
+      "Minskar stress och ångest",
+      "Förbättrar sömnkvalitet",
+      "Antivirala egenskaper",
+      "Stöder kognitiv funktion"
+    ],
+    "ingredients": ["Citronmelissblad (Melissa officinalis)"]
+  },
+  "tea-sencha": {
+    "name": "Sencha Grönt Te",
+    "description": "Klassisk japansk ångat grönt te med gräsig smak och rika antioxidanter.",
+    "history": "Traditionellt japanskt te som går tillbaka till 1700-talet, populärt för dagligt bruk.",
+    "benefits": [
+      "Rik på antioxidanter (katekiner)",
+      "Ökar ämnesomsättningen",
+      "Stöder hjärt hälsa",
+      "Förbättrar mental vakenhet"
+    ],
+    "ingredients": ["Gröna teblad (Camellia sinensis)"]
+  },
+  "tea-gunpowder": {
+    "name": "Gunpowder Grönt Te",
+    "description": "Tätt rullade gröna teblad som vecklar ut sig vid tillredning, erbjuder djärv och något rökig smak.",
+    "history": "Ursprungligen från Zhejiang-provinsen, Kina under Tang-dynastin, namngiven för sitt krutliknande utseende.",
+    "benefits": [
+      "Högt antioxidantinnehåll",
+      "Stöder viktkontroll",
+      "Stärker immunsystemet",
+      "Förbättrar tandhälsa"
+    ],
+    "ingredients": ["Gröna teblad (Camellia sinensis)"]
+  },
+  "tea-jasmine-green": {
+    "name": "Jasmin Grönt Te",
+    "description": "Grönt te fint parfymerat med aromatiska jasminblommor för en blommig upplevelse.",
+    "history": "Kinesisk tradition som går tillbaka till Song-dynastin, där te parfymerades med färska jasminblommor.",
+    "benefits": [
+      "Lugnande och avslappnande effekter",
+      "Rik på antioxidanter",
+      "Stöder matsmältningshälsa",
+      "Naturlig stresslindring"
+    ],
+    "ingredients": [
+      "Gröna teblad (Camellia sinensis)",
+      "Jasminblommor (Jasminum officinale)"
+    ]
+  },
+  "tea-assam": {
+    "name": "Assam Svart Te",
+    "description": "Starkt, maltigt och robust svart te från Assam-regionen i Indien.",
+    "history": "Upptäckt i Assam, Indien på 1800-talet, nu ett av världens mest populära svarta teer.",
+    "benefits": [
+      "Ökar energi och vakenhet",
+      "Stöder hjärt hälsa",
+      "Rik på teaflaviner",
+      "Hjälper matsmältningen"
+    ],
+    "ingredients": ["Svarta teblad (Camellia sinensis, Assamica-sort)"]
+  },
+  "tea-earl-grey": {
+    "name": "Earl Grey",
+    "description": "Klassisk brittiskt svart te med distinkt citrusaktig bergamott-smak och arom.",
+    "history": "Uppkallad efter Charles Grey, 2:e earl Grey, brittisk premiärminister på 1830-talet.",
+    "benefits": [
+      "Förbättrar humör",
+      "Matsmältningsstöd",
+      "Antioxidantegenskaper",
+      "Mental klarhet och fokus"
+    ],
+    "ingredients": [
+      "Svarta teblad (Camellia sinensis)",
+      "Naturligt bergamottolja (Citrus bergamia)"
+    ]
+  },
+  "tea-white-peony": {
+    "name": "Vit Pion (Bai Mudan)",
+    "description": "Delikat vitt te med mild, söt smak och subtila blommiga toner.",
+    "history": "Traditionellt kinesiskt vitt te från Fujian-provinsen, känt för sin försiktiga bearbetning.",
+    "benefits": [
+      "Högst antioxidantinnehåll bland teer",
+      "Stöder hudhälsa",
+      "Skonsam mot magen",
+      "Naturliga anti-åldringsegenskaper"
+    ],
+    "ingredients": ["Vita te-knoppar och unga löv (Camellia sinensis)"]
+  },
+  "tea-silver-needle": {
+    "name": "Silvernål (Bai Hao Yin Zhen)",
+    "description": "Premium vitt te gjort enbart av unga, oöppnade knoppar med silveraktigt utseende.",
+    "history": "Kejserligt kinesiskt te reserverat för kungligheten under Song-dynastin, representerar höjdpunkten av vitt te.",
+    "benefits": [
+      "Extremt högt antioxidantinnehåll",
+      "Stöder immunsystemet",
+      "Främjar strålande hud",
+      "Mild energiboost"
+    ],
+    "ingredients": ["Vita te-knoppar (Camellia sinensis)"]
+  }
+}

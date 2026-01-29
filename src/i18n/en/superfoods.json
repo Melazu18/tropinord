@@ -1,0 +1,27 @@
+{
+  "title": "🌱 Superfoods",
+  "subtitle": "Natural staples from Africa and the Pacific: clean energy and daily balance without additives.",
+  "searchPlaceholder": "Search powders and blends…",
+  "addedToCart": "{{name}} added to cart!",
+  "modal": {
+    "detailsHeading": "Superfood details",
+    "historyHeading": "History",
+    "benefitsHeading": "Health Benefits",
+    "ingredientsHeading": "Ingredients",
+    "originLabel": "Origin (country of production)",
+    "productionYearLabel": "Production year",
+    "bestBeforeLabel": "Best before",
+    "naturallyGrownLabel": "Cultivation",
+    "naturallyGrown": "Naturally grown"
+  },
+  "card": {
+    "originLabel": "Origin",
+    "productionYearLabel": "Production year",
+    "bestBeforeLabel": "Best before",
+    "naturallyGrownLabel": "Cultivation",
+    "naturallyGrown": "Naturally grown"
+  },
+  "badges": {
+    "natural": "Naturally Grown"
+  }
+}

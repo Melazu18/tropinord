@@ -1,22 +1,42 @@
 {
-  "headline": "Huiles et thés des tropiques",
-  "subheadline": "Sélectionnés durablement et élaborés de manière éthique. Une sélection soignée d’huiles et de thés tropicaux, notamment d’Afrique.",
-  "tagline": "La nature se souvient, et nous aussi.",
-  "browseOils": "Découvrir les huiles",
-  "browseTeas": "Découvrir les thés",
+  "headline": "Thés, Huiles, Café et Superaliments des Tropiques",
+  "subheadline": "Là où la tradition rencontre la technologie. Huiles, thés, café et superaliments d'origine éthique d'Afrique, alimentés par des chaînes d'approvisionnement numériques transparentes.",
+  "tagline": "La nature se souvient nous aussi.",
+  "explore": "Explorer",
   "contactUs": "Nous contacter",
 
   "teaCtaTitle": "Infuser le calme, siroter la clarté",
   "teaCtaSub": "Feuilles entières. Arôme sincère. Goût du terroir.",
   "teaEnjoyTitle": "Savourez une tasse de thé avec vos proches",
-  "teaEnjoyBody": "Faites une pause et rapprochez-vous. Nos thés aux herbes, verts et noirs portent la sagesse tranquille des tropiques — des feuilles cueillies à maturité, travaillées pour apaiser l’esprit et réchauffer l’âme. Partagez une théière, respirez profondément et laissez la tasse prendre soin de vous.",
+  "teaEnjoyBody": "Dans un monde qui va trop vite, laissez la bouilloire ralentir le rythme. Nos thés tropicaux noirs, verts, fruités et aux herbes sont livrés en feuilles libres, prêts à être placés dans vos propres sachets. Infusez léger ou fort — composez votre tasse, à votre manière. Un moment chaleureux partagé devient un rituel dont on se souvient.",
 
-  "oilsCtaTitle": "Presser la nature, verser le soin",
-  "oilsCtaSub": "Bienfaits pressés à froid pour le cuir chevelu, la peau et la cuisine.",
-  "oilsCareTitle": "Nourrir cuir chevelu et peau avec des huiles 100 % naturelles",
-  "oilsCareBody": "Du karité et de la noix de coco au ricin et au-delà, nos huiles pressées à froid apaisent le cuir chevelu, retiennent l’hydratation et révèlent votre éclat naturel. Texture sincère. Éclat discret. Un soin que l’on ressent.",
+  "oilsCtaTitle": "Presser la nature, verser la nutrition",
+  "oilsCtaSub": "Bienfaits pressés à froid pour cuir chevelu, peau et cuisine.",
+  "oilsCareTitle": "Nourrissez cuir chevelu & peau avec des huiles 100% naturelles",
+  "oilsCareBody": "Du karité et coco au ricin et au-delà, nos huiles pressées à froid apaisent le cuir chevelu, retiennent l’hydratation et révèlent votre éclat naturel. Texture sincère. Éclat discret. Un soin qui se ressent.",
+
+  "coffeeCtaTitle": "Des hauts plateaux à votre tasse",
+  "coffeeCtaSub": "Lots d’origine unique des grandes régions africaines éclatants, floraux et vibrants.",
+  "coffeeStoryTitle": "Cafés naturels des terroirs légendaires d’Afrique",
+  "coffeeStoryBody": "Des hauteurs florales d’Éthiopie aux notes de cassis du Kenya et aux peaberries cacao-doux de Tanzanie, nos cafés honorent l’origine. Sélectionnés et torréfiés avec soin pour révéler leur caractère natif : jasmin et agrumes, baies ensoleillées, chocolat velouté. Infusez avec intention ; goûtez le paysage.",
+  "browseCoffee": "Voir le café",
+
+  "moringaCtaTitle": "Moringa : une verdure nourrissante, simplement",
+  "moringaCtaSub": "Superaliments naturels d’Afrique et du Pacifique : énergie propre, équilibre quotidien.",
+  "superfoodsTitle": "Superaliments naturels d’Afrique & du Pacifique",
+  "superfoodsBody": "La poudre de feuille de moringa et la poudre de fruit de baobab apportent une nutrition éprouvée aux routines modernes. À mélanger dans l’eau, les smoothies, les flocons d’avoine ou le thé pour un élan tout en douceur — sans additifs, seulement du végétal entier.",
+  "moringaLabel": "Moringa",
+  "moringaDesc": "naturellement riche en vitamines A et E, calcium, fer et antioxydants végétaux.",
+  "baobabLabel": "Baobab",
+  "baobabDesc": "riche en vitamine C et en fibres prébiotiques pour soutenir l’intestin et l’immunité.",
+  "browseSuperfoods": "Voir les superaliments",
+
+  "nutritionTitle": "Nutrition en un coup d’œil",
+  "moringaNutri": "Moringa (pour 10 g) : source naturelle de vitamines A & E, fer, calcium et polyphénols végétaux.",
+  "baobabNutri": "Baobab (pour 10 g) : teneur naturellement élevée en vitamine C et fibres prébiotiques pour la digestion.",
+  "howToUse": "Utilisation : 1–2 c. à café par jour dans smoothies, yaourt, porridge ou eau tiède citronnée.",
 
   "stayInLoop": "Restez informé",
-  "subscribeText": "Recevez des nouvelles produits, des séries limitées et des avantages occasionnels.",
+  "subscribeText": "Recevez des nouveautés, des petites séries et des avantages occasionnels.",
   "emailPlaceholder": "Entrez votre e-mail"
 }

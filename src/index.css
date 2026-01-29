@@ -307,3 +307,77 @@ body.tn-menu-open iframe[src*="tidio"] {
   right: 16px !important;
   bottom: 16px !important;
 }
+
+/* Dark mode form readability */
+.dark input,
+.dark textarea,
+.dark select {
+  color: #facc15; /* yellow-400 */
+  background-color: #111827; /* gray-900 */
+}
+.dark ::placeholder {
+  color: #a16207; /* amber-700-ish for contrast */
+}
+
+/* ----------------------------------------------------------------------- */
+/* Chat input explicit colours – fixes invisible text on iOS Safari        */
+/* ----------------------------------------------------------------------- */
+
+.tn-chat-input {
+  background-color: #ffffff !important; /* white in light mode */
+  color: #111827 !important; /* gray-900 text */
+}
+
+.tn-chat-input::placeholder {
+  color: #6b7280 !important; /* gray-500 */
+}
+
+.dark .tn-chat-input {
+  background-color: #020617 !important; /* almost-black in dark mode */
+  color: #f9fafb !important; /* near-white text */
+}
+
+.dark .tn-chat-input::placeholder {
+  color: #9ca3af !important; /* gray-400 */
+}
+
+/* ----------------------------------------------------------------------- */
+/* PRINT: only show label sheets (hide site chrome, widgets, etc.)          */
+/* Wrap your sheet pages with <div id="print-root">...</div>               */
+/* ----------------------------------------------------------------------- */
+@media print {
+  /* Hide everything by default */
+  body * {
+    visibility: hidden !important;
+  }
+
+  /* Show only the print area */
+  #print-root,
+  #print-root * {
+    visibility: visible !important;
+  }
+
+  /* Place printable content at top-left and full width */
+  #print-root {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Hard-hide common UI chrome + third-party widgets */
+  header,
+  nav,
+  footer,
+  #tidio-chat,
+  iframe[src*="tidio"],
+  [id*="tidio"],
+  [class*="tidio"],
+  .grecaptcha-badge,
+  .wa-widget,
+  .wa__btn_popup {
+    display: none !important;
+  }
+}

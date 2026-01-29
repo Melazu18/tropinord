@@ -1,22 +1,42 @@
 {
-  "headline": "Aceites y tés de los trópicos",
-  "subheadline": "Seleccionados de forma sostenible y elaborados éticamente. Una cuidada selección de aceites y tés tropicales, especialmente de África.",
-  "tagline": "La naturaleza recuerda, y nosotros también.",
-  "browseOils": "Ver aceites",
-  "browseTeas": "Ver tés",
+  "headline": "Tés, Aceites, Café y Superalimentos de los Trópicos",
+  "subheadline": "Donde la tradición se encuentra con la tecnología. Aceites, tés, café y superalimentos de origen ético de África, impulsados por cadenas de suministro digitales transparentes.",
+  "tagline": "La naturaleza recuerda y nosotros también.",
+  "explore": "Explorar",
   "contactUs": "Contáctanos",
 
-  "teaCtaTitle": "Infusiona calma, sorbe claridad",
-  "teaCtaSub": "Hojas enteras. Aroma honesto. Sabor de origen.",
+  "teaCtaTitle": "Infunde calma, saborea claridad",
+  "teaCtaSub": "Hojas enteras. Aroma honesto. Sabor a origen.",
   "teaEnjoyTitle": "Disfruta una taza de té con tus seres queridos",
-  "teaEnjoyBody": "Detén el ruido y acércate a los tuyos. Nuestros tés de hierbas, verdes y negros llevan la serena sabiduría de los trópicos: hojas recogidas en su punto, elaboradas para calmar la mente y reconfortar el espíritu. Comparte una tetera, respira hondo y deja que la taza cuide de ti.",
+  "teaEnjoyBody": "En un mundo que se mueve demasiado rápido, deja que la tetera desacelere todo. Nuestras mezclas tropicales de té negro, verde, frutal y herbal vienen en hojas sueltas, listas para que llenes tus propias bolsitas. Prepáralo suave, prepáralo fuerte: crea tu taza a tu manera. Un momento cálido compartido se convierte en un ritual para recordar.",
 
-  "oilsCtaTitle": "Exprime la naturaleza, sirve nutrición",
+  "oilsCtaTitle": "Prensa la naturaleza, vierte nutrición",
   "oilsCtaSub": "Bondad prensada en frío para cuero cabelludo, piel y cocina.",
   "oilsCareTitle": "Nutre cuero cabelludo y piel con aceites 100% naturales",
-  "oilsCareBody": "Desde karité y coco hasta ricino y más: nuestros aceites prensados en frío calman el cuero cabelludo, sellan la hidratación y dejan que tu brillo natural salga a la superficie. Textura honesta. Brillo sereno. Cuidado que se siente.",
+  "oilsCareBody": "Del karité y coco al ricino y más, nuestros aceites prensados en frío calman el cuero cabelludo, sellan la hidratación y revelan tu brillo natural. Textura honesta. Brillo sutil. Cuidado que se siente.",
+
+  "coffeeCtaTitle": "De las tierras altas a tu taza",
+  "coffeeCtaSub": "Lotes de origen único de regiones africanas emblemáticas, brillantes, florales y vibrantes.",
+  "coffeeStoryTitle": "Cafés naturales de los legendarios terruños de África",
+  "coffeeStoryBody": "Desde las alturas florales de Etiopía hasta la grosella negra de Kenia y los peaberries de cacao dulce de Tanzania, nuestros cafés honran el origen. Seleccionados y tostados con cuidado para revelar su carácter nativo: jazmín y cítricos, bayas maduras al sol, chocolate aterciopelado. Prepara con intención; saborea el paisaje.",
+  "browseCoffee": "Ver café",
+
+  "moringaCtaTitle": "Moringa: nutrición verde, sin complicaciones",
+  "moringaCtaSub": "Superalimentos naturales de África y el Pacífico: energía limpia, equilibrio diario.",
+  "superfoodsTitle": "Superalimentos naturales de África y el Pacífico",
+  "superfoodsBody": "El polvo de hoja de moringa y el polvo de fruta de baobab llevan una nutrición con historia a las rutinas modernas. Mézclalos en agua, batidos, avena o té para un impulso suave—sin aditivos, solo planta entera.",
+  "moringaLabel": "Moringa",
+  "moringaDesc": "naturalmente rica en vitaminas A y E, calcio, hierro y antioxidantes vegetales.",
+  "baobabLabel": "Baobab",
+  "baobabDesc": "alto contenido de vitamina C con fibra prebiótica para apoyar el intestino y la inmunidad.",
+  "browseSuperfoods": "Ver superalimentos",
+
+  "nutritionTitle": "Nutrición de un vistazo",
+  "moringaNutri": "Moringa (por 10 g): fuente natural de vitaminas A y E, hierro, calcio y polifenoles vegetales.",
+  "baobabNutri": "Baobab (por 10 g): alto en vitamina C y fibra prebiótica para la digestión.",
+  "howToUse": "Uso: 1–2 cdta al día en batidos, yogur, avena o agua tibia con limón.",
 
   "stayInLoop": "Mantente al tanto",
-  "subscribeText": "Recibe novedades de productos, lanzamientos en pequeñas partidas y beneficios ocasionales.",
-  "emailPlaceholder": "Introduce tu correo electrónico"
+  "subscribeText": "Recibe novedades de productos, ediciones pequeñas y beneficios ocasionales.",
+  "emailPlaceholder": "Ingresa tu correo electrónico"
 }

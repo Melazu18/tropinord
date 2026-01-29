@@ -1,0 +1,197 @@
+{
+  "tea-hibiscus": {
+    "name": "Tisane d'Hibiscus",
+    "description": "Connue pour sa couleur vibrante et sa saveur acidulée, la tisane d'hibiscus est riche en antioxydants.",
+    "history": "Ancrée dans les traditions égyptiennes et ouest-africaines.",
+    "benefits": [
+      "Favorise la santé cardiaque",
+      "Abaisse la tension artérielle",
+      "Riche en Vitamine C"
+    ],
+    "ingredients": ["Calices d'hibiscus séchés (Hibiscus sabdariffa)"]
+  },
+  "tea-mountain-herbs": {
+    "name": "Tisane de Montagne",
+    "description": "Un mélange de botaniques nordiques et alpins pour l'énergie naturelle et l'immunité.",
+    "history": "Inspiré par la médecine traditionnelle scandinave et les pratiques de cueillette alpine.",
+    "benefits": [
+      "Augmente l'énergie naturelle",
+      "Soutient le système immunitaire",
+      "Améliore la clarté mentale",
+      "Riche en antioxydants"
+    ],
+    "ingredients": [
+      "Pointes d'épicéa (Picea abies)",
+      "Baie de genièvre (Juniperus communis)",
+      "Feuille de bouleau (Betula pendula)",
+      "Feuille d'ortie (Urtica dioica)",
+      "Mélisse (Melissa officinalis)"
+    ]
+  },
+  "tea-brennessel": {
+    "name": "Feuilles d'Ortie (Brennessel)",
+    "description": "Classique à base de plantes qui soutient la santé rénale et articulaire avec des propriétés riches en minéraux.",
+    "history": "Utilisé dans la médecine populaire européenne pendant des siècles comme tonique printanier et détoxifiant.",
+    "benefits": [
+      "Soutient la fonction rénale",
+      "Réduit l'inflammation dans les articulations",
+      "Riche en fer et minéraux",
+      "Soutien naturel à la détoxification"
+    ],
+    "ingredients": ["Feuille d'ortie (Urtica dioica)"]
+  },
+  "tea-pfefferminz": {
+    "name": "Menthe Poivrée (Pfefferminz)",
+    "description": "Tasse rafraîchissante et mentholée qui apaise la digestion et clarifie l'esprit.",
+    "history": "Remède égyptien et grec ancien pour les problèmes digestifs et la santé respiratoire.",
+    "benefits": [
+      "Aide à la digestion et soulage les ballonnements",
+      "Apaise les maux de tête et la tension",
+      "Nettoie le système respiratoire",
+      "Soulagement naturel du stress"
+    ],
+    "ingredients": ["Feuille de menthe poivrée (Mentha × piperita)"]
+  },
+  "tea-kamille": {
+    "name": "Camomille (Kamille)",
+    "description": "Tisane florale douce pour se détendre, se calmer et favoriser un sommeil réparateur.",
+    "history": "Remède à base de plantes égyptien, romain et grec ancien pour la relaxation et la guérison.",
+    "benefits": [
+      "Favorise la relaxation et le sommeil",
+      "Réduit l'anxiété et le stress",
+      "Apaise le système digestif",
+      "Propriétés anti-inflammatoires"
+    ],
+    "ingredients": ["Fleur de camomille (Matricaria chamomilla)"]
+  },
+  "tea-lemongrass": {
+    "name": "Citronnelle (Zitronengras)",
+    "description": "Infusion fraîche, zestée et citronnée souvent appréciée après les repas pour la digestion.",
+    "history": "Remède traditionnel d'Asie du Sud-Est pour la santé digestive et la réduction de la fièvre.",
+    "benefits": [
+      "Aide à la digestion et soulage les ballonnements",
+      "Riche en antioxydants",
+      "Soutient des niveaux de cholestérol sains",
+      "Propriétés diurétiques naturelles"
+    ],
+    "ingredients": ["Citronnelle (Cymbopogon citratus)"]
+  },
+  "tea-frauenmantel": {
+    "name": "Alchémille (Frauenmantel)",
+    "description": "Traditionnellement utilisé pour soutenir l'équilibre hormonal et le bien-être féminin.",
+    "history": "Plante médiévale européenne pour la santé féminine, la cicatrisation des plaies et la vitalité.",
+    "benefits": [
+      "Soutient l'équilibre hormonal",
+      "Propriétés anti-inflammatoires",
+      "Favorise la santé de la peau",
+      "Aide au confort menstruel"
+    ],
+    "ingredients": ["Feuille d'alchémille (Alchemilla vulgaris)"]
+  },
+  "tea-melisse": {
+    "name": "Mélisse (Melisse)",
+    "description": "Arôme doux citron-herbacé; connue pour ses propriétés calmantes et anti-anxiété.",
+    "history": "Remède grec et romain ancien pour l'anxiété, les troubles du sommeil et la fonction cognitive.",
+    "benefits": [
+      "Réduit le stress et l'anxiété",
+      "Améliore la qualité du sommeil",
+      "Propriétés antivirales",
+      "Soutient la fonction cognitive"
+    ],
+    "ingredients": ["Feuille de mélisse (Melissa officinalis)"]
+  },
+  "tea-sencha": {
+    "name": "Thé Vert Sencha",
+    "description": "Thé vert japonais classique à la vapeur avec une saveur herbacée et de riches antioxydants.",
+    "history": "Thé japonais traditionnel datant du 18ème siècle, populaire pour la consommation quotidienne.",
+    "benefits": [
+      "Riche en antioxydants (catéchines)",
+      "Stimule le métabolisme",
+      "Soutient la santé cardiaque",
+      "Améliore la vigilance mentale"
+    ],
+    "ingredients": ["Feuilles de thé vert (Camellia sinensis)"]
+  },
+  "tea-gunpowder": {
+    "name": "Thé Vert Gunpowder",
+    "description": "Feuilles de thé vert étroitement roulées qui se déploient lors de l'infusion, offrant une saveur audacieuse et légèrement fumée.",
+    "history": "Originaire de la province du Zhejiang, Chine pendant la dynastie Tang, nommé pour son apparence semblable à de la poudre à canon.",
+    "benefits": [
+      "Riche en antioxydants",
+      "Soutient la gestion du poids",
+      "Renforce le système immunitaire",
+      "Améliore la santé dentaire"
+    ],
+    "ingredients": ["Feuilles de thé vert (Camellia sinensis)"]
+  },
+  "tea-jasmine-green": {
+    "name": "Thé Vert au Jasmin",
+    "description": "Thé vert délicatement infusé avec des fleurs de jasmin aromatiques pour une expérience florale.",
+    "history": "Tradition chinoise datant de la dynastie Song, où le thé était parfumé avec des fleurs de jasmin fraîches.",
+    "benefits": [
+      "Effets calmants et relaxants",
+      "Riche en antioxydants",
+      "Soutient la santé digestive",
+      "Soulagement naturel du stress"
+    ],
+    "ingredients": [
+      "Feuilles de thé vert (Camellia sinensis)",
+      "Fleurs de jasmin (Jasminum officinale)"
+    ]
+  },
+  "tea-assam": {
+    "name": "Thé Noir Assam",
+    "description": "Thé noir fort, malté et robuste de la région d'Assam en Inde.",
+    "history": "Découvert à Assam, Inde au 19ème siècle, maintenant l'un des thés noirs les plus populaires au monde.",
+    "benefits": [
+      "Augmente l'énergie et la vigilance",
+      "Soutient la santé cardiaque",
+      "Riche en théaflavines",
+      "Aide à la digestion"
+    ],
+    "ingredients": [
+      "Feuilles de thé noir (Camellia sinensis, cultivar Assamica)"
+    ]
+  },
+  "tea-earl-grey": {
+    "name": "Earl Grey",
+    "description": "Thé noir britannique classique avec une saveur et un arôme d'agrume distinctifs de bergamote.",
+    "history": "Nommé d'après Charles Grey, 2ème comte Grey, premier ministre britannique dans les années 1830.",
+    "benefits": [
+      "Amélioration de l'humeur",
+      "Soutien digestif",
+      "Propriétés antioxydantes",
+      "Clarté et concentration mentales"
+    ],
+    "ingredients": [
+      "Feuilles de thé noir (Camellia sinensis)",
+      "Huile naturelle de bergamote (Citrus bergamia)"
+    ]
+  },
+  "tea-white-peony": {
+    "name": "Pivoine Blanche (Bai Mudan)",
+    "description": "Thé blanc délicat avec une saveur douce et sucrée et des notes florales subtiles.",
+    "history": "Thé blanc chinois traditionnel de la province du Fujian, connu pour son traitement délicat.",
+    "benefits": [
+      "Teneur en antioxydants la plus élevée parmi les thés",
+      "Soutient la santé de la peau",
+      "Doux pour l'estomac",
+      "Propriétés anti-âge naturelles"
+    ],
+    "ingredients": [
+      "Bourgeons et jeunes feuilles de thé blanc (Camellia sinensis)"
+    ]
+  },
+  "tea-silver-needle": {
+    "name": "Aiguille d'Argent (Bai Hao Yin Zhen)",
+    "description": "Thé blanc premium fait exclusivement de jeunes bourgeons non ouverts avec une apparence argentée.",
+    "history": "Thé impérial chinois réservé à la royauté pendant la dynastie Song, représentant le summum du thé blanc.",
+    "benefits": [
+      "Teneur ultra-élevée en antioxydants",
+      "Soutient le système immunitaire",
+      "Favorise une peau radieuse",
+      "Augmentation douce de l'énergie"
+    ],
+    "ingredients": ["Bourgeons de thé blanc (Camellia sinensis)"]
+  }
+}

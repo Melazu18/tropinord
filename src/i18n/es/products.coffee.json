@@ -1,0 +1,52 @@
+{
+  "coffee-ethiopia-yirgacheffe": {
+    "name": "Etiopía Yirgacheffe",
+    "description": "Arabica de alta altitud floral y cítrico con acidez brillante y cuerpo similar al té. Tostado ligero-medio.",
+    "history": "Desde la cuna del café en las tierras altas de Etiopía, Yirgacheffe es conocido como el 'champán de los cafés' con variedades heredadas centenarias.",
+    "benefits": [
+      "Rico en antioxidantes y ácidos clorogénicos",
+      "Aumento de energía natural sin nerviosismo",
+      "Apoya el enfoque y alerta mental",
+      "Puede mejorar el rendimiento físico"
+    ],
+    "ingredients": ["100% granos de café Arábica (Coffea arabica)"]
+  },
+  "coffee-kenya-aa": {
+    "name": "Kenia AA",
+    "description": "Acidez brillante con distintivas notas de grosella negra y bayas. Proceso lavado para perfil de taza limpio.",
+    "history": "El cultivo de café en Kenia data del siglo XIX, con el grado AA representando el tamaño de grano más grande y la calidad más alta en el sistema de gradación de África Oriental.",
+    "benefits": [
+      "Alto en antioxidantes y nutrientes",
+      "Apoya la función cognitiva",
+      "Puede reducir el riesgo de enfermedades crónicas",
+      "Mejora natural del estado de ánimo"
+    ],
+    "ingredients": [
+      "100% granos de café Arábica (Coffea arabica, variedades SL28 & SL34)"
+    ]
+  },
+  "coffee-tanzania-peaberry": {
+    "name": "Tanzania Peaberry",
+    "description": "Dulzura redondeada con final de cacao y acidez vibrante. Mutación única peaberry crea sabor concentrado.",
+    "history": "Desde las laderas del Monte Kilimanjaro y Meru, el café de Tanzania se cultiva desde el siglo XVI. Los granos Peaberry ocurren naturalmente cuando solo una semilla se desarrolla en la cereza de café.",
+    "benefits": [
+      "Rico en nutrientes esenciales y antioxidantes",
+      "Apoya la salud hepática",
+      "Puede mejorar el rendimiento atlético",
+      "Fuente natural de compuestos beneficiosos"
+    ],
+    "ingredients": ["100% granos de café Arábica peaberry (Coffea arabica)"]
+  },
+  "coffee-nigeria-robusta": {
+    "name": "Nigeria Robusta",
+    "description": "Café audaz de cuerpo completo con notas terrosas y mayor contenido de cafeína. Perfecto para brebajes fuertes y espresso.",
+    "history": "El cultivo de café en Nigeria data del siglo XIX, con variedades robusta prosperando en el clima tropical del país y contribuyendo al patrimonio cafetalero de África Occidental.",
+    "benefits": [
+      "Mayor contenido de cafeína para energía sostenida",
+      "Rico en antioxidantes y ácido clorogénico",
+      "Apoya la salud metabólica",
+      "Experiencia tradicional de café de África Occidental"
+    ],
+    "ingredients": ["100% granos de café Robusta (Coffea canephora)"]
+  }
+}

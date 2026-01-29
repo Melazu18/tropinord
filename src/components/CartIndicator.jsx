@@ -1,5 +1,5 @@
 // components/CartIndicator.jsx
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { useCart } from "../contexts/CartContext";
 
@@ -7,7 +7,12 @@ export default function CartIndicator() {
   const { cart } = useCart();
   const [highlight, setHighlight] = useState(false);
 
-  const itemCount = cart.reduce((sum, item) => sum + item.quantity, 0);
+  // Robust item count (handles undefined / string quantities safely)
+  const itemCount = useMemo(
+    () =>
+      (cart || []).reduce((sum, item) => sum + (Number(item.quantity) || 0), 0),
+    [cart]
+  );
 
   useEffect(() => {
     if (itemCount > 0) {
@@ -18,7 +23,11 @@ export default function CartIndicator() {
   }, [itemCount]);
 
   return (
-    <Link to="/cart" className="relative group">
+    <Link
+      to="/cart"
+      className="relative inline-flex items-center justify-center w-10 h-10 group z-20"
+      aria-label={`Cart (${itemCount} items)`}
+    >
       <span
         className={`text-2xl transition-colors duration-300 ${
           highlight ? "text-red-600" : "text-black dark:text-white"
@@ -27,7 +36,11 @@ export default function CartIndicator() {
         🛒
       </span>
       {itemCount > 0 && (
-        <span className="absolute -top-2 -right-2 bg-red-600 text-white text-xs font-bold px-1.5 py-0.5 rounded-full animate-ping-fast">
+        <span
+          className={`absolute top-0 right-0 translate-x-1/4 -translate-y-1/4 bg-red-600 text-white text-xs font-bold px-1.5 py-0.5 rounded-full ${
+            highlight ? "animate-ping-fast" : ""
+          }`}
+        >
           {itemCount}
         </span>
       )}

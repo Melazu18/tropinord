@@ -1,0 +1,92 @@
+{
+  "badge": "B2B · BULK ORDERS",
+  "homeCta": {
+    "title": "Wholesale & bulk orders for businesses",
+    "text": "Are you a shop, spa, salon or café? Explore our dedicated B2B page for wholesale pricing, minimums and shipping options.",
+    "button": "View wholesale options"
+  },
+
+  "title": "Wholesale African Wellness Products for European Businesses",
+  "subtitle": "Teas, oils, superfoods and coffee sourced from African producers, tailored for retailers, salons, spas and cafés across Europe.",
+
+  "whoFor": {
+    "heading": "Who we work with",
+    "intro": "TropiNord partners with businesses that want authentic, traceable and nature-conscious products.",
+    "retail": "Health food shops, African stores and organic retailers.",
+    "salons": "Hair & beauty salons, barbers and wellness studios.",
+    "hospitality": "Hotels, cafés, tearooms and guest houses.",
+    "online": "Small online brands and concept stores."
+  },
+
+  "catalog": {
+    "heading": "Wholesale catalog & product overview",
+    "text": "Browse our current wholesale range of teas, oils, coffee and superfoods. Detailed product and packaging information is available in our PDF catalog.",
+    "downloadLabel": "Download wholesale product catalog (PDF)",
+    "comingSoon": "Digital catalog is being updated. Contact us for the latest product list."
+  },
+
+  "howToOrder": {
+    "heading": "How to place a wholesale order",
+    "step1": "Download our wholesale catalog and select the products and sizes you are interested in.",
+    "step2": "Email or WhatsApp your order list and delivery address to our B2B team.",
+    "step3": "We confirm pricing, availability, lead time and shipping options.",
+    "step4": "You receive a proforma invoice and pay via bank transfer, card or Swish (where applicable).",
+    "step5": "We coordinate packing and shipment from our African partners or Swedish stock, and share tracking details with you."
+  },
+
+  "pricing": {
+    "heading": "Example wholesale pricing",
+    "note": "Final pricing depends on product origin, packaging and shipping route. Below is a simple example of how tiered pricing can look:",
+    "baobabHeading": "BAOBAB POWDER (200 g pouch, example)",
+    "line1": "10–24 units: 200 SEK / unit",
+    "line2": "25–49 units: 180 SEK / unit",
+    "line3": "50+ units: 160 SEK / unit",
+    "minimum": "Minimum order: 10 units per product / SKU"
+  },
+
+  "moq": {
+    "heading": "Minimum orders & lead times",
+    "text": "Standard MOQs start from 10–20 units per product for stocked items, and higher for custom packaging or private label. Lead times can range from 2–5 weeks depending on stock level, harvest season and shipping route."
+  },
+
+  "shipping": {
+    "heading": "Shipping & logistics",
+    "line1": "Shipments within the EU can be fulfilled from Sweden or directly from origin depending on product and volume.",
+    "line2": "We work with trusted logistics partners to handle customs, documentation and temperature-sensitive goods where needed.",
+    "line3": "You will always receive a clear estimate of freight cost and delivery time before confirming your order."
+  },
+
+  "contact": {
+    "heading": "Talk to our B2B team",
+    "text": "Send us your business details and a short description of what you are looking for. We will come back with tailored options, price indications and samples where possible.",
+    "emailLabel": "B2B email",
+    "whatsappLabel": "WhatsApp (business)",
+    "phoneLabel": "Phone"
+  },
+
+  "ctaBlock": {
+    "heading": "Ready to explore wholesale with TropiNord?",
+    "text": "Share your shop type, approximate monthly volume and which products you are most interested in (teas, oils, coffee, superfoods).",
+    "button": "Contact wholesale team"
+  },
+
+  "form": {
+  "businessName": "Business name / shop name",
+  "contactName": "Contact person",
+  "email": "Email",
+  "phone": "Phone / WhatsApp",
+  "country": "Country",
+  "interest": "What are you mainly interested in?",
+  "interestPlaceholder": "Select one or write in the message",
+  "optionTeas": "Teas",
+  "optionOils": "Oils",
+  "optionCoffee": "Coffee",
+  "optionSuperfoods": "Superfoods",
+  "optionMixed": "Mixed assortment",
+  "message": "Tell us briefly about your business and volumes",
+  "validationRequired": "Please fill in at least business name and email.",
+  "success": "Thank you for your interest. Our B2B team will contact you shortly.",
+  "error": "Something went wrong. Please try again or email us.",
+  "sending": "Sending..."
+}
+}

@@ -1,0 +1,75 @@
+{
+  "hibiscus": {
+    "name": "Hibiscus Herbal Tea",
+    "description": "Vibrant ruby infusion with tart, refreshing notes; naturally rich in antioxidants."
+  },
+  "mountain-forest": {
+    "name": "Mountain Forest Herbal Tea",
+    "description": "A blend of Nordic and alpine botanicals for natural energy and immunity."
+  },
+  "nettle": {
+    "name": "Nettle Leaves",
+    "description": "Herbal classic that supports kidney and joint health."
+  },
+  "peppermint": {
+    "name": "Peppermint",
+    "description": "Cooling, minty cup that soothes digestion and clears the mind."
+  },
+  "chamomile": {
+    "name": "Chamomile",
+    "description": "Gentle floral tea to unwind, calm and support sleep."
+  },
+  "lemongrass": {
+    "name": "Lemongrass",
+    "description": "Zesty, citrusy infusion often enjoyed after meals."
+  },
+  "ladys-mantle": {
+    "name": "Lady’s Mantle",
+    "description": "Traditionally used to support balance and wellbeing."
+  },
+  "lemon-balm": {
+    "name": "Lemon Balm",
+    "description": "Soft lemon-herbal aroma; known for calming properties."
+  },
+
+  "african-summer": {
+    "name": "African Summer",
+    "description": "A refreshing caffeine-free herbal blend inspired by African sunshine and warm evenings."
+  },
+  "chai-magic": {
+    "name": "Chai Magic",
+    "description": "A cosy, spicy chai with warming notes that pair beautifully with milk or plant-based alternatives."
+  },
+  "detox-balance": {
+    "name": "Detox Balance",
+    "description": "A purifying herbal blend designed to support your body’s natural cleansing and daily balance."
+  },
+  "energize": {
+    "name": "Energize",
+    "description": "An uplifting infusion crafted to help you feel awake, focused and ready for the day."
+  },
+  "fresh-breeze": {
+    "name": "Fresh Breeze",
+    "description": "Crisp and minty with a cooling finish, perfect when you want a clean, refreshing cup."
+  },
+  "ginger-chili": {
+    "name": "Ginger Chili",
+    "description": "A bold and invigorating blend with warming ginger and a gentle chili kick to fire up your senses."
+  },
+  "moringa-detox": {
+    "name": "Moringa Detox",
+    "description": "Nutrient-rich moringa paired with cleansing herbs for a gentle daily detox ritual."
+  },
+  "peach-garden": {
+    "name": "Peach Garden",
+    "description": "A delicate fruity infusion with soft peach notes, ideal as an afternoon or summer iced tea."
+  },
+  "rooibos-energy": {
+    "name": "Rooibos Energy",
+    "description": "Smooth rooibos with a naturally sweet profile, supporting calm, steady energy without caffeine."
+  },
+  "wellness-green": {
+    "name": "Wellness Green",
+    "description": "A balanced green tea blend created to harmonise focus, clarity and everyday wellbeing."
+  }
+}

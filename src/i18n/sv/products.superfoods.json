@@ -1,0 +1,106 @@
+{
+  "moringa-powder": {
+    "name": "Moringapulver",
+    "description": "Näringstätt lövpulver rikt på vitaminer, mineraler och antioxidanter. Perfekt för smoothies och teer.",
+    "history": "Moringa har använts i århundraden i traditionell ayurvedisk medicin och afrikanska helandetraditioner. Känd som 'Mirakelträdet' för sina omfattande hälsofördelar och näringsvärde.",
+    "benefits": [
+      "Rik på vitaminer A, C och E",
+      "Högt innehåll av kalcium och järn",
+      "Kraftfulla antioxidanter",
+      "Stärker immunsystemet",
+      "Naturlig energi och vitalitetsboost"
+    ],
+    "ingredients": ["100% Moringa oleifera lövpulver"]
+  },
+  "baobab-powder": {
+    "name": "Baobabpulver",
+    "description": "C-vitaminrikt fruktköttspulver med prebiotisk fiber och citrusaktig syrlig smak. Utmärkt för maghälsa.",
+    "history": "Baobab-trädet, känt som 'Livets Träd' i Afrika, har använts i tusentals år i traditionell afrikansk medicin och näring. Dess frukt skördas från uråldriga träd som kan leva upp till 3 000 år.",
+    "benefits": [
+      "Exceptionellt högt C-vitamininnehåll",
+      "Prebiotisk fiber för tarmhälsa",
+      "Rik på antioxidanter och polyfenoler",
+      "Stärker immunsystemet",
+      "Naturlig elektrolytbalans"
+    ],
+    "ingredients": ["100% Baobab (Adansonia digitata) fruktköttspulver"]
+  },
+  "dried-mango": {
+    "name": "Torkad Mango",
+    "description": "Söta, sega torkade mangoskalor utan tillsatt socker. Naturligt soltorkade för att bevara näringsämnen och smak.",
+    "history": "Mangoodling i Nigeria daterar tillbaka århundraden, med frukten som har kulturell betydelse i västafrikanska traditioner. Torkning av mango var en traditionell konserveringsmetod som lät samhällen njuta av frukten året om.",
+    "benefits": [
+      "Rik på vitaminer A och C",
+      "Högt innehåll av kostfiber",
+      "Naturlig källa till antioxidanter",
+      "Stöder ögon- och hudhälsa",
+      "Ger naturlig energi"
+    ],
+    "ingredients": ["100% naturligt torkad mango (Mangifera indica)"]
+  },
+  "dried-pineapple": {
+    "name": "Torkad Ananas",
+    "description": "Tropiska torkade ananasbitar med naturlig sötma. Perfekt för mellanmål eller att tillsätta i trailmix.",
+    "history": "Ananas har odlats i tropiska regioner i århundraden. I Nigeria har ananasodling blivit en viktig jordbrukspraxis, med traditionella soltorkningsmetoder som bevarar fruktens naturliga godhet.",
+    "benefits": [
+      "Rik på C-vitamin och mangan",
+      "Innehåller bromelain-enzym för matsmältning",
+      "Naturliga antiinflammatoriska egenskaper",
+      "Stöder immunfunktion",
+      "Främjar hälsosam hud och ben"
+    ],
+    "ingredients": ["100% naturligt torkad ananas (Ananas comosus)"]
+  },
+  "dried-papaya": {
+    "name": "Torkad Papaya",
+    "description": "Söta och mjuka torkade papayabitar rika på matsmältningsenzymer. Naturligt torkade för att bibehålla näringsvärde.",
+    "history": "Papaya har använts i traditionell medicin över tropiska regioner för sina matsmältnings- och läkande egenskaper. Nigeriansk odling bevarar traditionella odlingsmetoder samtidigt som premiumkvalitet säkerställs.",
+    "benefits": [
+      "Rik på papain matsmältningsenzym",
+      "Högt innehåll av vitaminer C och A",
+      "Stöder matsmältningshälsa",
+      "Antioxidant och antiinflammatorisk",
+      "Främjar hud- och ögonhälsa"
+    ],
+    "ingredients": ["100% naturligt torkad papaya (Carica papaya)"]
+  },
+  "stevia-powder": {
+    "name": "Steviapulver",
+    "description": "Naturligt kalorifritt sötningsmedel från steviablad. Perfekt för drycker, bakning och diabetikeranpassade recept.",
+    "history": "Stevia har använts i århundraden av urfolk i Sydamerika. Modern odling i Nigeria anpassar denna forntida sötare till tropiska förhållanden samtidigt som dess naturliga renhet bibehålls.",
+    "benefits": [
+      "Noll kalorier och noll glykemisk påverkan",
+      "Naturligt alternativ till artificiella sötningsmedel",
+      "Påverkar inte blodsockernivåer",
+      "Tandvänlig sötare",
+      "Lämplig för diabetikerdieter"
+    ],
+    "ingredients": ["100% rent steviabladspulver (Stevia rebaudiana)"]
+  },
+  "cocoa-powder": {
+    "name": "Kakaopulver",
+    "description": "Rikt, mörkt kakaopulver med intensiv chokladsmak. Oprocesserat och perfekt för drycker och bakning.",
+    "history": "Kakao har djupa rötter i västafrikanskt jordbruk, med Nigeria som en av världens kakaoproducenter. Traditionella bearbetningsmetoder bevarar bönans naturliga antioxidanter och smakföreningar.",
+    "benefits": [
+      "Rik på flavonoider och antioxidanter",
+      "Stöder hjärt-kärlhälsa",
+      "Naturlig humörförbättrare",
+      "Högt innehåll av magnesium och järn",
+      "Kan förbättra hjärnfunktion"
+    ],
+    "ingredients": ["100% rent kakaopulver (Theobroma cacao)"]
+  },
+  "wild-forest-honey": {
+    "name": "Vild Skogshonung",
+    "description": "Rå, ofiltrerad honung skördad från vilda skogsregioner. Rik på naturliga enzymer och blommiga toner.",
+    "history": "Traditionell honungsskörd i Nigerias skogar daterar tillbaka generationer, med biodlare som använder hållbara metoder som respekterar det naturliga ekosystemet och vilda bigpopulationer.",
+    "benefits": [
+      "Naturliga antibakteriella och antimikrobiella egenskaper",
+      "Rik på antioxidanter och enzymer",
+      "Lindrar halsont och hosta",
+      "Naturlig energikälla",
+      "Stöder matsmältningshälsa"
+    ],
+    "ingredients": ["100% ren vild skogshonung"]
+  }
+}

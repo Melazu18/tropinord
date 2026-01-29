@@ -1,32 +1,33 @@
 {
-  "metaTitle": "About TropiNord | Oils & Teas from the Tropics",
-  "metaDescription": "Discover TropiNord — Nordic standards meet tropical wisdom. We ethically source natural oils and teas from Africa (and soon the South Pacific), supporting small farmers and sustainable practices. Founded in Sweden by Paul Abejegah.",
+  "metaTitle": "About TropiNord | Oils, Teas, Coffee, and Superfoods from the Tropics, with Nordic Standards",
+  "metaDescription": "Discover TropiNord — Nordic precision meets tropical innovation. We are a digitally-driven platform creating traceable, sustainable oils, teas, coffee, and superfoods from Africa, supporting small producers and funding climate action. Founded in Sweden by a student entrepreneur.",
 
-  "heading": "Bridging worlds through the art of care.",
-  "subheading": "Oils & Teas from the Tropics, refined by Nordic standards.",
+  "heading": "Connecting Nature, Innovation, and Wellbeing",
+  "subheading": "Where tradition meets technology for natural wellbeing.",
 
   "ourStoryTitle": "Our Story",
   "ourStoryContent": {
-    "p1": "At TropiNord, we believe wellness should connect you to nature, to heritage, and to the wisdom of generations before us.",
-    "p2": "Born in Sweden, we bring the clarity and precision of the Nordic lifestyle together with the deep, time-honoured traditions of Africa. From Sweden’s clean, forested landscapes to sun-warmed tropical soils, every ingredient we choose has a purpose: to nurture, restore, and protect.",
-    "p3": "Sustainability isn’t a trend for us, it is the heart of everything we do. Our products and partnerships are built on:",
-    "list1": "Nordic standards: thoughtful sourcing, clean production, uncompromising quality",
-    "list2": "Global wisdom: ancient herbal knowledge, natural oils and teas, and holistic care",
-    "list3": "Shared responsibility: protecting ecosystems, supporting small producers, honouring heritage",
-    "p4": "This is more than self-care. It’s a connection between worlds — people, planet, and the power of tradition.",
-    "quote": "We’re proud to serve Afro-European customers and friends everywhere, combining African botanical wisdom with Nordic purity."
+    "p1": "At TropiNord, we believe wellness should connect people to nature, to heritage, and to the wisdom that sustains both.",
+    "p2": "Born in Sweden, TropiNord blends Nordic precision with tropical innovation to create natural products that nurture, restore, and protect.",
+    "p3": "Built from the ground up by an IT student and entrepreneur, TropiNord is more than a wellness brand. It is a digitally driven sustainability platform. Our systems, logistics, and digital architecture were designed in-house to make global trade between small producers and modern consumers transparent, traceable, and fair.",
+    "list1": "Sustainable value chains through digital traceability and transparent sourcing",
+    "list2": "Eco-innovation using biodegradable and circular packaging concepts",
+    "list3": "Inclusive growth and fair opportunities for smallholder producers",
+    "p4": "We believe technology can bring clarity, fairness, and connection to the global wellness industry.",
+    "quote": "We collaborate with smallholder producers across Africa, and tropical regions to develop sustainably sourced teas, oils, coffee, and superfoods. Every ingredient tells a story of craft, culture, and care, refined through science, design, and technology."
   },
 
   "valuesTitle": "What We Stand For",
-  "valuesContent": "TropiNord is more than a shop, it’s a community. We empower small producers, inspire eco-conscious living, and help you choose products that are as honest as they are effective. Every purchase supports families, preserves traditions, and protects nature for the next generation.",
+  "valuesContent": "TropiNord is a sustainability and innovation hub. We bridge continents through collaboration, empower local producers, and design transparent, circular systems that link traditional wisdom with modern tools.",
 
   "whatWeDoTitle": "What We Do",
-  "whatWeDoItem1": "Ethically select and share natural oils and fine teas of sustainable origin",
-  "whatWeDoItem2": "Work directly with small producers and cooperatives in Africa with a roadmap to the South Pacific",
-  "whatWeDoItem3": "Give local makers and growers the visibility they deserve",
-  "whatWeDoItem4": "Offer our platform to small businesses and startups so they can grow and reach new customers",
-  "whatWeDoExtra": "Every product we feature is chosen with care for its purity, its story, and its ability to make a difference.",
+  "whatWeDoItem1": "Develop and distribute functional teas, natural oils, coffee, and superfoods of traceable and sustainable origin",
+  "whatWeDoItem2": "Partner with ethical producers and eco-innovators across Africa, other tropical regions, and Europe",
+  "whatWeDoItem3": "Pilot digital traceability models for transparent supply chains",
+  "whatWeDoItem4": "Offer a platform where small businesses can grow sustainably and reach new markets",
+  "whatWeDoExtra": "Every product we share is chosen with purpose for its purity, its story, and its ability to make a measurable impact.",
 
   "ourMissionTitle": "Our Mission",
-  "ourMissionContent": "To link tradition, nature, and quality, sharing oils and teas that reflect care, craft, and community. When we take care of the planet, we take care of ourselves."
+  "ourMissionContent": "To redefine natural wellness through innovation, technology, and care, linking tradition with modern tools to create products that are as responsible as they are restorative.",
+  "ourMissionTagline": "TropiNord: Where tradition meets technology for natural wellbeing."
 }

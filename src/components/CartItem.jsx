@@ -1,7 +1,9 @@
+// src/components/CartItem.jsx
 import React, { useEffect, useState } from "react";
 import { Trash2 } from "lucide-react";
 import toast from "react-hot-toast";
 import { useTranslation } from "react-i18next";
+import { useCurrency } from "../shared/ui/CurrencyProvider";
 
 function toInt(v, fallback = 1) {
   const n = Number(v);
@@ -10,6 +12,7 @@ function toInt(v, fallback = 1) {
 
 export default function CartItem({ item, updateQuantity, removeFromCart }) {
   const { t } = useTranslation(["cart", "products"]);
+  const { currency, priceFor, format } = useCurrency();
 
   const [localQty, setLocalQty] = useState(
     item?.quantity ? String(toInt(item.quantity)) : "1"
@@ -45,6 +48,11 @@ export default function CartItem({ item, updateQuantity, removeFromCart }) {
     updateQuantity(item.id, finalQty);
   }
 
+  // 💰 Prices in current currency
+  const unitPrice = priceFor(item, currency);
+  const qty = toInt(item?.quantity ?? 1, 1);
+  const lineTotal = unitPrice * qty;
+
   return (
     <div className="flex items-center border-b pb-4 gap-4 shadow-sm bg-white dark:bg-gray-900 rounded p-2 transition-all duration-300 hover:shadow-md hover:scale-[1.01]">
       <img
@@ -78,6 +86,19 @@ export default function CartItem({ item, updateQuantity, removeFromCart }) {
               })}
         </p>
 
+        {/* Price display in selected currency */}
+        {Number.isFinite(unitPrice) && (
+          <div className="mt-2 text-sm text-green-800 dark:text-green-200">
+            <span className="font-semibold">{format(unitPrice, currency)}</span>
+            <span className="text-xs text-gray-500 dark:text-gray-400 ml-2">
+              × {qty} ={" "}
+              <span className="font-semibold">
+                {format(lineTotal, currency)}
+              </span>
+            </span>
+          </div>
+        )}
+
         <div className="mt-2 flex items-center gap-2">
           <label htmlFor={`qty-${item.id}`} className="text-sm dark:text-white">
             {t("qty", { ns: "cart", defaultValue: "Qty:" })}
@@ -105,7 +126,10 @@ export default function CartItem({ item, updateQuantity, removeFromCart }) {
             onClick={() => {
               removeFromCart(item.id);
               toast.success(
-                t("toast.removed", { ns: "cart", defaultValue: "Item removed" })
+                t("toast.removed", {
+                  ns: "cart",
+                  defaultValue: "Item removed",
+                })
               );
             }}
             className="ml-auto text-red-600 hover:text-red-800 transition"

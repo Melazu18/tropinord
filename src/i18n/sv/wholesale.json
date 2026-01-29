@@ -1,0 +1,93 @@
+{
+  "badge": "B2B · STORORDER",
+  "homeCta": {
+    "title": "Grossist- och storbeställningar för företag",
+    "text": "Driver du butik, salong, spa eller café? Besök vår B2B-sida för grossistpriser, minimiorder och fraktalternativ.",
+    "button": "Visa grossisterbjudanden"
+  },
+
+  "title": "Grossist av afrikanska wellness-produkter för europeiska företag",
+  "subtitle": "Teer, oljor, superfoods och kaffe från afrikanska producenter – anpassat för återförsäljare, salonger, spa och caféer i Europa.",
+
+  "whoFor": {
+    "heading": "Vem vi samarbetar med",
+    "intro": "TropiNord samarbetar med verksamheter som vill ha äkta, spårbara och naturmedvetna produkter.",
+    "retail": "Hälsokostbutiker, afrikanska butiker och ekologiska livsmedelsbutiker.",
+    "salons": "Frisör- och skönhetssalonger, barberare och wellness-studior.",
+    "hospitality": "Hotell, caféer, tearooms och gästhus.",
+    "online": "Mindre online-varumärken och konceptbutiker."
+  },
+
+  "catalog": {
+    "heading": "Grossistkatalog & produktöversikt",
+    "text": "Utforska vårt aktuella grossistsortiment av teer, oljor, kaffe och superfoods. Detaljerad produkt- och förpackningsinformation finns i vår PDF-katalog.",
+    "downloadLabel": "Ladda ner grossistkatalog (PDF)",
+    "comingSoon": "Den digitala katalogen uppdateras. Kontakta oss för den senaste produktlistan."
+  },
+
+  "howToOrder": {
+    "heading": "Så lägger du en grossistbeställning",
+    "step1": "Ladda ner vår grossistkatalog och välj de produkter och storlekar du är intresserad av.",
+    "step2": "Maila eller WhatsApp:a din orderlista och leveransadress till vårt B2B-team.",
+    "step3": "Vi bekräftar pris, tillgänglighet, leveranstid och fraktalternativ.",
+    "step4": "Du får en proformafaktura och betalar via banköverföring, kort eller Swish (där det är möjligt).",
+    "step5": "Vi samordnar packning och leverans från våra afrikanska partners eller svenskt lager, och delar spårningsinformation med dig."
+  },
+
+  "pricing": {
+    "heading": "Exempel på grossistpriser",
+    "note": "Slutligt pris beror på ursprung, förpackning och fraktupplägg. Nedan är ett enkelt exempel på hur stegvis prissättning kan se ut:",
+    "baobabHeading": "BAOBABPULVER (200 g påse, exempel)",
+    "line1": "10–24 enheter: 200 kr / st",
+    "line2": "25–49 enheter: 180 kr / st",
+    "line3": "50+ enheter: 160 kr / st",
+    "minimum": "Minimiorder: 10 enheter per produkt / artikelnummer"
+  },
+
+  "moq": {
+    "heading": "Minimiorder & ledtider",
+    "text": "Standard-MOQ börjar från cirka 10–20 enheter per produkt för artiklar i lager, och högre vid specialförpackning eller private label. Ledtider kan variera mellan cirka 2–5 veckor beroende på lagernivå, skördesäsong och fraktrutt."
+  },
+
+  "shipping": {
+    "heading": "Frakt & logistik",
+    "line1": "Leveranser inom EU kan ske från Sverige eller direkt från ursprungslandet beroende på produkt och volym.",
+    "line2": "Vi arbetar med pålitliga logistikpartners som hanterar tull, dokumentation och temperaturkänsliga varor när det behövs.",
+    "line3": "Du får alltid en tydlig uppskattning av fraktkostnad och leveranstid innan du bekräftar din order."
+  },
+
+  "contact": {
+    "heading": "Kontakta vårt B2B-team",
+    "text": "Skicka dina företagsuppgifter och en kort beskrivning av vad du söker. Vi återkommer med förslag, prisindikationer och provmöjligheter där det passar.",
+    "emailLabel": "B2B-mejl",
+    "whatsappLabel": "WhatsApp (företag)",
+    "phoneLabel": "Telefon"
+  },
+
+  "ctaBlock": {
+    "heading": "Redo att utforska grossist med TropiNord?",
+    "text": "Berätta vilken typ av verksamhet du driver, ungefärlig månadsvolym och vilka produkter du är mest intresserad av (teer, oljor, kaffe, superfoods).",
+    "button": "Kontakta grossistteamet"
+  },
+
+  "form": {
+    "businessName": "Företagsnamn / butiksnamn",
+    "contactName": "Kontaktperson",
+    "email": "E-post",
+    "phone": "Telefon / WhatsApp",
+    "country": "Land",
+    "interest": "Vad är du främst intresserad av?",
+    "interestPlaceholder": "Välj ett eller skriv i meddelandet",
+    "optionTeas": "Teer",
+    "optionOils": "Oljor",
+    "optionCoffee": "Kaffe",
+    "optionSuperfoods": "Superfoods",
+    "optionMixed": "Blandat sortiment",
+    "message": "Berätta kort om ditt företag och volymer",
+    "validationRequired": "Vänligen fyll i åtminstone företagsnamn och e-post.",
+    "success": "Tack för ditt intresse. Vårt B2B-team kommer att kontakta dig inom kort.",
+    "error": "Något gick fel. Vänligen försök igen eller maila oss.",
+    "sending": "Skickar..."
+  }
+}
+

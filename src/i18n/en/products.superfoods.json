@@ -1,0 +1,106 @@
+{
+  "moringa-powder": {
+    "name": "Moringa Powder",
+    "description": "Nutrient-dense leaf powder rich in vitamins, minerals and antioxidants. Perfect for smoothies and teas.",
+    "history": "Moringa has been used for centuries in traditional Ayurvedic medicine and African healing practices. Known as the 'Miracle Tree' for its extensive health benefits and nutritional value.",
+    "benefits": [
+      "Rich in vitamins A, C, and E",
+      "High in calcium and iron content",
+      "Powerful antioxidant properties",
+      "Supports immune system function",
+      "Natural energy and vitality boost"
+    ],
+    "ingredients": ["100% Moringa oleifera leaf powder"]
+  },
+  "baobab-powder": {
+    "name": "Baobab Powder",
+    "description": "Vitamin-C rich fruit pulp powder with prebiotic fiber and a citrus-tangy taste. Excellent for digestive health.",
+    "history": "The Baobab tree, known as the 'Tree of Life' in Africa, has been used for thousands of years in traditional African medicine and nutrition. Its fruit is harvested from ancient trees that can live up to 3,000 years.",
+    "benefits": [
+      "Exceptionally high in vitamin C",
+      "Prebiotic fiber for gut health",
+      "Rich in antioxidants and polyphenols",
+      "Supports immune system function",
+      "Natural electrolyte balance"
+    ],
+    "ingredients": ["100% Baobab (Adansonia digitata) fruit pulp powder"]
+  },
+  "dried-mango": {
+    "name": "Dried Mango",
+    "description": "Sweet, chewy dried mango slices with no added sugar. Naturally sun-dried to preserve nutrients and flavor.",
+    "history": "Mango cultivation in Nigeria dates back centuries, with the fruit holding cultural significance in West African traditions. Drying mangoes was a traditional preservation method that allowed communities to enjoy the fruit year-round.",
+    "benefits": [
+      "Rich in vitamins A and C",
+      "High in dietary fiber",
+      "Natural source of antioxidants",
+      "Supports eye and skin health",
+      "Provides natural energy"
+    ],
+    "ingredients": ["100% natural dried mango (Mangifera indica)"]
+  },
+  "dried-pineapple": {
+    "name": "Dried Pineapple",
+    "description": "Tropical dried pineapple chunks with natural sweetness. Perfect for snacking or adding to trail mixes.",
+    "history": "Pineapple has been cultivated in tropical regions for centuries. In Nigeria, pineapple farming has become an important agricultural practice, with traditional sun-drying methods preserving the fruit's natural goodness.",
+    "benefits": [
+      "Rich in vitamin C and manganese",
+      "Contains bromelain enzyme for digestion",
+      "Natural anti-inflammatory properties",
+      "Supports immune function",
+      "Promotes healthy skin and bones"
+    ],
+    "ingredients": ["100% natural dried pineapple (Ananas comosus)"]
+  },
+  "dried-papaya": {
+    "name": "Dried Papaya",
+    "description": "Sweet and tender dried papaya chunks rich in digestive enzymes. Naturally dried to maintain nutritional value.",
+    "history": "Papaya has been used in traditional medicine across tropical regions for its digestive and healing properties. Nigerian cultivation preserves traditional growing methods while ensuring premium quality.",
+    "benefits": [
+      "Rich in papain digestive enzyme",
+      "High in vitamins C and A",
+      "Supports digestive health",
+      "Antioxidant and anti-inflammatory",
+      "Promotes skin and eye health"
+    ],
+    "ingredients": ["100% natural dried papaya (Carica papaya)"]
+  },
+  "stevia-powder": {
+    "name": "Stevia Powder",
+    "description": "Natural zero-calorie sweetener from stevia leaves. Perfect for beverages, baking, and diabetic-friendly recipes.",
+    "history": "Stevia has been used for centuries by indigenous peoples in South America. Modern cultivation in Nigeria adapts this ancient sweetener to tropical conditions while maintaining its natural purity.",
+    "benefits": [
+      "Zero calories and zero glycemic impact",
+      "Natural alternative to artificial sweeteners",
+      "Does not affect blood sugar levels",
+      "Tooth-friendly sweetener",
+      "Suitable for diabetic diets"
+    ],
+    "ingredients": ["100% pure stevia leaf powder (Stevia rebaudiana)"]
+  },
+  "cocoa-powder": {
+    "name": "Cocoa Powder",
+    "description": "Rich, dark cocoa powder with intense chocolate flavor. Unprocessed and perfect for beverages and baking.",
+    "history": "Cocoa has deep roots in West African agriculture, with Nigeria being one of the world's cocoa producers. Traditional processing methods preserve the bean's natural antioxidants and flavor compounds.",
+    "benefits": [
+      "Rich in flavonoids and antioxidants",
+      "Supports cardiovascular health",
+      "Natural mood enhancer",
+      "High in magnesium and iron",
+      "May improve brain function"
+    ],
+    "ingredients": ["100% pure cocoa powder (Theobroma cacao)"]
+  },
+  "wild-forest-honey": {
+    "name": "Wild Forest Honey",
+    "description": "Raw, unfiltered honey harvested from wild forest regions. Rich in natural enzymes and floral notes.",
+    "history": "Traditional honey harvesting in Nigeria's forests dates back generations, with beekeepers using sustainable methods that respect the natural ecosystem and wild bee populations.",
+    "benefits": [
+      "Natural antibacterial and antimicrobial properties",
+      "Rich in antioxidants and enzymes",
+      "Soothes sore throats and coughs",
+      "Natural energy source",
+      "Supports digestive health"
+    ],
+    "ingredients": ["100% pure wild forest honey"]
+  }
+}

@@ -1,9 +1,26 @@
 {
-  "loading": "Chargement…",
+  "loading": "Chargement...",
   "close": "Fermer",
+  "back": "← Retour",
+  "comingSoon": "Bientôt disponible",
+  "availableSoon": "Disponible prochainement",
+  "submit": "Soumettre",
+  "noReviews": "Aucun avis pour le moment — soyez le premier à partager votre expérience.",
+
+  "yourRating": "Votre note",
+  "reviewPlaceholder": "Quel goût a-t-il ? Comment l'utilisez-vous ?",
+  "reviewTipPlaceholder": "Optionnel : votre astuce de préparation/utilisation",
+  "tipLabel": "Astuce :",
+  "moods": {
+    "morningEnergy": "Énergie matinale",
+    "eveningWindDown": "Détente du soir",
+    "afterWorkout": "Après l'entraînement",
+    "withFriends": "Avec des amis",
+    "focusStudy": "Concentration & étude"
+  },
 
   "branding": {
-    "tagline": "La nature se souvient — et nous aussi."
+    "tagline": "La nature se souvient – et nous aussi."
   },
 
   "explore": {
@@ -14,334 +31,353 @@
     "all": "Toutes les catégories",
     "cosmetics": "Produits cosmétiques",
     "healingBotanicals": "Plantes médicinales",
-    "food": "Aliments",
+    "food": "Alimentation & Épicerie",
     "agro": "Commerce agroalimentaire & matières premières",
-    "search": "Rechercher"
+    "search": "Rechercher",
+    "Growth Hair Cream": "Crème capillaire croissance",
+    "Scalp Treatment Cream": "Traitement du cuir chevelu"
   },
   "subcategories": {
-    "crownRituals": "Rituels capillaires",
-    "glowRoots": "Racines éclatantes",
-    "essenceEchoes": "Échos d'essences",
-    "botanicBrews": "Infusions botaniques",
-    "liquidGolds": "Ors liquides",
-    "soulSeasonings": "Assaisonnements de l'âme",
-    "earthOrigins": "Origines terrestres"
+    "crownRituals": "Soins capillaires (Crown Rituals)",
+    "glowRoots": "Soins de la peau (Glow Roots)",
+    "essenceEchoes": "Parfum (Essence Echoes)",
+    "botanicBrews": "Thé (Botanic Brews)",
+    "liquidGolds": "Huiles (Liquid Golds)",
+    "soulSeasonings": "Épices (Soul Seasonings)",
+    "earthOrigins": "Feuilles de bananier (Earth Origins)",
+    "palmOil": "Huile de palme (Vrac)",
+    "sheaButter": "Beurre de karité (Vrac)",
+    "palmOilDesc": "Huile de palme rouge en vrac, parfaite pour la cuisine et les cosmétiques.",
+    "sheaButterDesc": "Beurre de karité non raffiné en vrac pour usage en gros et cosmétique."
   },
   "order": {
     "title": "Sélectionnez vos produits",
     "currencyLabel": "Devise :",
     "searchLabel": "Rechercher",
     "addToCart": "Ajouter au panier",
-    "contactToOrder": "Contacter pour commander",
-    "currencyWarning": "Note : Swish et Bankgiro ne prennent en charge que les SEK. La devise sera automatiquement définie.",
-    "addedToCart": "Article ajouté au panier !",
+    "contactToOrder": "Contactez pour commander",
+    "currencyWarning": "Remarque : Swish et Bankgiro ne prennent en charge que la SEK. La devise est définie automatiquement.",
+    "addedToCart": "Produit ajouté au panier !",
     "proceedToCheckout": "Passer à la caisse",
     "categoryLabel": "Filtrer par catégorie :",
     "searchPlaceholder": "Rechercher par nom de produit..."
   },
   "contact": {
     "title": "Contactez-nous",
-    "description": "Nous serions ravis d'avoir de vos nouvelles ! Veuillez remplir le formulaire ci-dessous.",
+    "description": "Nous aimerions avoir de vos nouvelles ! Remplissez le formulaire ci-dessous.",
     "name": "Nom",
-    "email": "Email",
+    "email": "E-mail",
     "subject": "Sujet",
     "category": "Catégorie de service",
     "message": "Message",
     "send": "Envoyer le message",
-    "success": "Message envoyé avec succès !",
-    "error": "Une erreur s'est produite. Veuillez réessayer.",
+    "success": "Message envoyé !",
+    "error": "Quelque chose s'est mal passé. Veuillez réessayer.",
     "options": {
       "olis": "Huiles biologiques",
       "soaps": "Savons naturels",
-      "agro": "Importations agroalimentaires",
+      "agro": "Importations agro",
       "other": "Autre"
     }
   },
   "popup": {
     "viewProducts": "Voir les produits",
-    "continue": "Continuer à naviguer",
+    "continue": "Continuer à parcourir",
     "comingSoon": "Bientôt disponible !",
     "close": "Fermer"
   },
   "products": {
     "organic-oils": {
       "name": "Huiles biologiques",
-      "description": "Huiles pressées à froid comme l'huile de coco, d'amande, de neem, etc."
+      "description": "Huiles pressées à froid comme noix de coco, amande, neem, etc."
     },
     "natural-soaps": {
       "name": "Savons naturels",
-      "description": "Savon noir africain, pains de savon au karité, savons à base de fruits."
+      "description": "Savon noir africain, barres de karité, savons aux fruits."
     },
     "agro-imports": {
-      "name": "Importations agroalimentaires",
+      "name": "Importations agro",
       "description": "Feuilles de bananier, os, charbon de bois et petits outils agricoles."
     },
     "bananaLeaves": {
       "label": "Feuilles de bananier",
-      "description": "Feuilles de bananier fraîches pour l'emballage ou la cuisine – vente en gros uniquement."
+      "description": "Feuilles de bananier vertes fraîches pour l'emballage ou la cuisine – vrac uniquement."
     },
     "charcoal": {
-      "label": "Charbon de bois (en gros)",
-      "description": "Charbon de bois de haute qualité pour BBQ ou usage industriel. Contactez-nous pour commander."
+      "label": "Charbon de bois (Vrac)",
+      "description": "Charbon de bois de haute qualité pour barbecue ou usage industriel. Contactez pour commander."
     },
     "dryBones": {
-      "label": "Os secs (pour alimentation animale)",
-      "description": "Os propres et séchés au soleil pour l'alimentation animale. Exportation disponible."
+      "label": "Os séchés (pour alimentation animale)",
+      "description": "Os propres, séchés au soleil pour l'alimentation animale. Exportation disponible."
     },
     "notFound": "Produit non trouvé",
     "shopNow": "Acheter maintenant"
   },
   "thankYou": {
-    "swishPrompt": "Veuillez compléter votre paiement Swish de {{amount}} pour continuer.",
+    "swishPrompt": "Veuillez terminer votre paiement Swish de {{amount}} pour continuer.",
     "bankgiroPrompt": "Veuillez transférer {{amount}} au numéro Bankgiro ci-dessous.",
-    "amountMissing": "Montant non disponible."
+    "amountMissing": "Le montant n'est pas disponible."
   },
   "services": {
     "title": "Nos services",
     "collabHeading": "Intéressé par une collaboration avec nous ?",
-    "collabText": "Contactez-nous et donnons vie à votre projet.",
+    "collabText": "Contactez-nous et nous vous aiderons à concrétiser votre projet.",
     "cta": "Contactez-nous",
     "organicOils": {
       "title": "Huiles biologiques",
-      "desc": "Huiles de coco, neem, baobab et amande pressées à froid.",
-      "detail": "Nos huiles biologiques, comme celles de baobab, coco, neem et amande, sont pressées à froid de manière éthique auprès de coopératives fiables en Afrique, en Asie et dans les Caraïbes. Chaque lot est non raffiné et riche en nutriments, parfait pour le bien-être, les soins de la peau ou l'usage culinaire. Nous privilégions la pureté, le commerce équitable et une traçabilité complète."
+      "desc": "Huiles de noix de coco, neem, baobab et amande pressées à froid.",
+      "detail": "Nos huiles biologiques comme le baobab, la noix de coco, le neem et l'amande sont pressées à froid de manière éthique auprès de coopératives de confiance en Afrique, en Asie et dans les Caraïbes. Chaque lot est non raffiné et riche en nutriments, parfait pour le bien-être, les soins de la peau ou la cuisine. Nous privilégions la pureté, le commerce équitable et une traçabilité complète."
     },
     "naturalSoaps": {
       "title": "Savons naturels",
       "desc": "Savon noir africain, savon au karité et mélanges à base de plantes.",
-      "detail": "Nos savons naturels incluent le savon noir africain traditionnel, les pains de savon au karité et des mélanges à base de plantes infusés avec du moringa, du curcuma et du neem. Fabriqués selon des méthodes ancestrales avec des ingrédients récoltés de manière durable, ces savons offrent une expérience de nettoyage douce mais puissante tout en soutenant les artisans locaux."
+      "detail": "Nos savons naturels incluent le savon noir africain traditionnel, les savons au beurre de karité et des mélanges spéciaux avec moringa, curcuma et neem. Fabriqués selon des méthodes ancestrales avec des ingrédients récoltés durablement, ces savons offrent un nettoyage doux mais efficace tout en soutenant les artisans locaux."
     },
     "agroImports": {
-      "title": "Importations agroalimentaires et matières premières",
+      "title": "Importations agro & matières premières",
       "desc": "Produits agricoles, herbes et emballages écologiques des tropiques.",
-      "detail": "Nous importons des matériaux agroalimentaires et des produits écologiques de niche comme les feuilles de bananier, la farine de manioc, les herbes séchées et les emballages biodégradables. Notre réseau d'approvisionnement s'étend à travers l'Afrique, l'Asie et les Caraïbes, soutenant les marques, restaurants et détaillants durables dans les pays nordiques."
+      "detail": "Nous importons des matériaux agroalimentaires de niche et des éco-produits comme les feuilles de bananier, la farine de manioc, les herbes séchées et les emballages biodégradables. Notre réseau s'étend en Afrique, en Asie et dans les Caraïbes – soutenant des marques propres, des restaurants et des détaillants durables en Scandinavie."
     },
     "logistics": {
-      "title": "Support logistique et de vente au détail",
+      "title": "Support détail & logistique",
       "desc": "Logistique nordique pour les petites marques.",
-      "detail": "Notre service logistique est conçu pour les micro-marques et les entrepreneurs individuels. Nous aidons pour l'entreposage, l'étiquetage, les emballages adaptés aux normes nordiques et la livraison du dernier kilomètre en Suède et dans l'UE. Que vous lanciez un produit à base de plantes ou une nouvelle collation, notre soutien vous prépare pour la vente au détail."
+      "detail": "Notre service logistique est conçu pour les micro-marques et les entrepreneurs individuels. Nous aidons avec l'entreposage, l'étiquetage, l'emballage adapté au marché nordique et la livraison du dernier kilomètre en Suède et dans l'UE. Que vous lanciez un produit à base de plantes ou une nouvelle collation, notre soutien vous prépare pour la vente au détail."
     },
     "ecoSourcing": {
-      "title": "Partenariats d'approvisionnement écologique",
-      "desc": "Approvisionnement équitable avec une traçabilité complète.",
-      "detail": "Nous croyons en un commerce éthique et respectueux de la Terre. Notre approvisionnement écologique vous connecte aux petits producteurs utilisant l'agriculture régénérative et l'agroécologie. Nous développons conjointement des chaînes d'approvisionnement avec des producteurs de régions sous-représentées, garantissant des prix équitables, des rendements durables et une histoire qui se vend."
+      "title": "Partenariat d'approvisionnement écologique",
+      "desc": "Commerce équitable avec traçabilité complète.",
+      "detail": "Nous croyons au commerce éthique et écologique. Notre approvisionnement écologique vous connecte avec des petits agriculteurs utilisant l'agriculture régénérative et l'agroécologie. Nous développons des chaînes d'approvisionnement avec des producteurs de régions sous-représentées, garantissant des prix équitables, des récoltes durables et des histoires qui se vendent."
     },
     "community": {
       "title": "Engagement communautaire",
       "desc": "Autonomiser les jeunes grâce à la durabilité.",
-      "detail": "Notre engagement communautaire se concentre sur l'autonomisation des jeunes, l'éducation alimentaire et l'entrepreneuriat vert. À travers le mentorat, des ateliers et des programmes basés sur le sport, nous aidons à créer des ponts entre les talents ruraux et les marchés urbains – des initiatives de base en Afrique de l'Ouest aux hubs d'intégration en Scandinavie."
+      "detail": "Notre engagement se concentre sur le développement des jeunes, l'éducation alimentaire et l'entrepreneuriat vert. Grâce au mentorat, aux ateliers et aux programmes basés sur le sport, nous aidons à construire des ponts entre les talents ruraux et les marchés urbains – des communautés locales d'Afrique de l'Ouest aux pôles d'intégration en Scandinavie."
     }
   },
   "faq": {
-    "title": "Questions fréquentes",
+    "title": "Questions fréquemment posées",
     "whatisTropinord": {
-      "q": "Qu’est-ce que TropiNord ?",
-      "a": "TropiNord associe traditions tropicales et qualité nordique. Nous proposons aujourd’hui une gamme ciblée : huiles naturelles et thés tropicaux, principalement d’Afrique."
+      "q": "Qu'est-ce que TropiNord ?",
+      "a": "TropiNord combine les traditions tropicales avec la qualité nordique. Nous nous concentrons désormais sur les huiles naturelles et les thés des régions tropicales, en particulier l'Afrique."
     },
     "productsOffered": {
       "q": "Quels produits proposez-vous ?",
-      "a": "Des huiles de qualité pour la peau, les cheveux et la cuisine, ainsi que des thés (herbal, verts, noirs, et mélanges spéciaux)."
+      "a": "Nous proposons des huiles de haute qualité pour la peau, les cheveux et la cuisine, ainsi que des thés (à base de plantes, verts, noirs et mélanges spéciaux), tous produits de manière éthique."
     },
     "organicSourcing": {
-      "q": "Vos produits sont-ils vraiment biologiques ?",
-      "a": "Nous privilégions des huiles pressées à froid et des plantes cultivées naturellement, souvent issues de coopératives certifiées."
+      "q": "Vos produits sont-ils vraiment biologiques ou naturels ?",
+      "a": "Nous privilégions les huiles pressées à froid, non raffinées et les plantes cultivées naturellement. Beaucoup proviennent de coopératives suivant des méthodes biologiques."
     },
     "sourcingAfrica": {
-      "q": "Sont-ils vraiment issus d’Afrique ?",
-      "a": "Oui, de nombreuses huiles et thés proviennent de coopératives en Afrique de l’Ouest, de l’Est et du Sud."
+      "q": "Vos produits viennent-ils vraiment d'Afrique ?",
+      "a": "Oui, beaucoup de nos huiles et thés sont directement importés de coopératives en Afrique de l'Ouest, de l'Est et du Sud."
     },
     "oilUse": {
       "q": "Comment utiliser vos huiles ? Sont-elles comestibles ?",
-      "a": "Certaines huiles sont cosmétiques, d’autres culinaires. Chaque fiche produit précise les usages."
+      "a": "Certaines huiles sont pour la peau/les cheveux, d'autres pour la cuisine. Les pages produit indiquent clairement l'utilisation et les avantages."
     },
     "allergens": {
       "q": "Y a-t-il des allergènes ?",
-      "a": "Si vous êtes sensible aux noix, graines ou herbes, vérifiez la composition. Test cutané conseillé."
+      "a": "Si vous êtes sensible aux noix, graines ou herbes — vérifiez les ingrédients. Faites toujours un petit test cutané d'abord."
     },
     "teaPrep": {
-      "q": "Comment préparer vos thés ?",
-      "a": "Tisanes : 95–100°C 5–10 min ; Thé vert : ~80°C 2–3 min ; Thé noir : 95°C 3–5 min."
+      "q": "Comment préparer le thé ?",
+      "a": "À base de plantes : 95–100°C pendant 5–10 min ; Vert : ~80°C pendant 2–3 min ; Noir : 95°C pendant 3–5 min."
     },
     "storage": {
-      "q": "Comment conserver les huiles et thés ?",
-      "a": "À l’abri de la lumière et de la chaleur. Les huiles se conservent mieux au réfrigérateur. Les thés : endroit sec."
+      "q": "Comment conserver les huiles et les thés ?",
+      "a": "Conserver au frais et à l'abri de la lumière. Les huiles se conservent plus longtemps au réfrigérateur. Les thés se conservent mieux au sec dans une boîte."
     },
     "shipsFrom": {
-      "q": "D’où expédiez-vous ?",
-      "a": "Depuis la Suède, vers l’UE."
+      "q": "D'où sont expédiés les articles ?",
+      "a": "Nous expédions depuis la Suède et livrons dans toute l'UE."
     },
     "shippingPolicy": {
-      "q": "Quelle est votre politique d’expédition ?",
-      "a": "Traitement en 1–3 jours. Suède : 2–5 jours ; UE : 5–10+ jours."
+      "q": "Comment fonctionne l'expédition ?",
+      "a": "Commandes traitées en 1–3 jours. Suède : 2–5 jours ; UE : 5–10+ jours. Frais et suivi affichés à la caisse."
     },
     "returnPolicy": {
-      "q": "Quelle est votre politique de retour ?",
-      "a": "Retour possible sous 14 jours si produit non ouvert. Produits cosmétiques ou thés ouverts non repris sauf défaut."
+      "q": "Comment fonctionnent les retours ?",
+      "a": "Articles non ouverts peuvent être retournés sous 14 jours. Thés ouverts ou soins du corps non retournables sauf défectueux."
     },
     "payments": {
-      "q": "Quels moyens de paiement acceptez-vous ?",
-      "a": "Cartes via Stripe. En Suède : Swish et Bankgiro."
+      "q": "Quelles méthodes de paiement sont disponibles ?",
+      "a": "Paiement par carte via Stripe. En Suède également Swish et Bankgiro."
     },
     "contactSupport": {
       "q": "Comment contacter le support ?",
-      "a": "Formulaire de contact ou info@tropinord.com. Réponse sous 24–48h."
+      "a": "Via notre formulaire de contact ou info@tropinord.com. Réponse sous 24–48 heures."
     },
     "wholesale": {
-      "q": "Proposez-vous du gros ou des commandes en vrac ?",
-      "a": "Oui, huiles et thés en vrac disponibles. Contact : sellers@tropinord.com."
+      "q": "Proposez-vous des prix de gros ou des volumes plus importants ?",
+      "a": "Oui, commandes en gros d'huiles et thés disponibles sur demande — contactez sellers@tropinord.com."
     }
   },
-
   "shipping": {
-    "title": "Politique d'expédition et de retour",
+    "title": "Expédition & retours",
     "policyTitle": "Politique d'expédition",
-    "intro": "Nous nous efforçons de traiter et d'expédier toutes les commandes dans un délai de 1 à 2 jours ouvrables. Voici ce que vous devez savoir sur notre expédition :",
+    "intro": "Chez TropiNord, nous nous engageons à livrer votre commande rapidement et en toute sécurité. Toutes les commandes sont emballées avec soin, de préférence avec des matériaux durables lorsque possible.",
     "points": [
-      "Délai de traitement : 1 à 2 jours ouvrables",
-      "Les délais de livraison varient selon la destination",
-      "Informations de suivi fournies pour toutes les commandes",
-      "Expédition internationale disponible",
-      "Des frais de douane peuvent s'appliquer pour les commandes internationales"
+      "Délai de traitement : Les commandes sont généralement traitées dans les 1 à 3 jours ouvrables après confirmation du paiement.",
+      "Délai de livraison : En Suède : 2–5 jours ouvrables. International : 7–21 jours ouvrables selon la destination.",
+      "Frais d'expédition : Calculés à la caisse en fonction du poids, de la taille et de l'adresse de livraison.",
+      "Suivi : Un lien de suivi est envoyé par e-mail une fois votre commande expédiée.",
+      "Douane & frais d'importation : Les clients internationaux sont responsables des éventuels droits de douane, TVA ou frais d'importation."
     ],
+    "returnsTitle": "Retours & échanges",
+    "returnsIntro": "Votre satisfaction est importante pour nous. Si vous n'êtes pas entièrement satisfait de votre achat, nous proposons des retours et échanges selon les conditions suivantes :",
+    "returnPoints": [
+      "Éligibilité : Les articles doivent être retournés non utilisés, dans leur état et emballage d'origine, sous 14 jours suivant la livraison.",
+      "Articles non retournables : Pour des raisons d'hygiène et de sécurité, les produits de soins personnels, les denrées périssables ou les produits sur mesure ne peuvent être retournés sauf s'ils sont défectueux.",
+      "Demande de retour : Contactez notre équipe support à support@tropinord.com avec votre numéro de commande et la raison du retour.",
+      "Remboursements : Les retours approuvés sont remboursés sur le mode de paiement original dans les 7 à 10 jours ouvrables après inspection.",
+      "Frais de retour : Vous êtes responsable des frais de retour sauf si l'article était endommagé, défectueux ou incorrect à la réception."
+    ],
+    "closing": "Si vous avez des questions ou besoin d'aide, n'hésitez pas à nous contacter. Nous sommes là pour vous !",
     "servicesTitle": "Services d'expédition",
     "servicesIntro": "Nous collaborons avec des prestataires logistiques fiables pour assurer des livraisons sûres et ponctuelles :",
     "serviceProviders": ["DHL Express", "PostNord", "UPS", "Bring"],
-    "returnsTitle": "Retours et remboursements",
-    "returnsIntro": "Nous voulons que vous soyez entièrement satisfait de votre achat. Notre politique de retour :",
-    "returnPoints": [
-      "Les retours doivent être initiés dans les 14 jours suivant la livraison",
-      "Les produits doivent être non ouverts et dans leur emballage d'origine",
-      "Les frais de retour sont à la charge du client, sauf si le produit est défectueux ou incorrect",
-      "Les remboursements sont effectués dans les 5 à 7 jours ouvrables après réception de l'article retourné",
-      "Contactez-nous d'abord pour obtenir une autorisation de retour avant d'envoyer quoi que ce soit"
-    ],
-    "faqTitle": "Foire aux questions",
+    "faqTitle": "Questions fréquemment posées",
     "faqIntro": "Questions courantes sur l'expédition et les retours :",
     "faqList": [
       "Combien de temps prend l'expédition vers mon pays ?",
-      "Puis-je changer mon adresse de livraison après avoir commandé ?",
-      "Que faire si mon colis est perdu ou endommagé ?",
+      "Puis-je changer mon adresse de livraison après avoir passé commande ?",
+      "Que se passe-t-il si mon colis est perdu ou endommagé ?",
       "Comment suivre ma commande ?",
       "Y a-t-il des restrictions d'expédition ?"
     ],
     "contactTitle": "Besoin d'aide ? Contactez-nous",
-    "emailLabel": "Email",
+    "emailLabel": "E-mail",
     "supportEmail": "support@tropinord.com",
     "phoneLabel": "Téléphone/WhatsApp",
     "phoneNumber": "+46700711713",
-    "supportHours": "Service client disponible du lundi au vendredi, de 9h à 17h CET",
-    "closing": "Merci d'avoir magasiné chez TropiNord !"
+    "supportHours": "Service client disponible du lundi au vendredi, 09:00–17:00 (CET)"
   },
+
   "privacy": {
     "title": "Politique de confidentialité",
-    "lastUpdated": "Dernière mise à jour",
-    "collectionTitle": "1. Informations que nous collectons",
-    "collectionIntro": "Nous collectons des informations pour fournir de meilleurs services à nos clients. Les types d'informations que nous recueillons incluent :",
-    "infoCollected": [
-      "Informations personnelles : Nom, adresse email, numéro de téléphone, adresse de livraison/facturation lorsque vous effectuez un achat ou créez un compte",
-      "Informations de paiement : Détails de carte de crédit/débit traités de manière sécurisée via des processeurs de paiement tiers",
-      "Données d'utilisation : Informations sur la façon dont vous utilisez notre site web, produits et services",
-      "Cookies et données de suivi : Nous utilisons des cookies et des technologies de suivi similaires"
-    ],
-    "usageTitle": "2. Comment nous utilisons vos informations",
-    "infoUsage": [
-      "Pour fournir et maintenir notre service",
-      "Pour traiter vos transactions",
-      "Pour vous informer des changements concernant notre service",
-      "Pour fournir un support client",
-      "Pour recueillir des analyses afin d'améliorer notre service"
-    ],
-    "sharingTitle": "3. Partage et divulgation des données",
-    "sharingIntro": "Nous pouvons partager vos informations personnelles dans les situations suivantes :",
-    "dataSharing": [
-      "Avec des prestataires de services qui nous aident dans nos opérations",
-      "Pour des transferts commerciaux comme des fusions ou acquisitions",
-      "Lorsque requis par la loi ou des demandes légales valides"
-    ],
-    "securityTitle": "4. Sécurité des données",
-    "securityContent": "Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos données personnelles, bien qu'aucune méthode de transmission sur Internet ne soit sécurisée à 100 %.",
-    "rightsTitle": "5. Vos droits en matière de protection des données",
-    "rightsIntro": "Selon votre localisation, vous pouvez avoir des droits incluant :",
-    "userRights": [
-      "Le droit d'accéder, de mettre à jour ou de supprimer vos informations",
-      "Le droit de rectification",
-      "Le droit de s'opposer au traitement",
-      "Le droit à la portabilité des données"
-    ],
-    "cookiesTitle": "6. Cookies et technologies de suivi",
-    "cookiesContent": "Nous utilisons des cookies pour suivre l'activité sur notre site web. Vous pouvez configurer votre navigateur pour refuser tous les cookies.",
-    "childrenTitle": "7. Confidentialité des enfants",
-    "childrenContent": "Notre service ne s'adresse à personne de moins de 16 ans. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants.",
-    "changesTitle": "8. Modifications de cette politique de confidentialité",
-    "changesContent": "Nous pouvons mettre à jour notre politique de confidentialité périodiquement. Nous vous informerons de tout changement en publiant la nouvelle politique sur cette page.",
-    "contactTitle": "9. Contactez-nous",
-    "contactContent": "Si vous avez des questions sur cette politique de confidentialité, veuillez nous contacter à support@tropinord.com."
+    "effectiveDate": "En vigueur à partir du : 12 juin 2025",
+    "intro": "Chez TropiNord, votre vie privée est une priorité absolue. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations personnelles...",
+    "section1": {
+      "title": "1. Quelles informations nous collectons",
+      "personalInfo": "Informations personnelles : Nom, adresse, e-mail, numéro de téléphone et informations de paiement (utilisées uniquement pour les transactions).",
+      "technicalData": "Données techniques : Adresse IP, type de navigateur, identifiants d'appareil et pages visitées, collectées automatiquement via cookies et outils d'analyse.",
+      "thirdPartyData": "Données tierces : Informations des services de paiement et partenaires de livraison pour la gestion des commandes."
+    },
+    "section2": {
+      "title": "2. Comment nous utilisons vos informations",
+      "uses": [
+        "Pour traiter et livrer vos commandes efficacement.",
+        "Pour envoyer des confirmations de commande, mises à jour de livraison ou newsletters.",
+        "Pour améliorer les fonctions du site, le service client et les offres.",
+        "Pour remplir les obligations légales ou fiscales selon la loi suédoise et européenne."
+      ]
+    },
+    "section3": {
+      "title": "3. Partage des données",
+      "description": "Nous ne partageons vos données qu'avec des tiers de confiance nécessaires au traitement des commandes, tels que les solutions de paiement (par ex. Stripe, Swish, PayPal) et les partenaires logistiques. Nous ne vendons ni ne louons vos données en aucune circonstance."
+    },
+    "section4": {
+      "title": "4. Sécurité des données",
+      "description": "Nous utilisons le chiffrement de norme industrielle, des serveurs sécurisés et des contrôles d'accès pour protéger vos informations personnelles. Veuillez noter, cependant, qu'aucune méthode de transmission ou de stockage numérique n'est totalement sûre."
+    },
+    "section5": {
+      "title": "5. Vos droits",
+      "intro": "En vertu du Règlement général sur la protection des données (RGPD) de l'UE, vous avez le droit de :",
+      "rights": [
+        "Demander l'accès à vos données personnelles",
+        "Demander la correction d'informations inexactes ou périmées",
+        "Demander la suppression de vos données (« droit à l'oubli »)",
+        "Retirer votre consentement pour la communication marketing",
+        "Déposer une plainte auprès d'une autorité de contrôle"
+      ],
+      "contactForm": "Pour exercer ces droits, contactez-nous à"
+    },
+    "section6": {
+      "title": "6. Cookies",
+      "description": "TropiNord utilise des cookies et des technologies similaires pour améliorer votre expérience..."
+    },
+    "section7": {
+      "title": "7. Conservation des données",
+      "description": "Nous stockons vos données uniquement aussi longtemps que nécessaire pour remplir les objectifs décrits dans cette politique..."
+    },
+    "section8": {
+      "title": "8. Mises à jour de la politique",
+      "description": "Nous pouvons occasionnellement mettre à jour cette politique de confidentialité pour refléter de nouvelles réglementations ou pratiques commerciales..."
+    },
+    "section9": {
+      "title": "9. Contact",
+      "contact": "Des questions sur notre politique de confidentialité ou comment nous traitons vos données ? Contactez-nous :<br /><strong>E-mail :</strong><a href=\"mailto:privacy@tropinord.com\" class=\"text-blue-600 underline\">privacy@tropinord.com</a><br /><strong>Téléphone :</strong> +46 76 433 05 23"
+    },
+    "lastUpdated": "Dernière mise à jour"
   },
+
   "terms": {
     "title": "Conditions d'utilisation",
-    "intro": "Bienvenue chez TropiNord. En accédant ou utilisant nos services, vous acceptez de respecter et d'être lié par les conditions générales suivantes.",
-    "paymentMethodsTitle": "Moyens de paiement acceptés",
-    "contact": {
-      "emailLabel": "Email",
-      "phoneLabel": "Téléphone"
-    },
+    "intro": "Ces conditions régissent votre utilisation des services et produits TropiNord...",
     "sections": {
-      "usage": {
-        "title": "1. Utilisation de nos services",
-        "content": [
-          "Vous devez avoir au moins 16 ans pour utiliser nos services",
-          "Vous acceptez de fournir des informations exactes et complètes lors de la création d'un compte",
-          "Vous êtes responsable de la confidentialité de vos identifiants de compte"
-        ]
+      "acceptance": {
+        "title": "1. Acceptation des conditions",
+        "content": "En utilisant notre site web, vous acceptez ces conditions."
+      },
+      "eligibility": {
+        "title": "2. Éligibilité",
+        "content": "Vous devez avoir au moins 18 ans pour effectuer un achat."
       },
       "orders": {
-        "title": "2. Commandes et paiements",
+        "title": "3. Commandes",
         "content": [
-          "Toutes les commandes sont soumises à la disponibilité des produits",
-          "Les prix sont sujets à changement sans préavis",
-          "Nous nous réservons le droit de refuser ou d'annuler toute commande"
-        ],
-        "paymentMethods": [
-          "Cartes de crédit/débit",
-          "PayPal",
-          "Virement bancaire",
-          "Autres moyens de paiement locaux"
+          "Toutes les commandes sont soumises à la disponibilité du produit",
+          "Les prix peuvent changer sans préavis",
+          "Nous nous réservons le droit de refuser ou d'annuler une commande"
         ]
       },
       "shipping": {
-        "title": "3. Expédition et livraison",
-        "content": [
-          "Les délais de livraison peuvent varier selon votre localisation",
-          "Le risque de perte vous incombe dès la livraison",
-          "Des droits de douane et taxes peuvent s'appliquer pour les commandes internationales"
-        ]
+        "title": "4. Expédition",
+        "content": "Nous livrons dans les pays de l'UE via des transporteurs fiables. Les délais de livraison peuvent varier."
       },
       "returns": {
-        "title": "4. Retours et remboursements",
-        "content": [
-          "Les retours doivent être initiés dans les 14 jours suivant la livraison",
-          "Les produits doivent être dans leur état et emballage d'origine",
-          "Les remboursements seront traités dans les 5 à 7 jours ouvrables"
-        ]
+        "title": "5. Retours",
+        "content": "Voir notre Politique de retour pour les conditions complètes."
       },
-      "IntellectualProperty": {
-        "title": "5. Propriété intellectuelle",
-        "content": "Tout le contenu de notre site web, y compris les textes, graphiques, logos et images, est notre propriété et protégé par les lois sur le copyright."
+      "payments": {
+        "title": "6. Paiements",
+        "content": "Nous acceptons Swish, PayPal, Stripe et virement bancaire. Tous les paiements doivent être effectués en SEK."
       },
-      "limitation": {
-        "title": "6. Limitation de responsabilité",
-        "content": "Nous ne serons pas responsables des dommages indirects, accessoires ou consécutifs résultant de votre utilisation de nos services."
+      "privacy": {
+        "title": "7. Confidentialité",
+        "content": "Vos informations personnelles sont traitées conformément à notre Politique de confidentialité."
+      },
+      "prohibited": {
+        "title": "8. Utilisation interdite",
+        "content": "Vous ne pouvez pas utiliser nos services à des fins illégales ou non autorisées."
+      },
+      "governingLaw": {
+        "title": "9. Loi applicable",
+        "content": "Ces conditions sont régies par le droit suédois et les règlements de l'UE."
       },
       "changes": {
-        "title": "7. Modifications des conditions",
-        "content": "Nous pouvons modifier ces conditions à tout moment. L'utilisation continue de nos services constitue l'acceptation des conditions modifiées."
+        "title": "10. Modifications",
+        "content": "Nous pouvons mettre à jour ces conditions à tout moment. Les modifications sont publiées sur cette page."
       },
-      "contact": {
-        "title": "8. Informations de contact",
-        "content": "Pour toute question concernant ces conditions d'utilisation, veuillez nous contacter :",
-        "email": "support@tropinord.com",
-        "phone": "+46 70 0711713"
+      "usage": {
+        "title": "11. Utilisation de nos services",
+        "content": "Vous acceptez d'utiliser nos services de manière responsable et légale."
+      },
+      "intellectualProperty": {
+        "title": "12. Propriété intellectuelle",
+        "content": "Tout le contenu du site web est la propriété de TropiNord et ne peut être reproduit sans autorisation."
+      },
+      "limitation": {
+        "title": "13. Limitation de responsabilité",
+        "content": "Nous ne sommes pas responsables des dommages ou pertes indirects résultant de l'utilisation de nos produits ou services."
       }
     }
+  },
+
+  "pagination": {
+    "prev": "Précédent",
+    "next": "Suivant"
   }
 }

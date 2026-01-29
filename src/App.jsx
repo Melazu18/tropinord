@@ -10,11 +10,11 @@ import MobileHeader from "./components/MobileHeader";
 import Header from "./components/ui/Header";
 import Footer from "./components/ui/Footer";
 import WhatsAppChat from "./components/ui/WhatsAppChat";
-import TidioChat from "./components/TidioChat";
 import FloatingScrollNav from "./components/ui/FloatingScrollNav";
 import { getRegionFromHost } from "./utils/getRegion";
 import LocalizedRoutes from "./LocalizedRoutes";
 import { AuthProvider } from "./contexts/AuthContext";
+import ChatWidget from "./components/chat/ChatWidget";
 
 // Shared currency provider (for Oil/Tea pages)
 import { CurrencyProvider } from "./shared/ui/CurrencyProvider";
@@ -29,7 +29,7 @@ function App() {
   useEffect(() => {
     const saved = localStorage.getItem("theme");
     const prefersDark = window.matchMedia(
-      "(prefers-color-scheme: dark)"
+      "(prefers-color-scheme: dark)",
     ).matches;
     const isDark = saved === "dark" || (!saved && prefersDark);
     setDarkMode(isDark);
@@ -47,14 +47,14 @@ function App() {
     <AuthProvider>
       <CurrencyProvider>
         {/* The one and only Router should be in main.jsx */}
-        <TidioChat language={currentLanguage} />
+        <ChatWidget />
         <div className="flex flex-col min-h-screen font-sans bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
           <MobileHeader />
           <div className="hidden md:block">
             <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
           </div>
 
-          <main className="flex-grow pt-36 px-4 md:px-8 py-6">
+          <main className="flex-grow pt-4 md:pt-36 px-4 md:px-8 py-6">
             <Routes>
               <Route path="/" element={<WelcomeLanding />} />
               <Route path="/*" element={<LocalizedRoutes />} />

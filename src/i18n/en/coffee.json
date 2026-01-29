@@ -1,0 +1,28 @@
+{
+  "title": "☕ Coffee Selection",
+  "subtitle": "Single-origin lots and balanced blends from Africa and beyond.",
+  "searchPlaceholder": "Search single-origins or tasting notes…",
+  "addedToCart": "{{name}} added to cart!",
+  "modal": {
+    "detailsHeading": "Coffee details",
+    "historyHeading": "History",
+    "benefitsHeading": "Health Benefits",
+    "ingredientsHeading": "Ingredients",
+    "originLabel": "Origin (country of production)",
+    "productionYearLabel": "Roast year",
+    "bestBeforeLabel": "Best before",
+    "naturallyGrownLabel": "Cultivation",
+    "naturallyGrown": "Naturally grown"
+  },
+  "card": {
+    "originLabel": "Origin",
+    "productionYearLabel": "Roast year",
+    "bestBeforeLabel": "Best before",
+    "naturallyGrownLabel": "Cultivation",
+    "naturallyGrown": "Naturally grown"
+  },
+  "badges": {
+    "natural": "Naturally Grown",
+    "caffeinated": "Caffeinated"
+  }
+}

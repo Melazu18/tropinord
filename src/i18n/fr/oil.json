@@ -1,27 +1,87 @@
 {
-  "title": "🌿 Collection d’huiles biologiques",
-  "intro": "Découvrez notre sélection d’huiles naturelles pour la cuisine, les rituels et le bien-être. D’origine responsable, riches en nutriments.",
+  "title": "Collection d’Huiles Naturelles",
+  "intro": "Découvrez notre sélection d’huiles naturelles pour la cuisine, les routines traditionnelles et les préparations DIY. Des matières premières responsables à ingrédient unique.",
   "buttons": {
     "addToCart": "Ajouter au panier"
   },
-  "fields": {
-    "origin": "Origine",
-    "scent": "Parfum",
+
+  "productCode": "Code produit",
+
+  "filters": {
+    "typeOfOil": "Type d’huile",
     "skinType": "Type de peau",
-    "ingredients": "Ingrédients"
+    "scent": "Parfum",
+    "type": {
+      "all": "Toutes",
+      "cooking": "Huile alimentaire",
+      "external": "Usage externe",
+      "both": "Cuisine & usage externe"
+    },
+    "all": "Toutes",
+    "dry": "Sèche",
+    "veryDry": "Très sèche",
+    "sensitive": "Sensible",
+    "normal": "Normale",
+    "any": "Tous",
+    "neutral": "Neutre",
+    "nutty": "Noisette",
+    "coconut": "Noix de coco",
+    "minty": "Menthe"
   },
-  "byId": {
-    "neem-oil": {
-      "name": "Huile de neem",
-      "description": "Pressée à froid et naturelle, souvent utilisée dans les remèdes traditionnels et le soin de la peau."
-    },
-    "avocado-oil": {
-      "name": "Huile d’avocat",
-      "description": "Riche en nutriments et très hydratante, idéale pour les cheveux et la peau."
-    },
-    "coconut-oil": {
-      "name": "Huile de coco",
-      "description": "Huile biologique polyvalente pour la cuisine, les cheveux ou la nutrition de la peau."
-    }
-  }
+  "badges": {
+    "natural": "Naturelle",
+    "coldPressed": "Pressée à froid"
+  },
+  "modal": {
+    "detailsHeading": "Détails du produit",
+    "historyHeading": "Histoire",
+    "benefitsHeading": "Caractéristiques",
+    "ingredientsHeading": "Ingrédients (INCI)",
+    "originLabel": "Origine (pays de production)",
+    "productionYearLabel": "Année de production",
+    "bestBeforeLabel": "À consommer de préférence avant",
+    "naturallyGrownLabel": "Culture",
+    "naturallyGrown": "Cultivé naturellement"
+  },
+  "card": {
+    "originLabel": "Origine",
+    "productionYearLabel": "Année de production",
+    "bestBeforeLabel": "À consommer de préférence avant",
+    "naturallyGrownLabel": "Culture",
+    "naturallyGrown": "Cultivé naturellement"
+  },
+
+  "usageTypesLabel": "Types d’usage :",
+  "usageTypes": {
+    "cookingOnly": "Cuisine uniquement",
+    "externalOnly": "Usage externe uniquement",
+    "cookingAndExternal": "Cuisine & usage externe"
+  },
+  "usageBadges": {
+    "both": "Cuisine & usage externe",
+    "cooking": "Huile alimentaire",
+    "external": "Usage externe uniquement"
+  },
+
+  "adminLabels": {
+    "title": "Feuille d’étiquettes – Huiles",
+    "subtitle": "Informations prêtes à imprimer pour les étiquettes produits",
+    "print": "Imprimer",
+    "download": "Télécharger",
+    "product": "Produit",
+    "netContent": "Contenu net",
+    "origin": "Origine",
+    "organic": "Bio",
+    "coldPressed": "Pressée à froid",
+    "productionYear": "Année de production",
+    "bestBefore": "À consommer de préférence avant",
+    "cultivation": "Culture",
+    "naturallyGrown": "Cultivé naturellement",
+    "ingredients": "Ingrédients (INCI)",
+    "usage": "Usage",
+    "yes": "Oui",
+    "no": "Non"
+  },
+
+  "addedToCart": "{{name}} a été ajouté au panier !"
 }

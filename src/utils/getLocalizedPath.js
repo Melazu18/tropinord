@@ -1,19 +1,19 @@
+//src/utils/getLocalizedPath.js
 import { routeMap } from "../routes/routeMap";
 
 // --- utils ---
-const norm = (s = "") => s.replace(/^\/+|\/+$/g, ""); // trim leading/trailing slashes
+const norm = (s = "") => s.replace(/^\/+|\/+$/g, "");
 const cleanSlug = (s) => (typeof s === "string" ? s.replace(/^\/+/, "") : "");
 
 // Build supported URL languages from routeMap (union of all langs used)
 function collectSupportedLangs() {
-  const langs = new Set(["en", "sv"]); // keep canonical defaults
+  const langs = new Set(["en", "sv"]);
   for (const key of Object.keys(routeMap || {})) {
     const mapping = routeMap[key];
     if (mapping && typeof mapping === "object") {
       Object.keys(mapping).forEach((k) => langs.add(k.slice(0, 2)));
     }
   }
-  // Ensure fr & es are included for your new content
   langs.add("fr");
   langs.add("es");
   return Array.from(langs);
@@ -50,12 +50,20 @@ export const getLocalizedPath = (routeKey, lang = "en") => {
 
   if (!mapping) {
     console.warn(`[getLocalizedPath] Unknown routeKey: ${routeKey}`);
-    const homeSlug = pickSlug(routeMap.home || {}, urlLang);
-    return homeSlug ? `/${urlLang}/${homeSlug}` : `/${urlLang}`;
+    // ✅ IMPORTANT: don't silently send users to home.
+    // return a best-effort path so bugs are visible and navigation doesn't "randomly" go home.
+    return `/${urlLang}/${cleanSlug(routeKey)}`;
   }
 
   const slug = pickSlug(mapping, urlLang);
   return slug ? `/${urlLang}/${slug}` : `/${urlLang}`;
+};
+
+/** Build localized path + trailing dynamic segments (e.g. teaDetail + /:slug) */
+export const getLocalizedDynamicPath = (routeKey, lang = "en", rest = "") => {
+  const base = getLocalizedPath(routeKey, lang);
+  const tail = cleanSlug(rest);
+  return tail ? `${base}/${tail}` : base;
 };
 
 /**
@@ -65,10 +73,10 @@ export const getLocalizedPath = (routeKey, lang = "en") => {
  */
 export function detectRouteKey(pathname, lang) {
   const trimmed = norm(pathname);
-  const parts = trimmed.split("/"); // e.g. ["en","origin","tea"]
+  const parts = trimmed.split("/");
   if (!parts[0] || parts[0] !== lang) return null;
 
-  const afterLang = parts.slice(1).join("/"); // e.g. "origin/tea"
+  const afterLang = parts.slice(1).join("/");
   let best = null;
 
   for (const [key, mapping] of Object.entries(routeMap)) {
@@ -95,23 +103,19 @@ export function detectRouteKey(pathname, lang) {
 export function translateExistingPath(fullPath, toLang) {
   const target = pickUrlLang(toLang);
 
-  // Parse safely even if fullPath is relative
   const url = new URL(fullPath, "http://dummy.local");
   const pathname = url.pathname || "/";
-  const parts = norm(pathname).split("/"); // ["en", "..."] or [""]
+  const parts = norm(pathname).split("/");
 
-  // If no known lang prefix → just send to home in target
   const currentLang = parts[0];
   if (!SUPPORTED_URL_LANGS.includes(currentLang)) {
     const homeSlug = pickSlug(routeMap.home || {}, target);
-    const p = `/${target}/${homeSlug}`;
+    const p = homeSlug ? `/${target}/${homeSlug}` : `/${target}`;
     return `${p}${url.search}${url.hash}`;
   }
 
-  // Detect which route we're on (supports nested slugs)
   const hit = detectRouteKey(pathname, currentLang);
 
-  // Build new path
   if (hit && routeMap[hit.key]?.[target]) {
     const translatedSlug = cleanSlug(routeMap[hit.key][target]);
     const rebuilt =

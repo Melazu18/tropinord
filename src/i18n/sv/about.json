@@ -1,32 +1,33 @@
 {
-  "metaTitle": "Om TropiNord | Oljor och Teer från Tropikerna",
-  "metaDescription": "Upptäck TropiNord — nordiska standarder möter tropisk visdom. Vi källar etiskt naturliga oljor och teer från Afrika (och snart Sydstillahavsområdet) och stöttar småbrukare och hållbara arbetssätt. Grundat i Sverige av Paul Abejegah.",
+  "metaTitle": "Om TropiNord | Oljor, Teer, Kaffe och Superfoods från Tropikerna, med Nordiska Standarder",
+  "metaDescription": "Upptäck TropiNord — nordisk precision möter tropisk innovation. Vi är en digital plattform som skapar spårbara, hållbara oljor, teer, kaffe och superfoods från Afrika, stöder småskaliga producenter och finansierar klimataktion. Grundad i Sverige av en studententreprenör.",
 
-  "heading": "Att bygga broar genom omsorgens konst.",
-  "subheading": "Oljor och Teer från Tropikerna, förfinade enligt nordiska standarder.",
+  "heading": "Förbinder Natur, Innovation och Välbefinnande",
+  "subheading": "Där tradition möter teknik för naturligt välmående.",
 
   "ourStoryTitle": "Vår Berättelse",
   "ourStoryContent": {
-    "p1": "På TropiNord tror vi att välmående ska knyta dig till naturen, till arvet och till tidigare generationers visdom.",
-    "p2": "Födda i Sverige förenar vi den nordiska livsstilens klarhet och precision med Afrikas djupa, traditionsrika arv. Från Sveriges rena skogslandskap till solvarma tropiska jordar har varje ingrediens ett syfte: att vårda, återställa och skydda.",
-    "p3": "Hållbarhet är ingen trend för oss det är kärnan i allt vi gör. Våra produkter och partnerskap bygger på:",
-    "list1": "Nordiska standarder: genomtänkt inköp, ren produktion, kompromisslös kvalitet",
-    "list2": "Global visdom: uråldrig örtkunskap, naturliga oljor och teer samt holistisk omsorg",
-    "list3": "Delat ansvar: skydda ekosystem, stötta små producenter och hedra kulturarvet",
-    "p4": "Detta är mer än egenvård. Det är en koppling mellan världar människor, planeten och traditionens kraft.",
-    "quote": "Vi är stolta över att få betjäna afro-europeiska kunder och vänner överallt, där afrikansk botanisk kunskap möter nordisk renhet."
+    "p1": "På TropiNord tror vi att välbefinnande ska koppla människor till naturen, till arv och till visdomen som upprätthåller båda.",
+    "p2": "Född i Sverige kombinerar TropiNord nordisk precision med tropisk innovation för att skapa naturliga produkter som vårdar, återställer och skyddar.",
+    "p3": "Uppbyggd från grunden av en IT-student och entreprenör är TropiNord mer än ett välmärke. Det är en digitalt driven hållbarhetsplattform. Våra system, logistik och digitala arkitektur designades internt för att göra global handel mellan små producenter och moderna konsumenter transparent, spårbar och rättvis.",
+    "list1": "Hållbara värdekedjor genom digital spårbarhet och transparent upphandling",
+    "list2": "Ekoinnovation med biologiskt nedbrytbara och cirkulära förpackningskoncept",
+    "list3": "Inkluderande tillväxt och rättvisa möjligheter för småskaliga jordbrukare",
+    "p4": "Vi tror att teknik kan ge tydlighet, rättvisa och förbindelse till den globala välbefinnande-industrin.",
+    "quote": "Vi samarbetar med småskaliga producenter i Afrika och tropiska regioner för att utveckla hållbart producerade teer, oljor, kaffe och superfoods. Varje ingrediens berättar en historia om hantverk, kultur och omsorg, förädlad genom vetenskap, design och teknik."
   },
 
-  "valuesTitle": "Det Vi Står För",
-  "valuesContent": "TropiNord är mer än en butik — det är ett samhälle. Vi stärker små producenter, inspirerar till ett eko-medvetet liv och hjälper dig att välja produkter som är lika ärliga som effektiva. Varje köp stödjer familjer, bevarar traditioner och skyddar naturen för nästa generation.",
+  "valuesTitle": "Vad Vi Står För",
+  "valuesContent": "TropiNord är en nav för hållbarhet och innovation. Vi bygger broar mellan kontinenter genom samarbete, stärker lokala producenter och designar transparenta cirkulära system som länkar traditionell visdom med moderna verktyg.",
 
   "whatWeDoTitle": "Vad Vi Gör",
-  "whatWeDoItem1": "Väljer ut och delar etiskt naturliga oljor och fina teer av hållbart ursprung",
-  "whatWeDoItem2": "Arbetar direkt med små producenter och kooperativ i Afrika med en färdplan mot Sydstillahavsområdet",
-  "whatWeDoItem3": "Ger lokala tillverkare och odlare den synlighet de förtjänar",
-  "whatWeDoItem4": "Erbjuder vår plattform till småföretag och startups så att de kan växa och nå nya kunder",
-  "whatWeDoExtra": "Varje produkt vi lyfter fram väljs med omsorg för sin renhet, sin historia och sin förmåga att göra skillnad.",
+  "whatWeDoItem1": "Utvecklar och distribuerar funktionella teer, naturliga oljor, kaffe och superfoods av spårbart och hållbart ursprung",
+  "whatWeDoItem2": "Samarbetar med etiska producenter och eko-innovatörer i Afrika, andra tropiska regioner och Europa",
+  "whatWeDoItem3": "Testar modeller för digital spårbarhet för transparenta försörjningskedjor",
+  "whatWeDoItem4": "Erbjuder en plattform där små företag kan växa hållbart och nå nya marknader",
+  "whatWeDoExtra": "Varje produkt vi delar är vald med ett syfte för sin renhet, sin historia och sin förmåga att skapa en mätbar inverkan.",
 
   "ourMissionTitle": "Vårt Uppdrag",
-  "ourMissionContent": "Att förena tradition, natur och kvalitet genom att dela oljor och teer som speglar omtanke, hantverk och gemenskap. När vi tar hand om planeten tar vi hand om oss själva."
+  "ourMissionContent": "Att omdefiniera naturligt välbefinnande genom innovation, teknik och omsorg, och att länka tradition med moderna verktyg för att skapa produkter som är lika ansvarsfulla som de är återställande.",
+  "ourMissionTagline": "TropiNord: Där tradition möter teknik för naturligt välmående."
 }

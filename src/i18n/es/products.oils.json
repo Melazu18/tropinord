@@ -1,0 +1,151 @@
+{
+  "oil-coconut": {
+    "name": "Aceite de Coco Prensado en Frío",
+    "description": "Aceite de coco de un solo ingrediente, sólido a bajas temperaturas.",
+    "history": "El aceite de coco se ha utilizado durante generaciones en hogares y rutinas tradicionales.",
+    "benefits": [
+      "Materia prima versátil",
+      "Aceite base común",
+      "Perfil natural de ácidos grasos",
+      "Textura fácil de mezclar"
+    ],
+    "ingredients": ["Cocos Nucifera Oil"]
+  },
+  "oil-coconut-heat": {
+    "name": "Aceite de Coco Procesado con Calor",
+    "description": "Aceite de coco procesado con calor, apto para cocina y uso externo.",
+    "history": "Utilizado históricamente como aceite doméstico.",
+    "benefits": [
+      "Aceite práctico",
+      "Adecuado para cocinar",
+      "Base versátil",
+      "Uso externo tradicional"
+    ],
+    "ingredients": ["Cocos Nucifera Oil"]
+  },
+  "oil-castor": {
+    "name": "Aceite de Ricino",
+    "description": "Aceite espeso utilizado tradicionalmente en rutinas capilares.",
+    "history": "Aceite tradicional usado en diferentes culturas.",
+    "benefits": [
+      "Popular en rutinas capilares",
+      "Textura rica",
+      "Base para mezclas DIY",
+      "Uso moderado"
+    ],
+    "ingredients": ["Ricinus Communis Seed Oil"]
+  },
+  "oil-moringa-seed": {
+    "name": "Aceite de Semilla de Moringa",
+    "description": "Aceite ligero de rápida absorción.",
+    "history": "La moringa se ha utilizado tradicionalmente en hogares.",
+    "benefits": [
+      "Sensación ligera",
+      "Fácil de mezclar",
+      "Aceite tradicional",
+      "Absorción rápida"
+    ],
+    "ingredients": ["Moringa Oleifera Seed Oil"]
+  },
+  "oil-palm-kernel": {
+    "name": "Aceite de Palmiste",
+    "description": "Aceite tradicional de África Occidental con textura rica.",
+    "history": "Ingrediente tradicional en formulaciones domésticas.",
+    "benefits": [
+      "Textura rica",
+      "Aceite tradicional",
+      "Usado en jabones y mantecas",
+      "Producto patrimonial"
+    ],
+    "ingredients": ["Elaeis Guineensis Kernel Oil"]
+  },
+  "oil-avocado": {
+    "name": "Aceite de Aguacate",
+    "description": "Aceite emoliente usado como base en rutinas tradicionales.",
+    "history": "Usado históricamente en hogares de América Central.",
+    "benefits": [
+      "Buen aceite base",
+      "Textura suave",
+      "Fácil de mezclar",
+      "Popular para DIY"
+    ],
+    "ingredients": ["Persea Gratissima Oil"]
+  },
+  "oil-black-seed": {
+    "name": "Aceite de Semilla Negra",
+    "description": "Aceite aromático prensado en frío usado como base o aditivo.",
+    "history": "Aceite tradicional usado en diferentes regiones.",
+    "benefits": [
+      "Perfil aromático",
+      "Se mezcla con otros aceites",
+      "Uso en pequeñas cantidades",
+      "Materia prima tradicional"
+    ],
+    "ingredients": ["Nigella Sativa Seed Oil"]
+  },
+  "oil-lavender": {
+    "name": "Aceite de Lavanda",
+    "description": "Aceite aromático para mezclas y uso artesanal.",
+    "history": "La lavanda se ha utilizado tradicionalmente en hogares.",
+    "benefits": [
+      "Aceite aromático",
+      "Uso en pequeñas cantidades",
+      "Popular para DIY",
+      "Aditivo tradicional"
+    ],
+    "ingredients": ["Lavandula Angustifolia Oil"]
+  },
+  "oil-rosemary": {
+    "name": "Aceite de Romero",
+    "description": "Aceite aromático para mezclas tradicionales.",
+    "history": "El romero se ha usado históricamente en preparaciones domésticas.",
+    "benefits": [
+      "Aceite aromático",
+      "Uso limitado",
+      "Popular en DIY",
+      "Aditivo tradicional"
+    ],
+    "ingredients": ["Rosmarinus Officinalis Leaf Oil"]
+  },
+  "oil-mint": {
+    "name": "Aceite de Menta",
+    "description": "Aceite aromático fresco usado en pequeñas cantidades.",
+    "history": "La menta se ha utilizado durante generaciones.",
+    "benefits": [
+      "Aroma fresco",
+      "Uso reducido",
+      "Popular en DIY",
+      "Aditivo tradicional"
+    ],
+    "ingredients": ["Mentha Piperita Oil"]
+  },
+  "butter-shea": {
+    "name": "Manteca de Karité",
+    "description": "Manteca de karité sin refinar con textura rica.",
+    "history": "Manteca tradicional de África Occidental.",
+    "benefits": [
+      "Base versátil",
+      "Textura rica",
+      "Producto tradicional",
+      "Uso por cucharadas"
+    ],
+    "ingredients": ["Butyrospermum Parkii Butter"]
+  },
+  "moringa-balm": {
+    "name": "Bálsamo de Moringa",
+    "description": "Bálsamo suave con aceite de moringa y menta.",
+    "history": "Fórmula moderna inspirada en prácticas tradicionales.",
+    "benefits": [
+      "Suaviza la piel sensible",
+      "Sensación refrescante",
+      "Fórmula protectora",
+      "Textura ligera"
+    ],
+    "ingredients": [
+      "Moringa Oleifera Seed Oil",
+      "Mentha Piperita Oil",
+      "Beeswax",
+      "Cocos Nucifera Oil"
+    ]
+  }
+}

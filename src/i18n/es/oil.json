@@ -1,27 +1,87 @@
 {
-  "title": "🌿 Colección de Aceites Orgánicos",
-  "intro": "Explora nuestra colección de aceites naturales para cocinar, rituales y bienestar. De origen responsable y ricos en nutrientes.",
+  "title": "Colección de Aceites Naturales",
+  "intro": "Explora nuestra colección de aceites naturales para cocina, rutinas tradicionales y preparaciones DIY. Materias primas responsables de un solo ingrediente.",
   "buttons": {
     "addToCart": "Añadir al carrito"
   },
-  "fields": {
-    "origin": "Origen",
-    "scent": "Aroma",
+
+  "productCode": "Código de producto",
+
+  "filters": {
+    "typeOfOil": "Tipo de aceite",
     "skinType": "Tipo de piel",
-    "ingredients": "Ingredientes"
+    "scent": "Aroma",
+    "type": {
+      "all": "Todos",
+      "cooking": "Aceite de cocina",
+      "external": "Uso externo",
+      "both": "Cocina y uso externo"
+    },
+    "all": "Todos",
+    "dry": "Seca",
+    "veryDry": "Muy seca",
+    "sensitive": "Sensible",
+    "normal": "Normal",
+    "any": "Cualquiera",
+    "neutral": "Neutro",
+    "nutty": "A nuez",
+    "coconut": "Coco",
+    "minty": "Menta"
   },
-  "byId": {
-    "neem-oil": {
-      "name": "Aceite de neem",
-      "description": "Prensado en frío y natural, usado en remedios tradicionales y cuidado de la piel."
-    },
-    "avocado-oil": {
-      "name": "Aceite de aguacate",
-      "description": "Rico en nutrientes y muy hidratante, ideal para el cabello y la piel."
-    },
-    "coconut-oil": {
-      "name": "Aceite de coco",
-      "description": "Aceite orgánico multiusos para cocinar, el cabello o nutrir la piel."
-    }
-  }
+  "badges": {
+    "natural": "Natural",
+    "coldPressed": "Prensado en frío"
+  },
+  "modal": {
+    "detailsHeading": "Información del producto",
+    "historyHeading": "Historia",
+    "benefitsHeading": "Características",
+    "ingredientsHeading": "Ingredientes (INCI)",
+    "originLabel": "Origen (país de producción)",
+    "productionYearLabel": "Año de producción",
+    "bestBeforeLabel": "Consumir preferentemente antes de",
+    "naturallyGrownLabel": "Cultivo",
+    "naturallyGrown": "Cultivado de forma natural"
+  },
+  "card": {
+    "originLabel": "Origen",
+    "productionYearLabel": "Año de producción",
+    "bestBeforeLabel": "Consumir preferentemente antes de",
+    "naturallyGrownLabel": "Cultivo",
+    "naturallyGrown": "Cultivado de forma natural"
+  },
+
+  "usageTypesLabel": "Tipos de uso:",
+  "usageTypes": {
+    "cookingOnly": "Solo cocina",
+    "externalOnly": "Solo uso externo",
+    "cookingAndExternal": "Cocina y uso externo"
+  },
+  "usageBadges": {
+    "both": "Cocina y uso externo",
+    "cooking": "Aceite de cocina",
+    "external": "Solo uso externo"
+  },
+
+  "adminLabels": {
+    "title": "Hoja de etiquetas – Aceites",
+    "subtitle": "Información lista para imprimir para las etiquetas de los productos",
+    "print": "Imprimir",
+    "download": "Descargar",
+    "product": "Producto",
+    "netContent": "Contenido neto",
+    "origin": "Origen",
+    "organic": "Orgánico",
+    "coldPressed": "Prensado en frío",
+    "productionYear": "Año de producción",
+    "bestBefore": "Consumir preferentemente antes de",
+    "cultivation": "Cultivo",
+    "naturallyGrown": "Cultivado de forma natural",
+    "ingredients": "Ingredientes (INCI)",
+    "usage": "Uso",
+    "yes": "Sí",
+    "no": "No"
+  },
+
+  "addedToCart": "¡{{name}} añadido al carrito!"
 }

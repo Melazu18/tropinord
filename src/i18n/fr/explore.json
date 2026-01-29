@@ -1,31 +1,39 @@
 {
-  "fr": {
-    "growthHairCream": "Crème pour la Croissance des Cheveux",
-    "scalpTreatmentCream": "Crème Traitante pour Cuir Chevelu",
-    "curlsHairCream": "Crème pour Boucles",
-    "afroHairCream": "Crème pour Cheveux Afro",
-    "dreadlockHairCream": "Crème pour Dreadlocks",
-    "sheaButter": "Beurre de Karité",
-    "neemOil": "Huile de Neem",
-    "avocadoOil": "Huile d'Avocat",
-    "tumericOil": "Huile de Curcuma",
-    "nordicMintEssence": "Essence de Menthe Nordique",
-    "lavenderAuroraMist": "Brume Aurore de Lavande",
-    "rollOn": "Roll-On Inox 24H (Sans Parfum)",
-    "arcticSunriseTea": "Mélange d'Herbes Aurore Arctique",
-    "forestBerryImmunity": "Immunité aux Baies des Bois",
-    "lavenderOil": "Huile de Lavande",
-    "eucalyptusOil": "Huile Essentielle d'Eucalyptus Citriodora",
-    "gingerPowder": "Poudre de Gingembre Bio",
-    "turmericPowder": "Poudre de Curcuma",
-    "bananaLeaves": "Feuilles de Bananier",
-    "charcoal": "Charbon de Bois (En gros)",
-    "dryBones": "Os Séchés (pour Alimentation)",
-    "africanBlackSoapRaw": "Savon Noir Africain - Naturel",
-    "africanBlackSoapLiquid": "Savon Noir Africain - Liquide",
-    "africanBlackSoapOriginal": "Savon Noir Africain - Original",
-    "organicCoffee": "Café Bio",
-    "palmOilBulk": "Huile de Palme (En gros)",
-    "sheaButterBulk": "Beurre de Karité (En gros)"
+  "title": "Explorez Nos Produits",
+  "subtitle": "Découvrez les thés, huiles naturelles, cafés et superaliments conçus pour l'équilibre et le bien-être quotidien.",
+  "browseCat": "Parcourir",
+  "empty": "Aucun produit ne correspond à votre recherche.",
+  "addedToCart": "{{name}} ajouté au panier!",
+  "modal": {
+    "detailsHeading": "Détails du produit",
+    "historyHeading": "Histoire",
+    "benefitsHeading": "Bienfaits pour la Santé",
+    "ingredientsHeading": "Ingrédients",
+    "originLabel": "Origine (pays de production)",
+    "productionYearLabel": "Année de production",
+    "bestBeforeLabel": "À consommer avant",
+    "naturallyGrownLabel": "Culture",
+    "naturallyGrown": "Cultivé naturellement"
+  },
+  "card": {
+    "originLabel": "Origine",
+    "productionYearLabel": "Année de production",
+    "bestBeforeLabel": "À consommer avant",
+    "naturallyGrownLabel": "Culture",
+    "naturallyGrown": "Cultivé naturellement"
+  },
+  "badges": {
+    "organic": "Biologique",
+    "caffeineFree": "Sans Caféine",
+    "antioxidants": "Riche en Antioxydants",
+    "natural": "Naturel",
+    "caffeinated": "Avec Caféine"
+  },
+  "categories": {
+    "all": "Tous",
+    "tea": "Thé",
+    "oils": "Huiles",
+    "coffee": "Café",
+    "superfoods": "Superaliments"
   }
 }

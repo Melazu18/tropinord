@@ -1,6 +1,23 @@
 {
   "loading": "Laddar...",
   "close": "Stäng",
+  "back": "← Tillbaka",
+  "comingSoon": "Kommer snart",
+  "availableSoon": "Tillgänglig inom kort",
+  "submit": "Skicka",
+  "noReviews": "Inga recensioner ännu — bli först med din upplevelse.",
+
+  "yourRating": "Ditt betyg",
+  "reviewPlaceholder": "Hur smakar det? Hur använder du det?",
+  "reviewTipPlaceholder": "Valfritt: ditt brygg-/användningstips",
+  "tipLabel": "Tips:",
+  "moods": {
+    "morningEnergy": "Morgonenergi",
+    "eveningWindDown": "Kvällsavslappning",
+    "afterWorkout": "Efter träning",
+    "withFriends": "Med vänner",
+    "focusStudy": "Fokus & studier"
+  },
 
   "branding": {
     "tagline": "Naturen minns – och det gör vi också."
@@ -357,5 +374,12 @@
         "content": "Vi ansvarar inte för indirekta skador eller förluster som uppstår vid användning av våra produkter eller tjänster."
       }
     }
+  },
+
+  "pagination": {
+    "prev": "Föregående",
+    "next": "Nästa"
   }
 }
+
+

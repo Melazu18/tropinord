@@ -1,5 +1,7 @@
+// src/components/SwishQrCode.jsx
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { API_BASE } from "../utils/api";
 
 export default function SwishQrCode({
   swishNumber = "1230558973",
@@ -8,11 +10,15 @@ export default function SwishQrCode({
 }) {
   const { t } = useTranslation("thankyou");
   const [toast, setToast] = useState("");
+  const [imgError, setImgError] = useState(false);
 
-  const formattedAmount = parseFloat(amount).toFixed(2);
-  const qrSrc = `/api/qr?amount=${formattedAmount}&reference=${encodeURIComponent(
+  const formattedAmount = parseFloat(amount || 0).toFixed(2);
+
+  // If API_BASE = "/api" → "/api/qr"
+  // If API_BASE = "http://localhost:3001/api" → "http://localhost:3001/api/qr"
+  const qrSrc = `${API_BASE}/qr?amount=${formattedAmount}&reference=${encodeURIComponent(
     reference
-  )}`;
+  )}&swishNumber=${encodeURIComponent(swishNumber)}`;
 
   const handleCopy = () => {
     navigator.clipboard.writeText(swishNumber).then(() => {
@@ -46,21 +52,28 @@ export default function SwishQrCode({
     printWindow.document.close();
   };
 
-  const swishDeepLink = `swish://payment?amount=${formattedAmount}&payee=${swishNumber}&message=${encodeURIComponent(
-    reference
-  )}`;
-
   return (
     <div className="mt-6 text-center px-2 relative">
       <h3 className="text-lg font-semibold text-green-800 dark:text-green-400 mb-2">
         {t("swishTitle")}
       </h3>
 
-      <img
-        src={qrSrc}
-        alt={t("swishQrAlt")}
-        className="mx-auto my-4 border shadow-lg rounded bg-white dark:bg-gray-50 w-60"
-      />
+      {!imgError ? (
+        <img
+          src={qrSrc}
+          alt={t("swishQrAlt")}
+          className="mx-auto my-4 border shadow-lg rounded bg-white dark:bg-gray-50 w-60"
+          crossOrigin="anonymous"
+          onError={() => setImgError(true)}
+        />
+      ) : (
+        <p className="text-sm text-red-500 mb-4">
+          {t("swishQrError", {
+            defaultValue:
+              "We couldn’t load the QR image. Please use the Swish number and reference manually.",
+          })}
+        </p>
+      )}
 
       <p className="mt-2 text-sm text-gray-800 dark:text-gray-200">
         {t("swishSendInstruction", { amount: formattedAmount })}{" "}
@@ -92,13 +105,6 @@ export default function SwishQrCode({
         >
           🖨️ {t("swishPrint")}
         </button>
-
-        <a
-          href={swishDeepLink}
-          className="bg-blue-600 text-white px-4 py-1.5 rounded hover:bg-blue-700 transition text-sm shadow"
-        >
-          📲 {t("swishPayNow")}
-        </a>
       </div>
 
       {toast && (

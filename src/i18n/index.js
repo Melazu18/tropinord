@@ -1,4 +1,4 @@
-// src/i18n/index.js (or wherever your i18n bootstrap file lives)
+// src/i18n/index.js
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
@@ -40,6 +40,7 @@ i18n
     detection: {
       order: ["localStorage", "navigator", "htmlTag"],
       caches: ["localStorage"],
+      lookupLocalStorage: "lang",
     },
     react: { useSuspense: false },
   });

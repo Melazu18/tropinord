@@ -3,14 +3,51 @@ import React, { useState, useRef, useEffect } from "react";
 import { FaGlobe } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router-dom";
-import { translateExistingPath } from "../../utils/getLocalizedPath";
+import { routeMap } from "../../routes/routeMap"; // 👈 use routeMap, not translateExistingPath
+
+const SUPPORTED = ["en", "sv", "fr", "es"];
+const RTL = ["ar", "he", "fa", "ur"];
+
+function getLangFromPathname(pathname) {
+  const m = pathname.match(/^\/(en|sv|fr|es)(?=\/|$)/);
+  return m ? m[1] : null;
+}
+
+/** Detect which route key we are on for a given lang. Longest-match wins. */
+function detectRouteKey(pathname, lang) {
+  const after = pathname.replace(/^\/(en|sv|fr|es)/, ""); // strip "/{lang}"
+  const clean = after.replace(/^\/+/, ""); // e.g. "kaffe" or "origine/huiles"
+  let best = null;
+
+  for (const key of Object.keys(routeMap)) {
+    const slug = routeMap[key]?.[lang];
+    if (!slug) continue;
+    if (clean === slug || clean.startsWith(slug + "/")) {
+      if (!best || slug.length > best.slug.length) {
+        best = { key, slug, tail: clean.slice(slug.length) }; // tail like "" or "/foo"
+      }
+    }
+  }
+  return best; // { key, slug, tail } | null
+}
+
+function buildPathForLang(targetLang, detected, fallbackPathname) {
+  if (detected) {
+    const tgtSlug = routeMap[detected.key]?.[targetLang];
+    if (tgtSlug) return `/${targetLang}/${tgtSlug}${detected.tail || ""}`;
+  }
+  // Fallback: just swap the first segment or go to the home of targetLang
+  if (/^\/(en|sv|fr|es)(?=\/|$)/.test(fallbackPathname)) {
+    return fallbackPathname.replace(/^\/(en|sv|fr|es)/, `/${targetLang}`);
+  }
+  return `/${targetLang}/${routeMap.home[targetLang]}`;
+}
 
 /**
  * Props
  *  - compact: boolean → icon-only trigger sized like other header icons (40x40)
- *  - placement: 'left' | 'right' → which side to anchor the dropdown to
- *  - className: extra classes for the trigger button
- *  - wrapperClassName: extra classes for the outer wrapper (optional)
+ *  - placement: 'left' | 'right'
+ *  - className, wrapperClassName
  */
 export default function LanguageSwitcher({
   compact = false,
@@ -19,88 +56,80 @@ export default function LanguageSwitcher({
   wrapperClassName = "",
 }) {
   const { i18n, t } = useTranslation();
-  const [showDropdown, setShowDropdown] = useState(false);
+  const [open, setOpen] = useState(false);
   const dropdownRef = useRef(null);
   const btnRef = useRef(null);
 
   const navigate = useNavigate();
   const location = useLocation();
 
-  const availableLanguages = [
+  const currentLang =
+    getLangFromPathname(location.pathname) ||
+    (i18n.language || "en").slice(0, 2);
+
+  const languages = [
     { code: "en", label: "English", flag: "🇬🇧" },
     { code: "sv", label: "Svenska", flag: "🇸🇪" },
-    // Extras: do not change the URL segment for these
-    { code: "es", label: "Español", flag: "🇪🇸" },
     { code: "fr", label: "Français", flag: "🇫🇷" },
+    { code: "es", label: "Español", flag: "🇪🇸" },
   ];
-
-  const rtlLangs = ["ar", "he", "fa", "ur"];
-  const currentLang = (i18n.language || "en").slice(0, 2);
-
-  const currentLanguageData = availableLanguages.find(
-    (l) => l.code === currentLang
-  ) || {
+  const currentData = languages.find((l) => l.code === currentLang) || {
     label: "Language",
     flag: "🌐",
   };
 
-  const toggleDropdown = () => setShowDropdown((prev) => !prev);
-
-  const changeLanguage = async (lng) => {
+  const onChange = async (lng) => {
+    if (!SUPPORTED.includes(lng) || lng === currentLang) {
+      setOpen(false);
+      return;
+    }
+    // sync i18n + html dir + localStorage
     await i18n.changeLanguage(lng);
-    localStorage.setItem("lang", lng);
+    const isRtl = RTL.includes(lng);
+    document.documentElement.dir = isRtl ? "rtl" : "ltr";
+    try {
+      localStorage.setItem("lang", lng);
+      localStorage.setItem("dir", isRtl ? "rtl" : "ltr");
+    } catch {}
 
-    const isRtl = rtlLangs.includes(lng);
-    const html = document.documentElement;
-    html.dir = isRtl ? "rtl" : "ltr";
-    localStorage.setItem("dir", isRtl ? "rtl" : "ltr");
-
-    // Only rewrite the URL for languages that your router supports as a segment.
-    const supportsSegment = lng === "en" || lng === "sv";
-    const fullPath = location.pathname + location.search + location.hash;
-
-    const targetPath = supportsSegment
-      ? translateExistingPath(fullPath, lng) // also translates slugs (home ⇄ hem, etc.)
-      : fullPath; // keep URL for other languages
-
-    navigate(targetPath, { replace: true });
-    setShowDropdown(false);
+    // compute target path with same route key
+    const detected = detectRouteKey(location.pathname, currentLang);
+    const next = buildPathForLang(lng, detected, location.pathname);
+    navigate(next, { replace: false, state: { _langSwitched: true } });
+    setOpen(false);
   };
 
-  // Restore direction on load
+  // Restore dir on mount
   useEffect(() => {
     const savedDir = localStorage.getItem("dir");
     if (savedDir) document.documentElement.dir = savedDir;
   }, []);
 
-  // Close dropdown on outside click / ESC
+  // Close on outside click / ESC
   useEffect(() => {
-    const handleClickOutside = (e) => {
+    const onDoc = (e) => {
       if (
         dropdownRef.current &&
         !dropdownRef.current.contains(e.target) &&
         btnRef.current &&
         !btnRef.current.contains(e.target)
       ) {
-        setShowDropdown(false);
+        setOpen(false);
       }
     };
-    const onEsc = (e) => e.key === "Escape" && setShowDropdown(false);
-    document.addEventListener("mousedown", handleClickOutside);
+    const onEsc = (e) => e.key === "Escape" && setOpen(false);
+    document.addEventListener("mousedown", onDoc);
     document.addEventListener("keydown", onEsc);
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("mousedown", onDoc);
       document.removeEventListener("keydown", onEsc);
     };
   }, []);
 
-  // Trigger styles: match icon buttons (40x40) when compact
   const triggerBase =
     "inline-flex items-center justify-center rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-[#f2c94c]/70 hover:bg-white/10";
   const size = compact ? "h-10 w-10 p-0" : "px-2 py-2";
   const triggerClass = `${triggerBase} ${size} ${className}`;
-
-  // Dropdown side & alignment
   const side =
     placement === "left"
       ? "left-0 origin-top-left"
@@ -108,13 +137,12 @@ export default function LanguageSwitcher({
 
   return (
     <div className={`relative ${wrapperClassName}`}>
-      {/* Trigger */}
       <button
         ref={btnRef}
-        onClick={toggleDropdown}
+        onClick={() => setOpen((s) => !s)}
         className={triggerClass}
         aria-haspopup="menu"
-        aria-expanded={showDropdown}
+        aria-expanded={open}
         title={t("header.language", { defaultValue: "Language" })}
       >
         <FaGlobe className={compact ? "text-[18px]" : "text-base"} />
@@ -127,25 +155,24 @@ export default function LanguageSwitcher({
                   "Segoe UI Emoji, Apple Color Emoji, Noto Color Emoji",
               }}
             >
-              {currentLanguageData.flag}
+              {currentData.flag}
             </span>
-            <span>{currentLanguageData.label}</span>
+            <span>{currentData.label}</span>
           </span>
         )}
       </button>
 
-      {/* Dropdown */}
       <div
         ref={dropdownRef}
         className={`absolute ${side} top-full mt-1 w-48 max-h-96 overflow-y-auto rounded-md border border-white/10 bg-[#0e1a2e] text-white shadow-xl z-[10030] ${
-          showDropdown ? "block" : "hidden"
+          open ? "block" : "hidden"
         }`}
         role="menu"
       >
-        {availableLanguages.map((lang) => (
+        {languages.map((lang) => (
           <button
             key={lang.code}
-            onClick={() => changeLanguage(lang.code)}
+            onClick={() => onChange(lang.code)}
             className={`flex items-center w-full px-3 py-2 text-left text-sm hover:bg-white/10 ${
               currentLang === lang.code ? "bg-white/5" : ""
             }`}

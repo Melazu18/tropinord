@@ -75,6 +75,14 @@ export default function MobileHeader() {
     }
   };
 
+  // ✅ NEW: correct account click behavior (no functionality change elsewhere)
+  const handleAccountClick = () => {
+    const target = user
+      ? getLocalizedPath("dashboard", lang)
+      : getLocalizedPath("login", lang);
+    navigate(target);
+  };
+
   return (
     <>
       {/* Mobile Header - Two Section Layout */}
@@ -94,7 +102,7 @@ export default function MobileHeader() {
             })}
           >
             <img
-              src={withBase("/images/tropinordlogoPreview.png")}
+              src={withBase("/images/tropiLogo004.png")}
               alt={t("logo.alt", { defaultValue: "TropiNord Logo" })}
               className="h-14 w-auto object-contain"
               onError={(e) => (e.currentTarget.src = withBase("/logo.svg"))}
@@ -123,9 +131,7 @@ export default function MobileHeader() {
           </div>
 
           {/* CENTER - Empty for balance */}
-          <div className="flex justify-center">
-            {/* Empty center for balanced layout */}
-          </div>
+          <div className="flex justify-center">{/* Empty center */}</div>
 
           {/* RIGHT - Cart, Account & Menu */}
           <div className="flex items-center gap-2 justify-end">
@@ -144,12 +150,20 @@ export default function MobileHeader() {
               )}
             </Link>
 
-            {/* Account Dropdown */}
+            {/* ✅ Account icon now navigates properly */}
             <div className="relative">
               <button
-                onClick={() => setDrawerOpen(false)}
+                type="button"
+                onClick={handleAccountClick}
                 className="inline-flex h-10 w-10 items-center justify-center rounded-md hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200"
-                aria-label={t("nav.login", { defaultValue: "Account" })}
+                aria-label={t("nav.account", {
+                  ns: "auth",
+                  defaultValue: "Account",
+                })}
+                title={t("nav.account", {
+                  ns: "auth",
+                  defaultValue: "Account",
+                })}
               >
                 <User className="w-6 h-6" />
               </button>
@@ -375,8 +389,7 @@ export default function MobileHeader() {
         </aside>
       </div>
 
-      {/* spacer to offset fixed header */}
-      <div className="md:hidden h-28" />
+     
     </>
   );
 }

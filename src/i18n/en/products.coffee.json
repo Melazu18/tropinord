@@ -1,0 +1,52 @@
+{
+  "coffee-ethiopia-yirgacheffe": {
+    "name": "Ethiopia Yirgacheffe",
+    "description": "Floral, citrusy high-altitude Arabica with bright acidity and tea-like body. Light–medium roast.",
+    "history": "From the birthplace of coffee in Ethiopia's highlands, Yirgacheffe is known as the 'champagne of coffees' with centuries-old heirloom varieties.",
+    "benefits": [
+      "Rich in antioxidants and chlorogenic acids",
+      "Natural energy boost without jitters",
+      "Supports mental focus and alertness",
+      "May improve physical performance"
+    ],
+    "ingredients": ["100% Arabica coffee beans (Coffea arabica)"]
+  },
+  "coffee-kenya-aa": {
+    "name": "Kenya AA",
+    "description": "Bright acidity with distinctive blackcurrant and berry notes. Washed process for clean cup profile.",
+    "history": "Kenyan coffee cultivation dates back to the 19th century, with AA grade representing the largest bean size and highest quality in the East African grading system.",
+    "benefits": [
+      "High in antioxidants and nutrients",
+      "Supports cognitive function",
+      "May reduce risk of chronic diseases",
+      "Natural mood enhancement"
+    ],
+    "ingredients": [
+      "100% Arabica coffee beans (Coffea arabica, SL28 & SL34 varieties)"
+    ]
+  },
+  "coffee-tanzania-peaberry": {
+    "name": "Tanzania Peaberry",
+    "description": "Rounded sweetness with cocoa finish and vibrant acidity. Unique peaberry mutation creates concentrated flavor.",
+    "history": "From the slopes of Mount Kilimanjaro and Meru, Tanzanian coffee has been cultivated since the 16th century. Peaberry beans occur naturally when only one seed develops in the coffee cherry.",
+    "benefits": [
+      "Rich in essential nutrients and antioxidants",
+      "Supports liver health",
+      "May improve athletic performance",
+      "Natural source of beneficial compounds"
+    ],
+    "ingredients": ["100% Arabica peaberry coffee beans (Coffea arabica)"]
+  },
+  "coffee-nigeria-robusta": {
+    "name": "Nigeria Robusta",
+    "description": "Bold, full-bodied coffee with earthy notes and higher caffeine content. Perfect for strong brews and espresso.",
+    "history": "Coffee cultivation in Nigeria dates back to the 19th century, with robusta varieties thriving in the country's tropical climate and contributing to West Africa's coffee heritage.",
+    "benefits": [
+      "Higher caffeine content for sustained energy",
+      "Rich in antioxidants and chlorogenic acid",
+      "Supports metabolic health",
+      "Traditional West African coffee experience"
+    ],
+    "ingredients": ["100% Robusta coffee beans (Coffea canephora)"]
+  }
+}

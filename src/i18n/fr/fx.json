@@ -1,0 +1,45 @@
+{
+  "title": "💱 Taux de change des devises mondiales",
+  "subtitle": "Taux de change en temps réel pour les principales devises mondiales. Conversion instantanée depuis la couronne suédoise (SEK).",
+
+  "lastUpdated": "Dernière mise à jour :",
+  "loading": "Chargement...",
+  "refresh": "Actualiser les taux",
+  "refreshing": "Actualisation...",
+
+  "converter": {
+    "title": "💲 Convertisseur de devises rapide",
+    "amount": "Montant en SEK"
+  },
+
+  "search": {
+    "placeholder": "Rechercher par code ou par nom..."
+  },
+
+  "filter": {
+    "region": "Filtrer par région",
+    "allRegions": "Toutes les régions"
+  },
+
+  "ratesTable": {
+    "currency": "Devise",
+    "perSek": "Unités pour 1 SEK",
+    "sekPerUnit": "SEK pour 1 unité",
+    "amount": "Valeur de {{amount}} SEK"
+  },
+
+  "base": "Base",
+  "noResults": "Aucune devise ne correspond à votre recherche.",
+
+  "regional": {
+    "title": "🌍 Devises par région"
+  },
+
+  "info": {
+    "title": "ℹ️ À propos de ces taux",
+    "description": "Ces taux de change sont utilisés pour calculer les prix internationaux de nos produits. Les taux sont régulièrement mis à jour à partir de sources financières fiables. Tous les prix de nos produits sont initialement définis en SEK (couronne suédoise) puis convertis dans d'autres devises à l'aide de ces taux.",
+    "coverage": "Couverture :",
+    "currencies": "devises avec taux actifs",
+    "disclaimer": "À titre indicatif uniquement. Votre banque ou l'émetteur de votre carte peut appliquer un taux de change différent."
+  }
+}

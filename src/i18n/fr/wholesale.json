@@ -1,0 +1,92 @@
+{
+  "badge": "B2B · COMMANDES EN GROS",
+  "homeCta": {
+    "title": "Commandes en gros pour les professionnels",
+    "text": "Vous gérez une boutique, un salon, un spa ou un café ? Découvrez notre page B2B dédiée aux tarifs grossistes, minimums de commande et options de livraison.",
+    "button": "Voir les offres B2B"
+  },
+
+  "title": "Produits bien-être africains en gros pour les entreprises européennes",
+  "subtitle": "Thés, huiles, superaliments et café issus de producteurs africains, adaptés aux détaillants, salons, spas et cafés en Europe.",
+
+  "whoFor": {
+    "heading": "Pour qui est-ce fait ?",
+    "intro": "TropiNord collabore avec des entreprises qui recherchent des produits authentiques, traçables et respectueux de la nature.",
+    "retail": "Magasins bio, boutiques africaines et épiceries spécialisées.",
+    "salons": "Salons de coiffure, instituts de beauté et centres de bien-être.",
+    "hospitality": "Hôtels, cafés, salons de thé et maisons d’hôtes.",
+    "online": "Petites marques en ligne et boutiques concept."
+  },
+
+  "catalog": {
+    "heading": "Catalogue grossiste & aperçu des produits",
+    "text": "Découvrez notre gamme actuelle de thés, huiles, superaliments et cafés pour le B2B. Les informations détaillées sur les produits et les emballages sont disponibles dans notre catalogue PDF.",
+    "downloadLabel": "Télécharger le catalogue grossiste (PDF)",
+    "comingSoon": "Le catalogue numérique est en cours de mise à jour. Contactez-nous pour recevoir la liste de produits la plus récente."
+  },
+
+  "howToOrder": {
+    "heading": "Comment passer une commande en gros",
+    "step1": "Téléchargez notre catalogue grossiste et sélectionnez les produits et formats qui vous intéressent.",
+    "step2": "Envoyez votre liste de commande et votre adresse de livraison par e-mail ou WhatsApp à notre équipe B2B.",
+    "step3": "Nous confirmons les prix, la disponibilité, les délais et les options de transport.",
+    "step4": "Vous recevez une facture proforma et réglez par virement bancaire, carte ou Swish (lorsque disponible).",
+    "step5": "Nous coordonnons la préparation et l’expédition depuis nos partenaires en Afrique ou notre stock en Suède, et vous communiquons les informations de suivi."
+  },
+
+  "pricing": {
+    "heading": "Exemple de tarification grossiste",
+    "note": "Les prix finaux dépendent de l’origine, de l’emballage et de la logistique. Voici un exemple simple de tarification dégressive :",
+    "baobabHeading": "POUDRE DE BAOBAB (sachet 200 g, exemple)",
+    "line1": "10–24 unités : 200 SEK / unité",
+    "line2": "25–49 unités : 180 SEK / unité",
+    "line3": "50+ unités : 160 SEK / unité",
+    "minimum": "Commande minimum : 10 unités par produit / référence"
+  },
+
+  "moq": {
+    "heading": "Minimums de commande & délais",
+    "text": "Les quantités minimales standard commencent à environ 10–20 unités par produit pour les articles en stock, et plus pour les emballages personnalisés ou la marque blanche. Les délais varient généralement de 2 à 5 semaines selon le stock, la saison de récolte et la route d’expédition."
+  },
+
+  "shipping": {
+    "heading": "Transport & logistique",
+    "line1": "Les livraisons dans l’UE peuvent être effectuées depuis la Suède ou directement depuis le pays d’origine, selon le produit et le volume.",
+    "line2": "Nous travaillons avec des partenaires logistiques fiables qui gèrent la douane, la documentation et, si besoin, les marchandises sensibles à la température.",
+    "line3": "Vous recevez toujours une estimation claire des frais de transport et des délais avant de confirmer votre commande."
+  },
+
+  "contact": {
+    "heading": "Contactez notre équipe B2B",
+    "text": "Envoyez-nous les informations sur votre entreprise et une courte description de ce que vous recherchez. Nous reviendrons vers vous avec des propositions, des indications de prix et, si possible, des échantillons.",
+    "emailLabel": "E-mail B2B",
+    "whatsappLabel": "WhatsApp (pro)",
+    "phoneLabel": "Téléphone"
+  },
+
+  "ctaBlock": {
+    "heading": "Prêt à explorer le B2B avec TropiNord ?",
+    "text": "Dites-nous quel type d’activité vous avez, votre volume mensuel approximatif et les produits qui vous intéressent le plus (thés, huiles, café, superaliments).",
+    "button": "Contacter l’équipe grossiste"
+  },
+
+  "form": {
+    "businessName": "Nom de l'entreprise / nom du magasin",
+    "contactName": "Personne de contact",
+    "email": "E-mail",
+    "phone": "Téléphone / WhatsApp",
+    "country": "Pays",
+    "interest": "Qu'est-ce qui vous intéresse principalement ?",
+    "interestPlaceholder": "Sélectionnez une option ou écrivez dans le message",
+    "optionTeas": "Thés",
+    "optionOils": "Huiles",
+    "optionCoffee": "Café",
+    "optionSuperfoods": "Superaliments",
+    "optionMixed": "Assortiment mixte",
+    "message": "Parlez-nous brièvement de votre entreprise et des volumes",
+    "validationRequired": "Veuillez remplir au moins le nom de l'entreprise et l'e-mail.",
+    "success": "Merci de votre intérêt. Notre équipe B2B vous contactera sous peu.",
+    "error": "Quelque chose s'est mal passé. Veuillez réessayer ou nous envoyer un e-mail.",
+    "sending": "Envoi en cours..."
+  }
+}

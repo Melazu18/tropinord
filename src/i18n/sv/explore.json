@@ -1,32 +1,39 @@
 {
-  "sv": {
-    "growthHairCream": "Hårväxtskräm",
-    "scalpTreatmentCream": "Hårbottenbehandlingskräm",
-    "curlsHairCream": "Lockkräm",
-    "afroHairCream": "Afrokräm",
-    "dreadlockHairCream": "Dreadlockkräm",
-    "sheaButter": "Sheasmör",
-    "neemOil": "Neemolja",
-    "avocadoOil": "Avokadoolja",
-    "tumericOil": "Gurkmejolja",
-    "nordicMintEssence": "Nordisk Mynta Essens",
-    "lavenderAuroraMist": "Lavendel Aurora Mist",
-    "rollOn": "24H Rostfritt Roll-On (Oparfymerat)",
-    "arcticSunriseTea": "Arktisk Gryning Örtblandning",
-    "forestBerryImmunity": "Skogsbär Immunitet",
-    "lavenderOil": "Lavendelolja",
-    "eucalyptusOil": "Eucalyptus Citriodora Eterisk Olja",
-    "gingerPowder": "Organisk Ingefärspulver",
-    "turmericPowder": "Gurkmejapulver",
-    "bananaLeaves": "Bananblad",
-    "charcoal": "Träkol (Parti)",
-    "dryBones": "Torkade Ben (Till Foder)",
-    "africanBlackSoapRaw": "Afrikansk Svart Tvål - Rå",
-    "africanBlackSoapLiquid": "Afrikansk Svart Tvål - Flytande",
-    "africanBlackSoapOriginal": "Afrikansk Svart Tvål - Original",
-    "organicCoffee": "Organiskt Kaffe",
-    "palmOilBulk": "Palmolja (Parti)",
-    "sheaButterBulk": "Sheasmör (Parti)",
-    "sellCta": "Sälj på TropiNord"
+  "title": "Utforska Våra Produkter",
+  "subtitle": "Upptäck teer, naturliga oljor, kaffe och superfoods skapade för balans och dagligt välbefinnande.",
+  "browseCat": "Bläddra",
+  "empty": "Inga produkter matchar din sökning.",
+  "addedToCart": "{{name}} tillagd i varukorgen!",
+  "modal": {
+    "detailsHeading": "Produktdetaljer",
+    "historyHeading": "Historia",
+    "benefitsHeading": "Hälsofördelar",
+    "ingredientsHeading": "Ingredienser",
+    "originLabel": "Ursprung (produktionsland)",
+    "productionYearLabel": "Produktionsår",
+    "bestBeforeLabel": "Bäst före",
+    "naturallyGrownLabel": "Odling",
+    "naturallyGrown": "Naturligt odlad"
+  },
+  "card": {
+    "originLabel": "Ursprung",
+    "productionYearLabel": "Produktionsår",
+    "bestBeforeLabel": "Bäst före",
+    "naturallyGrownLabel": "Odling",
+    "naturallyGrown": "Naturligt odlad"
+  },
+  "badges": {
+    "organic": "Ekologiskt",
+    "caffeineFree": "Koffeinfritt",
+    "antioxidants": "Rik på Antioxidanter",
+    "natural": "Naturlig",
+    "caffeinated": "Med Koffein"
+  },
+  "categories": {
+    "all": "Alla",
+    "tea": "Te",
+    "oils": "Oljor",
+    "coffee": "Kaffe",
+    "superfoods": "Superfoods"
   }
 }

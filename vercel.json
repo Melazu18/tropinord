@@ -54,13 +54,23 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://tropinord-backend.onrender.com/api/:path*"
+      "destination": "https://tropinord-backend.onrender.com/api/:path*",
+      "has": [],
+      "statusCode": 200
     },
-
     { "source": "/(.*)", "destination": "/index.html" }
   ],
 
   "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    },
     {
       "source": "/(.*)",
       "headers": [

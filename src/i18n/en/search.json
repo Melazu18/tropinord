@@ -1,0 +1,26 @@
+{
+  "title": "Search",
+  "placeholder": "Type to search teas, oils, coffee, superfoods…",
+  "browseTitle": "Browse products",
+  "resultsFor": "Results for “{{q}}”",
+  "showing": {
+    "across": "Showing {{count}} items across Teas, Oils, Coffee, and Superfoods",
+    "inCat": "Showing {{count}} items in {{category}}"
+  },
+  "empty": {
+    "noMatches": "No matches found. Try different keywords or browse:"
+  },
+  "categories": {
+    "all": "All",
+    "tea": "Teas",
+    "oils": "Oils",
+    "coffee": "Coffee",
+    "superfoods": "Superfoods"
+  },
+  "btn": {
+    "browseTeas": "Browse Teas",
+    "browseOils": "Browse Oils",
+    "browseCoffee": "Browse Coffee",
+    "browseSuperfoods": "Browse Superfoods"
+  }
+}

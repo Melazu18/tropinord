@@ -1,3 +1,4 @@
+// src/pages/ThankYou.jsx
 import React, { useEffect, useState } from "react";
 import { useSearchParams, Link } from "react-router-dom";
 import { useCart } from "../contexts/CartContext";
@@ -25,8 +26,6 @@ export default function ThankYou() {
   const name =
     sessionData?.name || t("customer", { defaultValue: "Valued Customer" });
   const email = sessionData?.email || null;
-  const swishNumber = "1230558973";
-  const bankgiroNumber = "5015-1935";
 
   const amount =
     (sessionData?.amount_total &&
@@ -40,7 +39,6 @@ export default function ThankYou() {
         setLoading(false);
         return;
       }
-
       try {
         const res = await fetch(`/api/checkout-session?sessionId=${sessionId}`);
         const data = await res.json();
@@ -48,9 +46,7 @@ export default function ThankYou() {
 
         if (data?.payment_status === "paid") {
           clearCart();
-          console.log("🧹 Cart cleared after Stripe payment");
         }
-
         if (data.receiptFilename) {
           setReceiptLink(`/receipts/${data.receiptFilename}`);
         }
@@ -60,9 +56,8 @@ export default function ThankYou() {
         setLoading(false);
       }
     };
-
     fetchSession();
-  }, [sessionId]);
+  }, [sessionId, clearCart]);
 
   const productId = sessionData?.items?.[0]?.productId || null;
   const orderId = sessionData?.orderId || null;
@@ -80,55 +75,42 @@ export default function ThankYou() {
           })}
         </p>
 
-        {email && (
-          <p className="text-center text-sm text-gray-500 dark:text-gray-400 mb-2">
-            {t("email", { defaultValue: "Email" })}: <strong>{email}</strong>
-          </p>
-        )}
-
         {isManualMethod ? (
-          <>
-            <div className="bg-gray-100 dark:bg-gray-700 rounded-lg p-6 mb-6 text-gray-900 dark:text-gray-100 space-y-2 text-sm sm:text-base">
-              <div className="flex justify-between">
-                <span className="font-medium">
-                  {t("amount", { defaultValue: "Amount" })}:
-                </span>
-                <span>{amount} SEK</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="font-medium">
-                  {t("reference", { defaultValue: "Reference" })}:
-                </span>
-                <span>{reference}</span>
-              </div>
-              {isSwish && (
-                <div className="flex justify-between">
-                  <span className="font-medium">
-                    {t("swishNumber", { defaultValue: "Swish Number" })}:
-                  </span>
-                  <span>{swishNumber}</span>
-                </div>
+          <div className="bg-yellow-50 dark:bg-yellow-900/30 rounded p-4 mb-6 text-sm text-yellow-900 dark:text-yellow-100">
+            <p className="mb-1">
+              {t("manual.nextStepsHeadline", {
+                defaultValue: "Next steps:",
+              })}
+            </p>
+            <ul className="list-disc pl-5 space-y-1">
+              <li>
+                {t("manual.step1", {
+                  defaultValue:
+                    "Complete your payment via the method you selected.",
+                })}
+              </li>
+              <li>
+                {t("manual.step2", {
+                  defaultValue:
+                    "As soon as we receive the payment, you’ll get a confirmation e-mail with your receipt.",
+                })}
+              </li>
+            </ul>
+            <p className="mt-2">
+              <strong>{t("amount", { defaultValue: "Amount" })}:</strong>{" "}
+              {amount} SEK
+              {reference && (
+                <>
+                  {" "}
+                  ·{" "}
+                  <strong>
+                    {t("reference", { defaultValue: "Reference" })}:
+                  </strong>{" "}
+                  {reference}
+                </>
               )}
-              {isBankgiro && (
-                <div className="flex justify-between">
-                  <span className="font-medium">
-                    {t("bankgiroNumber", { defaultValue: "Bankgiro Number" })}:
-                  </span>
-                  <span>{bankgiroNumber}</span>
-                </div>
-              )}
-            </div>
-
-            {isSwish && (
-              <div className="mb-6 text-center">
-                <SwishQrCode
-                  swishNumber={swishNumber}
-                  amount={amount}
-                  reference={reference}
-                />
-              </div>
-            )}
-          </>
+            </p>
+          </div>
         ) : (
           <div className="bg-green-100 dark:bg-green-700/30 rounded p-4 mb-6 text-sm text-green-900 dark:text-green-100">
             <p>
@@ -137,32 +119,9 @@ export default function ThankYou() {
                 defaultValue: "Payment completed via Stripe.",
               })}
             </p>
-
             <p>
               <strong>{t("amount", { defaultValue: "Amount" })}:</strong>{" "}
               {amount} SEK
-            </p>
-
-            <p>
-              <strong>{t("status", { defaultValue: "Status" })}:</strong>{" "}
-              {sessionData?.status ||
-                t("pending", { defaultValue: "Pending Confirmation" })}
-            </p>
-
-            {reference && (
-              <p>
-                <strong>
-                  {t("reference", { defaultValue: "Reference" })}:
-                </strong>{" "}
-                {reference}
-              </p>
-            )}
-
-            <p>
-              <strong>
-                {t("paymentMethod", { defaultValue: "Payment Method" })}:
-              </strong>{" "}
-              Stripe
             </p>
           </div>
         )}
@@ -180,7 +139,6 @@ export default function ThankYou() {
           </div>
         )}
 
-        {/* ✅ Leave a Review Link */}
         {productId && orderId && email && (
           <div className="text-center mt-2">
             <Link

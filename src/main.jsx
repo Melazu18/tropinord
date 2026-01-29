@@ -1,4 +1,3 @@
-// src/main.jsx
 import React, { useEffect } from "react";
 import * as ReactDOMClient from "react-dom/client";
 import { unstable_HistoryRouter as HistoryRouter } from "react-router-dom";
@@ -7,9 +6,12 @@ import "./i18n";
 import App from "./App.jsx";
 import i18n from "i18next";
 import { CartProvider } from "./contexts/CartContext.jsx";
+import { WishlistProvider } from "./contexts/WishlistContext.jsx"; // ✅ NEW
+import { ReviewsProvider } from "./contexts/ReviewsContext.jsx"; // ✅ NEW
 import "./index.css";
 import { HelmetProvider } from "react-helmet-async";
 import { loadRecaptcha } from "./utils/loadRecaptcha";
+import { CurrencyProvider } from "./shared/ui/CurrencyProvider";
 
 const history = createBrowserHistory();
 
@@ -68,15 +70,21 @@ root.render(
         <DirectionWrapper>
           <RecaptchaBoot>
             <CartProvider>
-              <HistoryRouter
-                history={history}
-                future={{
-                  v7_startTransition: true,
-                  v7_relativeSplatPath: true,
-                }}
-              >
-                <App />
-              </HistoryRouter>
+              <WishlistProvider>
+                <ReviewsProvider>
+                  <CurrencyProvider initial="SEK">
+                    <HistoryRouter
+                      history={history}
+                      future={{
+                        v7_startTransition: true,
+                        v7_relativeSplatPath: true,
+                      }}
+                    >
+                      <App />
+                    </HistoryRouter>
+                  </CurrencyProvider>
+                </ReviewsProvider>
+              </WishlistProvider>
             </CartProvider>
           </RecaptchaBoot>
         </DirectionWrapper>
